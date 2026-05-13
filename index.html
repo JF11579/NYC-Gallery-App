@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Manhattan Gallery Tracker</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiamYxMTU3OSIsImEiOiJjbGdkdXkxbjgyZjN0M2xvN2lzZHBxMnF5In0.-MJnfMqsExHCNvSXbA9VXw';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/light-v11', // A clean, "gallery" look
+        center: [-74.005, 40.746], // Starts in Chelsea
+        zoom: 13
+    });
+
+    // Load your gallery data from GitHub
+    map.on('load', () => {
+        map.addSource('galleries', {
+            type: 'geojson',
+            // Points directly to the file your scraper just made!
+            data: 'https://raw.githubusercontent.com/JF11579/NYC-Gallery-App/main/data/galleries.json'
+        });
+
+        map.addLayer({
+            'id': 'galleries-layer',
+            'type': 'circle',
+            'source': 'galleries',
+            'paint': {
+                'circle-radius': 8,
+                'circle-color': '#000000'
+            }
+        });
+
+        // Click logic
+        map.on('click', 'galleries-layer', (e) => {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const name = e.features[0].properties.name;
+            const url = e.features[0].properties.url;
+
+            new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(`<strong>${name}</strong><br><a href="${url}" target="_blank">Visit Website</a>`)
+                .addTo(map);
+        });
+    });
+</script>
+</body>
+</html>
