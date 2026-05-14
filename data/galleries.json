@@ -1,17 +1,11 @@
-{
-  "type": "FeatureCollection",
-  "features": [
+[
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-74.0051, 40.7466]
-      },
-      "properties": {
         "name": "303 Gallery",
         "address": "555 W 21st St, New York, NY 10011",
+        "coordinates": [
+            -74.0051,
+            40.7466
+        ],
         "url": "https://www.303gallery.com/"
-      }
     }
-  ]
-}
+]
