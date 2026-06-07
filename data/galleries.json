@@ -1,11 +1,2149 @@
-[
+{
+  "type": "FeatureCollection",
+  "features": [
     {
-        "name": "303 Gallery",
-        "address": "555 W 21st St, New York, NY 10011",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [
-            -74.0051,
-            40.7466
-        ],
-        "url": "https://www.303gallery.com/"
+          -73.992217,
+          40.717232
+        ]
+      },
+      "properties": {
+        "name": "601Artspace",
+        "address": "88 Eldridge St",
+        "url": "http://601Artspace.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983741,
+          40.71524
+        ]
+      },
+      "properties": {
+        "name": "Abrons Art Center",
+        "address": "466 Grand St",
+        "url": "https://www.abronsartscenter.org/programs/screen-memories",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993064,
+          40.726825
+        ]
+      },
+      "properties": {
+        "name": "Aicon Art",
+        "address": "35 Great Jones St",
+        "url": "https://www.aicon.art/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992589,
+          40.721744
+        ]
+      },
+      "properties": {
+        "name": "Amanita",
+        "address": "1 Freeman Alley",
+        "url": "http://spazioamanita.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943604,
+          40.725924
+        ]
+      },
+      "properties": {
+        "name": "Amos Eno Gallery",
+        "address": "191 Henry St",
+        "url": "http://amoseno.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987725,
+          40.720883
+        ]
+      },
+      "properties": {
+        "name": "Baxter St at CCNY",
+        "address": "154 Ludlow St",
+        "url": "http://www.baxterst.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99028,
+          40.720112
+        ]
+      },
+      "properties": {
+        "name": "bitforms gallery",
+        "address": "131 Allen St",
+        "url": "http://www.bitforms.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986145,
+          40.71911
+        ]
+      },
+      "properties": {
+        "name": "The Clemente Center",
+        "address": "107 Suffolk St",
+        "url": "http://theclementecenter.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988274,
+          40.718147
+        ]
+      },
+      "properties": {
+        "name": "Cuchifritos",
+        "address": "88 Essex St",
+        "url": "http://www.artistsallianceinc.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989751,
+          40.717837
+        ]
+      },
+      "properties": {
+        "name": "Equity Gallery",
+        "address": "245 Broome St",
+        "url": "http://www.nyartistsequity.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990344,
+          40.713087
+        ]
+      },
+      "properties": {
+        "name": "Foreign & Domestic",
+        "address": "24 Rutgers St",
+        "url": "https://www.foreigndomestic.io/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98686,
+          40.719726
+        ]
+      },
+      "properties": {
+        "name": "Gallery Onetwentyeight",
+        "address": "128 Rivington St",
+        "url": "http://galleryonetwentyeight.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988741,
+          40.720678
+        ]
+      },
+      "properties": {
+        "name": "Hannah Traore Gallery",
+        "address": "150 Orchard St",
+        "url": "https://hannahtraoregallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982687,
+          40.71847
+        ]
+      },
+      "properties": {
+        "name": "HARMAN PROJECTS",
+        "address": "210 Rivington St",
+        "url": "http://www.hashimotocontemporary.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990006,
+          40.71651
+        ]
+      },
+      "properties": {
+        "name": "Hashimoto Contemporary",
+        "address": "54 Ludlow St",
+        "url": "http://www.hashimotocontemporary.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987256,
+          40.719041
+        ]
+      },
+      "properties": {
+        "name": "Hollis Taggart Downtown",
+        "address": "109 Norfolk St",
+        "url": "hollistaggart.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992556,
+          40.725072
+        ]
+      },
+      "properties": {
+        "name": "IFAC",
+        "address": "312 Bowery",
+        "url": "http://ifacarts.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989019,
+          40.718311
+        ]
+      },
+      "properties": {
+        "name": "International Center of Photography",
+        "address": "84 Ludlow St",
+        "url": "http://www.icp.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980068,
+          40.713854
+        ]
+      },
+      "properties": {
+        "name": "KATES\u2013FERRI PROJECTS",
+        "address": "561 Grand St",
+        "url": "http://www.katesferriprojects.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992853,
+          40.716024
+        ]
+      },
+      "properties": {
+        "name": "Kiang Malingue",
+        "address": "50 Eldridge St",
+        "url": "https://kiangmalingue.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984659,
+          40.718874
+        ]
+      },
+      "properties": {
+        "name": "Lichtundfire",
+        "address": "175 Rivington St",
+        "url": "http://www.lichtundfire.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995348,
+          40.712778
+        ]
+      },
+      "properties": {
+        "name": "Long Story Short",
+        "address": "52  Henry St",
+        "url": "http://www.marcstraus.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982489,
+          40.714522
+        ]
+      },
+      "properties": {
+        "name": "LUNCH (NADAProject Space)",
+        "address": "311 East Broadway",
+        "url": "http://www.newartdealers.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991943,
+          40.717423
+        ]
+      },
+      "properties": {
+        "name": "MARC STRAUS",
+        "address": "299 Grand St",
+        "url": "http://www.marcstraus.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996872,
+          40.716998
+        ]
+      },
+      "properties": {
+        "name": "Martos Gallery",
+        "address": "41 Elizabeth St",
+        "url": "http://www.martosgallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992147,
+          40.719338
+        ]
+      },
+      "properties": {
+        "name": "Massey Klein Gallery",
+        "address": "124 Forsyth St",
+        "url": "http://www.masseyklein.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987772,
+          40.713729
+        ]
+      },
+      "properties": {
+        "name": "McBride / Dillman",
+        "address": "195 Henry St",
+        "url": "http://www.mcbridedillman.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991163,
+          40.716685
+        ]
+      },
+      "properties": {
+        "name": "McKenzie Fine Art",
+        "address": "55 Orchard St",
+        "url": "http://mckenziefineart.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992217,
+          40.717232
+        ]
+      },
+      "properties": {
+        "name": "Miguel Abreu Gallery",
+        "address": "88 Eldridge St",
+        "url": "http://miguelabreugallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992548,
+          40.717328
+        ]
+      },
+      "properties": {
+        "name": "The Milton Resnick and Pat Passlof Foundation",
+        "address": "87 Eldridge St",
+        "url": "https://www.ResnickPasslof.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993532,
+          40.71475
+        ]
+      },
+      "properties": {
+        "name": "Museum at Eldridge Street",
+        "address": "12 Eldridge St",
+        "url": "https://www.eldridgestreet.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992909,
+          40.722333
+        ]
+      },
+      "properties": {
+        "name": "The New Museum of Contemporary Art",
+        "address": "235 Bowery",
+        "url": "http://www.newmuseum.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996616,
+          40.720241
+        ]
+      },
+      "properties": {
+        "name": "Nunu Fine Art",
+        "address": "381 Broome St",
+        "url": "https://www.nunufineart.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995313,
+          40.719087
+        ]
+      },
+      "properties": {
+        "name": "Participant Inc.",
+        "address": "116 Elizabeth St",
+        "url": "http://www.participantinc.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989341,
+          40.719614
+        ]
+      },
+      "properties": {
+        "name": "Perrotin",
+        "address": "130 Orchard St",
+        "url": "http://www.perrotin.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957428,
+          40.713163
+        ]
+      },
+      "properties": {
+        "name": "Scroll",
+        "address": "291 Grand St",
+        "url": "http://www.scroll.nyc",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9971,
+          40.720902
+        ]
+      },
+      "properties": {
+        "name": "Storefront for Art and Architecture",
+        "address": "97 Kenmare St",
+        "url": "http://storefrontnews.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992155,
+          40.728568
+        ]
+      },
+      "properties": {
+        "name": "SWPK Gallery (Sylvia Wald and Po Kim Art Foundation)",
+        "address": "417 Lafayette St",
+        "url": "http://www.swpk.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992711,
+          40.72124
+        ]
+      },
+      "properties": {
+        "name": "Tibor de Nagy",
+        "address": "11 Rivington St",
+        "url": "http://www.tibordenagy.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983874,
+          40.719953
+        ]
+      },
+      "properties": {
+        "name": "TOTAH",
+        "address": "183 Stanton St",
+        "url": "http://davidtotah.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984907,
+          40.720901
+        ]
+      },
+      "properties": {
+        "name": "Uffner & Liu",
+        "address": "170 Suffolk St",
+        "url": "http://www.uffnerliu.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989696,
+          40.727765
+        ]
+      },
+      "properties": {
+        "name": "The Ukrainian Museum",
+        "address": "222 East 6th St",
+        "url": "https://www.ukrainianmuseum.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997277,
+          40.716856
+        ]
+      },
+      "properties": {
+        "name": "Ulrik",
+        "address": "175 Canal St",
+        "url": "https://ulrik.nyc/ULRIK/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957202,
+          40.713077
+        ]
+      },
+      "properties": {
+        "name": "Underdonk",
+        "address": "297 Grand St",
+        "url": "https://www.underdonk.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993179,
+          40.723325
+        ]
+      },
+      "properties": {
+        "name": "WESTWOOD GALLERY NYC",
+        "address": "262 Bowery",
+        "url": "http://www.westwoodgallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974364,
+          40.764891
+        ]
+      },
+      "properties": {
+        "name": "Will Shott",
+        "address": "17 Pike St",
+        "url": "http://www.willshott.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991543,
+          40.718846
+        ]
+      },
+      "properties": {
+        "name": "Woodward Gallery",
+        "address": "132A Eldridge St",
+        "url": "https://woodwardgallery.net/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003382,
+          40.71878
+        ]
+      },
+      "properties": {
+        "name": "55 Walker(Andrew Kreps, Bortolami, kaufmann repetto)",
+        "address": "55 Walker St",
+        "url": "https://www.kaufmannrepetto.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004968,
+          40.717396
+        ]
+      },
+      "properties": {
+        "name": "81 Leonard Gallery",
+        "address": "81 Leonard  St",
+        "url": "http://81leonardgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002827,
+          40.718619
+        ]
+      },
+      "properties": {
+        "name": "125 Newbury",
+        "address": "395 Broadway",
+        "url": "http://www.125newbury.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998552,
+          40.717339
+        ]
+      },
+      "properties": {
+        "name": "201@105",
+        "address": "105 Mulberry St",
+        "url": "http://www.201at105.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955279,
+          40.707287
+        ]
+      },
+      "properties": {
+        "name": "370 Broadway (JDJ, Deanna Evans Projects, Chozick Family Art Gallery)",
+        "address": "370 Broadway",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954831,
+          40.707159
+        ]
+      },
+      "properties": {
+        "name": "Alexander Gray Associates",
+        "address": "384 Broadway",
+        "url": "http://www.alexandergray.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955258,
+          40.707634
+        ]
+      },
+      "properties": {
+        "name": "Almine Rech",
+        "address": "361 Broadway",
+        "url": "http://alminerech.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00006,
+          40.723034
+        ]
+      },
+      "properties": {
+        "name": "Amelie du Chalard",
+        "address": "87 Mercer St",
+        "url": "http://amelieduchalard.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003016,
+          40.717655
+        ]
+      },
+      "properties": {
+        "name": "Anat Ebgi",
+        "address": "372 Broadway",
+        "url": "https://anatebgi.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954545,
+          40.707111
+        ]
+      },
+      "properties": {
+        "name": "Andrew Edlin Gallery",
+        "address": "392 Broadway",
+        "url": "http://www.edlingallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002011,
+          40.718178
+        ]
+      },
+      "properties": {
+        "name": "Andrew Kreps Gallery",
+        "address": "22 Cortlandt Alley",
+        "url": "http://www.andrewkreps.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009347,
+          40.725451
+        ]
+      },
+      "properties": {
+        "name": "Anita Rogers Gallery",
+        "address": "494 Greenwich St",
+        "url": "https://www.anitarogersgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001316,
+          40.717918
+        ]
+      },
+      "properties": {
+        "name": "Anton Kern WINDOW",
+        "address": "91 Walker St",
+        "url": "https://antonkerngallery.com/window",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004458,
+          40.719043
+        ]
+      },
+      "properties": {
+        "name": "apexart",
+        "address": "291 Church St",
+        "url": "https://apexart.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002055,
+          40.718018
+        ]
+      },
+      "properties": {
+        "name": "Arsenal Contemporary",
+        "address": "21 Cortlandt Alley",
+        "url": "http://www.arsenalcontemporary.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003556,
+          40.719261
+        ]
+      },
+      "properties": {
+        "name": "Art in Brackets\u2122",
+        "address": "46 Walker St",
+        "url": "https:www.artinbrackets.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009888,
+          40.722617
+        ]
+      },
+      "properties": {
+        "name": "Art Projects International",
+        "address": "434 Greenwich St",
+        "url": "http://artprojects.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00203,
+          40.718
+        ]
+      },
+      "properties": {
+        "name": "Artists Space",
+        "address": "11 Cortlandt Alley",
+        "url": "http://artistsspace.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004328,
+          40.718493
+        ]
+      },
+      "properties": {
+        "name": "Asya Geisberg Gallery",
+        "address": "45 White St",
+        "url": "http://www.asyageisberggallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00399,
+          40.719125
+        ]
+      },
+      "properties": {
+        "name": "BORTOLAMI",
+        "address": "39 Walker St",
+        "url": "http://bortolamigallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954804,
+          40.707544
+        ]
+      },
+      "properties": {
+        "name": "Broadway",
+        "address": "373 Broadway",
+        "url": "http://broadwaygallery.nyc/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002791,
+          40.719368
+        ]
+      },
+      "properties": {
+        "name": "Canada",
+        "address": "60 Lispenard St",
+        "url": "https://www.canadanewyork.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003655,
+          40.720923
+        ]
+      },
+      "properties": {
+        "name": "Canal Projects",
+        "address": "351 Canal St",
+        "url": "http://canalprojects.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954429,
+          40.707079
+        ]
+      },
+      "properties": {
+        "name": "Charles Moffett",
+        "address": "394 Broadway",
+        "url": "https://charlesmoffett.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004274,
+          40.717934
+        ]
+      },
+      "properties": {
+        "name": "CHART",
+        "address": "74 Franklin St",
+        "url": "http://www.chart-gallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003573,
+          40.71893
+        ]
+      },
+      "properties": {
+        "name": "Cristin Tierney",
+        "address": "49 Walker St",
+        "url": "https://cristintierney.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946482,
+          40.706939
+        ]
+      },
+      "properties": {
+        "name": "D. D. D. D.",
+        "address": "79 Leonard St",
+        "url": "https://dddd.pictures/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003289,
+          40.719132
+        ]
+      },
+      "properties": {
+        "name": "David Zwirner",
+        "address": "52 Walker St",
+        "url": "https://www.davidzwirner.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003865,
+          40.719404
+        ]
+      },
+      "properties": {
+        "name": "Derek Eller Gallery",
+        "address": "38 Walker St",
+        "url": "http://www.derekeller.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953912,
+          40.706724
+        ]
+      },
+      "properties": {
+        "name": "DIMIN",
+        "address": "406 Broadway",
+        "url": "https://dimin.nyc/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002841,
+          40.72241
+        ]
+      },
+      "properties": {
+        "name": "The Drawing Center",
+        "address": "35 Wooster St",
+        "url": "http://www.drawingcenter.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003112,
+          40.717529
+        ]
+      },
+      "properties": {
+        "name": "Elza Kayal Gallery",
+        "address": "368 Broadway",
+        "url": "https://elzakayal.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004914,
+          40.718441
+        ]
+      },
+      "properties": {
+        "name": "Friedrichs Pontone",
+        "address": "273 Church St",
+        "url": "http://www.friedrichspontone.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00607,
+          40.717578
+        ]
+      },
+      "properties": {
+        "name": "Galerie56 x Gallery FUMI",
+        "address": "240 Church St",
+        "url": "https://galerie56.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003865,
+          40.719404
+        ]
+      },
+      "properties": {
+        "name": "George Adams Gallery",
+        "address": "38 Walker St",
+        "url": "http://georgeadamsgallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008501,
+          40.715048
+        ]
+      },
+      "properties": {
+        "name": "GR gallery",
+        "address": "116 Chambers St",
+        "url": "http://www.gr-gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003775,
+          40.718514
+        ]
+      },
+      "properties": {
+        "name": "GRIMM",
+        "address": "54 White St",
+        "url": "http://www.grimmgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927375,
+          40.813875
+        ]
+      },
+      "properties": {
+        "name": "Guild Gallery",
+        "address": "321 Canal St",
+        "url": "https://rwguildgalleryny.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993749,
+          40.713964
+        ]
+      },
+      "properties": {
+        "name": "Hal Bromm Gallery",
+        "address": "90 West Broadway",
+        "url": "http://www.halbromm.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001239,
+          40.718225
+        ]
+      },
+      "properties": {
+        "name": "Harkawik",
+        "address": "88 Walker  St",
+        "url": "http://harkawik.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999657,
+          40.725608
+        ]
+      },
+      "properties": {
+        "name": "Hauser & Wirth",
+        "address": "134 Wooster St",
+        "url": "http://hauserwirth.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003111,
+          40.718222
+        ]
+      },
+      "properties": {
+        "name": "HB381",
+        "address": "381 Broadway",
+        "url": "https://hb381gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946482,
+          40.706939
+        ]
+      },
+      "properties": {
+        "name": "Hemingway Gallery",
+        "address": "88 Leonard St",
+        "url": "https://hemingwayafricangallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004514,
+          40.717744
+        ]
+      },
+      "properties": {
+        "name": "HESSE FLATOW",
+        "address": "77 Franklin St",
+        "url": "http://www.hesseflatow.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006717,
+          40.715219
+        ]
+      },
+      "properties": {
+        "name": "High Noon",
+        "address": "68 Reade St",
+        "url": "http://highnoongallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957321,
+          40.729771
+        ]
+      },
+      "properties": {
+        "name": "Institute for Studies on Latin American Art (ISLAA)",
+        "address": "142 Franklin St",
+        "url": "https://islaa.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007872,
+          40.719983
+        ]
+      },
+      "properties": {
+        "name": "Ippodo Gallery",
+        "address": "35 N Moore St",
+        "url": "https://www.ippodogallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00338,
+          40.71637
+        ]
+      },
+      "properties": {
+        "name": "Jack Shainman Gallery",
+        "address": "46 Lafayette St",
+        "url": "https://jackshainman.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003289,
+          40.719132
+        ]
+      },
+      "properties": {
+        "name": "James Cohan",
+        "address": "52 Walker St",
+        "url": "http://www.jamescohan.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003889,
+          40.718576
+        ]
+      },
+      "properties": {
+        "name": "James Fuentes Gallery",
+        "address": "52 White St",
+        "url": "https://jamesfuentes.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003639,
+          40.718484
+        ]
+      },
+      "properties": {
+        "name": "Jane Lombard Gallery",
+        "address": "58 White St",
+        "url": "http://www.janelombardgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003199,
+          40.721472
+        ]
+      },
+      "properties": {
+        "name": "Jeffrey Deitch",
+        "address": "18 Wooster St",
+        "url": "https://www.deitch.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004328,
+          40.718493
+        ]
+      },
+      "properties": {
+        "name": "The Journal Gallery",
+        "address": "45 White Street",
+        "url": "http://www.thejournalgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999417,
+          40.723462
+        ]
+      },
+      "properties": {
+        "name": "Judd Foundation - Donald Judd's Studio and Home",
+        "address": "101 Spring Street",
+        "url": "https://juddfoundation.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003382,
+          40.71878
+        ]
+      },
+      "properties": {
+        "name": "kaufmann repetto",
+        "address": "55 Walker Street",
+        "url": "https://www.kaufmannrepetto.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00483,
+          40.720605
+        ]
+      },
+      "properties": {
+        "name": "LATITUDE Gallery",
+        "address": "5 Lispenard St",
+        "url": "https://latitudegallery.nyc/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003093,
+          40.721661
+        ]
+      },
+      "properties": {
+        "name": "Leslie-Lohman Museum of Art",
+        "address": "26 Wooster  Street",
+        "url": "https://www.leslielohman.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002705,
+          40.718882
+        ]
+      },
+      "properties": {
+        "name": "Leslie Tonkonow Artworks + Projects",
+        "address": "401 Broadway",
+        "url": "http://www.tonkonow.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00554,
+          40.719089
+        ]
+      },
+      "properties": {
+        "name": "Luhring Augustine Tribeca",
+        "address": "17 White St",
+        "url": "https://www.luhringaugustine.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954445,
+          40.707417
+        ]
+      },
+      "properties": {
+        "name": "Marian Goodman Gallery",
+        "address": "385 Broadway",
+        "url": "http://mariangoodman.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00372,
+          40.71892
+        ]
+      },
+      "properties": {
+        "name": "Mendes Wood DM",
+        "address": "47 Walker St",
+        "url": "http://mendeswooddm.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003789,
+          40.717909
+        ]
+      },
+      "properties": {
+        "name": "Nicelle Beauchene Gallery",
+        "address": "7 Franklin Place",
+        "url": "http://www.nicellebeauchene.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002929,
+          40.721031
+        ]
+      },
+      "properties": {
+        "name": "Nicodim Gallery",
+        "address": "15 Greene St",
+        "url": "https://www.nicodimgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967235,
+          40.803258
+        ]
+      },
+      "properties": {
+        "name": "Nino Mier Gallery",
+        "address": "380 Broadway",
+        "url": "https://www.miergallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008196,
+          40.71387
+        ]
+      },
+      "properties": {
+        "name": "One Art Space",
+        "address": "23 Warren St",
+        "url": "https://www.oneartspace.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005869,
+          40.719178
+        ]
+      },
+      "properties": {
+        "name": "Ortuzar",
+        "address": "5 White St",
+        "url": "https://www.ortuzarprojects.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008904,
+          40.719477
+        ]
+      },
+      "properties": {
+        "name": "Pablo's Birthday",
+        "address": "105 Hudson St",
+        "url": "http://pablosbirthday.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961142,
+          40.714292
+        ]
+      },
+      "properties": {
+        "name": "Peter Blum Gallery",
+        "address": "176 Grand St",
+        "url": "http://www.peterblumgallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999449,
+          40.720361
+        ]
+      },
+      "properties": {
+        "name": "Peter Freeman, Inc.",
+        "address": "140 Grand St",
+        "url": "http://www.peterfreemaninc.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954545,
+          40.707111
+        ]
+      },
+      "properties": {
+        "name": "P\u00b7P\u00b7O\u00b7W",
+        "address": "392 Broadway",
+        "url": "http://www.ppowgallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999031,
+          40.718277
+        ]
+      },
+      "properties": {
+        "name": "PES FUTURES",
+        "address": "128 Baxter St",
+        "url": "http://projectforemptyspace.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999811,
+          40.717336
+        ]
+      },
+      "properties": {
+        "name": "PROTOCINEMAHosted by ISS Storefront for Ideas",
+        "address": "127 Walker St",
+        "url": "https://www.protocinema.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003453,
+          40.718333
+        ]
+      },
+      "properties": {
+        "name": "R & Company",
+        "address": "64 White Street",
+        "url": "http://www.r-and-company.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998857,
+          40.728482
+        ]
+      },
+      "properties": {
+        "name": "The Renee & Chaim Gross Foundation",
+        "address": "526 LaGuardia Place",
+        "url": "http://rcgrossfoundation.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001759,
+          40.721114
+        ]
+      },
+      "properties": {
+        "name": "Ronald Feldman Gallery",
+        "address": "31 Mercer St",
+        "url": "http://feldmangallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001495,
+          40.718795
+        ]
+      },
+      "properties": {
+        "name": "Ruttkowski;68",
+        "address": "46 Cortlandt Alley",
+        "url": "http://ruttkowski68.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954804,
+          40.707544
+        ]
+      },
+      "properties": {
+        "name": "SARAHCROWN",
+        "address": "373 Broadway",
+        "url": "https://www.sarahcrown.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955279,
+          40.707287
+        ]
+      },
+      "properties": {
+        "name": "Sargent's Daughters",
+        "address": "370 Broadway",
+        "url": "https://schoelkopfgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954607,
+          40.707127
+        ]
+      },
+      "properties": {
+        "name": "Schoelkopf Gallery",
+        "address": "390 Broadway",
+        "url": "https://schoelkopfgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011237,
+          40.713643
+        ]
+      },
+      "properties": {
+        "name": "Shirley Fiterman Art",
+        "address": "81 Barclay St",
+        "url": "http://www.bmcc.cuny.edu/sfac//",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003112,
+          40.717529
+        ]
+      },
+      "properties": {
+        "name": "SHRINE",
+        "address": "368 Broadway",
+        "url": "https://www.shrine.nyc/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946482,
+          40.706939
+        ]
+      },
+      "properties": {
+        "name": "Southern Guild",
+        "address": "75 Leonard St",
+        "url": "https://southernguild.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998758,
+          40.721428
+        ]
+      },
+      "properties": {
+        "name": "Space Gallery SOHO /St Barth",
+        "address": "428 Broome St",
+        "url": "http://www.spacegallerystbarth.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954901,
+          40.707558
+        ]
+      },
+      "properties": {
+        "name": "Space ZeroOne",
+        "address": "371 Broadway",
+        "url": "https://zeroone.space/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001426,
+          40.719601
+        ]
+      },
+      "properties": {
+        "name": "Todd Merril Studio, Tribeca",
+        "address": "424 Broadway",
+        "url": "http://toddmerrillstudio.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001235,
+          40.718612
+        ]
+      },
+      "properties": {
+        "name": "Uprise Art",
+        "address": "264 Canal St",
+        "url": "https://www.upriseart.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003376,
+          40.72129
+        ]
+      },
+      "properties": {
+        "name": "YveYANG",
+        "address": "12 Wooster St",
+        "url": "https://www.yveyang.com/",
+        "updated": false
+      }
     }
-]
+  ]
+}
