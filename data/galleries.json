@@ -2144,6 +2144,294 @@
         "url": "https://www.yveyang.com/",
         "updated": false
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963179,
+          40.77458
+        ]
+      },
+      "properties": {
+        "name": "Gagosian",
+        "address": "980 Madison Ave",
+        "url": "https://gagosian.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969373,
+          40.767027
+        ]
+      },
+      "properties": {
+        "name": "L\u00e9vy Gorvy Dayan",
+        "address": "19 E 64th St",
+        "url": "https://levygorzydayan.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966483,
+          40.769469
+        ]
+      },
+      "properties": {
+        "name": "David Zwirner (UES)",
+        "address": "34 E 69th St",
+        "url": "https://davidzwirner.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962514,
+          40.776233
+        ]
+      },
+      "properties": {
+        "name": "Skarstedt Gallery",
+        "address": "20 E 79th St",
+        "url": "https://skarstedt.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962161,
+          40.776021
+        ]
+      },
+      "properties": {
+        "name": "Almine Rech (UES)",
+        "address": "1025 Madison Ave",
+        "url": "https://alminerech.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963032,
+          40.775523
+        ]
+      },
+      "properties": {
+        "name": "White Cube New York",
+        "address": "1002 Madison Ave",
+        "url": "https://whitecube.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962135,
+          40.777007
+        ]
+      },
+      "properties": {
+        "name": "Spr\u00fcth Magers",
+        "address": "22 E 80th St",
+        "url": "https://spruethmagers.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964246,
+          40.775262
+        ]
+      },
+      "properties": {
+        "name": "Michael Werner Gallery",
+        "address": "4 E 77th St",
+        "url": "https://michaelwerner.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963377,
+          40.774437
+        ]
+      },
+      "properties": {
+        "name": "Helly Nahmad Gallery",
+        "address": "975 Madison Ave",
+        "url": "https://hellynahmad.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958736,
+          40.783448
+        ]
+      },
+      "properties": {
+        "name": "Salon 94",
+        "address": "3 E 89th St",
+        "url": "https://salon94.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96863,
+          40.767829
+        ]
+      },
+      "properties": {
+        "name": "HG Fine Art",
+        "address": "764 Madison Ave",
+        "url": "https://hubertgallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962668,
+          40.776198
+        ]
+      },
+      "properties": {
+        "name": "Acquavella Galleries",
+        "address": "18 E 79th St",
+        "url": "https://acquavellagalleries.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96201,
+          40.775638
+        ]
+      },
+      "properties": {
+        "name": "Mnuchin Gallery",
+        "address": "45 E 78th St",
+        "url": "https://mnuchingallery.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961019,
+          40.778614
+        ]
+      },
+      "properties": {
+        "name": "Galerie Buchholz",
+        "address": "17 E 82nd St",
+        "url": "https://galeriebuchholz.de",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961854,
+          40.775407
+        ]
+      },
+      "properties": {
+        "name": "Galerie Gmurzynska",
+        "address": "65 E 78th St",
+        "url": "https://gmurzynska.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960237,
+          40.781224
+        ]
+      },
+      "properties": {
+        "name": "Neue Galerie New York",
+        "address": "1048 Fifth Ave",
+        "url": "https://neuegalerie.org",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97317,
+          40.763249
+        ]
+      },
+      "properties": {
+        "name": "Di Donna Galleries",
+        "address": "745 Fifth Ave",
+        "url": "https://didonnaarts.com",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962679,
+          40.774214
+        ]
+      },
+      "properties": {
+        "name": "Nicholas Hall",
+        "address": "55 E 76th St",
+        "url": "https://nicholashall.com",
+        "updated": false
+      }
     }
   ]
 }
