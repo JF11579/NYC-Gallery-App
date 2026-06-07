@@ -35,8 +35,29 @@
 </div>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoiamYxMTU3OSIsImEiOiJjbGdkdXkxbjgyZjN0M2xvN2lzZHBxMnF5In0.-MJnfMqsExHCNvSXbA9VXw';
+  const STADIA_KEY = '3b014278-2ba3-4a9e-9f27-d627fde87907';
   const map = new mapboxgl.Map({
-    container: 'map', style: 'mapbox://styles/mapbox/light-v11',
+    container: 'map',
+    style: {
+      version: 8,
+      sources: {
+        'watercolor': {
+          type: 'raster',
+          tiles: [`https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=${STADIA_KEY}`],
+          tileSize: 256,
+          attribution: '&copy; <a href="https://stadiamaps.com">Stadia Maps</a> &copy; <a href="https://stamen.com">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        },
+        'toner-labels': {
+          type: 'raster',
+          tiles: [`https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}.png?api_key=${STADIA_KEY}`],
+          tileSize: 256
+        }
+      },
+      layers: [
+        { id: 'watercolor-layer', type: 'raster', source: 'watercolor' },
+        { id: 'labels-layer', type: 'raster', source: 'toner-labels' }
+      ]
+    },
     center: [-73.998, 40.722], zoom: 13
   });
   map.addControl(new mapboxgl.NavigationControl(), 'top-right');
