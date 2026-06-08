@@ -2,10 +2,10 @@
 """
 build_gallery_list.py — One-time builder for NYC-Gallery-App's galleries.json.
 
-Fetches gallery directories for downtown and Upper East Side Manhattan,
-parses out gallery name + address + website, dedupes, geocodes each
-location via the Mapbox Geocoding API, and writes a GeoJSON FeatureCollection
-to data/galleries.json suitable for the live map.
+Fetches gallery directories for Manhattan (all neighborhoods) and Brooklyn
+(Bushwick, DUMBO, Williamsburg), parses out gallery name + address + website,
+dedupes, geocodes each location via the Mapbox Geocoding API, and writes a
+GeoJSON FeatureCollection to data/galleries.json suitable for the live map.
 
 Run this once locally:
 
@@ -36,9 +36,29 @@ from bs4 import BeautifulSoup
 MAPBOX_TOKEN = os.environ.get("MAPBOX_TOKEN", "").strip()
 
 SOURCES = {
+    # downtown gallery map — only covers LES and SoHo/Tribeca
     "downtown_les": "https://downtowngallerymap.com/galleries_les.php",
     "downtown_soho_tribeca": "https://downtowngallerymap.com/galleries_soho-trib.php",
+    # agora gallery guide — Manhattan neighborhoods
     "agora_upper_east_side": "https://agora-gallery.com/ny-art-galleries/upper-east-side/",
+    "agora_chelsea": "https://agora-gallery.com/ny-art-galleries/chelsea/",
+    "agora_soho": "https://agora-gallery.com/ny-art-galleries/soho/",
+    "agora_les_east_village": "https://agora-gallery.com/ny-art-galleries/lower-east-site-east-village/",
+    # agora gallery guide — Brooklyn neighborhoods
+    "agora_bushwick": "https://agora-gallery.com/ny-art-galleries/bushwick/",
+    "agora_dumbo": "https://agora-gallery.com/ny-art-galleries/dumbo/",
+    "agora_williamsburg": "https://agora-gallery.com/ny-art-galleries/williamsburg/",
+}
+
+# Labels used in progress output for each agora source
+_AGORA_LABELS = {
+    "agora_upper_east_side": "Upper East Side",
+    "agora_chelsea": "Chelsea",
+    "agora_soho": "SoHo (Agora)",
+    "agora_les_east_village": "LES / East Village (Agora)",
+    "agora_bushwick": "Bushwick",
+    "agora_dumbo": "DUMBO",
+    "agora_williamsburg": "Williamsburg",
 }
 
 OUTPUT_PATH = Path("data/galleries.json")
@@ -52,9 +72,10 @@ HEADERS = {
     )
 }
 
-# Manhattan bounding box (approximate). Anything geocoded outside this is dropped.
+# Coverage bounding box — Manhattan + Brooklyn (approximate).
+# Anything geocoded outside this is dropped.
 # (lon_min, lat_min, lon_max, lat_max)
-MANHATTAN_BBOX = (-74.030, 40.700, -73.910, 40.880)
+COVERAGE_BBOX = (-74.060, 40.570, -73.830, 40.880)
 
 
 # ----------------------------------------------------------------------------
@@ -251,8 +272,8 @@ def geocode_one(query: str) -> tuple[float, float] | None:
     url = (
         f"https://api.mapbox.com/geocoding/v5/mapbox.places/{quote(query)}.json"
         f"?access_token={MAPBOX_TOKEN}"
-        f"&proximity=-73.97,40.78"           # bias toward Manhattan
-        f"&bbox={','.join(str(x) for x in MANHATTAN_BBOX)}"
+        f"&proximity=-73.97,40.72"           # bias toward Manhattan/Brooklyn midpoint
+        f"&bbox={','.join(str(x) for x in COVERAGE_BBOX)}"
         f"&limit=1"
     )
     r = requests.get(url, timeout=15)
@@ -267,8 +288,8 @@ def geocode_one(query: str) -> tuple[float, float] | None:
     return lon, lat
 
 
-def in_manhattan(lon: float, lat: float) -> bool:
-    lo_min, la_min, lo_max, la_max = MANHATTAN_BBOX
+def in_coverage_area(lon: float, lat: float) -> bool:
+    lo_min, la_min, lo_max, la_max = COVERAGE_BBOX
     return lo_min <= lon <= lo_max and la_min <= lat <= la_max
 
 
@@ -280,15 +301,15 @@ def geocode_all(galleries: list[dict]) -> list[dict]:
         if g["address"]:
             query = f"{g['address']}, New York, NY"
         else:
-            query = f"{g['name']}, Manhattan, New York"
+            query = f"{g['name']}, New York, NY"
 
         coords = geocode_one(query)
         if not coords:
             print(f"  [{i:3d}/{len(galleries)}] SKIP (no geocode): {g['name']!r}")
             continue
         lon, lat = coords
-        if not in_manhattan(lon, lat):
-            print(f"  [{i:3d}/{len(galleries)}] SKIP (outside Manhattan): {g['name']!r} -> {lon:.4f},{lat:.4f}")
+        if not in_coverage_area(lon, lat):
+            print(f"  [{i:3d}/{len(galleries)}] SKIP (outside coverage area): {g['name']!r} -> {lon:.4f},{lat:.4f}")
             continue
         g_out = dict(g)
         g_out["coordinates"] = [lon, lat]
@@ -353,10 +374,11 @@ def main():
         before = len(raw)
         raw += parse_downtowngallerymap(htmls["downtown_soho_tribeca"])
         print(f"  SoHo/Tribeca: {len(raw)-before} galleries")
-    if "agora_upper_east_side" in htmls:
-        before = len(raw)
-        raw += parse_agora(htmls["agora_upper_east_side"])
-        print(f"  Upper East Side: {len(raw)-before} galleries")
+    for key, label in _AGORA_LABELS.items():
+        if key in htmls:
+            before = len(raw)
+            raw += parse_agora(htmls[key])
+            print(f"  {label}: {len(raw)-before} galleries")
 
     print(f"\n  Total before dedupe: {len(raw)}")
     galleries = dedupe(raw)

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Manhattan Gallery Tracker</title>
+  <title>NYC Gallery Tracker</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
@@ -30,7 +30,7 @@
 <body>
 <div id="map"></div>
 <div id="legend">
-  <h4>Manhattan Galleries</h4>
+  <h4>NYC Galleries</h4>
   <div><span class="legend-dot" style="background:#f57c00"></span>Updated today</div>
   <div><span class="legend-dot" style="background:#9e9e9e"></span>No change</div>
 </div>
@@ -59,7 +59,7 @@
         { id: 'labels-layer', type: 'raster', source: 'toner-labels' }
       ]
     },
-    center: [-73.998, 40.722], zoom: 13
+    center: [-73.975, 40.710], zoom: 12
   });
   map.addControl(new mapboxgl.NavigationControl(), 'top-right');
   map.on('load', () => {
