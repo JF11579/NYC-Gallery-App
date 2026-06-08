@@ -17,7 +17,8 @@
     }
     #legend h4 { margin: 0 0 6px; font-size: 13px; font-weight: 600; }
     .legend-dot { display: inline-block; width: 12px; height: 12px;
-      border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+      border-radius: 50%; margin-right: 6px; vertical-align: middle;
+      box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px rgba(0,0,0,0.18); }
     .mapboxgl-popup-content { padding: 10px 14px; font-size: 13px; max-width: 220px; }
     .mapboxgl-popup-content strong { display: block; margin-bottom: 4px; }
     .mapboxgl-popup-content .addr { color: #555; margin-bottom: 4px; font-size: 12px; }
@@ -71,9 +72,9 @@
       paint: {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 14, 8, 17, 12],
         'circle-color': ['case', ['==', ['get', 'updated'], true], '#f57c00', '#9e9e9e'],
-        'circle-stroke-width': 1.5,
-        'circle-stroke-color': ['case', ['==', ['get', 'updated'], true], '#e65100', '#757575'],
-        'circle-opacity': 0.9
+        'circle-stroke-width': 2.5,
+        'circle-stroke-color': '#ffffff',
+        'circle-opacity': 1
       }
     });
     map.on('mouseenter', 'galleries-layer', () => { map.getCanvas().style.cursor = 'pointer'; });
