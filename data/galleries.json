@@ -2144,6 +2144,1158 @@
         "url": "https://www.yveyang.com/",
         "updated": false
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0061751,
+          40.7492488
+        ]
+      },
+      "properties": {
+        "name": "C24 Gallery",
+        "address": "560 W 24th St, New York, NY 10011, USA",
+        "url": "http://www.c24gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004196,
+          40.7482069
+        ]
+      },
+      "properties": {
+        "name": "Taglialatella Galleries",
+        "address": "229 10th Ave, New York, NY 10011, USA",
+        "url": "http://www.taglialatellagalleries.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0044772,
+          40.7489324
+        ]
+      },
+      "properties": {
+        "name": "Gladstone Gallery",
+        "address": "515 W 24th St, New York, NY 10011, USA",
+        "url": "http://www.gladstonegallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00455649999999,
+          40.749429
+        ]
+      },
+      "properties": {
+        "name": "Agora Gallery",
+        "address": "530 W 25th St, New York, NY 10001, USA",
+        "url": "http://www.agora-gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005,
+          40.7491667
+        ]
+      },
+      "properties": {
+        "name": "Luhring Augustine Gallery",
+        "address": "531 W 24th St, New York, NY 10011, USA",
+        "url": "http://www.luhringaugustine.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0071579,
+          40.7516571
+        ]
+      },
+      "properties": {
+        "name": "SVA Chelsea Gallery",
+        "address": "601 W 26th St Suite 1502, New York, NY 10001, USA",
+        "url": "http://sva.edu/exhibitions",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0040728,
+          40.7486264
+        ]
+      },
+      "properties": {
+        "name": "Boesky Gallery",
+        "address": "507 W 24th St, New York, NY 10011, USA",
+        "url": "https://marianneboeskygallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0074398,
+          40.7475016
+        ]
+      },
+      "properties": {
+        "name": "303 Gallery",
+        "address": "555 W 21st St, New York, NY 10011, USA",
+        "url": "http://www.303gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0024806,
+          40.7509232
+        ]
+      },
+      "properties": {
+        "name": "High Line Nine",
+        "address": "507 West 27th Street, 508 W 28th St, New York, NY 10001, USA",
+        "url": "http://www.highlinenine.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00430440000001,
+          40.7479895
+        ]
+      },
+      "properties": {
+        "name": "Isabel Sullivan Gallery | Chelsea",
+        "address": "501 W 23rd St, New York, NY 10011, USA",
+        "url": "https://www.is.gallery/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0058521,
+          40.7494887
+        ]
+      },
+      "properties": {
+        "name": "Gagosian",
+        "address": "555 W 24th St, New York, NY 10011, USA",
+        "url": "https://gagosian.com/locations/west-24th/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00504719999999,
+          40.7496373
+        ]
+      },
+      "properties": {
+        "name": "Pace Gallery",
+        "address": "540 W 25th St, New York, NY 10001, USA",
+        "url": "http://www.pacegallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0056317,
+          40.7460003
+        ]
+      },
+      "properties": {
+        "name": "ACA Galleries est. 1932",
+        "address": "173 10th Ave, New York, NY 10011, USA",
+        "url": "http://www.acagalleries.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059122,
+          40.747347
+        ]
+      },
+      "properties": {
+        "name": "Matthew Marks Gallery",
+        "address": "522 W 22nd St, New York, NY 10011, USA",
+        "url": "http://www.matthewmarks.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9919615,
+          40.7460684
+        ]
+      },
+      "properties": {
+        "name": "Casey Kaplan",
+        "address": "121 W 27th St, New York, NY 10001, USA",
+        "url": "http://www.caseykaplangallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0048791,
+          40.7499243
+        ]
+      },
+      "properties": {
+        "name": "The FLAG Art Foundation",
+        "address": "545 W 25th St 9th Floor, New York, NY 10001, USA",
+        "url": "http://www.flagartfoundation.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0077256,
+          40.7461564
+        ]
+      },
+      "properties": {
+        "name": "Michael Rosenfeld Gallery",
+        "address": "100 11th Ave, New York, NY 10011, USA",
+        "url": "http://www.michaelrosenfeld.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9396675,
+          40.7004016
+        ]
+      },
+      "properties": {
+        "name": "Bushwick Gallery",
+        "address": "22 Fayette St, Brooklyn, NY 11206, USA",
+        "url": "https://bushwickgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9221845,
+          40.7075174
+        ]
+      },
+      "properties": {
+        "name": "The Bushwick Collective",
+        "address": "427 Troutman St, Brooklyn, NY 11237, USA",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935861,
+          40.7110655
+        ]
+      },
+      "properties": {
+        "name": "Seven House Gallery",
+        "address": "35 Meadow St, Brooklyn, NY 11206, USA",
+        "url": "http://sevenhousenewyork.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93065320000001,
+          40.6941285
+        ]
+      },
+      "properties": {
+        "name": "The Living Gallery",
+        "address": "1094 Broadway, Brooklyn, NY 11221, USA",
+        "url": "http://www.the-living-gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9327253,
+          40.7056801
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Art Collective",
+        "address": "13 Grattan St, Brooklyn, NY 11206, USA",
+        "url": "http://www.brooklyn-art-collective.com/shop",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933086,
+          40.7071043
+        ]
+      },
+      "properties": {
+        "name": "Bottleneck Gallery",
+        "address": "17 Ingraham St, Brooklyn, NY 11206, USA",
+        "url": "http://bottleneckgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9284311,
+          40.706474
+        ]
+      },
+      "properties": {
+        "name": "ALIUME Art Gallery",
+        "address": "41 Porter Ave, Brooklyn, NY 11237, USA",
+        "url": "http://www.aliumeart.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9227484,
+          40.705666
+        ]
+      },
+      "properties": {
+        "name": "Skewville",
+        "address": "237 Starr St, Brooklyn, NY 11237, USA",
+        "url": "https://skewville.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92424799999999,
+          40.697805
+        ]
+      },
+      "properties": {
+        "name": "RISK Gallery & Boutique",
+        "address": "205 Central Ave, Brooklyn, NY 11221, USA",
+        "url": "http://riskgalleryboutique.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932705,
+          40.7057069
+        ]
+      },
+      "properties": {
+        "name": "A Space Gallery",
+        "address": "13 Grattan St #402, Brooklyn, NY 11206, USA",
+        "url": "https://www.aspacegallery.net/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92121019999999,
+          40.7062345
+        ]
+      },
+      "properties": {
+        "name": "Transmitter",
+        "address": "1329 Willoughby Ave, Brooklyn, NY 11237, USA",
+        "url": "http://www.transmitter.nyc/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94975749999999,
+          40.6996642
+        ]
+      },
+      "properties": {
+        "name": "The Bishop",
+        "address": "630 Flushing Ave, Brooklyn, NY 11206, USA",
+        "url": "http://thebishopgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9298539,
+          40.7040461
+        ]
+      },
+      "properties": {
+        "name": "3RD ETHOS GALLERY",
+        "address": "184 Noll St #3, Brooklyn, NY 11237, USA",
+        "url": "https://linktr.ee/3rdethos",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9255053,
+          40.7086966
+        ]
+      },
+      "properties": {
+        "name": "The Active Space",
+        "address": "566 Johnson Ave, Brooklyn, NY 11237, USA",
+        "url": "http://activespacestudios.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93299569999999,
+          40.7026666
+        ]
+      },
+      "properties": {
+        "name": "C5BK",
+        "address": "5 Central Ave Space B, Brooklyn, NY 11206, USA",
+        "url": "http://c5bk.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92882329999999,
+          40.6950903
+        ]
+      },
+      "properties": {
+        "name": "Arts and Rhymes Who Got Style wall",
+        "address": "786 Bushwick Ave, Brooklyn, NY 11221, USA",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9382722,
+          40.6828827
+        ]
+      },
+      "properties": {
+        "name": "Richard Beavers Gallery, Brooklyn",
+        "address": "Richard Beavers Gallery, 408 Marcus Garvey Blvd, Brooklyn, NY 11216, USA",
+        "url": "http://richardbeaversgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9283585,
+          40.7066363
+        ]
+      },
+      "properties": {
+        "name": "Structural Color Gallery, LLC",
+        "address": "117 Grattan St Suite 114, Brooklyn, NY 11237, USA",
+        "url": "https://www.structuralcolorgallery.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=8967950875205061564",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9063357,
+          40.697878
+        ]
+      },
+      "properties": {
+        "name": "Lorimoto Gallery",
+        "address": "16-23 Hancock St, Ridgewood, NY 11385, USA",
+        "url": "https://www.lorimoto.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93307829999999,
+          40.7056827
+        ]
+      },
+      "properties": {
+        "name": "The BogArt",
+        "address": "56 Bogart St, Brooklyn, NY 11206, USA",
+        "url": "http://56bogartstreet.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843246,
+          40.7028059
+        ]
+      },
+      "properties": {
+        "name": "AMR Art DUMBO",
+        "address": "53 Bridge St #706, Brooklyn, NY 11201, USA",
+        "url": "https://www.amrartdumbo.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98699690000001,
+          40.7038464
+        ]
+      },
+      "properties": {
+        "name": "usagi",
+        "address": "163 Plymouth St, Brooklyn, NY 11201, USA",
+        "url": "http://usaginy.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9905931,
+          40.7028115
+        ]
+      },
+      "properties": {
+        "name": "Higher Pictures",
+        "address": "45 Main St #723, Brooklyn, NY 11201, USA",
+        "url": "http://www.higherpicturesgeneration.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98526749999999,
+          40.7041754
+        ]
+      },
+      "properties": {
+        "name": "John St Gallery",
+        "address": "70 John St, Brooklyn, NY 11201, USA",
+        "url": "http://johnst.nyc/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9871299,
+          40.702622
+        ]
+      },
+      "properties": {
+        "name": "Billie Elise",
+        "address": "145 Front St SHOP 12, Brooklyn, NY 11201, USA",
+        "url": "https://www.billieelise.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9902175,
+          40.7035776
+        ]
+      },
+      "properties": {
+        "name": "Main window",
+        "address": "1 Main St, Brooklyn, NY 11201, USA",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98515080000001,
+          40.7036616
+        ]
+      },
+      "properties": {
+        "name": "Cierra Britton Gallery",
+        "address": "202b Plymouth St, Brooklyn, NY 11201, USA",
+        "url": "https://cierrabritton.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9909737,
+          40.7033589
+        ]
+      },
+      "properties": {
+        "name": "Janet Borden Inc",
+        "address": "91 Water St, Brooklyn, NY 11201, USA",
+        "url": "http://janetbordeninc.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9810057,
+          40.70239979999999
+        ]
+      },
+      "properties": {
+        "name": "Gallery Gaia",
+        "address": "79 Hudson Ave, Brooklyn, NY 11201, USA",
+        "url": "https://artindumbo.com/gallery/gallery-gaia/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98671200000001,
+          40.704029
+        ]
+      },
+      "properties": {
+        "name": "Springs Projects",
+        "address": "20 Jay St #311b, Brooklyn, NY 11201, USA",
+        "url": "https://www.instagram.com/springsprojects/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9878255,
+          40.7034411
+        ]
+      },
+      "properties": {
+        "name": "Baci Studio",
+        "address": "55 Anchorage Pl, Brooklyn, NY 11201, USA",
+        "url": "https://www.bacistudio.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98526749999999,
+          40.7041754
+        ]
+      },
+      "properties": {
+        "name": "Stump Gallery",
+        "address": "70 John St, Brooklyn, NY 11201, USA",
+        "url": "https://stumpgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9843246,
+          40.7028059
+        ]
+      },
+      "properties": {
+        "name": "CREATIVEBLOCH STUDIO & GALLERY",
+        "address": "53 Bridge St 412 4th Floor, Brooklyn, NY 11201, USA",
+        "url": "http://www.creativebloch.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9847829,
+          40.7041707
+        ]
+      },
+      "properties": {
+        "name": "Dynomighty Design Inc.",
+        "address": "18 Bridge St #4G, Brooklyn, NY 11201, USA",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9869859,
+          40.6918644
+        ]
+      },
+      "properties": {
+        "name": "Faith Art Gallery",
+        "address": "395 Jay St, Brooklyn, NY 11201, USA",
+        "url": "http://faithartgallerybrooklyn.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9881497,
+          40.7037574
+        ]
+      },
+      "properties": {
+        "name": "ZAROLAT",
+        "address": "140 Plymouth St, Brooklyn, NY 11201, USA",
+        "url": "https://www.zarolat.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9878323,
+          40.7037479
+        ]
+      },
+      "properties": {
+        "name": "Hudson Wilder",
+        "address": "142 Plymouth St, Brooklyn, NY 11201, USA",
+        "url": "https://hudsonwilder.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9850994,
+          40.7035268
+        ]
+      },
+      "properties": {
+        "name": "Elma",
+        "address": "216 Plymouth St, Brooklyn, NY 11201, USA",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984872,
+          40.703163
+        ]
+      },
+      "properties": {
+        "name": "Detritus Designs LLC",
+        "address": "50 Bridge St, Brooklyn, NY 11201, USA",
+        "url": "http://detritusartanddesign.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9983341,
+          40.6915054
+        ]
+      },
+      "properties": {
+        "name": "Eleventh Hour Art",
+        "address": "61 Atlantic Ave, Brooklyn, NY 11201, USA",
+        "url": "http://www.eleventhhourart.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956636,
+          40.710774
+        ]
+      },
+      "properties": {
+        "name": "AM:PM GALLERY",
+        "address": "108 Marcy Ave, Brooklyn, NY 11211, USA",
+        "url": "http://www.ampmgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9549377,
+          40.7134273
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Art Haus",
+        "address": "24 Marcy Ave, Brooklyn, NY 11211, USA",
+        "url": "http://www.bkarthaus.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9570805,
+          40.7111986
+        ]
+      },
+      "properties": {
+        "name": "Awita New York Studio",
+        "address": "274 S 2nd St, Brooklyn, NY 11211, USA",
+        "url": "http://www.awitanewyork.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953453,
+          40.7111317
+        ]
+      },
+      "properties": {
+        "name": "Carrie Able Gallery",
+        "address": "409 Keap St, Brooklyn, NY 11211, USA",
+        "url": "http://carrieablegallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9557975,
+          40.7187472
+        ]
+      },
+      "properties": {
+        "name": "Pierogi Gallery",
+        "address": "177 N 9th St, Brooklyn, NY 11211, USA",
+        "url": "https://www.pierogi2000.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9623874,
+          40.7174843
+        ]
+      },
+      "properties": {
+        "name": "Twelve Chairs Gallery",
+        "address": "101-85 N 3rd St #108, Brooklyn, NY 11249, USA",
+        "url": "https://twelvechairsgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9592514,
+          40.7134776
+        ]
+      },
+      "properties": {
+        "name": "Choplet Ceramic Studio & Gallery",
+        "address": "238 Grand St, Brooklyn, NY 11211, USA",
+        "url": "http://www.choplet.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9663193,
+          40.7112462
+        ]
+      },
+      "properties": {
+        "name": "Abstrakt Studio & Gallery",
+        "address": "58 S 6th St, Brooklyn, NY 11249, USA",
+        "url": "https://www.livelifeabstrakt.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9517151,
+          40.70565819999999
+        ]
+      },
+      "properties": {
+        "name": "Cooler Gallery",
+        "address": "325 Rutledge St, Brooklyn, NY 11211, USA",
+        "url": "http://www.cooler-gallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9486259,
+          40.7127569
+        ]
+      },
+      "properties": {
+        "name": "Summertime",
+        "address": "145 Ainslie St, Brooklyn, NY 11211, USA",
+        "url": "http://www.summertimegallery.org/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96243030000001,
+          40.7175147
+        ]
+      },
+      "properties": {
+        "name": "Sculpture Terrace by Twelve Chairs Gallery",
+        "address": "205 Wythe Ave, Brooklyn, NY 11249, USA",
+        "url": "https://twelvechairsgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9490763,
+          40.7304405
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Art Studios",
+        "address": "276 Greenpoint Ave, Brooklyn, NY 11222, USA",
+        "url": "http://brooklynartstudiosnyc.blogspot.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957222,
+          40.712761
+        ]
+      },
+      "properties": {
+        "name": "About Glamour",
+        "address": "310 Grand St, Brooklyn, NY 11211, USA",
+        "url": "http://www.aboutglamour.net/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9488635,
+          40.7245954
+        ]
+      },
+      "properties": {
+        "name": "Nassau Avenue Gallery",
+        "address": "123 Nassau Ave, Brooklyn, NY 11222, USA",
+        "url": "http://nassauavenuegallery.square.site/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936878,
+          40.708448
+        ]
+      },
+      "properties": {
+        "name": "Graff Tours - The Street Art Studio NYC",
+        "address": "282 Meserole St, Brooklyn, NY 11206, USA",
+        "url": "http://www.grafftours.com/",
+        "updated": false
+      }
     }
   ]
 }
