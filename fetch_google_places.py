@@ -29,6 +29,7 @@ GALLERIES_PATH = Path("data/galleries.json")
 # One search query per neighborhood. Each returns up to 60 results (3 pages).
 SEARCHES = [
     "art gallery Chelsea Manhattan New York",
+    "art gallery Upper East Side Manhattan New York",
     "art gallery Bushwick Brooklyn New York",
     "art gallery DUMBO Brooklyn New York",
     "art gallery Williamsburg Brooklyn New York",

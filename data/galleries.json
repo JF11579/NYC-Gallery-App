@@ -3296,6 +3296,310 @@
         "url": "http://www.grafftours.com/",
         "updated": false
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9600679,
+          40.7757426
+        ]
+      },
+      "properties": {
+        "name": "Questroyal Fine Art",
+        "address": "903 Park Ave Third Floor, New York, NY 10075, USA",
+        "url": "http://www.questroyalfineart.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962656,
+          40.776238
+        ]
+      },
+      "properties": {
+        "name": "Acquavella Galleries",
+        "address": "18 E 79th St, New York, NY 10075, USA",
+        "url": "http://www.acquavellagalleries.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95380209999999,
+          40.7704979
+        ]
+      },
+      "properties": {
+        "name": "New York Fine Art Gallery",
+        "address": "1464 1st Ave.(Bet 76th & 77th St, New York, NY 10075, USA",
+        "url": "",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9613912,
+          40.7787979
+        ]
+      },
+      "properties": {
+        "name": "Tambaran Gallery",
+        "address": "5 E 82nd St #2, New York, NY 10028, USA",
+        "url": "http://www.tambaran.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962527,
+          40.776222
+        ]
+      },
+      "properties": {
+        "name": "Skarstedt Gallery",
+        "address": "20 E 79th St, New York, NY 10075, USA",
+        "url": "http://www.skarstedt.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9616751,
+          40.7775913
+        ]
+      },
+      "properties": {
+        "name": "David Nolan Gallery",
+        "address": "24 E 81st St 4th floor, New York, NY 10028, USA",
+        "url": "http://www.davidnolangallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9646688,
+          40.7711516
+        ]
+      },
+      "properties": {
+        "name": "Kate Oh Gallery, LLC",
+        "address": "50 E 72nd St, New York, NY 10021, USA",
+        "url": "http://www.kateohgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9621343,
+          40.7770008
+        ]
+      },
+      "properties": {
+        "name": "Leila Heller Gallery",
+        "address": "Ground Level, 22 E 80th St, New York, NY 10075, USA",
+        "url": "http://www.leilahellergallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96939689999999,
+          40.767004
+        ]
+      },
+      "properties": {
+        "name": "L\u00e9vy Gorvy Dayan",
+        "address": "19 E 64th St, New York, NY 10065, USA",
+        "url": "http://www.levygorvydayan.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9631493,
+          40.7757072
+        ]
+      },
+      "properties": {
+        "name": "Gerald Peters Gallery",
+        "address": "24 E 78th St, New York, NY 10075, USA",
+        "url": "https://gpgallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9630348,
+          40.7755283
+        ]
+      },
+      "properties": {
+        "name": "White Cube New York",
+        "address": "1002 Madison Ave, New York, NY 10075, USA",
+        "url": "http://www.whitecube.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9651343,
+          40.7727768
+        ]
+      },
+      "properties": {
+        "name": "Alexandre Gallery",
+        "address": "25 E 73rd St, New York, NY 10021, USA",
+        "url": "http://www.alexandregallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962812,
+          40.7699538
+        ]
+      },
+      "properties": {
+        "name": "Gallery 71 Inc",
+        "address": "974 Lexington Avenue, NW corner of, E 71st St, New York, NY 10021, USA",
+        "url": "http://www.gallery71.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9549629,
+          40.7675345
+        ]
+      },
+      "properties": {
+        "name": "BELOOSESKY GALLERY",
+        "address": "415 E 72nd St, New York, NY 10021, USA",
+        "url": "http://www.beloosesky.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9484272,
+          40.7808566
+        ]
+      },
+      "properties": {
+        "name": "Valerie Goodman Gallery",
+        "address": "315 E 91st St, New York, NY 10128, USA",
+        "url": "https://www.valeriegoodmangallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9666754,
+          40.7696364
+        ]
+      },
+      "properties": {
+        "name": "Opera Gallery New York",
+        "address": "827 Madison Ave, New York, NY 10065, USA",
+        "url": "http://www.operagallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9618453,
+          40.7777712
+        ]
+      },
+      "properties": {
+        "name": "Elkon Gallery",
+        "address": "18 E 81st St Ste 2a, New York, NY 10028, USA",
+        "url": "http://www.elkongallery.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9720408,
+          40.7625149
+        ]
+      },
+      "properties": {
+        "name": "Galerie Gmurzynska US Inc",
+        "address": "595 Madison Ave 6 Floor, New York, NY 10022, USA",
+        "url": "http://gmurzynska.com/",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9656571,
+          40.761753
+        ]
+      },
+      "properties": {
+        "name": "Gallery 60 NYC",
+        "address": "208 E 60th St, New York, NY 10022, USA",
+        "url": "https://gallery60nyc.com/",
+        "updated": false
+      }
     }
   ]
 }
