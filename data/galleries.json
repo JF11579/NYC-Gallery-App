@@ -14,7 +14,8 @@
         "name": "601Artspace",
         "address": "88 Eldridge St",
         "url": "http://601Artspace.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -30,7 +31,8 @@
         "name": "Abrons Art Center",
         "address": "466 Grand St",
         "url": "https://www.abronsartscenter.org/programs/screen-memories",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -46,7 +48,8 @@
         "name": "Aicon Art",
         "address": "35 Great Jones St",
         "url": "https://www.aicon.art/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -62,7 +65,8 @@
         "name": "Amanita",
         "address": "1 Freeman Alley",
         "url": "http://spazioamanita.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -78,7 +82,8 @@
         "name": "Amos Eno Gallery",
         "address": "191 Henry St",
         "url": "http://amoseno.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -94,7 +99,8 @@
         "name": "Baxter St at CCNY",
         "address": "154 Ludlow St",
         "url": "http://www.baxterst.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -110,7 +116,8 @@
         "name": "bitforms gallery",
         "address": "131 Allen St",
         "url": "http://www.bitforms.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -126,7 +133,8 @@
         "name": "The Clemente Center",
         "address": "107 Suffolk St",
         "url": "http://theclementecenter.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -142,7 +150,8 @@
         "name": "Cuchifritos",
         "address": "88 Essex St",
         "url": "http://www.artistsallianceinc.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -158,7 +167,8 @@
         "name": "Equity Gallery",
         "address": "245 Broome St",
         "url": "http://www.nyartistsequity.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -174,7 +184,8 @@
         "name": "Foreign & Domestic",
         "address": "24 Rutgers St",
         "url": "https://www.foreigndomestic.io/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -190,7 +201,8 @@
         "name": "Gallery Onetwentyeight",
         "address": "128 Rivington St",
         "url": "http://galleryonetwentyeight.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -206,7 +218,8 @@
         "name": "Hannah Traore Gallery",
         "address": "150 Orchard St",
         "url": "https://hannahtraoregallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -222,7 +235,8 @@
         "name": "HARMAN PROJECTS",
         "address": "210 Rivington St",
         "url": "http://www.hashimotocontemporary.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -238,7 +252,8 @@
         "name": "Hashimoto Contemporary",
         "address": "54 Ludlow St",
         "url": "http://www.hashimotocontemporary.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -254,7 +269,8 @@
         "name": "Hollis Taggart Downtown",
         "address": "109 Norfolk St",
         "url": "hollistaggart.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -270,7 +286,8 @@
         "name": "IFAC",
         "address": "312 Bowery",
         "url": "http://ifacarts.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -286,7 +303,8 @@
         "name": "International Center of Photography",
         "address": "84 Ludlow St",
         "url": "http://www.icp.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -302,7 +320,8 @@
         "name": "KATES\u2013FERRI PROJECTS",
         "address": "561 Grand St",
         "url": "http://www.katesferriprojects.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -318,7 +337,8 @@
         "name": "Kiang Malingue",
         "address": "50 Eldridge St",
         "url": "https://kiangmalingue.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -334,7 +354,8 @@
         "name": "Lichtundfire",
         "address": "175 Rivington St",
         "url": "http://www.lichtundfire.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -350,7 +371,8 @@
         "name": "Long Story Short",
         "address": "52  Henry St",
         "url": "http://www.marcstraus.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -366,7 +388,8 @@
         "name": "LUNCH (NADAProject Space)",
         "address": "311 East Broadway",
         "url": "http://www.newartdealers.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -382,7 +405,8 @@
         "name": "MARC STRAUS",
         "address": "299 Grand St",
         "url": "http://www.marcstraus.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -398,7 +422,8 @@
         "name": "Martos Gallery",
         "address": "41 Elizabeth St",
         "url": "http://www.martosgallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -414,7 +439,8 @@
         "name": "Massey Klein Gallery",
         "address": "124 Forsyth St",
         "url": "http://www.masseyklein.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -430,7 +456,8 @@
         "name": "McBride / Dillman",
         "address": "195 Henry St",
         "url": "http://www.mcbridedillman.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -446,7 +473,8 @@
         "name": "McKenzie Fine Art",
         "address": "55 Orchard St",
         "url": "http://mckenziefineart.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -462,7 +490,8 @@
         "name": "Miguel Abreu Gallery",
         "address": "88 Eldridge St",
         "url": "http://miguelabreugallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -478,7 +507,8 @@
         "name": "The Milton Resnick and Pat Passlof Foundation",
         "address": "87 Eldridge St",
         "url": "https://www.ResnickPasslof.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -494,7 +524,8 @@
         "name": "Museum at Eldridge Street",
         "address": "12 Eldridge St",
         "url": "https://www.eldridgestreet.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -510,7 +541,8 @@
         "name": "The New Museum of Contemporary Art",
         "address": "235 Bowery",
         "url": "http://www.newmuseum.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -526,7 +558,8 @@
         "name": "Nunu Fine Art",
         "address": "381 Broome St",
         "url": "https://www.nunufineart.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -542,7 +575,8 @@
         "name": "Participant Inc.",
         "address": "116 Elizabeth St",
         "url": "http://www.participantinc.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -558,7 +592,8 @@
         "name": "Perrotin",
         "address": "130 Orchard St",
         "url": "http://www.perrotin.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -574,7 +609,8 @@
         "name": "Scroll",
         "address": "291 Grand St",
         "url": "http://www.scroll.nyc",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -590,7 +626,8 @@
         "name": "Storefront for Art and Architecture",
         "address": "97 Kenmare St",
         "url": "http://storefrontnews.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -606,7 +643,8 @@
         "name": "SWPK Gallery (Sylvia Wald and Po Kim Art Foundation)",
         "address": "417 Lafayette St",
         "url": "http://www.swpk.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -622,7 +660,8 @@
         "name": "Tibor de Nagy",
         "address": "11 Rivington St",
         "url": "http://www.tibordenagy.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -638,7 +677,8 @@
         "name": "TOTAH",
         "address": "183 Stanton St",
         "url": "http://davidtotah.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -654,7 +694,8 @@
         "name": "Uffner & Liu",
         "address": "170 Suffolk St",
         "url": "http://www.uffnerliu.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -670,7 +711,8 @@
         "name": "The Ukrainian Museum",
         "address": "222 East 6th St",
         "url": "https://www.ukrainianmuseum.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -686,7 +728,8 @@
         "name": "Ulrik",
         "address": "175 Canal St",
         "url": "https://ulrik.nyc/ULRIK/",
-        "updated": false
+        "updated": false,
+        "borough": "Bronx"
       }
     },
     {
@@ -702,7 +745,8 @@
         "name": "Underdonk",
         "address": "297 Grand St",
         "url": "https://www.underdonk.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -718,7 +762,8 @@
         "name": "WESTWOOD GALLERY NYC",
         "address": "262 Bowery",
         "url": "http://www.westwoodgallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -734,7 +779,8 @@
         "name": "Will Shott",
         "address": "17 Pike St",
         "url": "http://www.willshott.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -750,7 +796,8 @@
         "name": "Woodward Gallery",
         "address": "132A Eldridge St",
         "url": "https://woodwardgallery.net/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -766,7 +813,8 @@
         "name": "55 Walker(Andrew Kreps, Bortolami, kaufmann repetto)",
         "address": "55 Walker St",
         "url": "https://www.kaufmannrepetto.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -782,7 +830,8 @@
         "name": "81 Leonard Gallery",
         "address": "81 Leonard  St",
         "url": "http://81leonardgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -798,7 +847,8 @@
         "name": "125 Newbury",
         "address": "395 Broadway",
         "url": "http://www.125newbury.com",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -814,7 +864,8 @@
         "name": "201@105",
         "address": "105 Mulberry St",
         "url": "http://www.201at105.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -830,7 +881,8 @@
         "name": "370 Broadway (JDJ, Deanna Evans Projects, Chozick Family Art Gallery)",
         "address": "370 Broadway",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -846,7 +898,8 @@
         "name": "Alexander Gray Associates",
         "address": "384 Broadway",
         "url": "http://www.alexandergray.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -862,7 +915,8 @@
         "name": "Almine Rech",
         "address": "361 Broadway",
         "url": "http://alminerech.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -878,7 +932,8 @@
         "name": "Amelie du Chalard",
         "address": "87 Mercer St",
         "url": "http://amelieduchalard.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -894,7 +949,8 @@
         "name": "Anat Ebgi",
         "address": "372 Broadway",
         "url": "https://anatebgi.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -910,7 +966,8 @@
         "name": "Andrew Edlin Gallery",
         "address": "392 Broadway",
         "url": "http://www.edlingallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -926,7 +983,8 @@
         "name": "Andrew Kreps Gallery",
         "address": "22 Cortlandt Alley",
         "url": "http://www.andrewkreps.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -942,7 +1000,8 @@
         "name": "Anita Rogers Gallery",
         "address": "494 Greenwich St",
         "url": "https://www.anitarogersgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -958,7 +1017,8 @@
         "name": "Anton Kern WINDOW",
         "address": "91 Walker St",
         "url": "https://antonkerngallery.com/window",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -974,7 +1034,8 @@
         "name": "apexart",
         "address": "291 Church St",
         "url": "https://apexart.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -990,7 +1051,8 @@
         "name": "Arsenal Contemporary",
         "address": "21 Cortlandt Alley",
         "url": "http://www.arsenalcontemporary.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1006,7 +1068,8 @@
         "name": "Art in Brackets\u2122",
         "address": "46 Walker St",
         "url": "https:www.artinbrackets.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1022,7 +1085,8 @@
         "name": "Art Projects International",
         "address": "434 Greenwich St",
         "url": "http://artprojects.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1038,7 +1102,8 @@
         "name": "Artists Space",
         "address": "11 Cortlandt Alley",
         "url": "http://artistsspace.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1054,7 +1119,8 @@
         "name": "Asya Geisberg Gallery",
         "address": "45 White St",
         "url": "http://www.asyageisberggallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1070,7 +1136,8 @@
         "name": "BORTOLAMI",
         "address": "39 Walker St",
         "url": "http://bortolamigallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1086,7 +1153,8 @@
         "name": "Broadway",
         "address": "373 Broadway",
         "url": "http://broadwaygallery.nyc/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1102,7 +1170,8 @@
         "name": "Canada",
         "address": "60 Lispenard St",
         "url": "https://www.canadanewyork.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1118,7 +1187,8 @@
         "name": "Canal Projects",
         "address": "351 Canal St",
         "url": "http://canalprojects.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1134,7 +1204,8 @@
         "name": "Charles Moffett",
         "address": "394 Broadway",
         "url": "https://charlesmoffett.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1150,7 +1221,8 @@
         "name": "CHART",
         "address": "74 Franklin St",
         "url": "http://www.chart-gallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1166,7 +1238,8 @@
         "name": "Cristin Tierney",
         "address": "49 Walker St",
         "url": "https://cristintierney.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1182,7 +1255,8 @@
         "name": "D. D. D. D.",
         "address": "79 Leonard St",
         "url": "https://dddd.pictures/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1198,7 +1272,8 @@
         "name": "David Zwirner",
         "address": "52 Walker St",
         "url": "https://www.davidzwirner.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1214,7 +1289,8 @@
         "name": "Derek Eller Gallery",
         "address": "38 Walker St",
         "url": "http://www.derekeller.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1230,7 +1306,8 @@
         "name": "DIMIN",
         "address": "406 Broadway",
         "url": "https://dimin.nyc/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1246,7 +1323,8 @@
         "name": "The Drawing Center",
         "address": "35 Wooster St",
         "url": "http://www.drawingcenter.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1262,7 +1340,8 @@
         "name": "Elza Kayal Gallery",
         "address": "368 Broadway",
         "url": "https://elzakayal.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1278,7 +1357,8 @@
         "name": "Friedrichs Pontone",
         "address": "273 Church St",
         "url": "http://www.friedrichspontone.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1294,7 +1374,8 @@
         "name": "Galerie56 x Gallery FUMI",
         "address": "240 Church St",
         "url": "https://galerie56.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1310,7 +1391,8 @@
         "name": "George Adams Gallery",
         "address": "38 Walker St",
         "url": "http://georgeadamsgallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1326,7 +1408,8 @@
         "name": "GR gallery",
         "address": "116 Chambers St",
         "url": "http://www.gr-gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1342,7 +1425,8 @@
         "name": "GRIMM",
         "address": "54 White St",
         "url": "http://www.grimmgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1358,7 +1442,8 @@
         "name": "Guild Gallery",
         "address": "321 Canal St",
         "url": "https://rwguildgalleryny.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1374,7 +1459,8 @@
         "name": "Hal Bromm Gallery",
         "address": "90 West Broadway",
         "url": "http://www.halbromm.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1390,7 +1476,8 @@
         "name": "Harkawik",
         "address": "88 Walker  St",
         "url": "http://harkawik.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1406,7 +1493,8 @@
         "name": "Hauser & Wirth",
         "address": "134 Wooster St",
         "url": "http://hauserwirth.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1422,7 +1510,8 @@
         "name": "HB381",
         "address": "381 Broadway",
         "url": "https://hb381gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1438,7 +1527,8 @@
         "name": "Hemingway Gallery",
         "address": "88 Leonard St",
         "url": "https://hemingwayafricangallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1454,7 +1544,8 @@
         "name": "HESSE FLATOW",
         "address": "77 Franklin St",
         "url": "http://www.hesseflatow.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1470,7 +1561,8 @@
         "name": "High Noon",
         "address": "68 Reade St",
         "url": "http://highnoongallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1486,7 +1578,8 @@
         "name": "Institute for Studies on Latin American Art (ISLAA)",
         "address": "142 Franklin St",
         "url": "https://islaa.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1502,7 +1595,8 @@
         "name": "Ippodo Gallery",
         "address": "35 N Moore St",
         "url": "https://www.ippodogallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1518,7 +1612,8 @@
         "name": "Jack Shainman Gallery",
         "address": "46 Lafayette St",
         "url": "https://jackshainman.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1534,7 +1629,8 @@
         "name": "James Cohan",
         "address": "52 Walker St",
         "url": "http://www.jamescohan.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1550,7 +1646,8 @@
         "name": "James Fuentes Gallery",
         "address": "52 White St",
         "url": "https://jamesfuentes.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1566,7 +1663,8 @@
         "name": "Jane Lombard Gallery",
         "address": "58 White St",
         "url": "http://www.janelombardgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1582,7 +1680,8 @@
         "name": "Jeffrey Deitch",
         "address": "18 Wooster St",
         "url": "https://www.deitch.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1598,7 +1697,8 @@
         "name": "The Journal Gallery",
         "address": "45 White Street",
         "url": "http://www.thejournalgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1614,7 +1714,8 @@
         "name": "Judd Foundation - Donald Judd's Studio and Home",
         "address": "101 Spring Street",
         "url": "https://juddfoundation.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1630,7 +1731,8 @@
         "name": "kaufmann repetto",
         "address": "55 Walker Street",
         "url": "https://www.kaufmannrepetto.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1646,7 +1748,8 @@
         "name": "LATITUDE Gallery",
         "address": "5 Lispenard St",
         "url": "https://latitudegallery.nyc/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1662,7 +1765,8 @@
         "name": "Leslie-Lohman Museum of Art",
         "address": "26 Wooster  Street",
         "url": "https://www.leslielohman.org",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1678,7 +1782,8 @@
         "name": "Leslie Tonkonow Artworks + Projects",
         "address": "401 Broadway",
         "url": "http://www.tonkonow.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1694,7 +1799,8 @@
         "name": "Luhring Augustine Tribeca",
         "address": "17 White St",
         "url": "https://www.luhringaugustine.com",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1710,7 +1816,8 @@
         "name": "Marian Goodman Gallery",
         "address": "385 Broadway",
         "url": "http://mariangoodman.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1726,7 +1833,8 @@
         "name": "Mendes Wood DM",
         "address": "47 Walker St",
         "url": "http://mendeswooddm.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1742,7 +1850,8 @@
         "name": "Nicelle Beauchene Gallery",
         "address": "7 Franklin Place",
         "url": "http://www.nicellebeauchene.com",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1758,7 +1867,8 @@
         "name": "Nicodim Gallery",
         "address": "15 Greene St",
         "url": "https://www.nicodimgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1774,7 +1884,8 @@
         "name": "Nino Mier Gallery",
         "address": "380 Broadway",
         "url": "https://www.miergallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1790,7 +1901,8 @@
         "name": "One Art Space",
         "address": "23 Warren St",
         "url": "https://www.oneartspace.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1806,7 +1918,8 @@
         "name": "Ortuzar",
         "address": "5 White St",
         "url": "https://www.ortuzarprojects.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1822,7 +1935,8 @@
         "name": "Pablo's Birthday",
         "address": "105 Hudson St",
         "url": "http://pablosbirthday.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1838,7 +1952,8 @@
         "name": "Peter Blum Gallery",
         "address": "176 Grand St",
         "url": "http://www.peterblumgallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1854,7 +1969,8 @@
         "name": "Peter Freeman, Inc.",
         "address": "140 Grand St",
         "url": "http://www.peterfreemaninc.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1870,7 +1986,8 @@
         "name": "P\u00b7P\u00b7O\u00b7W",
         "address": "392 Broadway",
         "url": "http://www.ppowgallery.com",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1886,7 +2003,8 @@
         "name": "PES FUTURES",
         "address": "128 Baxter St",
         "url": "http://projectforemptyspace.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1902,7 +2020,8 @@
         "name": "PROTOCINEMAHosted by ISS Storefront for Ideas",
         "address": "127 Walker St",
         "url": "https://www.protocinema.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1918,7 +2037,8 @@
         "name": "R & Company",
         "address": "64 White Street",
         "url": "http://www.r-and-company.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1934,7 +2054,8 @@
         "name": "The Renee & Chaim Gross Foundation",
         "address": "526 LaGuardia Place",
         "url": "http://rcgrossfoundation.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1950,7 +2071,8 @@
         "name": "Ronald Feldman Gallery",
         "address": "31 Mercer St",
         "url": "http://feldmangallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1966,7 +2088,8 @@
         "name": "Ruttkowski;68",
         "address": "46 Cortlandt Alley",
         "url": "http://ruttkowski68.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -1982,7 +2105,8 @@
         "name": "SARAHCROWN",
         "address": "373 Broadway",
         "url": "https://www.sarahcrown.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -1998,7 +2122,8 @@
         "name": "Sargent's Daughters",
         "address": "370 Broadway",
         "url": "https://schoelkopfgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2014,7 +2139,8 @@
         "name": "Schoelkopf Gallery",
         "address": "390 Broadway",
         "url": "https://schoelkopfgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2030,7 +2156,8 @@
         "name": "Shirley Fiterman Art",
         "address": "81 Barclay St",
         "url": "http://www.bmcc.cuny.edu/sfac//",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2046,7 +2173,8 @@
         "name": "SHRINE",
         "address": "368 Broadway",
         "url": "https://www.shrine.nyc/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2062,7 +2190,8 @@
         "name": "Southern Guild",
         "address": "75 Leonard St",
         "url": "https://southernguild.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2078,7 +2207,8 @@
         "name": "Space Gallery SOHO /St Barth",
         "address": "428 Broome St",
         "url": "http://www.spacegallerystbarth.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2094,7 +2224,8 @@
         "name": "Space ZeroOne",
         "address": "371 Broadway",
         "url": "https://zeroone.space/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2110,7 +2241,8 @@
         "name": "Todd Merril Studio, Tribeca",
         "address": "424 Broadway",
         "url": "http://toddmerrillstudio.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2126,7 +2258,8 @@
         "name": "Uprise Art",
         "address": "264 Canal St",
         "url": "https://www.upriseart.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2142,7 +2275,8 @@
         "name": "YveYANG",
         "address": "12 Wooster St",
         "url": "https://www.yveyang.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2158,7 +2292,8 @@
         "name": "C24 Gallery",
         "address": "560 W 24th St, New York, NY 10011, USA",
         "url": "http://www.c24gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2174,7 +2309,8 @@
         "name": "Taglialatella Galleries",
         "address": "229 10th Ave, New York, NY 10011, USA",
         "url": "http://www.taglialatellagalleries.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2190,7 +2326,8 @@
         "name": "Gladstone Gallery",
         "address": "515 W 24th St, New York, NY 10011, USA",
         "url": "http://www.gladstonegallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2206,7 +2343,8 @@
         "name": "Agora Gallery",
         "address": "530 W 25th St, New York, NY 10001, USA",
         "url": "http://www.agora-gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2222,7 +2360,8 @@
         "name": "Luhring Augustine Gallery",
         "address": "531 W 24th St, New York, NY 10011, USA",
         "url": "http://www.luhringaugustine.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2238,7 +2377,8 @@
         "name": "SVA Chelsea Gallery",
         "address": "601 W 26th St Suite 1502, New York, NY 10001, USA",
         "url": "http://sva.edu/exhibitions",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2254,7 +2394,8 @@
         "name": "Boesky Gallery",
         "address": "507 W 24th St, New York, NY 10011, USA",
         "url": "https://marianneboeskygallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2270,7 +2411,8 @@
         "name": "303 Gallery",
         "address": "555 W 21st St, New York, NY 10011, USA",
         "url": "http://www.303gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2286,7 +2428,8 @@
         "name": "High Line Nine",
         "address": "507 West 27th Street, 508 W 28th St, New York, NY 10001, USA",
         "url": "http://www.highlinenine.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2302,7 +2445,8 @@
         "name": "Isabel Sullivan Gallery | Chelsea",
         "address": "501 W 23rd St, New York, NY 10011, USA",
         "url": "https://www.is.gallery/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2318,7 +2462,8 @@
         "name": "Gagosian",
         "address": "555 W 24th St, New York, NY 10011, USA",
         "url": "https://gagosian.com/locations/west-24th/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2334,7 +2479,8 @@
         "name": "Pace Gallery",
         "address": "540 W 25th St, New York, NY 10001, USA",
         "url": "http://www.pacegallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2350,7 +2496,8 @@
         "name": "ACA Galleries est. 1932",
         "address": "173 10th Ave, New York, NY 10011, USA",
         "url": "http://www.acagalleries.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2366,7 +2513,8 @@
         "name": "Matthew Marks Gallery",
         "address": "522 W 22nd St, New York, NY 10011, USA",
         "url": "http://www.matthewmarks.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2382,7 +2530,8 @@
         "name": "Casey Kaplan",
         "address": "121 W 27th St, New York, NY 10001, USA",
         "url": "http://www.caseykaplangallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2398,7 +2547,8 @@
         "name": "The FLAG Art Foundation",
         "address": "545 W 25th St 9th Floor, New York, NY 10001, USA",
         "url": "http://www.flagartfoundation.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2414,7 +2564,8 @@
         "name": "Michael Rosenfeld Gallery",
         "address": "100 11th Ave, New York, NY 10011, USA",
         "url": "http://www.michaelrosenfeld.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -2430,7 +2581,8 @@
         "name": "Bushwick Gallery",
         "address": "22 Fayette St, Brooklyn, NY 11206, USA",
         "url": "https://bushwickgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2446,7 +2598,8 @@
         "name": "The Bushwick Collective",
         "address": "427 Troutman St, Brooklyn, NY 11237, USA",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2462,7 +2615,8 @@
         "name": "Seven House Gallery",
         "address": "35 Meadow St, Brooklyn, NY 11206, USA",
         "url": "http://sevenhousenewyork.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2478,7 +2632,8 @@
         "name": "The Living Gallery",
         "address": "1094 Broadway, Brooklyn, NY 11221, USA",
         "url": "http://www.the-living-gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2494,7 +2649,8 @@
         "name": "Brooklyn Art Collective",
         "address": "13 Grattan St, Brooklyn, NY 11206, USA",
         "url": "http://www.brooklyn-art-collective.com/shop",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2510,7 +2666,8 @@
         "name": "Bottleneck Gallery",
         "address": "17 Ingraham St, Brooklyn, NY 11206, USA",
         "url": "http://bottleneckgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2526,7 +2683,8 @@
         "name": "ALIUME Art Gallery",
         "address": "41 Porter Ave, Brooklyn, NY 11237, USA",
         "url": "http://www.aliumeart.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2542,7 +2700,8 @@
         "name": "Skewville",
         "address": "237 Starr St, Brooklyn, NY 11237, USA",
         "url": "https://skewville.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2558,7 +2717,8 @@
         "name": "RISK Gallery & Boutique",
         "address": "205 Central Ave, Brooklyn, NY 11221, USA",
         "url": "http://riskgalleryboutique.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2574,7 +2734,8 @@
         "name": "A Space Gallery",
         "address": "13 Grattan St #402, Brooklyn, NY 11206, USA",
         "url": "https://www.aspacegallery.net/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2590,7 +2751,8 @@
         "name": "Transmitter",
         "address": "1329 Willoughby Ave, Brooklyn, NY 11237, USA",
         "url": "http://www.transmitter.nyc/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2606,7 +2768,8 @@
         "name": "The Bishop",
         "address": "630 Flushing Ave, Brooklyn, NY 11206, USA",
         "url": "http://thebishopgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2622,7 +2785,8 @@
         "name": "3RD ETHOS GALLERY",
         "address": "184 Noll St #3, Brooklyn, NY 11237, USA",
         "url": "https://linktr.ee/3rdethos",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2638,7 +2802,8 @@
         "name": "The Active Space",
         "address": "566 Johnson Ave, Brooklyn, NY 11237, USA",
         "url": "http://activespacestudios.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2654,7 +2819,8 @@
         "name": "C5BK",
         "address": "5 Central Ave Space B, Brooklyn, NY 11206, USA",
         "url": "http://c5bk.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2670,7 +2836,8 @@
         "name": "Arts and Rhymes Who Got Style wall",
         "address": "786 Bushwick Ave, Brooklyn, NY 11221, USA",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2686,7 +2853,8 @@
         "name": "Richard Beavers Gallery, Brooklyn",
         "address": "Richard Beavers Gallery, 408 Marcus Garvey Blvd, Brooklyn, NY 11216, USA",
         "url": "http://richardbeaversgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2702,7 +2870,8 @@
         "name": "Structural Color Gallery, LLC",
         "address": "117 Grattan St Suite 114, Brooklyn, NY 11237, USA",
         "url": "https://www.structuralcolorgallery.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=8967950875205061564",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2718,7 +2887,8 @@
         "name": "Lorimoto Gallery",
         "address": "16-23 Hancock St, Ridgewood, NY 11385, USA",
         "url": "https://www.lorimoto.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Queens"
       }
     },
     {
@@ -2734,7 +2904,8 @@
         "name": "The BogArt",
         "address": "56 Bogart St, Brooklyn, NY 11206, USA",
         "url": "http://56bogartstreet.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2750,7 +2921,8 @@
         "name": "AMR Art DUMBO",
         "address": "53 Bridge St #706, Brooklyn, NY 11201, USA",
         "url": "https://www.amrartdumbo.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2766,7 +2938,8 @@
         "name": "usagi",
         "address": "163 Plymouth St, Brooklyn, NY 11201, USA",
         "url": "http://usaginy.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2782,7 +2955,8 @@
         "name": "Higher Pictures",
         "address": "45 Main St #723, Brooklyn, NY 11201, USA",
         "url": "http://www.higherpicturesgeneration.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2798,7 +2972,8 @@
         "name": "John St Gallery",
         "address": "70 John St, Brooklyn, NY 11201, USA",
         "url": "http://johnst.nyc/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2814,7 +2989,8 @@
         "name": "Billie Elise",
         "address": "145 Front St SHOP 12, Brooklyn, NY 11201, USA",
         "url": "https://www.billieelise.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2830,7 +3006,8 @@
         "name": "Main window",
         "address": "1 Main St, Brooklyn, NY 11201, USA",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2846,7 +3023,8 @@
         "name": "Cierra Britton Gallery",
         "address": "202b Plymouth St, Brooklyn, NY 11201, USA",
         "url": "https://cierrabritton.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2862,7 +3040,8 @@
         "name": "Janet Borden Inc",
         "address": "91 Water St, Brooklyn, NY 11201, USA",
         "url": "http://janetbordeninc.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2878,7 +3057,8 @@
         "name": "Gallery Gaia",
         "address": "79 Hudson Ave, Brooklyn, NY 11201, USA",
         "url": "https://artindumbo.com/gallery/gallery-gaia/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2894,7 +3074,8 @@
         "name": "Springs Projects",
         "address": "20 Jay St #311b, Brooklyn, NY 11201, USA",
         "url": "https://www.instagram.com/springsprojects/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2910,7 +3091,8 @@
         "name": "Baci Studio",
         "address": "55 Anchorage Pl, Brooklyn, NY 11201, USA",
         "url": "https://www.bacistudio.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2926,7 +3108,8 @@
         "name": "Stump Gallery",
         "address": "70 John St, Brooklyn, NY 11201, USA",
         "url": "https://stumpgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2942,7 +3125,8 @@
         "name": "CREATIVEBLOCH STUDIO & GALLERY",
         "address": "53 Bridge St 412 4th Floor, Brooklyn, NY 11201, USA",
         "url": "http://www.creativebloch.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2958,7 +3142,8 @@
         "name": "Dynomighty Design Inc.",
         "address": "18 Bridge St #4G, Brooklyn, NY 11201, USA",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2974,7 +3159,8 @@
         "name": "Faith Art Gallery",
         "address": "395 Jay St, Brooklyn, NY 11201, USA",
         "url": "http://faithartgallerybrooklyn.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -2990,7 +3176,8 @@
         "name": "ZAROLAT",
         "address": "140 Plymouth St, Brooklyn, NY 11201, USA",
         "url": "https://www.zarolat.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3006,7 +3193,8 @@
         "name": "Hudson Wilder",
         "address": "142 Plymouth St, Brooklyn, NY 11201, USA",
         "url": "https://hudsonwilder.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3022,7 +3210,8 @@
         "name": "Elma",
         "address": "216 Plymouth St, Brooklyn, NY 11201, USA",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3038,7 +3227,8 @@
         "name": "Detritus Designs LLC",
         "address": "50 Bridge St, Brooklyn, NY 11201, USA",
         "url": "http://detritusartanddesign.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3054,7 +3244,8 @@
         "name": "Eleventh Hour Art",
         "address": "61 Atlantic Ave, Brooklyn, NY 11201, USA",
         "url": "http://www.eleventhhourart.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3070,7 +3261,8 @@
         "name": "AM:PM GALLERY",
         "address": "108 Marcy Ave, Brooklyn, NY 11211, USA",
         "url": "http://www.ampmgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3086,7 +3278,8 @@
         "name": "Brooklyn Art Haus",
         "address": "24 Marcy Ave, Brooklyn, NY 11211, USA",
         "url": "http://www.bkarthaus.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3102,7 +3295,8 @@
         "name": "Awita New York Studio",
         "address": "274 S 2nd St, Brooklyn, NY 11211, USA",
         "url": "http://www.awitanewyork.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3118,7 +3312,8 @@
         "name": "Carrie Able Gallery",
         "address": "409 Keap St, Brooklyn, NY 11211, USA",
         "url": "http://carrieablegallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3134,7 +3329,8 @@
         "name": "Pierogi Gallery",
         "address": "177 N 9th St, Brooklyn, NY 11211, USA",
         "url": "https://www.pierogi2000.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3150,7 +3346,8 @@
         "name": "Twelve Chairs Gallery",
         "address": "101-85 N 3rd St #108, Brooklyn, NY 11249, USA",
         "url": "https://twelvechairsgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3166,7 +3363,8 @@
         "name": "Choplet Ceramic Studio & Gallery",
         "address": "238 Grand St, Brooklyn, NY 11211, USA",
         "url": "http://www.choplet.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3182,7 +3380,8 @@
         "name": "Abstrakt Studio & Gallery",
         "address": "58 S 6th St, Brooklyn, NY 11249, USA",
         "url": "https://www.livelifeabstrakt.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3198,7 +3397,8 @@
         "name": "Cooler Gallery",
         "address": "325 Rutledge St, Brooklyn, NY 11211, USA",
         "url": "http://www.cooler-gallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3214,7 +3414,8 @@
         "name": "Summertime",
         "address": "145 Ainslie St, Brooklyn, NY 11211, USA",
         "url": "http://www.summertimegallery.org/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3230,7 +3431,8 @@
         "name": "Sculpture Terrace by Twelve Chairs Gallery",
         "address": "205 Wythe Ave, Brooklyn, NY 11249, USA",
         "url": "https://twelvechairsgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3246,7 +3448,8 @@
         "name": "Brooklyn Art Studios",
         "address": "276 Greenpoint Ave, Brooklyn, NY 11222, USA",
         "url": "http://brooklynartstudiosnyc.blogspot.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3262,7 +3465,8 @@
         "name": "About Glamour",
         "address": "310 Grand St, Brooklyn, NY 11211, USA",
         "url": "http://www.aboutglamour.net/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3278,7 +3482,8 @@
         "name": "Nassau Avenue Gallery",
         "address": "123 Nassau Ave, Brooklyn, NY 11222, USA",
         "url": "http://nassauavenuegallery.square.site/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3294,7 +3499,8 @@
         "name": "Graff Tours - The Street Art Studio NYC",
         "address": "282 Meserole St, Brooklyn, NY 11206, USA",
         "url": "http://www.grafftours.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Brooklyn"
       }
     },
     {
@@ -3310,7 +3516,8 @@
         "name": "Questroyal Fine Art",
         "address": "903 Park Ave Third Floor, New York, NY 10075, USA",
         "url": "http://www.questroyalfineart.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3326,7 +3533,8 @@
         "name": "Acquavella Galleries",
         "address": "18 E 79th St, New York, NY 10075, USA",
         "url": "http://www.acquavellagalleries.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3342,7 +3550,8 @@
         "name": "New York Fine Art Gallery",
         "address": "1464 1st Ave.(Bet 76th & 77th St, New York, NY 10075, USA",
         "url": "",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3358,7 +3567,8 @@
         "name": "Tambaran Gallery",
         "address": "5 E 82nd St #2, New York, NY 10028, USA",
         "url": "http://www.tambaran.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3374,7 +3584,8 @@
         "name": "Skarstedt Gallery",
         "address": "20 E 79th St, New York, NY 10075, USA",
         "url": "http://www.skarstedt.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3390,7 +3601,8 @@
         "name": "David Nolan Gallery",
         "address": "24 E 81st St 4th floor, New York, NY 10028, USA",
         "url": "http://www.davidnolangallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3406,7 +3618,8 @@
         "name": "Kate Oh Gallery, LLC",
         "address": "50 E 72nd St, New York, NY 10021, USA",
         "url": "http://www.kateohgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3422,7 +3635,8 @@
         "name": "Leila Heller Gallery",
         "address": "Ground Level, 22 E 80th St, New York, NY 10075, USA",
         "url": "http://www.leilahellergallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3438,7 +3652,8 @@
         "name": "L\u00e9vy Gorvy Dayan",
         "address": "19 E 64th St, New York, NY 10065, USA",
         "url": "http://www.levygorvydayan.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3454,7 +3669,8 @@
         "name": "Gerald Peters Gallery",
         "address": "24 E 78th St, New York, NY 10075, USA",
         "url": "https://gpgallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3470,7 +3686,8 @@
         "name": "White Cube New York",
         "address": "1002 Madison Ave, New York, NY 10075, USA",
         "url": "http://www.whitecube.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3486,7 +3703,8 @@
         "name": "Alexandre Gallery",
         "address": "25 E 73rd St, New York, NY 10021, USA",
         "url": "http://www.alexandregallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3502,7 +3720,8 @@
         "name": "Gallery 71 Inc",
         "address": "974 Lexington Avenue, NW corner of, E 71st St, New York, NY 10021, USA",
         "url": "http://www.gallery71.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3518,7 +3737,8 @@
         "name": "BELOOSESKY GALLERY",
         "address": "415 E 72nd St, New York, NY 10021, USA",
         "url": "http://www.beloosesky.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3534,7 +3754,8 @@
         "name": "Valerie Goodman Gallery",
         "address": "315 E 91st St, New York, NY 10128, USA",
         "url": "https://www.valeriegoodmangallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3550,7 +3771,8 @@
         "name": "Opera Gallery New York",
         "address": "827 Madison Ave, New York, NY 10065, USA",
         "url": "http://www.operagallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3566,7 +3788,8 @@
         "name": "Elkon Gallery",
         "address": "18 E 81st St Ste 2a, New York, NY 10028, USA",
         "url": "http://www.elkongallery.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3582,7 +3805,8 @@
         "name": "Galerie Gmurzynska US Inc",
         "address": "595 Madison Ave 6 Floor, New York, NY 10022, USA",
         "url": "http://gmurzynska.com/",
-        "updated": false
+        "updated": false,
+        "borough": "Manhattan"
       }
     },
     {
@@ -3598,6 +3822,160 @@
         "name": "Gallery 60 NYC",
         "address": "208 E 60th St, New York, NY 10022, USA",
         "url": "https://gallery60nyc.com/",
+        "updated": false,
+        "borough": "Manhattan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94094,
+          40.746889
+        ]
+      },
+      "properties": {
+        "name": "SculptureCenter",
+        "address": "44-19 Purves St, Long Island City, NY",
+        "url": "https://www.sculpture-center.org",
+        "borough": "Queens",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947097,
+          40.745597
+        ]
+      },
+      "properties": {
+        "name": "MoMA PS1",
+        "address": "22-25 Jackson Ave, Long Island City, NY",
+        "url": "https://www.moma.org/ps1",
+        "borough": "Queens",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935043,
+          40.752663
+        ]
+      },
+      "properties": {
+        "name": "Flux Factory",
+        "address": "39-31 29th St, Long Island City, NY",
+        "url": "https://fluxfactory.org",
+        "borough": "Queens",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94955,
+          40.74793
+        ]
+      },
+      "properties": {
+        "name": "Dorsky Gallery",
+        "address": "11-03 45th Ave, Long Island City, NY",
+        "url": "https://www.dorsky.org",
+        "borough": "Queens",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919867,
+          40.831058
+        ]
+      },
+      "properties": {
+        "name": "The Bronx Museum of the Arts",
+        "address": "1040 Grand Concourse, Bronx, NY",
+        "url": "https://www.bronxmuseum.org",
+        "borough": "Bronx",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902638,
+          40.862709
+        ]
+      },
+      "properties": {
+        "name": "Bronx River Art Center",
+        "address": "32 W Fordham Rd, Bronx, NY",
+        "url": "https://bronxriverart.org",
+        "borough": "Bronx",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92748,
+          40.81754
+        ]
+      },
+      "properties": {
+        "name": "Longwood Arts Project",
+        "address": "450 Grand Concourse, Bronx, NY",
+        "url": "https://bronxcouncilonthearts.org",
+        "borough": "Bronx",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.101936,
+          40.643955
+        ]
+      },
+      "properties": {
+        "name": "Newhouse Center for Contemporary Art",
+        "address": "1000 Richmond Terrace, Staten Island, NY",
+        "url": "https://www.snug-harbor.org",
+        "borough": "Staten Island",
+        "updated": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.077697,
+          40.64436
+        ]
+      },
+      "properties": {
+        "name": "Staten Island Museum",
+        "address": "75 Stuyvesant Pl, Staten Island, NY",
+        "url": "https://statenislandmuseum.org",
+        "borough": "Staten Island",
         "updated": false
       }
     }
