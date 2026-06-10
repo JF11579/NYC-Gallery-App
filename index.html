@@ -85,6 +85,11 @@
     },
     center: [-73.975, 40.710], zoom: 12
   });
+  // Cutoff date for "New show" indicator — 8 days rolling window
+  const cutoffDate = new Date();
+  cutoffDate.setDate(cutoffDate.getDate() - 8);
+  const cutoff = cutoffDate.toISOString().slice(0, 10); // "YYYY-MM-DD"
+
   map.addControl(new mapboxgl.NavigationControl(), 'top-right');
   map.on('load', () => {
     map.addSource('galleries', {
@@ -95,7 +100,15 @@
       id: 'galleries-layer', type: 'circle', source: 'galleries',
       paint: {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 14, 8, 17, 12],
-        'circle-color': ['case', ['==', ['get', 'updated'], true], '#2e7d32', '#9e9e9e'],
+        'circle-color': ['case',
+          ['all',
+            ['has', 'last_updated'],
+            ['!=', ['get', 'last_updated'], ''],
+            ['>=', ['get', 'last_updated'], cutoff]
+          ],
+          '#2e7d32',
+          '#9e9e9e'
+        ],
         'circle-stroke-width': 2.5,
         'circle-stroke-color': '#ffffff',
         'circle-opacity': 1
@@ -106,7 +119,8 @@
     map.on('click', 'galleries-layer', (e) => {
       const props = e.features[0].properties;
       const coords = e.features[0].geometry.coordinates.slice();
-      const badge = props.updated ? '<span class="updated-badge">New show</span><br>' : '';
+      const isNew = props.last_updated && props.last_updated >= cutoff;
+      const badge = isNew ? '<span class="updated-badge">New show</span><br>' : '';
       const addr = props.address ? '<div class="addr">' + props.address + '</div>' : '';
       const site = props.url ? '<a href="' + props.url + '" target="_blank">Visit website</a>' : '';
       new mapboxgl.Popup({offset: 10})
