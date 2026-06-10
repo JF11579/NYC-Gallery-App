@@ -2,10 +2,17 @@
 """
 build_gallery_list.py — One-time builder for NYC-Gallery-App's galleries.json.
 
-Fetches gallery directories for Manhattan (all neighborhoods) and Brooklyn
-(Bushwick, DUMBO, Williamsburg), parses out gallery name + address + website,
-dedupes, geocodes each location via the Mapbox Geocoding API, and writes a
-GeoJSON FeatureCollection to data/galleries.json suitable for the live map.
+Fetches gallery directories for all five NYC boroughs:
+  • Manhattan  — downtowngallerymap.com (LES, SoHo/Tribeca) + agora-gallery.com
+  • Brooklyn   — agora-gallery.com (Bushwick, DUMBO, Williamsburg)
+  • Queens     — curated list (LIC art district)
+  • Bronx      — curated list
+  • Staten Island — curated list
+
+Parses out gallery name + address + website, dedupes, geocodes each location
+via the Mapbox Geocoding API, detects borough from the geocode response, and
+writes a GeoJSON FeatureCollection to data/galleries.json suitable for the
+live map.
 
 Run this once locally:
 
@@ -72,10 +79,28 @@ HEADERS = {
     )
 }
 
-# Coverage bounding box — Manhattan + Brooklyn (approximate).
+# Bounding box for all five NYC boroughs (approximate).
 # Anything geocoded outside this is dropped.
 # (lon_min, lat_min, lon_max, lat_max)
-COVERAGE_BBOX = (-74.060, 40.570, -73.830, 40.880)
+NYC_BBOX = (-74.260, 40.490, -73.700, 40.930)
+
+# Galleries for boroughs not covered by scraped sources.
+# Queens/Bronx/Staten Island have no equivalent gallery-map directories,
+# so we seed them with a curated list of known art spaces.
+CURATED = [
+    # Queens — Long Island City art district
+    {"name": "SculptureCenter",              "address": "44-19 Purves St, Long Island City",    "url": "https://www.sculpture-center.org"},
+    {"name": "MoMA PS1",                     "address": "22-25 Jackson Ave, Long Island City",  "url": "https://www.moma.org/ps1"},
+    {"name": "Flux Factory",                 "address": "39-31 29th St, Long Island City",      "url": "https://fluxfactory.org"},
+    {"name": "Dorsky Gallery",               "address": "11-03 45th Ave, Long Island City",     "url": "https://www.dorsky.org"},
+    # Bronx
+    {"name": "The Bronx Museum of the Arts", "address": "1040 Grand Concourse, Bronx",          "url": "https://www.bronxmuseum.org"},
+    {"name": "Bronx River Art Center",       "address": "32 W Fordham Rd, Bronx",               "url": "https://bronxriverart.org"},
+    {"name": "Longwood Arts Project",        "address": "450 Grand Concourse, Bronx",           "url": "https://bronxcouncilonthearts.org"},
+    # Staten Island
+    {"name": "Newhouse Center for Contemporary Art", "address": "1000 Richmond Terrace, Staten Island", "url": "https://www.snug-harbor.org"},
+    {"name": "Staten Island Museum",         "address": "75 Stuyvesant Pl, Staten Island",      "url": "https://statenislandmuseum.org"},
+]
 
 
 # ----------------------------------------------------------------------------
@@ -265,15 +290,34 @@ def dedupe(galleries: list[dict]) -> list[dict]:
 # Geocoding (Mapbox)
 # ----------------------------------------------------------------------------
 
-def geocode_one(query: str) -> tuple[float, float] | None:
-    """Hit Mapbox forward geocoding. Returns (lon, lat) or None."""
+_LOCALITY_TO_BOROUGH = {
+    "manhattan": "Manhattan",
+    "brooklyn": "Brooklyn",
+    "queens": "Queens",
+    "the bronx": "Bronx",
+    "bronx": "Bronx",
+    "staten island": "Staten Island",
+}
+
+
+def _borough_from_context(context: list) -> str:
+    """Extract the NYC borough name from a Mapbox geocode context array."""
+    for item in context:
+        text = item.get("text", "").lower()
+        if text in _LOCALITY_TO_BOROUGH:
+            return _LOCALITY_TO_BOROUGH[text]
+    return ""
+
+
+def geocode_one(query: str) -> tuple[float, float, str] | None:
+    """Hit Mapbox forward geocoding. Returns (lon, lat, borough) or None."""
     if not MAPBOX_TOKEN:
         raise RuntimeError("MAPBOX_TOKEN is not set")
     url = (
         f"https://api.mapbox.com/geocoding/v5/mapbox.places/{quote(query)}.json"
         f"?access_token={MAPBOX_TOKEN}"
-        f"&proximity=-73.97,40.72"           # bias toward Manhattan/Brooklyn midpoint
-        f"&bbox={','.join(str(x) for x in COVERAGE_BBOX)}"
+        f"&proximity=-73.97,40.72"           # bias toward NYC center
+        f"&bbox={','.join(str(x) for x in NYC_BBOX)}"
         f"&limit=1"
     )
     r = requests.get(url, timeout=15)
@@ -285,36 +329,37 @@ def geocode_one(query: str) -> tuple[float, float] | None:
     if not features:
         return None
     lon, lat = features[0]["center"]
-    return lon, lat
+    borough = _borough_from_context(features[0].get("context", []))
+    return lon, lat, borough
 
 
 def in_coverage_area(lon: float, lat: float) -> bool:
-    lo_min, la_min, lo_max, la_max = COVERAGE_BBOX
+    lo_min, la_min, lo_max, la_max = NYC_BBOX
     return lo_min <= lon <= lo_max and la_min <= lat <= la_max
 
 
 def geocode_all(galleries: list[dict]) -> list[dict]:
-    """Add 'coordinates' to each gallery that geocodes successfully. Drop the rest."""
+    """Add 'coordinates' and 'borough' to each gallery. Drop ones that fail to geocode."""
     out = []
     for i, g in enumerate(galleries, 1):
-        # Build the best query we can
         if g["address"]:
             query = f"{g['address']}, New York, NY"
         else:
             query = f"{g['name']}, New York, NY"
 
-        coords = geocode_one(query)
-        if not coords:
+        result = geocode_one(query)
+        if not result:
             print(f"  [{i:3d}/{len(galleries)}] SKIP (no geocode): {g['name']!r}")
             continue
-        lon, lat = coords
+        lon, lat, borough = result
         if not in_coverage_area(lon, lat):
-            print(f"  [{i:3d}/{len(galleries)}] SKIP (outside coverage area): {g['name']!r} -> {lon:.4f},{lat:.4f}")
+            print(f"  [{i:3d}/{len(galleries)}] SKIP (outside NYC): {g['name']!r} -> {lon:.4f},{lat:.4f}")
             continue
         g_out = dict(g)
         g_out["coordinates"] = [lon, lat]
+        g_out["borough"] = borough
         out.append(g_out)
-        print(f"  [{i:3d}/{len(galleries)}] {g['name']!r} -> {lon:.4f},{lat:.4f}")
+        print(f"  [{i:3d}/{len(galleries)}] {g['name']!r} -> {lon:.4f},{lat:.4f} [{borough or '?'}]")
         # Polite pacing — Mapbox allows ~600 req/min on free tier
         time.sleep(0.12)
     return out
@@ -334,6 +379,7 @@ def to_geojson(galleries: list[dict]) -> dict:
                 "name": g["name"],
                 "address": g["address"],
                 "url": g["url"],
+                "borough": g.get("borough", ""),
                 "updated": False,  # the daily scraper will flip this when sites change
             },
         })
@@ -379,6 +425,11 @@ def main():
             before = len(raw)
             raw += parse_agora(htmls[key])
             print(f"  {label}: {len(raw)-before} galleries")
+
+    # Inject curated galleries for boroughs without scraped sources
+    before = len(raw)
+    raw += [dict(g) for g in CURATED]
+    print(f"  Curated (Queens/Bronx/Staten Island): {len(raw)-before} galleries")
 
     print(f"\n  Total before dedupe: {len(raw)}")
     galleries = dedupe(raw)
