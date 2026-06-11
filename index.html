@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>NYC Gallery Tracker</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="description" content="NYC Art Gallery Tracker — an interactive map of nearly 300 art galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Green dots mark galleries with a new show in the past 8 days.">
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
   <style>
@@ -40,6 +41,22 @@
     .mapboxgl-popup-content a { color: #1565c0; text-decoration: none; }
     .updated-badge { display: inline-block; background: #2e7d32; color: white;
       font-size: 11px; padding: 1px 6px; border-radius: 3px; margin-bottom: 6px; }
+    #about {
+      position: absolute; bottom: 30px; right: 12px;
+      background: rgba(255,255,255,0.92); padding: 10px 14px;
+      border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      font-size: 12px; line-height: 1.6; z-index: 1;
+      max-width: 280px;
+    }
+    #about-header {
+      display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; user-select: none;
+    }
+    #about-header h4 { margin: 0; font-size: 13px; font-weight: 600; }
+    #about-toggle { font-size: 16px; line-height: 1; color: #555; margin-left: 8px; }
+    #about-body { margin-top: 8px; color: #333; }
+    #about-body p { margin: 0 0 7px; }
+    #about-body p:last-child { margin-bottom: 0; }
   </style>
 </head>
 <body>
@@ -57,6 +74,17 @@
   <h4>NYC Galleries</h4>
   <div><span class="legend-dot" style="background:#2e7d32"></span>New show</div>
   <div><span class="legend-dot" style="background:#9e9e9e"></span>No change</div>
+</div>
+<div id="about">
+  <div id="about-header" onclick="toggleAbout()" aria-expanded="true" aria-controls="about-body">
+    <h4>About this map</h4>
+    <span id="about-toggle">&#x25B2;</span>
+  </div>
+  <div id="about-body">
+    <p>The NYC Art Gallery Tracker started as a gallery locator. I went to a show in a gallery that, despite having walked past the building for decades, I never realized was a gallery — very low profile. That gave me the idea to map out the locations of all the galleries in NYC. You might not know there is a gallery on the very block where you are standing.</p>
+    <p>Next came the idea to mark with a <strong>green dot</strong> any gallery that has changed its show in the past 8 days. After 8 days the dot reverts to <strong>gray</strong>. With nearly 300 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, this saves you from checking each gallery's website individually.</p>
+    <p>Use the borough buttons at the top left to filter by neighborhood.</p>
+  </div>
 </div>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoiamYxMTU3OSIsImEiOiJjbGdkdXkxbjgyZjN0M2xvN2lzZHBxMnF5In0.-MJnfMqsExHCNvSXbA9VXw';
@@ -129,6 +157,16 @@
         .addTo(map);
     });
   });
+
+  function toggleAbout() {
+    const body = document.getElementById('about-body');
+    const toggle = document.getElementById('about-toggle');
+    const header = document.getElementById('about-header');
+    const collapsed = body.style.display === 'none';
+    body.style.display = collapsed ? '' : 'none';
+    toggle.innerHTML = collapsed ? '&#x25B2;' : '&#x25BC;';
+    header.setAttribute('aria-expanded', collapsed);
+  }
 
   // Borough filter
   let activeBoro = 'all';
