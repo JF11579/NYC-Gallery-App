@@ -10,9 +10,17 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
   <style>
     body { margin: 0; padding: 0; font-family: sans-serif; }
-    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    #site-header {
+      position: fixed; top: 0; left: 0; right: 0; height: 56px;
+      background: #fff; border-bottom: 1px solid #ddd;
+      display: flex; align-items: center; padding: 0 16px;
+      z-index: 10; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    #header-title { font-size: 16px; font-weight: 700; color: #1a1a1a; white-space: nowrap; }
+    #header-tagline { font-size: 12px; color: #555; margin-left: 12px; }
+    #map { position: absolute; top: 56px; bottom: 0; width: 100%; }
     #filter {
-      position: absolute; top: 12px; left: 12px;
+      position: absolute; top: 68px; left: 12px;
       background: rgba(255,255,255,0.92); padding: 7px 10px;
       border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.2);
       font-size: 12px; z-index: 1;
@@ -61,6 +69,10 @@
   </style>
 </head>
 <body>
+<div id="site-header">
+  <span id="header-title">NYC Gallery Tracker</span>
+  <span id="header-tagline">Track new shows at nearly 300 art galleries across all five NYC boroughs — updated weekly.</span>
+</div>
 <div id="map"></div>
 <div id="filter">
   <span id="filter-label">Borough:</span>
@@ -82,10 +94,10 @@
     <span id="about-toggle">&#x25B2;</span>
   </div>
   <div id="about-body">
-    <p>I built this tracker after discovering a hidden gallery on a block I had walked past for decades. With nearly 300 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, you might be standing right next to one without knowing it.</p>
+    <p>I built this tracker after discovering a gallery I had walked past for decades without ever realizing it was there. With nearly 300 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, you might be standing right next to one without knowing it.</p>
     <p><strong>How to Use the Map:</strong><br>
-    🟢 <strong>Green Dots:</strong> Galleries with a new show changed in the past 8 days.<br>
-    ⚫ <strong>Gray Dots:</strong> Galleries with ongoing exhibitions (dots revert after 8 days).<br>
+    🟢 <strong>Green Dots:</strong> Galleries with a new show in the past 8 days.<br>
+    <span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#9e9e9e;vertical-align:middle;margin-right:3px;"></span><strong>Gray Dots:</strong> Galleries with ongoing exhibitions (dots revert after 8 days).<br>
     <strong>Filters:</strong> Use the borough buttons at the top left to filter by neighborhood.</p>
     <p>Save time — plan your next gallery walk without checking individual websites.</p>
     <p style="margin-top:8px; font-size:11px; color:#777;"><a href="privacy.html" style="color:#777;">Privacy Policy</a></p>
