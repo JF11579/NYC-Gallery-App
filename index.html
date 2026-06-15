@@ -63,26 +63,6 @@
       font-size: 11px; padding: 1px 6px; border-radius: 3px; margin-bottom: 6px;
     }
 
-    /* ── Site iframe overlay ── */
-    #site-overlay {
-      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-      z-index: 2000; flex-direction: column; background: #fff;
-    }
-    #site-header {
-      display: flex; align-items: center; padding: 10px 12px;
-      background: #1565c0; color: #fff; gap: 10px; flex-shrink: 0; min-height: 48px;
-    }
-    #site-back-btn {
-      background: none; border: none; color: #fff; font-size: 15px; cursor: pointer;
-      padding: 6px 10px; border-radius: 4px; font-family: sans-serif; white-space: nowrap;
-    }
-    #site-back-btn:active { background: rgba(255,255,255,0.2); }
-    #site-name-label {
-      font-size: 13px; font-weight: 600; overflow: hidden;
-      text-overflow: ellipsis; white-space: nowrap; flex: 1;
-    }
-    #site-open-link { font-size: 11px; color: rgba(255,255,255,0.8); white-space: nowrap; }
-    #site-frame { flex: 1; border: none; width: 100%; }
 
     /* ── Gallery directory section ── */
     #gallery-section { background: #fafafa; border-top: 2px solid #e0e0e0; }
@@ -163,16 +143,6 @@
   </div>
 </div>
 
-<!-- ── Gallery website iframe overlay ── -->
-<div id="site-overlay">
-  <div id="site-header">
-    <button id="site-back-btn" onclick="closeSiteOverlay()">&#8592; Back to Map</button>
-    <span id="site-name-label"></span>
-    <a id="site-open-link" href="#" target="_blank">Open in browser</a>
-  </div>
-  <iframe id="site-frame" src="" allow="fullscreen"></iframe>
-</div>
-
 <!-- ── Gallery directory ── -->
 <div id="gallery-section">
   <div id="gallery-section-header">
@@ -237,7 +207,6 @@
 
   let allFeatures = [];
   let activeBoro = 'all';
-  let popupUrl = null, popupName = null;
 
   function esc(str) {
     return String(str)
@@ -252,7 +221,7 @@
     const badge = isNew ? '<span class="updated-badge">New show</span><br>' : '';
     const addr = props.address ? `<div class="addr">${esc(props.address)}</div>` : '';
     const site = props.url
-      ? `<a href="#" onclick="openSiteOverlay();return false;">Visit website</a>`
+      ? `<a href="${esc(props.url)}" target="_blank" rel="noopener">Visit website ↗</a>`
       : '';
     new mapboxgl.Popup({ offset: 10 })
       .setLngLat(coords)
@@ -323,8 +292,6 @@
 
       card.addEventListener('click', () => {
         const coords = f.geometry.coordinates;
-        popupUrl = p.url || null;
-        popupName = p.name || '';
         map.flyTo({ center: coords, zoom: 15, duration: 800 });
         window.scrollTo({ top: 0, behavior: 'smooth' });
         showMapPopup(coords, p);
@@ -361,8 +328,6 @@
     map.on('click', 'galleries-layer', e => {
       const props = e.features[0].properties;
       const coords = e.features[0].geometry.coordinates.slice();
-      popupUrl = props.url || null;
-      popupName = props.name || '';
       showMapPopup(coords, props);
     });
 
@@ -373,18 +338,6 @@
         buildGalleryList(allFeatures);
       });
   });
-
-  function openSiteOverlay() {
-    if (!popupUrl) return;
-    document.getElementById('site-name-label').textContent = popupName;
-    document.getElementById('site-open-link').href = popupUrl;
-    document.getElementById('site-frame').src = popupUrl;
-    document.getElementById('site-overlay').style.display = 'flex';
-  }
-  function closeSiteOverlay() {
-    document.getElementById('site-overlay').style.display = 'none';
-    document.getElementById('site-frame').src = '';
-  }
 
   document.querySelectorAll('.boro-btn').forEach(btn => {
     btn.addEventListener('click', () => {
