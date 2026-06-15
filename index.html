@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>NYC Gallery Tracker</title>
-  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>NYC Gallery Tracker — Interactive Art Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="NYC Art Gallery Tracker — an interactive map of nearly 300 art galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Green dots mark galleries with a new show in the past 8 days.">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163626960216920" crossorigin="anonymous"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
   <style>
+    * { box-sizing: border-box; }
     body { margin: 0; padding: 0; font-family: sans-serif; }
-    #site-header {
-      position: fixed; top: 0; left: 0; right: 0; height: 56px;
-      background: #fff; border-bottom: 1px solid #ddd;
-      display: flex; align-items: center; padding: 0 16px;
-      z-index: 10; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+    /* ── Page header ── */
+    #page-header {
+      width: 100%; background: #fff; border-bottom: 1px solid #ddd;
+      display: flex; align-items: center; padding: 0 16px; height: 52px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     }
     #header-title { font-size: 16px; font-weight: 700; color: #1a1a1a; white-space: nowrap; }
     #header-tagline { font-size: 12px; color: #555; margin-left: 12px; }
-    #map { position: absolute; top: 56px; bottom: 0; width: 100%; }
+
+    /* ── Map section ── */
+    #map-wrapper { position: relative; width: 100%; height: 56vh; min-height: 300px; }
+    #map { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
     #filter {
-      position: absolute; top: 68px; left: 12px;
+      position: absolute; top: 12px; left: 12px;
       background: rgba(255,255,255,0.92); padding: 7px 10px;
       border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.2);
       font-size: 12px; z-index: 1;
@@ -34,78 +40,173 @@
     }
     .boro-btn.active { background: #1565c0; color: #fff; border-color: #1565c0; }
     .boro-btn:hover:not(.active) { background: #f0f0f0; }
+
     #legend {
-      position: absolute; bottom: 30px; left: 12px;
+      position: absolute; bottom: 20px; left: 12px;
       background: rgba(255,255,255,0.92); padding: 10px 14px;
       border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.2);
       font-size: 13px; line-height: 1.8; z-index: 1;
     }
     #legend h4 { margin: 0 0 6px; font-size: 13px; font-weight: 600; }
-    .legend-dot { display: inline-block; width: 12px; height: 12px;
-      border-radius: 50%; margin-right: 6px; vertical-align: middle;
-      box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px rgba(0,0,0,0.18); }
+    .legend-dot {
+      display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+      margin-right: 6px; vertical-align: middle;
+      box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px rgba(0,0,0,0.18);
+    }
+
     .mapboxgl-popup-content { padding: 10px 14px; font-size: 13px; max-width: 220px; }
     .mapboxgl-popup-content strong { display: block; margin-bottom: 4px; }
     .mapboxgl-popup-content .addr { color: #555; margin-bottom: 4px; font-size: 12px; }
     .mapboxgl-popup-content a { color: #1565c0; text-decoration: none; }
-    .updated-badge { display: inline-block; background: #2e7d32; color: white;
-      font-size: 11px; padding: 1px 6px; border-radius: 3px; margin-bottom: 6px; }
-    #about {
-      position: absolute; bottom: 30px; right: 12px;
-      background: rgba(255,255,255,0.92); padding: 10px 14px;
-      border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-      font-size: 12px; line-height: 1.6; z-index: 1;
-      max-width: 280px;
+    .updated-badge {
+      display: inline-block; background: #2e7d32; color: white;
+      font-size: 11px; padding: 1px 6px; border-radius: 3px; margin-bottom: 6px;
     }
-    #about-header {
-      display: flex; justify-content: space-between; align-items: center;
-      cursor: pointer; user-select: none;
+
+    /* ── Site iframe overlay ── */
+    #site-overlay {
+      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 2000; flex-direction: column; background: #fff;
     }
-    #about-header h4 { margin: 0; font-size: 13px; font-weight: 600; }
-    #about-toggle { font-size: 16px; line-height: 1; color: #555; margin-left: 8px; }
-    #about-body { margin-top: 8px; color: #333; }
-    #about-body p { margin: 0 0 7px; }
-    #about-body p:last-child { margin-bottom: 0; }
+    #site-header {
+      display: flex; align-items: center; padding: 10px 12px;
+      background: #1565c0; color: #fff; gap: 10px; flex-shrink: 0; min-height: 48px;
+    }
+    #site-back-btn {
+      background: none; border: none; color: #fff; font-size: 15px; cursor: pointer;
+      padding: 6px 10px; border-radius: 4px; font-family: sans-serif; white-space: nowrap;
+    }
+    #site-back-btn:active { background: rgba(255,255,255,0.2); }
+    #site-name-label {
+      font-size: 13px; font-weight: 600; overflow: hidden;
+      text-overflow: ellipsis; white-space: nowrap; flex: 1;
+    }
+    #site-open-link { font-size: 11px; color: rgba(255,255,255,0.8); white-space: nowrap; }
+    #site-frame { flex: 1; border: none; width: 100%; }
+
+    /* ── Gallery directory section ── */
+    #gallery-section { background: #fafafa; border-top: 2px solid #e0e0e0; }
+
+    #gallery-section-header {
+      padding: 20px 20px 14px;
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    #gallery-section-header h2 { margin: 0 0 6px; font-size: 18px; color: #1a1a1a; }
+    #gallery-section-header p { margin: 0; font-size: 13px; color: #555; line-height: 1.6; }
+    #gallery-count-line { margin-top: 8px; font-size: 12px; color: #777; }
+
+    .ad-container {
+      padding: 12px 20px;
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      text-align: center;
+    }
+
+    #gallery-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+      padding: 16px 20px 40px;
+    }
+    .gallery-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 12px 14px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    }
+    .gallery-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+    .gallery-card--new { border-left: 3px solid #2e7d32; }
+    .card-name { font-size: 14px; font-weight: 600; color: #1a1a1a; margin-bottom: 4px; }
+    .card-meta { font-size: 12px; color: #666; margin-bottom: 6px; }
+    .card-boro {
+      display: inline-block; background: #e3f0ff; color: #1565c0;
+      border-radius: 3px; padding: 1px 6px; font-size: 11px; font-weight: 600;
+      margin-right: 4px;
+    }
+    .card-link { font-size: 12px; color: #1565c0; text-decoration: none; }
+    .card-link:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      #header-tagline { display: none; }
+      #map-wrapper { height: 50vh; }
+      #gallery-list { grid-template-columns: 1fr; gap: 8px; padding: 12px; }
+    }
   </style>
 </head>
 <body>
-<div id="site-header">
+
+<!-- ── Page header ── -->
+<div id="page-header">
   <span id="header-title">NYC Gallery Tracker</span>
   <span id="header-tagline">Track new shows at nearly 300 art galleries across all five NYC boroughs — updated weekly.</span>
 </div>
-<div id="map"></div>
-<div id="filter">
-  <span id="filter-label">Borough:</span>
-  <button class="boro-btn active" data-boro="all">All</button>
-  <button class="boro-btn" data-boro="Manhattan">Manhattan</button>
-  <button class="boro-btn" data-boro="Brooklyn">Brooklyn</button>
-  <button class="boro-btn" data-boro="Queens">Queens</button>
-  <button class="boro-btn" data-boro="Bronx">Bronx</button>
-  <button class="boro-btn" data-boro="Staten Island">Staten Island</button>
-</div>
-<div id="legend">
-  <h4>NYC Galleries</h4>
-  <div><span class="legend-dot" style="background:#2e7d32"></span>New show</div>
-  <div><span class="legend-dot" style="background:#9e9e9e"></span>No change</div>
-</div>
-<div id="about">
-  <div id="about-header" onclick="toggleAbout()" aria-expanded="true" aria-controls="about-body">
-    <h4>About this map</h4>
-    <span id="about-toggle">&#x25B2;</span>
+
+<!-- ── Map ── -->
+<div id="map-wrapper">
+  <div id="map"></div>
+  <div id="filter">
+    <span id="filter-label">Borough:</span>
+    <button class="boro-btn active" data-boro="all">All</button>
+    <button class="boro-btn" data-boro="Manhattan">Manhattan</button>
+    <button class="boro-btn" data-boro="Brooklyn">Brooklyn</button>
+    <button class="boro-btn" data-boro="Queens">Queens</button>
+    <button class="boro-btn" data-boro="Bronx">Bronx</button>
+    <button class="boro-btn" data-boro="Staten Island">Staten Island</button>
   </div>
-  <div id="about-body">
-    <p>I built this tracker after discovering a gallery I had walked past for decades without ever realizing it was there. With nearly 300 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, you might be standing right next to one without knowing it.</p>
-    <p><strong>How to Use the Map:</strong><br>
-    🟢 <strong>Green Dots:</strong> Galleries with a new show in the past 8 days.<br>
-    <span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#9e9e9e;vertical-align:middle;margin-right:3px;"></span><strong>Gray Dots:</strong> Galleries with ongoing exhibitions (dots revert after 8 days).<br>
-    <strong>Filters:</strong> Use the borough buttons at the top left to filter by neighborhood.</p>
-    <p>Save time — plan your next gallery walk without checking individual websites.</p>
-    <p style="margin-top:8px; font-size:11px; color:#777;"><a href="privacy.html" style="color:#777;">Privacy Policy</a></p>
+  <div id="legend">
+    <h4>NYC Galleries</h4>
+    <div><span class="legend-dot" style="background:#2e7d32"></span>New show</div>
+    <div><span class="legend-dot" style="background:#9e9e9e"></span>No change</div>
   </div>
 </div>
+
+<!-- ── Gallery website iframe overlay ── -->
+<div id="site-overlay">
+  <div id="site-header">
+    <button id="site-back-btn" onclick="closeSiteOverlay()">&#8592; Back to Map</button>
+    <span id="site-name-label"></span>
+    <a id="site-open-link" href="#" target="_blank">Open in browser</a>
+  </div>
+  <iframe id="site-frame" src="" allow="fullscreen"></iframe>
+</div>
+
+<!-- ── Gallery directory ── -->
+<div id="gallery-section">
+  <div id="gallery-section-header">
+    <h2>NYC Art Gallery Directory</h2>
+    <p>
+      Nearly 300 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island —
+      from blue-chip Chelsea dealers to independent spaces tucked in side streets.
+      Click any card to locate the gallery on the map above.
+      Cards with a green left border have opened a new show within the past 8 days.
+    </p>
+    <div id="gallery-count-line">Loading galleries…</div>
+  </div>
+
+  <div class="ad-container">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2163626960216920"
+         data-ad-slot="1654870742"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <div id="gallery-list"></div>
+</div>
+
 <script>
   mapboxgl.accessToken = 'pk.eyJ1IjoiamYxMTU3OSIsImEiOiJjbGdkdXkxbjgyZjN0M2xvN2lzZHBxMnF5In0.-MJnfMqsExHCNvSXbA9VXw';
   const STADIA_KEY = '3b014278-2ba3-4a9e-9f27-d627fde87907';
+
+  const cutoffDate = new Date();
+  cutoffDate.setDate(cutoffDate.getDate() - 8);
+  const cutoff = cutoffDate.toISOString().slice(0, 10);
+
   const map = new mapboxgl.Map({
     container: 'map',
     style: {
@@ -128,19 +229,115 @@
         { id: 'labels-layer', type: 'raster', source: 'toner-labels' }
       ]
     },
-    center: [-73.975, 40.710], zoom: 12
+    center: [-73.975, 40.710],
+    zoom: 12
   });
-  // Cutoff date for "New show" indicator — 8 days rolling window
-  const cutoffDate = new Date();
-  cutoffDate.setDate(cutoffDate.getDate() - 8);
-  const cutoff = cutoffDate.toISOString().slice(0, 10); // "YYYY-MM-DD"
 
   map.addControl(new mapboxgl.NavigationControl(), 'top-right');
-  map.on('load', () => {
-    map.addSource('galleries', {
-      type: 'geojson',
-      data: 'data/galleries.json?v=' + Date.now()
+
+  let allFeatures = [];
+  let activeBoro = 'all';
+  let popupUrl = null, popupName = null;
+
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function showMapPopup(coords, props) {
+    const isNew = props.last_updated && props.last_updated >= cutoff;
+    const badge = isNew ? '<span class="updated-badge">New show</span><br>' : '';
+    const addr = props.address ? `<div class="addr">${esc(props.address)}</div>` : '';
+    const site = props.url
+      ? `<a href="#" onclick="openSiteOverlay();return false;">Visit website</a>`
+      : '';
+    new mapboxgl.Popup({ offset: 10 })
+      .setLngLat(coords)
+      .setHTML(badge + `<strong>${esc(props.name)}</strong>` + addr + site)
+      .addTo(map);
+  }
+
+  function buildGalleryList(features) {
+    const filtered = activeBoro === 'all'
+      ? features
+      : features.filter(f => f.properties.borough === activeBoro);
+
+    const sorted = [...filtered].sort((a, b) => {
+      const aNew = !!(a.properties.last_updated && a.properties.last_updated >= cutoff);
+      const bNew = !!(b.properties.last_updated && b.properties.last_updated >= cutoff);
+      if (aNew !== bNew) return bNew ? 1 : -1;
+      return a.properties.name.localeCompare(b.properties.name);
     });
+
+    const label = activeBoro === 'all' ? 'all five boroughs' : activeBoro;
+    document.getElementById('gallery-count-line').textContent =
+      sorted.length + ' galleries — ' + label;
+
+    const list = document.getElementById('gallery-list');
+    list.innerHTML = '';
+
+    sorted.forEach(f => {
+      const p = f.properties;
+      const isNew = p.last_updated && p.last_updated >= cutoff;
+
+      const card = document.createElement('div');
+      card.className = 'gallery-card' + (isNew ? ' gallery-card--new' : '');
+
+      if (isNew) {
+        const badge = document.createElement('span');
+        badge.className = 'updated-badge';
+        badge.textContent = 'New show';
+        card.appendChild(badge);
+        card.appendChild(document.createElement('br'));
+      }
+
+      const nameEl = document.createElement('div');
+      nameEl.className = 'card-name';
+      nameEl.textContent = p.name;
+      card.appendChild(nameEl);
+
+      const metaEl = document.createElement('div');
+      metaEl.className = 'card-meta';
+      const boroSpan = document.createElement('span');
+      boroSpan.className = 'card-boro';
+      boroSpan.textContent = p.borough;
+      metaEl.appendChild(boroSpan);
+      if (p.address) {
+        metaEl.appendChild(document.createTextNode(' · ' + p.address));
+      }
+      card.appendChild(metaEl);
+
+      if (p.url) {
+        const link = document.createElement('a');
+        link.className = 'card-link';
+        link.href = p.url;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = 'Visit website ↗';
+        link.addEventListener('click', e => e.stopPropagation());
+        card.appendChild(link);
+      }
+
+      card.addEventListener('click', () => {
+        const coords = f.geometry.coordinates;
+        popupUrl = p.url || null;
+        popupName = p.name || '';
+        map.flyTo({ center: coords, zoom: 15, duration: 800 });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        showMapPopup(coords, p);
+      });
+
+      list.appendChild(card);
+    });
+  }
+
+  map.on('load', () => {
+    const dataUrl = 'data/galleries.json?v=' + Date.now();
+
+    map.addSource('galleries', { type: 'geojson', data: dataUrl });
     map.addLayer({
       id: 'galleries-layer', type: 'circle', source: 'galleries',
       paint: {
@@ -151,53 +348,55 @@
             ['!=', ['get', 'last_updated'], ''],
             ['>=', ['get', 'last_updated'], cutoff]
           ],
-          '#2e7d32',
-          '#9e9e9e'
+          '#2e7d32', '#9e9e9e'
         ],
         'circle-stroke-width': 2.5,
         'circle-stroke-color': '#ffffff',
         'circle-opacity': 1
       }
     });
+
     map.on('mouseenter', 'galleries-layer', () => { map.getCanvas().style.cursor = 'pointer'; });
     map.on('mouseleave', 'galleries-layer', () => { map.getCanvas().style.cursor = ''; });
-    map.on('click', 'galleries-layer', (e) => {
+    map.on('click', 'galleries-layer', e => {
       const props = e.features[0].properties;
       const coords = e.features[0].geometry.coordinates.slice();
-      const isNew = props.last_updated && props.last_updated >= cutoff;
-      const badge = isNew ? '<span class="updated-badge">New show</span><br>' : '';
-      const addr = props.address ? '<div class="addr">' + props.address + '</div>' : '';
-      const site = props.url ? '<a href="' + props.url + '" target="_blank">Visit website</a>' : '';
-      new mapboxgl.Popup({offset: 10})
-        .setLngLat(coords)
-        .setHTML(badge + '<strong>' + props.name + '</strong>' + addr + site)
-        .addTo(map);
+      popupUrl = props.url || null;
+      popupName = props.name || '';
+      showMapPopup(coords, props);
     });
+
+    fetch(dataUrl)
+      .then(r => r.json())
+      .then(data => {
+        allFeatures = data.features;
+        buildGalleryList(allFeatures);
+      });
   });
 
-  function toggleAbout() {
-    const body = document.getElementById('about-body');
-    const toggle = document.getElementById('about-toggle');
-    const header = document.getElementById('about-header');
-    const collapsed = body.style.display === 'none';
-    body.style.display = collapsed ? '' : 'none';
-    toggle.innerHTML = collapsed ? '&#x25B2;' : '&#x25BC;';
-    header.setAttribute('aria-expanded', collapsed);
+  function openSiteOverlay() {
+    if (!popupUrl) return;
+    document.getElementById('site-name-label').textContent = popupName;
+    document.getElementById('site-open-link').href = popupUrl;
+    document.getElementById('site-frame').src = popupUrl;
+    document.getElementById('site-overlay').style.display = 'flex';
+  }
+  function closeSiteOverlay() {
+    document.getElementById('site-overlay').style.display = 'none';
+    document.getElementById('site-frame').src = '';
   }
 
-  // Borough filter
-  let activeBoro = 'all';
   document.querySelectorAll('.boro-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.boro-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeBoro = btn.dataset.boro;
-      if (!map.getLayer('galleries-layer')) return;
-      if (activeBoro === 'all') {
-        map.setFilter('galleries-layer', null);
-      } else {
-        map.setFilter('galleries-layer', ['==', ['get', 'borough'], activeBoro]);
+      if (map.getLayer('galleries-layer')) {
+        map.setFilter('galleries-layer',
+          activeBoro === 'all' ? null : ['==', ['get', 'borough'], activeBoro]
+        );
       }
+      if (allFeatures.length) buildGalleryList(allFeatures);
     });
   });
 </script>
