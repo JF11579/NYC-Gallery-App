@@ -221,7 +221,7 @@
     const badge = isNew ? '<span class="updated-badge">New show</span><br>' : '';
     const addr = props.address ? `<div class="addr">${esc(props.address)}</div>` : '';
     const site = props.url
-      ? `<a href="${esc(props.url)}" target="_blank" rel="noopener">Visit website ↗</a>`
+      ? `<a href="${esc(props.url)}">Visit website ↗</a>`
       : '';
     new mapboxgl.Popup({ offset: 10 })
       .setLngLat(coords)
