@@ -19,6 +19,6 @@ jobs:
         run: |
           git config --global user.name "GalleryBot"
           git config --global user.email "bot@github.com"
-          git add data/galleries.json
+          git add data/galleries.json data/hashes.json
           git commit -m "Update gallery data" || exit 0
           git push
