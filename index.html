@@ -75,6 +75,10 @@
     }
     .boro-btn.active { background: #1565c0; color: #fff; border-color: #1565c0; }
     .boro-btn:hover:not(.active) { background: #f0f0f0; }
+    #boro-select {
+      display: none; font-size: 12px; padding: 4px 6px;
+      border: 1px solid #bbb; border-radius: 4px; font-family: sans-serif;
+    }
 
     #legend {
       position: absolute; bottom: 20px; left: 12px;
@@ -195,6 +199,8 @@
       #header-tagline { display: none; }
       #map-wrapper { height: 50vh; }
       #gallery-list { grid-template-columns: 1fr; gap: 8px; padding: 12px; }
+      #boro-buttons { display: none; }
+      #boro-select { display: inline-block; }
     }
   </style>
 </head>
@@ -234,12 +240,22 @@
   <div id="map"></div>
   <div id="filter">
     <span id="filter-label">Borough:</span>
-    <button class="boro-btn active" data-boro="all">All</button>
-    <button class="boro-btn" data-boro="Manhattan">Manhattan</button>
-    <button class="boro-btn" data-boro="Brooklyn">Brooklyn</button>
-    <button class="boro-btn" data-boro="Queens">Queens</button>
-    <button class="boro-btn" data-boro="Bronx">Bronx</button>
-    <button class="boro-btn" data-boro="Staten Island">Staten Island</button>
+    <div id="boro-buttons">
+      <button class="boro-btn active" data-boro="all">All</button>
+      <button class="boro-btn" data-boro="Manhattan">Manhattan</button>
+      <button class="boro-btn" data-boro="Brooklyn">Brooklyn</button>
+      <button class="boro-btn" data-boro="Queens">Queens</button>
+      <button class="boro-btn" data-boro="Bronx">Bronx</button>
+      <button class="boro-btn" data-boro="Staten Island">Staten Island</button>
+    </div>
+    <select id="boro-select" aria-label="Filter by borough">
+      <option value="all">All</option>
+      <option value="Manhattan">Manhattan</option>
+      <option value="Brooklyn">Brooklyn</option>
+      <option value="Queens">Queens</option>
+      <option value="Bronx">Bronx</option>
+      <option value="Staten Island">Staten Island</option>
+    </select>
   </div>
   <div id="legend">
     <h4>NYC Galleries</h4>
@@ -682,19 +698,25 @@
       });
   });
 
+  const boroSelect = document.getElementById('boro-select');
+
+  function setActiveBorough(boro) {
+    activeBoro = boro;
+    document.querySelectorAll('.boro-btn').forEach(b => b.classList.toggle('active', b.dataset.boro === boro));
+    boroSelect.value = boro;
+    if (map.getLayer('galleries-layer')) {
+      map.setFilter('galleries-layer',
+        activeBoro === 'all' ? null : ['==', ['get', 'borough'], activeBoro]
+      );
+    }
+    if (allFeatures.length) buildGalleryList(allFeatures);
+  }
+
   document.querySelectorAll('.boro-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.boro-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeBoro = btn.dataset.boro;
-      if (map.getLayer('galleries-layer')) {
-        map.setFilter('galleries-layer',
-          activeBoro === 'all' ? null : ['==', ['get', 'borough'], activeBoro]
-        );
-      }
-      if (allFeatures.length) buildGalleryList(allFeatures);
-    });
+    btn.addEventListener('click', () => setActiveBorough(btn.dataset.boro));
   });
+
+  boroSelect.addEventListener('change', () => setActiveBorough(boroSelect.value));
 
   // ── PWA install / bookmark nudge ──
   (function () {
