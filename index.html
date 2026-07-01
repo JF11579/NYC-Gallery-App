@@ -5,6 +5,13 @@
   <title>NYC Gallery Tracker — Interactive Art Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="NYC Art Gallery Tracker — an interactive map of nearly 300 art galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Green dots mark galleries with a new show in the past 8 days.">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1565c0">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="NYC Galleries">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18248246550"></script>
   <script>
@@ -87,6 +94,27 @@
       letter-spacing: 0.02em;
     }
 
+    /* ── Install / bookmark nudge ── */
+    #install-nudge {
+      display: none;
+      align-items: center; justify-content: center; gap: 10px;
+      flex-wrap: wrap;
+      text-align: center; padding: 8px 16px; font-size: 13px;
+      background: #1565c0; color: #fff;
+    }
+    #install-nudge.visible { display: flex; }
+    #install-cta {
+      background: #fff; color: #1565c0; border: none;
+      border-radius: 4px; padding: 4px 10px; font-size: 13px;
+      font-weight: 600; cursor: pointer; font-family: inherit;
+    }
+    #install-dismiss {
+      background: transparent; border: none; color: #fff;
+      opacity: 0.75; cursor: pointer; font-size: 15px; line-height: 1;
+      padding: 2px 4px;
+    }
+    #install-dismiss:hover { opacity: 1; }
+
     /* ── Gallery directory section ── */
     #gallery-section { background: #fafafa; border-top: 2px solid #e0e0e0; }
 
@@ -145,6 +173,13 @@
 <div id="page-header">
   <span id="header-title">NYC Gallery Tracker</span>
   <span id="header-tagline">Track new shows at nearly 300 art galleries across all five NYC boroughs — updated weekly.</span>
+</div>
+
+<!-- ── Install / bookmark nudge ── -->
+<div id="install-nudge">
+  <span id="install-text">New shows added weekly — install this app or bookmark the page so you don't miss one.</span>
+  <button id="install-cta" type="button">Install app</button>
+  <button id="install-dismiss" type="button" aria-label="Dismiss">&times;</button>
 </div>
 
 <!-- ── Map ── -->
@@ -613,6 +648,62 @@
       if (allFeatures.length) buildGalleryList(allFeatures);
     });
   });
+
+  // ── PWA install / bookmark nudge ──
+  (function () {
+    const DISMISS_KEY = 'installNudgeDismissed';
+    const nudge = document.getElementById('install-nudge');
+    const cta = document.getElementById('install-cta');
+    const text = document.getElementById('install-text');
+    const dismissBtn = document.getElementById('install-dismiss');
+
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches
+      || window.navigator.standalone === true;
+    const isIOS = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+
+    if (!isStandalone && !localStorage.getItem(DISMISS_KEY)) {
+      nudge.classList.add('visible');
+    }
+
+    dismissBtn.addEventListener('click', () => {
+      localStorage.setItem(DISMISS_KEY, '1');
+      nudge.classList.remove('visible');
+    });
+
+    let deferredPrompt = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      cta.style.display = 'inline-block';
+    });
+
+    if (isIOS) {
+      text.textContent = 'New shows added weekly — tap Share, then "Add to Home Screen" so you don\'t miss one.';
+      cta.style.display = 'none';
+    } else if (!deferredPrompt) {
+      // Hide the button until (if) the browser actually offers an install prompt;
+      // bookmark-only messaging still shows in the meantime.
+      cta.style.display = 'none';
+    }
+
+    cta.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      cta.style.display = 'none';
+    });
+
+    window.addEventListener('appinstalled', () => {
+      nudge.classList.remove('visible');
+    });
+  })();
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
 </script>
 </body>
 </html>
