@@ -4,10 +4,11 @@
 importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
 
 // Minimal app-shell cache so the site is installable (Chrome requires an
-// active service worker with a fetch handler). Only caches the shell itself;
-// map tiles and data/galleries.json always go to the network so listings
-// stay fresh.
-const CACHE = "nyc-gallery-shell-v1";
+// active service worker with a fetch handler). Network-first: always tries
+// to fetch the latest version first (and updates the cache with it), only
+// falling back to the cached copy when offline. A pure cache-first strategy
+// here would mean anyone who installed the app never sees content updates.
+const CACHE = "nyc-gallery-shell-v2";
 const SHELL_ASSETS = [
   "/",
   "/index.html",
@@ -37,6 +38,12 @@ self.addEventListener("fetch", (event) => {
     return; // let cross-origin (map tiles, ads) and live data requests pass straight through
   }
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request))
+    fetch(event.request)
+      .then((response) => {
+        const copy = response.clone();
+        caches.open(CACHE).then((cache) => cache.put(event.request, copy));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
