@@ -1,3 +1,8 @@
+// Merged with OneSignal's push handling per their "existing service worker"
+// integration guide, so this one file covers both PWA installability and
+// web push (avoids two service workers fighting over the same scope).
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
+
 // Minimal app-shell cache so the site is installable (Chrome requires an
 // active service worker with a fetch handler). Only caches the shell itself;
 // map tiles and data/galleries.json always go to the network so listings

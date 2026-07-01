@@ -30,6 +30,17 @@
     });
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163626960216920" crossorigin="anonymous"></script>
+  <!-- OneSignal (web push) -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function (OneSignal) {
+      await OneSignal.init({
+        appId: "9b54bece-1989-4d0c-ae26-bd3644b56c4d",
+        serviceWorkerPath: "sw.js",
+      });
+    });
+  </script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
   <style>
@@ -103,7 +114,7 @@
       background: #1565c0; color: #fff;
     }
     #install-nudge.visible { display: flex; }
-    #install-cta {
+    #install-cta, #notify-cta {
       background: #fff; color: #1565c0; border: none;
       border-radius: 4px; padding: 4px 10px; font-size: 13px;
       font-weight: 600; cursor: pointer; font-family: inherit;
@@ -179,6 +190,7 @@
 <div id="install-nudge">
   <span id="install-text">New shows added weekly — install this app or bookmark the page so you don't miss one.</span>
   <button id="install-cta" type="button">Install app</button>
+  <button id="notify-cta" type="button">Notify me</button>
   <button id="install-dismiss" type="button" aria-label="Dismiss">&times;</button>
 </div>
 
@@ -696,6 +708,29 @@
 
     window.addEventListener('appinstalled', () => {
       nudge.classList.remove('visible');
+    });
+
+    // ── Push notification opt-in (OneSignal) ──
+    // iOS only supports web push once installed to the home screen (standalone).
+    const notifyCta = document.getElementById('notify-cta');
+    notifyCta.style.display = 'none';
+
+    if (!(isIOS && !isStandalone) && window.OneSignalDeferred) {
+      window.OneSignalDeferred.push(async function (OneSignal) {
+        try {
+          if (!OneSignal.Notifications.permission) {
+            notifyCta.style.display = 'inline-block';
+          }
+        } catch (e) { /* push unsupported in this browser */ }
+      });
+    }
+
+    notifyCta.addEventListener('click', () => {
+      if (!window.OneSignalDeferred) return;
+      window.OneSignalDeferred.push(async function (OneSignal) {
+        await OneSignal.Notifications.requestPermission();
+        notifyCta.style.display = 'none';
+      });
     });
   })();
 
