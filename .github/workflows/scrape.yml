@@ -15,10 +15,12 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run scraper
         run: python scraper.py
+      - name: Bake gallery cards into index.html
+        run: python render_gallery_html.py
       - name: Commit data
         run: |
           git config --global user.name "GalleryBot"
           git config --global user.email "bot@github.com"
-          git add data/galleries.json data/hashes.json
+          git add data/galleries.json data/hashes.json index.html
           git commit -m "Update gallery data" || exit 0
           git push
