@@ -13,7 +13,7 @@ jobs:
           python-version: '3.9'
       - name: Install deps
         run: pip install -r requirements.txt
-      - name: Draft weekly digest in Buttondown
+      - name: Send weekly digest via Buttondown
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: python render_weekly_digest.py
