@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-render_weekly_digest.py — Drafts the weekly "new shows" email in Buttondown.
+render_weekly_digest.py — Sends the weekly "new shows" email via Buttondown.
 
 Reads data/galleries.json, finds galleries whose last_updated falls in the
-past 7 days, and creates a DRAFT email via the Buttondown API (never sends
-automatically — a human reviews and hits send in the Buttondown dashboard).
+past 7 days, and sends an email to all subscribers via the Buttondown API.
 If nothing changed this week, it skips creating an email entirely rather
 than sending an empty digest.
 
@@ -83,11 +82,11 @@ def main():
             "Authorization": f"Token {api_key}",
             "Content-Type": "application/json",
         },
-        json={"subject": subject, "body": body, "status": "draft"},
+        json={"subject": subject, "body": body, "status": "about_to_send"},
         timeout=30,
     )
     resp.raise_for_status()
-    print(f"Draft created: {subject} ({len(new_shows)} shows)")
+    print(f"Sent: {subject} ({len(new_shows)} shows)")
 
 
 if __name__ == "__main__":
