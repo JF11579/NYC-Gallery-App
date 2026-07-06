@@ -85,6 +85,8 @@ def main():
         json={"subject": subject, "body": body, "status": "about_to_send"},
         timeout=30,
     )
+    if not resp.ok:
+        print(f"Buttondown API error {resp.status_code}: {resp.text}", file=sys.stderr)
     resp.raise_for_status()
     print(f"Sent: {subject} ({len(new_shows)} shows)")
 
