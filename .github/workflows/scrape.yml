@@ -24,3 +24,10 @@ jobs:
           git add data/galleries.json index.html
           git commit -m "Update gallery data" || exit 0
           git push
+      - name: Send weekly digest (Mondays only)
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          if [ "$(date -u +%u)" -eq 1 ]; then
+            python render_weekly_digest.py
+          fi
