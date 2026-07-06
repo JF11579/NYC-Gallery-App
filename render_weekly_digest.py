@@ -81,6 +81,7 @@ def main():
         headers={
             "Authorization": f"Token {api_key}",
             "Content-Type": "application/json",
+            "X-Buttondown-Live-Dangerously": "true",
         },
         json={"subject": subject, "body": body, "status": "about_to_send"},
         timeout=30,
