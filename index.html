@@ -42,7 +42,7 @@
     });
   </script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
-  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js" defer></script>
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; padding: 0; font-family: sans-serif; }
@@ -529,6 +529,7 @@
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', function () {
   mapboxgl.accessToken = 'pk.eyJ1IjoiamYxMTU3OSIsImEiOiJjbGdkdXkxbjgyZjN0M2xvN2lzZHBxMnF5In0.-MJnfMqsExHCNvSXbA9VXw';
   const STADIA_KEY = '3b014278-2ba3-4a9e-9f27-d627fde87907';
 
@@ -796,6 +797,7 @@
       navigator.serviceWorker.register('sw.js').catch(() => {});
     });
   }
+});
 </script>
 </body>
 </html>
