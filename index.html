@@ -152,9 +152,10 @@
     #digest-signup {
       padding: 8px 16px;
       background: #f0f6ff; border-bottom: 1px solid #cfe0fa;
-      display: flex; align-items: center; justify-content: center;
+      display: none; align-items: center; justify-content: center;
       gap: 10px; flex-wrap: wrap;
     }
+    #digest-signup.visible { display: flex; }
     #digest-signup p { margin: 0; font-size: 13px; color: #333; }
     #digest-signup form { display: flex; gap: 6px; }
     #digest-signup input[type="email"] {
@@ -219,29 +220,6 @@
   <a id="header-about" href="about.html">About</a>
 </div>
 
-<!-- ── Install / bookmark nudge ── -->
-<div id="install-nudge">
-  <span id="install-text">New shows added weekly — install this app or bookmark the page so you don't miss one.</span>
-  <button id="install-cta" type="button">Install app</button>
-  <button id="notify-cta" type="button">Notify me</button>
-  <button id="install-dismiss" type="button" aria-label="Dismiss">&times;</button>
-</div>
-
-<!-- ── Email digest signup ── -->
-<div id="digest-signup">
-  <p>We check for new shows once a week — if there's something new, we'll let you know. No spam, unsubscribe anytime.</p>
-  <form
-    action="https://buttondown.com/api/emails/embed-subscribe/nycgallerytracker"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.com/api/emails/embed-subscribe/nycgallerytracker', 'popupwindow')"
-  >
-    <input type="email" name="email" placeholder="you@example.com" required>
-    <input type="hidden" value="1" name="embed">
-    <input type="submit" value="Subscribe">
-  </form>
-</div>
-
 <!-- ── Map ── -->
 <div id="map-wrapper">
   <div id="map"></div>
@@ -273,6 +251,29 @@
 
 <!-- ── Scroll nudge ── -->
 <div id="scroll-nudge">&#8595; Scroll down for the full gallery directory</div>
+
+<!-- ── Install / bookmark nudge (below the map: seen only after a visitor scrolls past it — i.e. after demonstrated interest) ── -->
+<div id="install-nudge">
+  <span id="install-text">New shows added weekly — install this app or bookmark the page so you don't miss one.</span>
+  <button id="install-cta" type="button">Install app</button>
+  <button id="notify-cta" type="button">Notify me</button>
+  <button id="install-dismiss" type="button" aria-label="Dismiss">&times;</button>
+</div>
+
+<!-- ── Email digest signup (below the map, after demonstrated interest) ── -->
+<div id="digest-signup">
+  <p>We check for new shows once a week — if there's something new, we'll let you know. No spam, unsubscribe anytime.</p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/nycgallerytracker"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/api/emails/embed-subscribe/nycgallerytracker', 'popupwindow')"
+  >
+    <input type="email" name="email" placeholder="you@example.com" required>
+    <input type="hidden" value="1" name="embed">
+    <input type="submit" value="Subscribe">
+  </form>
+</div>
 
 <!-- ── Gallery directory ── -->
 <div id="gallery-section">
@@ -755,9 +756,24 @@ document.addEventListener('DOMContentLoaded', function () {
       || window.navigator.standalone === true;
     const isIOS = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
 
-    if (!isStandalone && !localStorage.getItem(DISMISS_KEY)) {
-      nudge.classList.add('visible');
+    // Reveal the install nudge + email signup only after the visitor shows
+    // interest by scrolling past the map — never on first paint. Keeps the
+    // landing view content-first (the map leads) so ad-clickers aren't hit
+    // with two asks before seeing a single gallery.
+    const digest = document.getElementById('digest-signup');
+    const canShowNudge = !isStandalone && !localStorage.getItem(DISMISS_KEY);
+    let asksRevealed = false;
+    function revealAsks() {
+      if (asksRevealed) return;
+      asksRevealed = true;
+      window.removeEventListener('scroll', onScroll);
+      if (canShowNudge) nudge.classList.add('visible');
+      if (digest) digest.classList.add('visible');
     }
+    function onScroll() {
+      if (window.scrollY > 140) revealAsks();
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
 
     dismissBtn.addEventListener('click', () => {
       localStorage.setItem(DISMISS_KEY, '1');
