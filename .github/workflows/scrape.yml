@@ -17,11 +17,13 @@ jobs:
         run: python scraper.py
       - name: Bake gallery cards into index.html
         run: python render_gallery_html.py
+      - name: Generate neighborhood/borough landing pages
+        run: python render_area_pages.py
       - name: Commit data
         run: |
           git config --global user.name "GalleryBot"
           git config --global user.email "bot@github.com"
-          git add data/galleries.json index.html
+          git add data/galleries.json index.html sitemap.xml galleries/
           git commit -m "Update gallery data" || exit 0
           git push
       - name: Send weekly digest (Mondays only)
