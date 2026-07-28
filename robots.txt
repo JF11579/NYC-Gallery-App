@@ -1,0 +1,5 @@
+# NYC Gallery Tracker — https://nyc-gallery-app.netlify.app/
+User-agent: *
+Allow: /
+
+Sitemap: https://nyc-gallery-app.netlify.app/sitemap.xml

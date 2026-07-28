@@ -12,6 +12,46 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="NYC Galleries">
+
+  <!-- Canonical + social share cards (Open Graph / Twitter) -->
+  <link rel="canonical" href="https://nyc-gallery-app.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NYC Gallery Tracker">
+  <meta property="og:url" content="https://nyc-gallery-app.netlify.app/">
+  <meta property="og:title" content="NYC Gallery Tracker — Interactive Art Map">
+  <meta property="og:description" content="An interactive map of nearly 300 art galleries across all five NYC boroughs. See which galleries opened a new show this week — and find the ones near you.">
+  <meta property="og:image" content="https://nyc-gallery-app.netlify.app/docs/map.png">
+  <meta property="og:image:width" content="1140">
+  <meta property="og:image:height" content="760">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NYC Gallery Tracker — Interactive Art Map">
+  <meta name="twitter:description" content="An interactive map of nearly 300 art galleries across all five NYC boroughs, updated weekly with new shows.">
+  <meta name="twitter:image" content="https://nyc-gallery-app.netlify.app/docs/map.png">
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://nyc-gallery-app.netlify.app/#website",
+        "url": "https://nyc-gallery-app.netlify.app/",
+        "name": "NYC Gallery Tracker",
+        "description": "An interactive map of nearly 300 art galleries across all five NYC boroughs, updated weekly with new shows.",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://nyc-gallery-app.netlify.app/#org",
+        "name": "NYC Gallery Tracker",
+        "url": "https://nyc-gallery-app.netlify.app/",
+        "logo": "https://nyc-gallery-app.netlify.app/icons/icon-512.png"
+      }
+    ]
+  }
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18248246550"></script>
   <script>
