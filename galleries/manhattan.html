@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <title>Art Galleries in Manhattan — Map &amp; Directory | NYC Gallery Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Find 140 art galleries in Manhattan. An interactive, weekly-updated map and directory of NYC art galleries.">
+  <meta name="description" content="Find 140 art galleries in Manhattan. An interactive, weekly-updated map and guide to NYC art galleries.">
   <link rel="canonical" href="https://nyc-gallery-app.netlify.app/galleries/manhattan.html">
   <link rel="icon" href="/icons/icon-192.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NYC Gallery Tracker">
   <meta property="og:url" content="https://nyc-gallery-app.netlify.app/galleries/manhattan.html">
   <meta property="og:title" content="Art Galleries in Manhattan">
-  <meta property="og:description" content="Find 140 art galleries in Manhattan. An interactive, weekly-updated map and directory of NYC art galleries.">
+  <meta property="og:description" content="Find 140 art galleries in Manhattan. An interactive, weekly-updated map and guide to NYC art galleries.">
   <meta property="og:image" content="https://nyc-gallery-app.netlify.app/docs/map.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://nyc-gallery-app.netlify.app/docs/map.png">
@@ -21,7 +21,7 @@
   "@type": "CollectionPage",
   "name": "Art Galleries in Manhattan",
   "url": "https://nyc-gallery-app.netlify.app/galleries/manhattan.html",
-  "description": "Find 140 art galleries in Manhattan. An interactive, weekly-updated map and directory of NYC art galleries.",
+  "description": "Find 140 art galleries in Manhattan. An interactive, weekly-updated map and guide to NYC art galleries.",
   "mainEntity": {
     "@type": "ItemList",
     "numberOfItems": 140,
@@ -1433,13 +1433,15 @@
     :root { --blue:#1565c0; }
     * { box-sizing:border-box; }
     body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-           line-height:1.5; color:#1a1a1a; margin:0; background:#fafafa; }
+           line-height:1.6; color:#1a1a1a; margin:0; background:#fafafa; }
     header { background:var(--blue); color:#fff; padding:14px 20px; }
     header a { color:#fff; text-decoration:none; font-weight:600; }
     main { max-width:820px; margin:0 auto; padding:24px 20px 60px; }
     h1 { font-size:1.7rem; margin:.2em 0; }
-    .intro { font-size:1.05rem; color:#333; }
+    h2 { font-size:1.25rem; margin:1.6em 0 .4em; }
+    .intro { font-size:1.1rem; color:#333; }
     .count { color:#555; font-size:.95rem; margin:.5em 0 1.2em; }
+    section.about p { color:#333; }
     ul.galleries { list-style:none; padding:0; }
     ul.galleries li { background:#fff; border:1px solid #e5e5e5; border-radius:8px;
                        padding:12px 14px; margin-bottom:8px; }
@@ -1458,7 +1460,7 @@
   <header><a href="/">← NYC Gallery Tracker — interactive map</a></header>
   <main>
     <h1>Art Galleries in Manhattan</h1>
-    <p class="intro">From the blue-chip galleries of Chelsea to the artist-run spaces of the Lower East Side, Manhattan holds the densest concentration of art galleries in New York City. This is a live map and directory of every one we track across the borough.</p>
+    <p class="intro">From the blue-chip powerhouses of Chelsea to the artist-run storefronts of the Lower East Side, Manhattan holds the densest concentration of art galleries anywhere in the United States.</p>
     <p class="count">140 galleries · green = new show this week</p>
     <ul class="galleries">
             <li><span class="new">New show</span> <strong>201@105</strong><span class="meta">Manhattan · 105 Mulberry St</span> — <a href="http://www.201at105.com/" target="_blank" rel="noopener">website ↗</a></li>
@@ -1603,13 +1605,19 @@
       <li><strong>YveYANG</strong><span class="meta">Manhattan · 12 Wooster St</span> — <a href="https://www.yveyang.com/" target="_blank" rel="noopener">website ↗</a></li>
     </ul>
     <a class="back" href="/">← See all of these on the interactive map</a>
+    <section class="about">
+      <h2>About art galleries in Manhattan</h2>
+      <p>Manhattan's gallery world is really several worlds stacked onto one island. Chelsea, in the West 20s, is the commercial heart, home to mega-galleries like Gagosian, Pace, David Zwirner, and Hauser &amp; Wirth, whose museum-scale exhibitions are free and open to anyone who walks in. A short subway ride south, the Lower East Side and Tribeca host a younger, faster-moving scene of smaller rooms showing emerging and mid-career artists, while the Upper East Side leans toward established modern and postwar work near the museums.</p>
+      <p>What surprises most people is how many of these galleries hide in plain sight, on upper floors, behind unmarked doors, or tucked between shopfronts you've walked past a hundred times. Almost all of them are free, and you are welcome to browse without buying anything at all. Thursday evenings are traditionally when new shows open, often with a crowd spilling onto the sidewalk.</p>
+      <p>This page maps every Manhattan gallery we track. Use the interactive map to plot a walking route, or pick a neighborhood below to focus on one district at a time.</p>
+    </section>
     <nav class="areas">
       <p><strong>Browse other areas:</strong></p>
       <p><strong>Manhattan:</strong> <a href="/galleries/chelsea.html">Chelsea</a> · <a href="/galleries/east-village.html">East Village</a> · <a href="/galleries/lower-east-side.html">Lower East Side</a> · <a href="/galleries/soho.html">SoHo</a> · <a href="/galleries/tribeca.html">Tribeca</a> · <a href="/galleries/upper-east-side.html">Upper East Side</a></p>
-<p><strong>Brooklyn:</strong> <a href="/galleries/brooklyn.html">Brooklyn</a> · <a href="/galleries/bushwick.html">Bushwick</a> · <a href="/galleries/dumbo.html">DUMBO</a> · <a href="/galleries/greenpoint.html">Greenpoint</a> · <a href="/galleries/williamsburg.html">Williamsburg</a></p>
-<p><strong>Queens:</strong> <a href="/galleries/queens.html">Queens</a></p>
-<p><strong>Bronx:</strong> <a href="/galleries/bronx.html">Bronx</a></p>
-<p><strong>Staten Island:</strong> <a href="/galleries/staten-island.html">Staten Island</a></p>
+      <p><strong>Brooklyn:</strong> <a href="/galleries/brooklyn.html">Brooklyn</a> · <a href="/galleries/bushwick.html">Bushwick</a> · <a href="/galleries/dumbo.html">DUMBO</a> · <a href="/galleries/greenpoint.html">Greenpoint</a> · <a href="/galleries/williamsburg.html">Williamsburg</a></p>
+      <p><strong>Queens:</strong> <a href="/galleries/queens.html">Queens</a></p>
+      <p><strong>Bronx:</strong> <a href="/galleries/bronx.html">Bronx</a></p>
+      <p><strong>Staten Island:</strong> <a href="/galleries/staten-island.html">Staten Island</a></p>
     </nav>
   </main>
 </body>

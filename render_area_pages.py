@@ -7,11 +7,14 @@ URL. People search "art galleries in Chelsea", "Bushwick galleries", "art galler
 Brooklyn" — long-tail queries a single-page app can't rank for. This script reads
 data/galleries.json and bakes a static, crawlable page per AREA:
 
-  • one page per borough (all 5)                        -> /galleries/manhattan.html ...
+  • one page per borough (all 5)                          -> /galleries/manhattan.html ...
   • one page per major art neighborhood (>= MIN_GALLERIES) -> /galleries/chelsea.html ...
 
-Each page has a unique title/description, real intro copy, the gallery list, schema.org
-ItemList structured data, and internal links to sibling areas + the map. It also:
+Each page carries a unique, original write-up (see AREA_CONTENT) plus the gallery list,
+schema.org ItemList structured data, and internal links to sibling areas + the map. The
+original editorial copy matters for two reasons: it's what ranks in search, and it's what
+AdSense requires — the site was rejected 2026-07-28 for "low value content" (thin/aggregated
+listings), and substantial original writing is the fix. It also:
 
   • rewrites sitemap.xml to include every generated page, and
   • injects a "Browse by neighborhood" link block into index.html
@@ -84,22 +87,119 @@ NEIGHBORHOOD_BOROUGH = {
 
 BOROUGHS = ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"]
 
-# Hand-written intros for the areas most likely to draw search traffic. Anything
-# without an entry gets a templated intro (see intro_for()).
-INTROS = {
-    "Manhattan": "From the blue-chip galleries of Chelsea to the artist-run spaces of the Lower East Side, Manhattan holds the densest concentration of art galleries in New York City. This is a live map and directory of every one we track across the borough.",
-    "Brooklyn": "Brooklyn's gallery scene has exploded beyond Williamsburg and DUMBO into Bushwick, Bed-Stuy, and beyond — a mix of commercial galleries, non-profits, and artist-run project spaces. Here's a live map of every Brooklyn gallery we track.",
-    "Queens": "Queens punches above its weight, anchored by the Long Island City art district and institutions like MoMA PS1 and SculptureCenter. Here are the galleries and art spaces we track across the borough.",
-    "Bronx": "The Bronx doesn't have the gallery-scene reputation of the other boroughs, but there's a genuine, active scene here for anyone paying attention. These are the art spaces we track across the borough.",
-    "Staten Island": "Staten Island's art scene is small but real, centered on Snug Harbor. These are the art spaces we track on the island.",
-    "Chelsea": "Chelsea is the heart of the New York gallery world — hundreds of galleries packed into the West 20s between 10th and 11th Avenues, from mega-galleries to intimate rooms. Here's a live map of the Chelsea galleries we track.",
-    "SoHo": "Once the center of the downtown art world and now a mix of returning galleries and design showrooms, SoHo still rewards a gallery walk along its cast-iron streets. Here are the SoHo galleries we track.",
-    "Lower East Side": "The Lower East Side is where much of New York's younger, experimental gallery energy lives — small storefront spaces packed between Orchard, Henry, and Canal. Here's a live map of the LES galleries we track.",
-    "Tribeca": "Tribeca has quietly become one of the city's fastest-growing gallery districts, with dozens of spaces tucked into its lofts and ground floors. Here are the Tribeca galleries we track.",
-    "Upper East Side": "The Upper East Side pairs its museums with a cluster of established galleries, many specializing in modern and postwar work. Here are the UES galleries we track.",
-    "Bushwick": "Bushwick is Brooklyn's most concentrated artist-run gallery district — a sprawl of project spaces, studios, and non-profits, busiest during its open-studio weekends. Here's a live map of the Bushwick galleries we track.",
-    "Williamsburg": "Williamsburg helped kick off Brooklyn's gallery boom and still holds a strong mix of galleries and art spaces near the waterfront. Here are the Williamsburg galleries we track.",
-    "DUMBO": "DUMBO packs a dense cluster of galleries and non-profits into a few cobblestoned blocks under the bridges, with river views as a bonus. Here are the DUMBO galleries we track.",
+# Original, hand-written copy for each area: a one-line "lead" (used for the intro and
+# meta/OG description) plus "body" paragraphs shown in an "About" section. This is the
+# original content that both ranks in search and satisfies AdSense's content bar.
+AREA_CONTENT = {
+    "Manhattan": {
+        "lead": "From the blue-chip powerhouses of Chelsea to the artist-run storefronts of the Lower East Side, Manhattan holds the densest concentration of art galleries anywhere in the United States.",
+        "body": [
+            "Manhattan's gallery world is really several worlds stacked onto one island. Chelsea, in the West 20s, is the commercial heart, home to mega-galleries like Gagosian, Pace, David Zwirner, and Hauser & Wirth, whose museum-scale exhibitions are free and open to anyone who walks in. A short subway ride south, the Lower East Side and Tribeca host a younger, faster-moving scene of smaller rooms showing emerging and mid-career artists, while the Upper East Side leans toward established modern and postwar work near the museums.",
+            "What surprises most people is how many of these galleries hide in plain sight, on upper floors, behind unmarked doors, or tucked between shopfronts you've walked past a hundred times. Almost all of them are free, and you are welcome to browse without buying anything at all. Thursday evenings are traditionally when new shows open, often with a crowd spilling onto the sidewalk.",
+            "This page maps every Manhattan gallery we track. Use the interactive map to plot a walking route, or pick a neighborhood below to focus on one district at a time.",
+        ],
+    },
+    "Brooklyn": {
+        "lead": "Brooklyn's gallery scene has grown from a handful of Williamsburg lofts into one of the most exciting and experimental art landscapes in the country.",
+        "body": [
+            "Where Manhattan's galleries can feel polished and commercial, Brooklyn's tend to be scrappier, cheaper to run, and closer to the artists themselves. The energy is concentrated in a few districts: Bushwick, with its dense sprawl of artist-run project spaces; Williamsburg, the original Brooklyn art hub; and DUMBO, where galleries and non-profits cluster under the bridges. Greenpoint, Bed-Stuy, and Gowanus round out a scene that keeps spreading as rents shift.",
+            "Because so many Brooklyn spaces are run by working artists and small collectives, the shows here often take more risks than their Manhattan counterparts, and the neighborhoods reward wandering. Weekend afternoons are the easiest time to visit, and events like Bushwick's open-studio weekends throw open dozens of doors at once.",
+            "Below is every Brooklyn gallery we track, mapped and grouped by neighborhood so you can plan a route across the borough.",
+        ],
+    },
+    "Queens": {
+        "lead": "Queens punches far above its reputation, anchored by the Long Island City art district just one subway stop from Midtown Manhattan.",
+        "body": [
+            "Long Island City is the center of gravity, home to major institutions like MoMA PS1, one of the oldest and largest contemporary art spaces in the country, and SculptureCenter, along with the outdoor Socrates Sculpture Park and Noguchi Museum nearby. Together they make LIC a genuine destination, easily reached across the river yet far less crowded than Chelsea.",
+            "Beyond the institutions, Queens has a quieter network of galleries and artist spaces reflecting the most diverse county in the United States. It rarely gets mentioned in the same breath as Manhattan or Brooklyn, which is exactly why it stays a scene hiding in plain sight.",
+            "These are the galleries and art spaces we track across Queens. Use the map to find the ones near you.",
+        ],
+    },
+    "Bronx": {
+        "lead": "The Bronx doesn't have the gallery-scene reputation of the other boroughs, but there's a real, active art community here for anyone paying attention.",
+        "body": [
+            "The anchor is the Bronx Museum of the Arts on the Grand Concourse, which is free to visit and has long championed artists of color and work rooted in the borough's communities. Around it sits a network of non-profit spaces, artist studios, and community arts organizations that rarely make the citywide press but form a genuine, homegrown scene.",
+            "The Bronx rewards curiosity more than any other borough on this map: the galleries here are fewer and more spread out, so a visit is as much about the neighborhoods as the art itself. These are the art spaces we currently track across the borough.",
+        ],
+    },
+    "Staten Island": {
+        "lead": "Staten Island's art scene is small but real, centered on the Snug Harbor Cultural Center on the borough's north shore.",
+        "body": [
+            "Snug Harbor, a former sailors' retirement community turned cultural campus, is home to the Newhouse Center for Contemporary Art and set among botanical gardens worth the trip on their own. The nearby Staten Island Museum rounds out the borough's main art offerings.",
+            "The ride over on the free Staten Island Ferry, with its views of the harbor and the Statue of Liberty, is half the appeal. These are the art spaces we track on the island.",
+        ],
+    },
+    "Chelsea": {
+        "lead": "Chelsea is the center of gravity for the New York gallery world, with several hundred galleries packed into the West 20s between Tenth and Eleventh Avenues.",
+        "body": [
+            "If you visit one gallery district in New York, make it Chelsea. Within a few walkable blocks you'll find the flagship spaces of the industry's biggest names, Gagosian, Pace, David Zwirner, Hauser & Wirth, Gladstone, and Matthew Marks among them, alongside dozens of mid-size and specialist galleries. Shows rotate roughly every six weeks and are free to walk into; many feel closer to museum exhibitions than sales rooms.",
+            "The neighborhood grew up alongside the High Line, the elevated park that threads through it, and the two pair naturally: an afternoon can easily combine a stroll above with a dozen gallery visits below. Openings cluster on Thursday evenings, when the streets fill and galleries stay open late. Don't be put off by the polished interiors, no one expects you to buy, and browsing is the whole point.",
+            "Below is every Chelsea gallery we track. Tap any one to place it on the map and plan your route.",
+        ],
+    },
+    "SoHo": {
+        "lead": "SoHo was the epicenter of the New York art world in the 1970s and '80s, and after decades as a shopping district, galleries have been steadily returning to its cast-iron streets.",
+        "body": [
+            "This is where the modern gallery scene was effectively invented: dealers like Leo Castelli and a generation of artists who took over cheap industrial lofts turned SoHo into the center of contemporary art before Chelsea existed. The galleries largely left in the 1990s as luxury retail moved in, but the cast-iron architecture and the history remained.",
+            "In recent years galleries have come back, sharing the neighborhood with flagship stores and design showrooms, which makes SoHo one of the more browsable districts in the city: art, architecture, and window-shopping on the same walk. These are the SoHo galleries we currently track.",
+        ],
+    },
+    "Tribeca": {
+        "lead": "Once quiet after dark, Tribeca has become one of the fastest-growing gallery districts in New York.",
+        "body": [
+            "Over the past several years, galleries priced out of Chelsea or looking for a change have migrated to Tribeca's ground floors and lofts, and the neighborhood now hosts a serious concentration of contemporary spaces. Because they're spread among restaurants, residences, and cobblestoned side streets rather than lined up on a single block, discovering them feels more like exploring than gallery-hopping.",
+            "The mix ranges from established names to younger galleries showing emerging artists, and the relative quiet compared with Chelsea is part of the appeal. These are the Tribeca galleries we track.",
+        ],
+    },
+    "Lower East Side": {
+        "lead": "The Lower East Side is where much of New York's younger and more experimental gallery energy lives.",
+        "body": [
+            "Historically a dense immigrant neighborhood, the LES became an art destination as small galleries opened in former storefronts along Orchard, Henry, Broome, and Canal Streets. The spaces here are typically compact and independent, and they tend to show emerging and mid-career artists before the bigger uptown galleries catch on, which makes the neighborhood one of the best places in the city to see what's next.",
+            "Everything is tightly packed and walkable, so you can see a dozen shows in an afternoon and still have time for the neighborhood's cafes and bars. These are the Lower East Side galleries we track.",
+        ],
+    },
+    "East Village": {
+        "lead": "The East Village gave the 1980s one of its defining art movements, and a handful of galleries keep that scrappy, independent spirit alive today.",
+        "body": [
+            "In the early 1980s, storefront galleries across the East Village launched careers and helped define a raw, street-connected downtown scene. Most of those spaces are long gone, but the neighborhood retains a do-it-yourself character, and the galleries here now tend to be small, independent, and unafraid of the offbeat.",
+            "Visiting the East Village is as much about the neighborhood as the art, with its bookshops, record stores, and community gardens between stops. These are the galleries we track in the area.",
+        ],
+    },
+    "Upper East Side": {
+        "lead": "The Upper East Side pairs world-class museums with a cluster of established galleries specializing in modern, postwar, and blue-chip work.",
+        "body": [
+            "This is the most genteel of the city's gallery districts, set among the townhouses and grand apartment buildings near Museum Mile. With the Met, the Guggenheim, the Frick, and the Neue Galerie all close by, the neighborhood's galleries lean toward the classical and the historical, secondary-market masterworks and established names rather than emerging experiments.",
+            "It makes for a rewarding day that mixes museums and galleries in a single walk, especially along Madison Avenue and the side streets off it. These are the Upper East Side galleries we track.",
+        ],
+    },
+    "Bushwick": {
+        "lead": "Bushwick is Brooklyn's most concentrated artist-run gallery district, a sprawl of project spaces, studios, and non-profit galleries in former industrial buildings.",
+        "body": [
+            "If Chelsea is the polished, commercial face of the New York art world, Bushwick is its opposite: raw, affordable, and driven by working artists rather than dealers. Galleries here often occupy warehouse floors and share buildings with the studios of the artists they show, and the scene skews young, experimental, and community-minded.",
+            "The best time to visit is during the neighborhood's open-studio weekends, when dozens of spaces throw open their doors at once, but there's plenty to see year-round. Come ready to wander; the industrial blocks aren't obviously arty until you find the right door. These are the Bushwick galleries we track.",
+        ],
+    },
+    "Williamsburg": {
+        "lead": "Williamsburg helped launch Brooklyn's rise as an art destination, and it still holds a strong mix of galleries and creative spaces near the waterfront.",
+        "body": [
+            "In the late 1990s and early 2000s, Williamsburg was the frontier of the Brooklyn art scene, drawing artists across the river with cheap space and a DIY ethos. The neighborhood has changed enormously since, but a real gallery presence remains, now sharing the streets with music venues, design studios, and some of the best skyline views in the city.",
+            "It pairs easily with a walk along the East River waterfront and is a short subway hop or ferry ride from Manhattan. These are the Williamsburg galleries we track.",
+        ],
+    },
+    "DUMBO": {
+        "lead": "DUMBO packs a dense cluster of galleries and arts organizations into a few cobblestoned blocks beneath the Manhattan and Brooklyn Bridges.",
+        "body": [
+            "Down Under the Manhattan Bridge Overpass, DUMBO is one of the most photogenic corners of New York, and one of the most walkable art districts: galleries, non-profit art organizations, and creative studios sit within a few short blocks, framed by the bridges and the river. The neighborhood has long positioned itself as an arts hub, and the concentration of spaces makes it easy to see a lot in a little time.",
+            "Combine a gallery walk with the waterfront park and the bridge views and it's one of the more scenic art outings in the city. These are the DUMBO galleries we track.",
+        ],
+    },
+    "Greenpoint": {
+        "lead": "Greenpoint's gallery scene is younger and quieter than its neighbors', an emerging art district at the northern tip of Brooklyn.",
+        "body": [
+            "Long known as the city's Polish neighborhood, Greenpoint has gradually drawn artists and small galleries north from Williamsburg in search of space, and a low-key but growing scene has taken root among its warehouses and waterfront. The galleries here are still relatively few and far between, which is part of the appeal for anyone who likes discovering a district before it's on everyone's map.",
+            "It rewards a relaxed wander, with strong food and coffee to break up the walk. These are the Greenpoint galleries we track.",
+        ],
+    },
 }
 
 
@@ -134,9 +234,9 @@ def esc(value):
     )
 
 
-def intro_for(area, borough):
-    if area in INTROS:
-        return INTROS[area]
+def lead_for(area, borough):
+    if area in AREA_CONTENT:
+        return AREA_CONTENT[area]["lead"]
     where = area if area in BOROUGHS else f"{area}, {borough}"
     return (
         f"A live map and directory of the art galleries we track in {where}. "
@@ -144,14 +244,27 @@ def intro_for(area, borough):
     )
 
 
+def body_for(area, borough):
+    if area in AREA_CONTENT:
+        return AREA_CONTENT[area]["body"]
+    where = area if area in BOROUGHS else f"{area}, {borough}"
+    return [
+        f"This page collects the art galleries we track in {where}, mapped so you can "
+        "see which ones are near you and plan a route between them. Almost every gallery "
+        "in New York is free to enter, and you're welcome to browse without buying anything.",
+        "Use the interactive map to explore, and check back as the list grows.",
+    ]
+
+
 def render_page(area, borough, galleries, all_areas, cutoff):
     slug = slugify(area)
     is_borough = area in BOROUGHS
     where = area if is_borough else f"{area}, {borough}"
+    scene = f"art galleries in {where}" if is_borough else f"the {area} gallery scene"
     title = f"Art Galleries in {where} — Map & Directory | NYC Gallery Tracker"
     desc = (
         f"Find {len(galleries)} art galleries in {where}. "
-        "An interactive, weekly-updated map and directory of NYC art galleries."
+        "An interactive, weekly-updated map and guide to NYC art galleries."
     )
     url = f"{BASE_URL}/galleries/{slug}.html"
 
@@ -162,13 +275,11 @@ def render_page(area, borough, galleries, all_areas, cutoff):
     galleries = sorted(galleries, key=lambda g: (0 if is_new(g) else 1,
                                                  g["properties"]["name"].lower()))
 
-    # gallery list markup
     cards = []
     items = []
     for i, g in enumerate(galleries, 1):
         p = g["properties"]
-        new = is_new(g)
-        badge = '<span class="new">New show</span> ' if new else ""
+        badge = '<span class="new">New show</span> ' if is_new(g) else ""
         addr = f' · {esc(p["address"])}' if p.get("address") else ""
         link = (f' — <a href="{esc(p["url"])}" target="_blank" rel="noopener">website ↗</a>'
                 if p.get("url") else "")
@@ -184,7 +295,8 @@ def render_page(area, borough, galleries, all_areas, cutoff):
             item["item"]["url"] = p["url"]
         items.append(item)
 
-    # sibling-area nav grouped by borough
+    body_html = "\n      ".join(f"<p>{esc(para)}</p>" for para in body_for(area, borough))
+
     nav_groups = []
     for b in BOROUGHS:
         sibs = [a for a in all_areas if all_areas[a]["borough"] == b and a != area]
@@ -194,7 +306,7 @@ def render_page(area, borough, galleries, all_areas, cutoff):
             f'<a href="/galleries/{slugify(a)}.html">{esc(a)}</a>' for a in sorted(sibs)
         )
         nav_groups.append(f"<p><strong>{esc(b)}:</strong> {links}</p>")
-    nav_html = "\n".join(nav_groups)
+    nav_html = "\n      ".join(nav_groups)
 
     ld = {
         "@context": "https://schema.org",
@@ -205,6 +317,8 @@ def render_page(area, borough, galleries, all_areas, cutoff):
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(galleries),
                        "itemListElement": items},
     }
+
+    new_note = ' · green = new show this week' if any(is_new(g) for g in galleries) else ''
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -230,13 +344,15 @@ def render_page(area, borough, galleries, all_areas, cutoff):
     :root {{ --blue:#1565c0; }}
     * {{ box-sizing:border-box; }}
     body {{ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-           line-height:1.5; color:#1a1a1a; margin:0; background:#fafafa; }}
+           line-height:1.6; color:#1a1a1a; margin:0; background:#fafafa; }}
     header {{ background:var(--blue); color:#fff; padding:14px 20px; }}
     header a {{ color:#fff; text-decoration:none; font-weight:600; }}
     main {{ max-width:820px; margin:0 auto; padding:24px 20px 60px; }}
     h1 {{ font-size:1.7rem; margin:.2em 0; }}
-    .intro {{ font-size:1.05rem; color:#333; }}
+    h2 {{ font-size:1.25rem; margin:1.6em 0 .4em; }}
+    .intro {{ font-size:1.1rem; color:#333; }}
     .count {{ color:#555; font-size:.95rem; margin:.5em 0 1.2em; }}
+    section.about p {{ color:#333; }}
     ul.galleries {{ list-style:none; padding:0; }}
     ul.galleries li {{ background:#fff; border:1px solid #e5e5e5; border-radius:8px;
                        padding:12px 14px; margin-bottom:8px; }}
@@ -255,12 +371,16 @@ def render_page(area, borough, galleries, all_areas, cutoff):
   <header><a href="/">← NYC Gallery Tracker — interactive map</a></header>
   <main>
     <h1>Art Galleries in {esc(where)}</h1>
-    <p class="intro">{esc(intro_for(area, borough))}</p>
-    <p class="count">{len(galleries)} galleries {'· green = new show this week' if any(is_new(g) for g in galleries) else ''}</p>
+    <p class="intro">{esc(lead_for(area, borough))}</p>
+    <p class="count">{len(galleries)} galleries{new_note}</p>
     <ul class="galleries">
       {chr(10).join('      ' + c for c in cards)}
     </ul>
     <a class="back" href="/">← See all of these on the interactive map</a>
+    <section class="about">
+      <h2>About {esc(scene)}</h2>
+      {body_html}
+    </section>
     <nav class="areas">
       <p><strong>Browse other areas:</strong></p>
       {nav_html}
@@ -320,7 +440,6 @@ def main():
     features = geojson["features"]
     cutoff = (date.today() - timedelta(days=NEW_DAYS)).isoformat()
 
-    # group galleries by borough and by neighborhood
     by_borough = {b: [] for b in BOROUGHS}
     by_hood = {}
     for g in features:
@@ -331,7 +450,6 @@ def main():
         if hood:
             by_hood.setdefault(hood, []).append(g)
 
-    # decide which areas to generate: all non-empty boroughs + neighborhoods >= MIN
     all_areas = {}  # area name -> {"borough":..., "galleries":[...]}
     for b in BOROUGHS:
         if by_borough[b]:
