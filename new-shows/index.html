@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>What's new in NYC galleries — weekly archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A week-by-week archive of which New York art galleries posted new shows, tracked continuously across all five boroughs.">
+  <link rel="canonical" href="https://nyc-gallery-app.netlify.app/new-shows/">
+  <link rel="icon" href="/icons/icon-192.png">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="NYC Gallery Tracker">
+  <meta property="og:url" content="https://nyc-gallery-app.netlify.app/new-shows/">
+  <meta property="og:title" content="What's new in NYC galleries — weekly archive">
+  <meta property="og:description" content="A week-by-week archive of which New York art galleries posted new shows, tracked continuously across all five boroughs.">
+  <meta property="og:image" content="https://nyc-gallery-app.netlify.app/docs/map.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://nyc-gallery-app.netlify.app/docs/map.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "What's new in NYC galleries \u2014 weekly archive",
+  "url": "https://nyc-gallery-app.netlify.app/new-shows/",
+  "description": "A week-by-week archive of which New York art galleries posted new shows, tracked continuously across all five boroughs."
+}
+  </script>
+  <style>
+    :root { --blue:#1565c0; --ink:#1a1a1a; --muted:#666; }
+    * { box-sizing:border-box; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+           line-height:1.65; color:var(--ink); margin:0; background:#fafafa; }
+    header { background:var(--blue); color:#fff; padding:14px 20px; }
+    header a { color:#fff; text-decoration:none; font-weight:600; }
+    main { max-width:820px; margin:0 auto; padding:24px 20px 60px; }
+    h1 { font-size:1.7rem; margin:.2em 0 .4em; line-height:1.25; }
+    h2 { font-size:1.25rem; margin:1.8em 0 .4em; }
+    h3 { font-size:1.05rem; margin:1.5em 0 .3em; }
+    p { margin:.7em 0; }
+    .intro { font-size:1.1rem; color:#333; }
+    .count { color:#555; font-size:.95rem; margin:.5em 0 1.2em; }
+    ul.galleries { list-style:none; padding:0; }
+    ul.galleries li { background:#fff; border:1px solid #e5e5e5; border-radius:8px;
+                      padding:12px 14px; margin-bottom:8px; }
+    .meta { display:block; color:var(--muted); font-size:.9rem; margin-top:2px; }
+    .new { background:#2e7d32; color:#fff; font-size:.72rem; font-weight:700;
+           padding:2px 7px; border-radius:10px; vertical-align:middle; }
+    a { color:var(--blue); }
+    ol.route { list-style:none; padding:0; counter-reset:stop; }
+    ol.route li { background:#fff; border:1px solid #e5e5e5; border-radius:8px;
+                  padding:12px 14px 12px 52px; margin-bottom:8px; position:relative; }
+    ol.route li:before { counter-increment:stop; content:counter(stop);
+                         position:absolute; left:14px; top:12px; width:26px; height:26px;
+                         background:var(--blue); color:#fff; border-radius:50%;
+                         font-size:.85rem; font-weight:700; display:flex;
+                         align-items:center; justify-content:center; }
+    .leg { display:block; color:var(--muted); font-size:.85rem; margin-top:6px;
+           padding-top:6px; border-top:1px dashed #e0e0e0; }
+    .callout { background:#eef4fb; border-left:4px solid var(--blue);
+               padding:14px 16px; border-radius:0 8px 8px 0; margin:1.4em 0; }
+    .callout p:first-child { margin-top:0; }
+    .callout p:last-child { margin-bottom:0; }
+    .stats { display:flex; flex-wrap:wrap; gap:10px; margin:1.2em 0; padding:0; list-style:none; }
+    .stats li { background:#fff; border:1px solid #e5e5e5; border-radius:8px;
+                padding:10px 14px; flex:1 1 140px; }
+    .stats strong { display:block; font-size:1.4rem; line-height:1.2; }
+    .stats span { color:var(--muted); font-size:.85rem; }
+    table.digest { width:100%; border-collapse:collapse; margin:1em 0; background:#fff; }
+    table.digest th, table.digest td { text-align:left; padding:9px 12px;
+                                       border-bottom:1px solid #eee; font-size:.95rem; }
+    table.digest th { background:#f2f5f9; font-size:.85rem; text-transform:uppercase;
+                      letter-spacing:.03em; color:#444; }
+    nav.areas { margin-top:40px; padding-top:20px; border-top:1px solid #ddd;
+                font-size:.92rem; color:#444; }
+    nav.areas p { margin:.35em 0; }
+    .back { display:inline-block; margin-top:24px; font-weight:600; }
+    footer.sitefoot { margin-top:40px; padding-top:18px; border-top:1px solid #ddd;
+                      font-size:.9rem; color:var(--muted); }
+    footer.sitefoot a { margin-right:14px; }
+  </style>
+</head>
+<body>
+  <header><a href="/">← NYC Gallery Tracker — interactive map</a></header>
+  <main>
+    <h1>What's new in NYC galleries</h1>
+    <p class="intro">We check 234 New York galleries every day to see whether anything has changed on their websites. This page is the running record — one report a week, kept permanently. The first report publishes at the end of the current week.</p>
+      <ul class="stats">
+        <li><strong>234</strong><span>galleries checked daily</span></li>
+        <li><strong>5</strong><span>boroughs covered</span></li>
+        <li><strong>7 days</strong><span>per report</span></li>
+      </ul>
+    <p>Most listings of New York exhibitions are compiled by hand and skew toward the
+    same few dozen well-known galleries. This one is assembled automatically from the
+    galleries' own websites, which means the small artist-run space in Bushwick counts
+    exactly as much as the blue-chip room in Chelsea. If a gallery updated its site, it's
+    in the report for that week.</p>
+
+    <h2>Why a weekly record instead of a live list</h2>
+    <p>A gallery show is a temporary thing. It goes up, runs six weeks or so, comes down,
+    and unless someone wrote about it, it leaves very little trace — which is why it is
+    surprisingly hard to find out what was on in a given month even a year later.</p>
+    <p>Keeping a dated page for every week turns a live map into a record. Over time it
+    accumulates into something the live map cannot show you: which months are busy and
+    which are dead, how sharply the season restarts in September, how completely August
+    empties out, and which districts are gaining or losing spaces.</p>
+    <p>Each report stays at its own permanent address and is never rewritten. The list
+    below grows by one entry a week.</p>
+
+    <h2>How to use it</h2>
+    <p>If you are planning a visit, the most recent report is the most useful page here:
+    it tells you which galleries have posted something in the last seven days, which is
+    the best available proxy for where the new work is. Cross-reference it with the
+    <a href="/routes/">walking routes</a> to build an afternoon around whichever district
+    has the most activity.</p>
+    <p>If you are simply curious how the season moves, read down the table. The pattern
+    is clearer than anyone expects.</p>
+    <div class="callout">
+      <p><strong>What counts as a change.</strong> We compare each gallery's homepage
+      against the copy we fetched the day before. A new exhibition page, an updated set of
+      dates, a fresh run of images — all of it registers. What we can't tell you is which
+      of those it was, so treat each week's list as a shortlist of galleries worth
+      checking rather than a confirmed schedule of openings.</p>
+    </div>
+    <p><a class="back" href="/">← Back to the interactive map</a></p>
+    <footer class="sitefoot">
+      <a href="/">Interactive map</a> <a href="/visiting-nyc-galleries.html">How to visit NYC galleries</a> <a href="/routes/">Gallery walking routes</a> <a href="/new-shows/">What's new this week</a> <a href="/about.html">About</a>
+      <p>Updated August 18, 2026 · NYC Gallery Tracker tracks
+      art galleries across all five boroughs and checks each one for new shows every week.</p>
+    </footer>
+  </main>
+</body>
+</html>

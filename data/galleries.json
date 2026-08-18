@@ -268,7 +268,7 @@
       "properties": {
         "name": "Hollis Taggart Downtown",
         "address": "109 Norfolk St",
-        "url": "hollistaggart.com",
+        "url": "https://hollistaggart.com",
         "borough": "Manhattan",
         "last_updated": ""
       }
@@ -1067,7 +1067,7 @@
       "properties": {
         "name": "Art in Brackets\u2122",
         "address": "46 Walker St",
-        "url": "https:www.artinbrackets.com",
+        "url": "https://www.artinbrackets.com",
         "borough": "Manhattan",
         "last_updated": ""
       }
