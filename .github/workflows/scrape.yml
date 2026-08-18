@@ -30,8 +30,7 @@ jobs:
         run: |
           git config --global user.name "GalleryBot"
           git config --global user.email "bot@github.com"
-          git add data/galleries.json data/digest_history.json index.html sitemap.xml \
-                  galleries/ routes/ new-shows/ visiting-nyc-galleries.html
+          git add -A
           git commit -m "Update gallery data" || exit 0
           git push
 
