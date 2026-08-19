@@ -228,6 +228,14 @@ def main():
         print("\nDry run — data/galleries.json not written.")
         return
 
+    # Record when the signal baseline was established. The weekly digest needs
+    # this: the first run after a re-baseline flags nothing because there is
+    # nothing to compare against, which is NOT the same as "nothing changed".
+    # Without this marker the digest published "Nothing changed this week" on a
+    # permanent page the day the baseline was reset.
+    if first_run or not geojson.get("_signals_since"):
+        geojson["_signals_since"] = today
+
     geojson["_signals"] = new_signals
     geojson["_hashes"] = prev_raw           # retained for one migration cycle
     GALLERIES_PATH.write_text(json.dumps(geojson, indent=2))

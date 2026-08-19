@@ -20,6 +20,14 @@ jobs:
       - name: Run scraper
         run: python scraper.py
 
+      # Gate. Thirty Tribeca/SoHo galleries once shipped with Brooklyn coordinates
+      # and sat on the wrong area pages for weeks, because nothing checked the data
+      # between the scrape and the build. If this step fails the site keeps
+      # yesterday's good data instead of publishing bad data, and the failed run
+      # sends an email. Fix the data, then re-run.
+      - name: Validate data
+        run: python validate_data.py
+
       # Builds every page: gallery cards, guide, walking routes, weekly digest
       # archive, area pages, and sitemap.xml. The sitemap discovers guides/routes/
       # digests from disk, so area pages must run last — build_site.py orders it.

@@ -692,6 +692,19 @@ def main():
         kind = "borough" if area in BOROUGHS else f"neighborhood/{info['borough']}"
         print(f"  {area:22s} [{kind:22s}] {len(info['galleries']):3d} galleries -> galleries/{slug}.html")
 
+    # Remove area pages this run did not generate. A neighborhood can drop below
+    # MIN_GALLERIES — Greenpoint did, once ISLAA's coordinates were corrected out
+    # of it — and without this the old file stays on disk, stays in git, and stays
+    # deployed. Greenpoint sat live for weeks listing ISLAA at "Brooklyn · 142
+    # Franklin St", the exact error that had just been fixed, on a page nothing
+    # linked to and the sitemap no longer listed.
+    keep = {f"{s}.html" for s in slugs}
+    for stale in sorted(OUT_DIR.glob("*.html")):
+        if stale.name not in keep:
+            stale.unlink()
+            print(f"  removed stale area page galleries/{stale.name} "
+                  f"(no longer meets MIN_GALLERIES={MIN_GALLERIES})")
+
     sitemap = build_sitemap(slugs)
     SITEMAP_PATH.write_text(sitemap)
     print(f"  Wrote sitemap.xml with {sitemap.count('<loc>')} URLs")

@@ -419,7 +419,17 @@ def main():
         target = OUT_DIR / f"{today}.html"
         share = len(shows) / total_tracked if total_tracked else 0
 
-        if share > MAX_PLAUSIBLE_SHARE:
+        # A week is only reportable if the scraper had a baseline for all of it.
+        # The first run after a re-baseline flags nothing because there is nothing
+        # to compare against; publishing that as "nothing changed" states a fact we
+        # do not have, on a page that is never rewritten.
+        baseline = json.loads(DATA_PATH.read_text()).get("_signals_since")
+        if baseline and baseline > cutoff:
+            print(f"  REFUSING to publish: the detection baseline was reset on "
+                  f"{baseline}, inside this report's window ({cutoff} to {today}).")
+            print("  Nothing was flagged because there was nothing to compare against,")
+            print("  which is not the same as nothing having changed. No page written.")
+        elif share > MAX_PLAUSIBLE_SHARE:
             print(f"  REFUSING to publish: {len(shows)} of {total_tracked} galleries "
                   f"({share:.0%}) flagged in one week.")
             print(f"  That is above the {MAX_PLAUSIBLE_SHARE:.0%} plausibility ceiling and "
