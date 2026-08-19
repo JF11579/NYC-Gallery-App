@@ -35,6 +35,8 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
+from site_common import site_footer
+
 DATA_PATH = Path("data/galleries.json")
 INDEX_PATH = Path("index.html")
 SITEMAP_PATH = Path("sitemap.xml")
@@ -110,23 +112,95 @@ AREA_CONTENT = {
     "Queens": {
         "lead": "Queens punches far above its reputation, anchored by the Long Island City art district just one subway stop from Midtown Manhattan.",
         "body": [
-            "Long Island City is the center of gravity, home to major institutions like MoMA PS1, one of the oldest and largest contemporary art spaces in the country, and SculptureCenter, along with the outdoor Socrates Sculpture Park and Noguchi Museum nearby. Together they make LIC a genuine destination, easily reached across the river yet far less crowded than Chelsea.",
+            "Long Island City is the center of gravity, home to major institutions like MoMA PS1, one of the oldest and largest contemporary art spaces in the country, and SculptureCenter, along with the outdoor Socrates Sculpture Park and the Noguchi Museum a little further north. Together they make LIC a genuine destination, easily reached across the river yet far less crowded than Chelsea.",
             "Beyond the institutions, Queens has a quieter network of galleries and artist spaces reflecting the most diverse county in the United States. It rarely gets mentioned in the same breath as Manhattan or Brooklyn, which is exactly why it stays a scene hiding in plain sight.",
             "These are the galleries and art spaces we track across Queens. Use the map to find the ones near you.",
+        ],
+        "sections": [
+            {
+                "h": "Why Queens is worth the trip",
+                "p": [
+                    "The case for Queens is mostly about scale and quiet. The institutions here occupy former schools, factories and warehouses rather than purpose-built white boxes, which means the art gets more room and you get more space to look at it. A Saturday afternoon at MoMA PS1 will not feel like the crush of a Chelsea opening or the queue at a Midtown museum, and the work is frequently more experimental precisely because the spaces are not trying to sell it to you.",
+                    "It is also the least self-conscious of the five boroughs about being an art destination. Long Island City has spent two decades as a place artists actually work, and the studios, foundries and fabricators that support the rest of the city's art world are still here. You feel that in the programming, which leans toward installation, sculpture and long-form projects that would be impractical in a rented storefront.",
+                ],
+            },
+            {
+                "h": "Getting there and planning a visit",
+                "p": [
+                    "Long Island City is genuinely close. From Midtown it is a single stop under the river, and the 7, E, M and G lines all converge around Court Square within a few minutes' walk of the main spaces. If you are coming from Brooklyn, the G runs straight up without touching Manhattan at all. Coming from Manhattan's east side, the ferry is slower but a considerably better view.",
+                    "The practical thing to know is that the Queens spaces keep institutional hours rather than gallery hours, and several close on Tuesdays or Wednesdays rather than the usual Monday. Check before you set out; an unnecessary trip across the river is a bad way to spend an afternoon. Most of the LIC spaces sit within about fifteen minutes' walk of each other, so two or three in one visit is comfortable.",
+                    "Socrates Sculpture Park and the Noguchi Museum are a separate cluster further north in Astoria, closer to the Broadway stop on the N and W. They pair naturally with each other and less naturally with Court Square, so treat them as a second, distinct outing rather than trying to force everything into one afternoon.",
+                ],
+            },
+            {
+                "h": "What to expect",
+                "p": [
+                    "Unlike the commercial galleries downtown, several of the Queens spaces are non-profits or museums and do charge admission, though the amounts are modest and some run free or pay-what-you-wish hours. That is the main way visiting Queens differs from gallery-hopping in Chelsea or the Lower East Side, where walking in free and unannounced is the norm.",
+                    "The trade-off is worth it. Exhibitions here tend to run longer than the six-week commercial cycle, so there is less urgency about catching something before it closes, and the shows are often more ambitious than anything a dealer could justify hanging.",
+                ],
+            },
         ],
     },
     "Bronx": {
         "lead": "The Bronx doesn't have the gallery-scene reputation of the other boroughs, but there's a real, active art community here for anyone paying attention.",
         "body": [
             "The anchor is the Bronx Museum of the Arts on the Grand Concourse, which is free to visit and has long championed artists of color and work rooted in the borough's communities. Around it sits a network of non-profit spaces, artist studios, and community arts organizations that rarely make the citywide press but form a genuine, homegrown scene.",
-            "The Bronx rewards curiosity more than any other borough on this map: the galleries here are fewer and more spread out, so a visit is as much about the neighborhoods as the art itself. These are the art spaces we currently track across the borough.",
+            "The Bronx rewards curiosity more than any other borough on this map: the spaces here are fewer and more spread out, so a visit is as much about the neighborhoods as the art itself. These are the art spaces we currently track across the borough.",
+        ],
+        "sections": [
+            {
+                "h": "A different model from downtown",
+                "p": [
+                    "It is worth being clear about what the Bronx art scene is and is not. There is no dealer district here, no strip of commercial galleries selling work to collectors. What exists instead is a network of institutions and community arts organizations whose reason for being is the borough itself: showing artists who live here, teaching, running studio programs, and giving over wall space to work about the place it is made in.",
+                    "That produces a genuinely different experience from a Chelsea afternoon. You are less likely to encounter a famous name and more likely to encounter work you cannot see anywhere else, often by artists early in their careers. If you go looking for a compressed version of the Manhattan gallery circuit you will be disappointed. If you go curious about what a borough of 1.4 million people makes of itself, you will not be.",
+                ],
+            },
+            {
+                "h": "The Grand Concourse spine",
+                "p": [
+                    "Most of what we track sits on or near the Grand Concourse, the wide boulevard laid out in imitation of the Champs-Élysées that runs the length of the west Bronx. The Bronx Museum of the Arts sits on it at 1040, and the Longwood Arts Project further south at 450, which makes the Concourse the natural axis for a visit.",
+                    "The boulevard is also one of the great concentrations of Art Deco apartment buildings anywhere in the world, and walking between the two spaces along it is a substantial part of the appeal. Give yourself the walk rather than taking the train between stops; the architecture is the exhibition you did not pay for.",
+                    "Further north, the Bronx River Art Center sits near Fordham Road, a busy commercial stretch that is one of the liveliest shopping districts in the city and a considerable change of register from the Concourse.",
+                ],
+            },
+            {
+                "h": "Getting there",
+                "p": [
+                    "The Bronx is easier to reach than most Manhattanites assume. The B and D run directly up the Grand Concourse, and the 4 runs parallel a few blocks east, so the Concourse spaces are a straightforward ride from Midtown or Harlem. The 2 and 5 serve the southern end near 149th Street.",
+                    "The main planning constraint is that the spaces are far enough apart that you should pick a cluster rather than attempt the borough in one go. Two stops in an afternoon is realistic and unhurried. Check opening hours carefully: several of these organizations run on programming schedules rather than standard gallery hours, and some are closed for installation between shows.",
+                ],
+            },
         ],
     },
     "Staten Island": {
         "lead": "Staten Island's art scene is small but real, centered on the Snug Harbor Cultural Center on the borough's north shore.",
         "body": [
-            "Snug Harbor, a former sailors' retirement community turned cultural campus, is home to the Newhouse Center for Contemporary Art and set among botanical gardens worth the trip on their own. The nearby Staten Island Museum rounds out the borough's main art offerings.",
+            "Snug Harbor, a former sailors' retirement community turned cultural campus, is home to the Newhouse Center for Contemporary Art and set among botanical gardens worth the trip on their own. The Staten Island Museum, near the ferry terminal in St. George, rounds out the borough's main art offerings.",
             "The ride over on the free Staten Island Ferry, with its views of the harbor and the Statue of Liberty, is half the appeal. These are the art spaces we track on the island.",
+        ],
+        "sections": [
+            {
+                "h": "Two spaces, and why that is the honest number",
+                "p": [
+                    "We track two art spaces on Staten Island, and we would rather say so plainly than pad the list. The borough has roughly half a million residents and no commercial gallery district; what it has instead is a cultural campus and a museum, both on the north shore within reach of the ferry, and both genuinely worth a visit on their own terms.",
+                    "This makes Staten Island the one borough where the art is not really the reason to go — it is the structure around which a good day out is built. Treated that way, it is one of the better afternoons available in New York for the price of nothing.",
+                ],
+            },
+            {
+                "h": "The ferry is the point",
+                "p": [
+                    "The Staten Island Ferry is free, runs around the clock, and takes about twenty-five minutes each way across New York Harbor. It passes Governors Island, gives you the Statue of Liberty off the starboard side heading south, and delivers one of the best views of the Lower Manhattan skyline from the back rail on the way home. No ticket, no reservation, no queue for most of the day.",
+                    "Take the right-hand side of the boat going out for the Statue, and the stern coming back for the skyline. Boats run at least every thirty minutes and more often at peak times, so a missed departure costs very little.",
+                ],
+            },
+            {
+                "h": "Making a day of it",
+                "p": [
+                    "The Staten Island Museum sits in St. George within a few minutes' walk of the ferry terminal, which makes it the natural first stop — you can see it and be back on a boat inside two hours if that is all you want.",
+                    "Snug Harbor is the more substantial destination and requires a short bus ride west along Richmond Terrace from the terminal. The campus is a collection of nineteenth-century Greek Revival buildings set in eighty-odd acres of grounds, including botanical gardens and a Chinese Scholar's Garden. The Newhouse Center for Contemporary Art occupies part of it. Even if the exhibition on show does not grab you, the grounds justify the trip.",
+                    "Budget around half a day door to door from Lower Manhattan, and check both spaces' opening hours before you go — this is the one borough where turning up to a locked door means a fifty-minute round trip for nothing. Both tend to keep afternoon hours and close at least one weekday.",
+                ],
+            },
         ],
     },
     "Chelsea": {
@@ -164,6 +238,30 @@ AREA_CONTENT = {
             "In the early 1980s, storefront galleries across the East Village launched careers and helped define a raw, street-connected downtown scene. Most of those spaces are long gone, but the neighborhood retains a do-it-yourself character, and the galleries here now tend to be small, independent, and unafraid of the offbeat.",
             "Visiting the East Village is as much about the neighborhood as the art, with its bookshops, record stores, and community gardens between stops. These are the galleries we track in the area.",
         ],
+        "sections": [
+            {
+                "h": "What happened to the East Village scene",
+                "p": [
+                    "For about five years in the early 1980s the East Village was the most talked-about art neighborhood in the world. Dozens of galleries opened in former storefronts on East 10th Street, Avenue B and the surrounding blocks, run on almost no money by people in their twenties, and the scene that came out of them shaped a decade of American art. By the end of the decade nearly all of them had closed.",
+                    "The usual explanation is rent, and rent is most of it, but the scene also collapsed under its own success as the artists it discovered were absorbed by bigger galleries in SoHo and later Chelsea. What remains is not a revival so much as a residue: a handful of independent spaces, several long-running non-profits and foundations, and a neighborhood that still thinks of itself as a place where things start.",
+                ],
+            },
+            {
+                "h": "What is here now",
+                "p": [
+                    "The spaces we track in the East Village skew toward foundations and cultural institutions rather than commercial dealers — organizations with a specific remit, showing work from particular communities or holding a single artist's estate. That gives the area an unusual character: less browsing, more depth, and shows that reward knowing a little about why the space exists.",
+                    "The blocks around Great Jones Street, Bowery and Lafayette are the densest stretch, sitting on the border where the East Village runs into NoHo. A few of the spaces we list sit east of Avenue A or south toward Houston, which is a walk rather than a stroll but a pleasant one.",
+                ],
+            },
+            {
+                "h": "Planning a visit",
+                "p": [
+                    "The 6 to Astor Place, the F to Second Avenue and the L to First Avenue all put you within a few blocks of the main cluster. The neighborhood is small and flat, and you can cross the whole of it on foot in twenty minutes.",
+                    "Because there are only a handful of spaces here, the East Village works best combined with something else rather than as a destination of its own. The Lower East Side begins a few blocks south and has far more galleries per block; a sensible afternoon starts in the East Village, works south across Houston, and finishes among the Orchard and Henry Street spaces.",
+                    "Leave time for the neighborhood itself. The community gardens on the eastern avenues, the secondhand bookshops and the record stores are a substantial part of why people come here, and several of them are more interesting than an average commercial gallery.",
+                ],
+            },
+        ],
     },
     "Upper East Side": {
         "lead": "The Upper East Side pairs world-class museums with a cluster of established galleries specializing in modern, postwar, and blue-chip work.",
@@ -177,6 +275,32 @@ AREA_CONTENT = {
         "body": [
             "If Chelsea is the polished, commercial face of the New York art world, Bushwick is its opposite: raw, affordable, and driven by working artists rather than dealers. Galleries here often occupy warehouse floors and share buildings with the studios of the artists they show, and the scene skews young, experimental, and community-minded.",
             "The best time to visit is during the neighborhood's open-studio weekends, when dozens of spaces throw open their doors at once, but there's plenty to see year-round. Come ready to wander; the industrial blocks aren't obviously arty until you find the right door. These are the Bushwick galleries we track.",
+        ],
+        "sections": [
+            {
+                "h": "How Bushwick actually works",
+                "p": [
+                    "Bushwick is the least legible gallery district in New York, and that is not an accident of geography so much as a consequence of how the spaces are funded. Most are run by artists, collectives or small non-profits operating on thin margins in rented industrial floors. They do not have street frontage, signage budgets or staff to sit at a desk all week, so many open only Friday through Sunday, some only by appointment, and a few only when there is a show up.",
+                    "The practical consequence is that turning up unannounced on a Tuesday afternoon will get you a row of closed roller shutters and a bad impression of a genuinely good scene. Check the individual websites before you go — this is the one district on the map where that step is not optional.",
+                    "The upside of the same economics is that the programming takes risks nothing in Chelsea can afford to take. Shows are put on because someone wanted to see them exist, not because they will sell, and the ratio of ambitious-to-safe is higher here than anywhere else in the city.",
+                ],
+            },
+            {
+                "h": "Finding your way around",
+                "p": [
+                    "The cluster sits mostly in the blocks around Jefferson Street and Morgan Avenue on the L, spilling east toward Knickerbocker and the M line, and north across the Queens border into Ridgewood, which functions as part of the same scene regardless of what the borough boundary says.",
+                    "These are working industrial blocks: warehouses, auto shops, distribution depots, and long stretches with nothing obviously artistic about them. The galleries are frequently on upper floors behind unmarked metal doors, with a buzzer and a paper sign as the only indication. Trust the address rather than the frontage, and be prepared to press a bell and wait.",
+                    "It is also worth knowing that Bushwick has one of the densest concentrations of large-scale street art in the city, particularly around the Troutman Street corridor. Even on a day when half the galleries are shut, the walk between them is worth doing.",
+                ],
+            },
+            {
+                "h": "When to go",
+                "p": [
+                    "Weekend afternoons are the reliable window — Saturday most of all, when the largest number of spaces are open at the same time and openings often run into the evening. A Saturday from about one o'clock gives you the best odds of finding doors unlocked.",
+                    "The exception, and the best single time to visit, is the neighborhood's open-studio weekend, held annually, when dozens of galleries and hundreds of artist studios open at once. It turns a scattered district into a walkable festival for two days and is the easiest possible introduction to the area.",
+                    "Come with layers and comfortable shoes. The distances between spaces are longer than they look on a map, the buildings are frequently unheated, and there is very little shelter on the industrial stretches.",
+                ],
+            },
         ],
     },
     "Williamsburg": {
@@ -198,6 +322,31 @@ AREA_CONTENT = {
         "body": [
             "Long known as the city's Polish neighborhood, Greenpoint has gradually drawn artists and small galleries north from Williamsburg in search of space, and a low-key but growing scene has taken root among its warehouses and waterfront. The galleries here are still relatively few and far between, which is part of the appeal for anyone who likes discovering a district before it's on everyone's map.",
             "It rewards a relaxed wander, with strong food and coffee to break up the walk. These are the Greenpoint galleries we track.",
+        ],
+        "sections": [
+            {
+                "h": "An art district still forming",
+                "p": [
+                    "Greenpoint is at an earlier stage than the neighborhoods around it. Williamsburg to the south went through its gallery boom two decades ago; Bushwick to the east has a scene dense enough to sustain an annual festival. Greenpoint has neither, and what it has instead is a handful of serious spaces, some of them very serious indeed, spread across a neighborhood that has not organized itself around art.",
+                    "That has a specific consequence for visitors: there is no gallery walk here. You are going for one or two particular spaces rather than to browse a district, and the right approach is to pick a destination and treat the neighborhood as the surrounding pleasure rather than the point.",
+                    "It also means the spaces that are here tend to be the ones with a reason to be — research institutes, foundations, artist-run rooms with a specific programme — rather than dealers chasing footfall. The average quality of what is on the walls is high.",
+                ],
+            },
+            {
+                "h": "The neighborhood around the art",
+                "p": [
+                    "Greenpoint was for a century the centre of Polish New York, and much of that is still visible along Manhattan Avenue and Nassau Avenue: bakeries, butchers, delis and social clubs that predate every gallery in the borough. The area has changed a great deal, but not as completely as Williamsburg, and the older neighborhood is still the dominant one on most blocks.",
+                    "The waterfront on the western edge has some of the best views of the Manhattan skyline anywhere in the city, particularly around sunset, and the streets in between are low-rise, quiet and pleasant to walk. Franklin Street is the spine for coffee and food.",
+                ],
+            },
+            {
+                "h": "Getting there",
+                "p": [
+                    "The G is the only subway that serves Greenpoint directly, stopping at Greenpoint Avenue and Nassau Avenue. The G is the one line in the system that never enters Manhattan, which is why the neighborhood can feel further away than it is — from most of Manhattan the quickest route is the L to Bedford Avenue and a fifteen-minute walk north, or the ferry to the India Street landing.",
+                    "The ferry is the most pleasant option by a wide margin and lands you at the western edge near the waterfront. From Midtown or the Upper East Side it is often no slower than the subway once you count the transfers.",
+                    "Check hours before travelling. With only a handful of spaces in the neighborhood, one closed door removes a large fraction of the reason you came.",
+                ],
+            },
         ],
     },
 }
@@ -242,6 +391,18 @@ def lead_for(area, borough):
         f"A live map and directory of the art galleries we track in {where}. "
         "Green markers flag galleries that have posted something new in the past week."
     )
+
+
+def sections_for(area):
+    """Optional deeper sub-sections (heading + paragraphs) for an area.
+
+    Pages carrying only a couple of paragraphs read as thin: every one of these
+    area pages was sitting in Search Console under "Discovered - currently not
+    indexed", which is Google declining to index them on quality grounds. Areas
+    with FEW galleries need more original writing than the busy ones, not less,
+    because there is less listing content to carry the page.
+    """
+    return AREA_CONTENT.get(area, {}).get("sections", [])
 
 
 def body_for(area, borough):
@@ -296,6 +457,12 @@ def render_page(area, borough, galleries, all_areas, cutoff):
         items.append(item)
 
     body_html = "\n      ".join(f"<p>{esc(para)}</p>" for para in body_for(area, borough))
+
+    section_blocks = []
+    for sec in sections_for(area):
+        paras = "\n      ".join(f"<p>{esc(p)}</p>" for p in sec["p"])
+        section_blocks.append(f"<h3>{esc(sec['h'])}</h3>\n      {paras}")
+    sections_html = "\n      ".join(section_blocks)
 
     nav_groups = []
     for b in BOROUGHS:
@@ -380,11 +547,13 @@ def render_page(area, borough, galleries, all_areas, cutoff):
     <section class="about">
       <h2>About {esc(scene)}</h2>
       {body_html}
+      {sections_html}
     </section>
     <nav class="areas">
       <p><strong>Browse other areas:</strong></p>
       {nav_html}
     </nav>
+{site_footer()}
   </main>
 </body>
 </html>
@@ -392,6 +561,13 @@ def render_page(area, borough, galleries, all_areas, cutoff):
 
 
 def build_sitemap(area_slugs):
+    """Build sitemap.xml.
+
+    Area pages come from the slugs we just generated; guides, walking routes and
+    weekly digests are discovered from disk so this stays correct no matter which
+    order the generators are run in (and so a digest published last week is never
+    silently dropped from the sitemap by a later area-page rebuild).
+    """
     today = date.today().isoformat()
     urls = [
         (f"{BASE_URL}/", "daily", "1.0"),
@@ -400,6 +576,27 @@ def build_sitemap(area_slugs):
     ]
     for slug in area_slugs:
         urls.append((f"{BASE_URL}/galleries/{slug}.html", "weekly", "0.7"))
+
+    # Evergreen guide.
+    if Path("visiting-nyc-galleries.html").exists():
+        urls.append((f"{BASE_URL}/visiting-nyc-galleries.html", "monthly", "0.9"))
+
+    # Walking routes.
+    routes_dir = Path("routes")
+    if (routes_dir / "index.html").exists():
+        urls.append((f"{BASE_URL}/routes/", "monthly", "0.8"))
+    for path in sorted(routes_dir.glob("*.html")):
+        if path.stem != "index":
+            urls.append((f"{BASE_URL}/routes/{path.name}", "monthly", "0.7"))
+
+    # Weekly digest archive: the index changes often, the dated pages never again.
+    digest_dir = Path("new-shows")
+    if (digest_dir / "index.html").exists():
+        urls.append((f"{BASE_URL}/new-shows/", "weekly", "0.8"))
+    for path in sorted(digest_dir.glob("*.html"), reverse=True):
+        if path.stem != "index":
+            urls.append((f"{BASE_URL}/new-shows/{path.name}", "yearly", "0.5"))
+
     body = "\n".join(
         f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{today}</lastmod>\n"
         f"    <changefreq>{cf}</changefreq>\n    <priority>{pr}</priority>\n  </url>"
@@ -427,9 +624,36 @@ def inject_index_nav(all_areas):
             f'<a href="/galleries/{slugify(a)}.html">{esc(a)}</a>' for a in areas
         )
         groups.append(f'<p class="area-row"><strong>{esc(b)}:</strong> {links}</p>')
+    # Also surface the guides, routes and weekly archive from the homepage. These
+    # pages are useless if nothing links to them: Search Console had every area page
+    # sitting under "Discovered - currently not indexed", and orphaned pages fare
+    # worse still. The homepage is the most-crawled URL on the site, so the new
+    # content gets linked from it directly.
+    guide_links = []
+    if Path("visiting-nyc-galleries.html").exists():
+        guide_links.append(
+            '<p class="area-row"><strong>New to galleries?</strong> '
+            '<a href="/visiting-nyc-galleries.html">How to visit New York galleries</a> '
+            '— they\'re free, and you don\'t need an appointment.</p>')
+    if Path("routes/index.html").exists():
+        guide_links.append(
+            '<p class="area-row"><strong>Walking routes:</strong> '
+            '<a href="/routes/">Gallery walks by district</a>, ordered so you cover the '
+            'ground once instead of doubling back.</p>')
+    if Path("new-shows/index.html").exists():
+        guide_links.append(
+            '<p class="area-row"><strong>What changed this week:</strong> '
+            '<a href="/new-shows/">The weekly archive</a> of galleries that posted '
+            'something new.</p>')
+    guides_block = ""
+    if guide_links:
+        guides_block = ('<h2>Guides &amp; walking routes</h2>\n'
+                        + "\n".join(guide_links) + "\n")
+
     block = ('\n<section class="browse-areas">\n'
              '<h2>Browse galleries by neighborhood</h2>\n'
-             + "\n".join(groups) + "\n</section>\n")
+             + "\n".join(groups) + "\n"
+             + guides_block + "</section>\n")
     html = AREAS_RE.sub(lambda m: m.group(1) + block + m.group(3), html)
     INDEX_PATH.write_text(html)
     print("  Injected neighborhood nav into index.html")
@@ -468,8 +692,22 @@ def main():
         kind = "borough" if area in BOROUGHS else f"neighborhood/{info['borough']}"
         print(f"  {area:22s} [{kind:22s}] {len(info['galleries']):3d} galleries -> galleries/{slug}.html")
 
-    SITEMAP_PATH.write_text(build_sitemap(slugs))
-    print(f"  Wrote sitemap.xml with {len(slugs) + 3} URLs")
+    # Remove area pages this run did not generate. A neighborhood can drop below
+    # MIN_GALLERIES — Greenpoint did, once ISLAA's coordinates were corrected out
+    # of it — and without this the old file stays on disk, stays in git, and stays
+    # deployed. Greenpoint sat live for weeks listing ISLAA at "Brooklyn · 142
+    # Franklin St", the exact error that had just been fixed, on a page nothing
+    # linked to and the sitemap no longer listed.
+    keep = {f"{s}.html" for s in slugs}
+    for stale in sorted(OUT_DIR.glob("*.html")):
+        if stale.name not in keep:
+            stale.unlink()
+            print(f"  removed stale area page galleries/{stale.name} "
+                  f"(no longer meets MIN_GALLERIES={MIN_GALLERIES})")
+
+    sitemap = build_sitemap(slugs)
+    SITEMAP_PATH.write_text(sitemap)
+    print(f"  Wrote sitemap.xml with {sitemap.count('<loc>')} URLs")
 
     inject_index_nav(all_areas)
     print(f"Done. Generated {len(slugs)} area pages.")

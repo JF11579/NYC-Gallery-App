@@ -10,23 +10,39 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.11'
       - name: Install deps
         run: pip install -r requirements.txt
+
+      # Detects which galleries posted something new. Uses content signals
+      # (title + headings + link text) rather than raw-byte hashes, which used to
+      # report ~54% of the map changing every single day.
       - name: Run scraper
         run: python scraper.py
-      - name: Bake gallery cards into index.html
-        run: python render_gallery_html.py
-      - name: Generate neighborhood/borough landing pages
-        run: python render_area_pages.py
+
+      # Gate. Thirty Tribeca/SoHo galleries once shipped with Brooklyn coordinates
+      # and sat on the wrong area pages for weeks, because nothing checked the data
+      # between the scrape and the build. If this step fails the site keeps
+      # yesterday's good data instead of publishing bad data, and the failed run
+      # sends an email. Fix the data, then re-run.
+      - name: Validate data
+        run: python validate_data.py
+
+      # Builds every page: gallery cards, guide, walking routes, weekly digest
+      # archive, area pages, and sitemap.xml. The sitemap discovers guides/routes/
+      # digests from disk, so area pages must run last — build_site.py orders it.
+      - name: Build site
+        run: python build_site.py
+
       - name: Commit data
         run: |
           git config --global user.name "GalleryBot"
           git config --global user.email "bot@github.com"
-          git add data/galleries.json index.html sitemap.xml galleries/
+          git add -A
           git commit -m "Update gallery data" || exit 0
           git push
-      - name: Send weekly digest (Mondays only)
+
+      - name: Send weekly digest email (Mondays only)
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: |
