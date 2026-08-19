@@ -2034,8 +2034,25 @@
         ]
       },
       "properties": {
-        "name": "R & Company",
+        "name": "R & Company | White Street",
         "address": "64 White Street",
+        "url": "http://www.r-and-company.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004538,
+          40.718146
+        ]
+      },
+      "properties": {
+        "name": "R & Company | Franklin Street",
+        "address": "82 Franklin St",
         "url": "http://www.r-and-company.com/",
         "borough": "Manhattan",
         "last_updated": ""
