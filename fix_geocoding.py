@@ -5,261 +5,439 @@ fix_geocoding.py — Repairs galleries whose coordinates landed in the wrong bor
 The problem
 -----------
 About thirty galleries in data/galleries.json carry Tribeca and SoHo addresses but
-coordinates in Brooklyn. Measured against their real locations they are wrong by
-3-6 km:
+coordinates in Brooklyn, wrong by 3-6 km:
 
     Luhring Augustine Tribeca   17 White St     stored 6.1 km away, in Brooklyn
     Marian Goodman Gallery      385 Broadway    stored 4.3 km away, in Brooklyn
     ISLAA                       142 Franklin St stored 4.3 km away, in Greenpoint
-    Nicodim Gallery             15 Greene St    stored 3.6 km away, in Brooklyn
-    Peter Blum Gallery          176 Grand St    stored 3.4 km away, in Brooklyn
 
-The cause is street-name collision. Broadway, White Street, Leonard Street, Grand
-Street, Franklin Street and Greene Street all exist in BOTH Manhattan and Brooklyn.
-When an address was geocoded as a bare "176 Grand St" with no borough, the geocoder
-was free to resolve it to the Brooklyn one — and often did.
+The cause is street-name collision. Broadway, White St, Leonard St, Grand St,
+Franklin St and Greene St all exist in BOTH Manhattan and Brooklyn, so a bare
+"176 Grand St" can resolve to either.
 
-The consequences run through the whole site, because every area page is built from
-coordinates: major Manhattan galleries appear on the Brooklyn borough page and in
-the Williamsburg and Greenpoint neighbourhood pages, while Tribeca and SoHo are
-missing galleries that genuinely belong to them. The map pins are wrong too.
+Why this needs more than a geocoder
+-----------------------------------
+Re-geocoding cannot fix this on its own. Asked for "17 White St", OpenStreetMap
+returns a house-number-level match in Manhattan AND one in Brooklyn — both real.
+The address string genuinely does not identify a borough, so any script that just
+re-queries it is guessing. An earlier version of this file did exactly that and
+changed nothing.
 
-What this script does
----------------------
-Finds every record whose address has no borough, city or ZIP qualifier and whose
-borough is not Manhattan, re-geocodes it with the borough spelled out explicitly,
-and updates the coordinates and borough only when the new result is confident and
-materially different.
+So this script goes and finds independent evidence of where each gallery actually
+is, from the gallery's own website, and only then asks the geocoder for precise
+coordinates within the borough that evidence points to.
 
-It is a dry run unless you pass --apply, and it never edits a record whose address
-already names a borough.
+Evidence, strongest first
+-------------------------
+  anchored-zip   A NYC ZIP appearing next to this gallery's street address on its
+                 own site. Survives galleries with several locations, which is why
+                 it is preferred: luhringaugustine.com lists both 10013 (Tribeca)
+                 and 10011 (Chelsea), and only the anchored match picks the right
+                 one for "17 White St".
+  page-zip       Exactly one distinct NYC ZIP anywhere on the site.
+  geocoder       The house number exists in only one borough, so there is no
+                 collision for this particular address after all.
 
-Two geocoders are supported. OpenStreetMap's Nominatim needs no API key and is
-the default, so this runs with no setup at all:
+A record is changed only when evidence is found and the resulting borough differs
+from, or the coordinates disagree with, what is stored. Everything else is left
+alone and listed as needing a manual look — being unfixed is recoverable, being
+silently wrong is not.
 
-    python3 fix_geocoding.py                # dry run, uses OpenStreetMap
-    python3 fix_geocoding.py --apply        # write data/galleries.json
+Usage
+-----
+    python3 fix_geocoding.py            # dry run, prints the proposed changes
+    python3 fix_geocoding.py --apply    # write data/galleries.json
+    python3 fix_geocoding.py --json out.json    # also dump evidence per gallery
 
-Google is used instead when a key is present, which is worth doing if you have
-one since it agrees with the rest of the dataset's provenance:
-
-    export GOOGLE_PLACES_KEY='<your real key>'
-    python3 fix_geocoding.py --apply
-
-Force a provider with --provider osm or --provider google.
-
-Afterwards, re-run the build so the pages pick up the corrections:
-
-    python3 build_site.py
-    python3 validate_data.py
+Needs no API key. Uses OpenStreetMap's Nominatim (rate-limited to 1 req/sec per
+their usage policy) and plain HTTPS fetches of the gallery sites.
 """
 
 import json
-import math
-import os
 import re
 import sys
 import time
-from pathlib import Path
+import urllib.parse
+import urllib.request
 
-import requests
+DATA = "data/galleries.json"
 
-GALLERIES_PATH = Path("data/galleries.json")
-GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
-GOOGLE_KEY = os.environ.get("GOOGLE_PLACES_KEY", "").strip()
+NOMINATIM = "https://nominatim.openstreetmap.org/search"
+NOMINATIM_UA = "NYCGalleryTracker/1.0 (+https://nycgallerytracker.com)"
+BROWSER_UA = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
 
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-NOMINATIM_UA = ("NYCGalleryTracker/1.0 (borough data repair; "
-                "https://nyc-gallery-app.netlify.app)")
-# Nominatim's usage policy: no more than one request per second.
-OSM_SLEEP = 1.1
-
-BOROUGH_MARKERS = [
-    "manhattan", "brooklyn", "queens", "bronx", "staten island",
-    "new york, ny", "long island city", "astoria", "ridgewood",
+# ZIP prefix -> borough. NYC ZIPs are allocated by borough, so a ZIP is an
+# unambiguous borough label in a way a street address is not.
+ZIP_RANGES = [
+    ("Manhattan", lambda z: 10001 <= z <= 10282),
+    ("Bronx", lambda z: 10451 <= z <= 10475),
+    ("Staten Island", lambda z: 10301 <= z <= 10314),
+    ("Brooklyn", lambda z: 11201 <= z <= 11256),
+    ("Queens", lambda z: (11004 <= z <= 11109) or (11351 <= z <= 11697)),
 ]
 
-# How far the new coordinate must be from the old one before we treat it as a
-# correction rather than noise.
-MIN_MOVE_KM = 0.4
+BOROUGHS = ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"]
 
-ACCEPTABLE_TYPES = {"street_address", "premise", "subpremise", "establishment",
-                    "point_of_interest"}
-
-
-def haversine_km(a, b):
-    (lat1, lon1), (lat2, lon2) = a, b
-    r = 6371.0
-    p1, p2 = math.radians(lat1), math.radians(lat2)
-    dp = math.radians(lat2 - lat1)
-    dl = math.radians(lon2 - lon1)
-    h = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
-    return 2 * r * math.asin(math.sqrt(h))
+BOROUGH_MARKERS = {
+    "Manhattan": ["manhattan", "new york, ny", "soho", "tribeca"],
+    "Brooklyn": ["brooklyn"],
+    "Queens": ["queens", "astoria", "long island city"],
+    "Bronx": ["bronx"],
+    "Staten Island": ["staten island"],
+}
 
 
-def is_unqualified(address):
-    a = (address or "").lower()
-    if not a:
+# ------------------------------------------------------------------------
+# Manually verified, 2026-08-19.
+#
+# These are the records the automated tiers could not settle: JS-only sites
+# that never print a street address in their HTML, two sites that were down,
+# and one record with no URL at all. Each was confirmed individually against
+# the source named below, so the result is reproducible rather than a one-off
+# hand edit of the JSON.
+#
+# Underdonk is the interesting one. validate_data.py flags it, but it is not
+# wrong: its stored coordinates match 297 Grand St in Williamsburg (11211)
+# exactly, and Underdonk is a Brooklyn space. It is a false positive of the
+# "unqualified address + non-Manhattan borough" rule. Qualifying its address
+# fixes the record and clears the warning without weakening the rule.
+# ------------------------------------------------------------------------
+VERIFIED = {
+    "KATES–FERRI PROJECTS":  ("Manhattan", "katesferriprojects.com/contact lists ZIP 10002"),
+    "Ulrik":                 ("Manhattan", "ulrik.nyc/contact lists ZIP 10013"),
+    "125 Newbury":           ("Manhattan", "125newbury.com/contact lists Tribeca, ZIP 10013"),
+    "D. D. D. D.":           ("Manhattan", "dddd.pictures/about lists Manhattan, Tribeca, ZIP 10013"),
+    "SARAHCROWN":            ("Manhattan", "sarahcrown.com describes its Tribeca space"),
+    "Almine Rech":           ("Manhattan", "361 Broadway, NY 10013, Tribeca flagship (ADAA, ARTnews)"),
+    "Space ZeroOne":         ("Manhattan", "371 Broadway, Tribeca (Hanwha Foundation, e-flux)"),
+    "Will Shott":            ("Manhattan", "17 Pike St, NY 10002, Lower East Side (Artforum artguide)"),
+    "Hemingway Gallery":     ("Manhattan", "88 Leonard St Tribeca storefront (The Art Newspaper, 2019)"),
+    "370 Broadway (JDJ, Deanna Evans Projects, Chozick Family Art Gallery)":
+                             ("Manhattan", "OSM has 370 Broadway as Manhattan 10013, Civic Center"),
+}
+
+# Records the validator flags that are already correct. Value is the address to
+# store instead, qualified so the address itself is no longer ambiguous.
+CONFIRMED_CORRECT = {
+    "Underdonk": ("Brooklyn", "297 Grand St, Brooklyn",
+                  "coordinates already match 297 Grand St, Williamsburg 11211"),
+}
+
+
+def zip_to_borough(z):
+    for name, test in ZIP_RANGES:
+        if test(z):
+            return name
+    return None
+
+
+def flagged(props):
+    """The same predicate validate_data.py uses to raise its 30 errors."""
+    addr = (props.get("address") or "").lower()
+    borough = (props.get("borough") or "").strip()
+    if not addr or not borough:
         return False
-    if any(m in a for m in BOROUGH_MARKERS):
-        return False
-    if re.search(r"\b1[01]\d{3}\b", a):      # NYC ZIP
-        return False
-    return True
-
-
-def geocode_google(address, borough):
-    """Geocode via Google. Returns (lat, lon, formatted) or None."""
-    query = f"{address}, {borough}, New York, NY"
-    resp = requests.get(GEOCODE_URL, params={"address": query, "key": GOOGLE_KEY},
-                        timeout=20)
-    resp.raise_for_status()
-    data = resp.json()
-    if data.get("status") != "OK" or not data.get("results"):
-        return None
-    top = data["results"][0]
-    if not (set(top.get("types", [])) & ACCEPTABLE_TYPES):
-        return None
-    if top.get("partial_match"):
-        return None
-    loc = top["geometry"]["location"]
-    return loc["lat"], loc["lng"], top.get("formatted_address", "")
-
-
-def geocode_osm(address, borough):
-    """Geocode via OpenStreetMap Nominatim. No API key required.
-
-    Nominatim's usage policy caps this at one request per second and requires a
-    descriptive User-Agent, both of which are honoured here. Thirty records take
-    about half a minute.
-
-    We only accept a result that Nominatim itself places in the requested
-    borough, which is the whole point — a bare "176 Grand St" is exactly the
-    query that went wrong the first time.
-    """
-    resp = requests.get(
-        NOMINATIM_URL,
-        params={"q": f"{address}, {borough}, New York, NY", "format": "json",
-                "limit": 1, "addressdetails": 1},
-        headers={"User-Agent": NOMINATIM_UA},
-        timeout=25,
+    qualified = (
+        any(m in addr for markers in BOROUGH_MARKERS.values() for m in markers)
+        or re.search(r"\b1[01]\d{3}\b", addr)
+        or "ny" in addr
     )
-    resp.raise_for_status()
-    results = resp.json()
-    if not results:
+    return not qualified and borough != "Manhattan"
+
+
+def fetch(url, ua, timeout=25):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": ua,
+        "Accept": "text/html,application/xhtml+xml,*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        raw = r.read(2_000_000)
+    return raw.decode(r.headers.get_content_charset() or "utf-8", errors="replace")
+
+
+def page_text(html):
+    html = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", html)
+    html = re.sub(r"(?s)<[^>]+>", " ", html)
+    html = html.replace("&nbsp;", " ").replace("&amp;", "&")
+    return re.sub(r"\s+", " ", html)
+
+
+def nyc_zips(text):
+    out = []
+    for m in re.finditer(r"\b(1[01]\d{3})\b", text):
+        z = int(m.group(1))
+        if zip_to_borough(z):
+            out.append((m.start(), z))
+    return out
+
+
+def anchored_zip(text, address):
+    """Find a ZIP that sits just after this gallery's own street address."""
+    m = re.match(r"\s*(\d+)\s+(.+)", address)
+    if not m:
         return None
-    top = results[0]
+    house, rest = m.group(1), m.group(2)
+    word = re.sub(r"[^a-z]", "", rest.split()[0].lower())
+    if not word:
+        return None
+    zips = nyc_zips(text)
+    if not zips:
+        return None
+    best = None
+    for am in re.finditer(r"\b%s\b" % re.escape(house), text):
+        window = text[am.end():am.end() + 60].lower()
+        if word not in window:
+            continue
+        for pos, z in zips:
+            gap = pos - am.end()
+            if 0 <= gap <= 250 and (best is None or gap < best[0]):
+                best = (gap, z)
+    return best[1] if best else None
 
-    # Confirm the result really is in the borough we asked for.
-    details = top.get("address", {}) or {}
-    haystack = " ".join([
-        top.get("display_name", ""),
-        details.get("city_district", ""), details.get("suburb", ""),
-        details.get("county", ""), details.get("borough", ""),
-    ]).lower()
-    if borough.lower() == "manhattan":
-        if not ("manhattan" in haystack or "new york county" in haystack):
-            return None
 
-    return float(top["lat"]), float(top["lon"]), top.get("display_name", "")
+def geocode(address, borough):
+    """Precise coordinates for an address constrained to one borough."""
+    q = urllib.parse.urlencode({
+        "street": address, "county": borough, "state": "NY",
+        "country": "USA", "format": "jsonv2", "addressdetails": "1", "limit": "3",
+    })
+    try:
+        body = fetch("%s?%s" % (NOMINATIM, q), NOMINATIM_UA, timeout=30)
+        results = json.loads(body)
+    except Exception:
+        return None
+    finally:
+        time.sleep(1.1)  # Nominatim usage policy: max 1 request/second
+    house = (re.match(r"\s*(\d+)", address) or [None, None])[1]
+    for r in results:
+        if house and r.get("address", {}).get("house_number") != house:
+            continue
+        return float(r["lat"]), float(r["lon"])
+    return None
 
 
-def geocode(address, borough, provider):
-    if provider == "google":
-        return geocode_google(address, borough)
-    return geocode_osm(address, borough)
+def which_boroughs_have(address):
+    """Boroughs where this exact house number exists."""
+    found = []
+    for b in BOROUGHS:
+        if geocode(address, b):
+            found.append(b)
+    return found
+
+
+def resolve(props):
+    """Gather evidence for one gallery. Returns (borough, method, note)."""
+    address = props.get("address") or ""
+    url = props.get("url") or ""
+
+    name = props.get("name") or ""
+    if name in VERIFIED:
+        b, why = VERIFIED[name]
+        return b, "verified", why
+
+    if url:
+        if not url.startswith("http"):
+            url = "https://" + url
+        try:
+            text = page_text(fetch(url, BROWSER_UA))
+        except Exception as e:
+            text = ""
+            note = "site unreachable (%s)" % type(e).__name__
+        else:
+            note = ""
+            z = anchored_zip(text, address)
+            if z:
+                b = zip_to_borough(z)
+                if b:
+                    return b, "anchored-zip", "ZIP %d beside the address on its site" % z
+            distinct = sorted({z for _, z in nyc_zips(text)})
+            if len(distinct) == 1:
+                b = zip_to_borough(distinct[0])
+                if b:
+                    return b, "page-zip", "only ZIP on the site is %d" % distinct[0]
+            if distinct:
+                note = "site lists %d ZIPs (%s), none beside the address" % (
+                    len(distinct), ", ".join(str(z) for z in distinct))
+    else:
+        note = "no url on record"
+
+    hits = which_boroughs_have(address)
+    if len(hits) == 1:
+        return hits[0], "geocoder", "house number exists only in %s" % hits[0]
+    if len(hits) > 1:
+        note = (note + "; " if note else "") + "address exists in " + ", ".join(hits)
+    return None, None, note or "no evidence found"
+
+
+def haversine(a, b):
+    from math import radians, sin, cos, asin, sqrt
+    lat1, lon1, lat2, lon2 = map(radians, [a[0], a[1], b[0], b[1]])
+    h = sin((lat2 - lat1) / 2) ** 2 + cos(lat1) * cos(lat2) * sin((lon2 - lon1) / 2) ** 2
+    return 2 * 6371 * asin(sqrt(h))
+
+
+def block_outliers(features):
+    """Records whose coordinates contradict their own block.
+
+    Wrong-borough is not the only way a coordinate goes bad. Nino Mier Gallery
+    was labelled Manhattan, sat in Manhattan, and was still 4.6 km from every
+    other gallery on its stretch of Broadway. The borough checks cannot see that
+    because the record is self-consistent; only the neighbours give it away.
+    """
+    groups = {}
+    for ft in features:
+        p = ft["properties"]
+        m = re.match(r"\s*(\d+)\s+(.+?)\s*$", (p.get("address") or ""))
+        coords = (ft.get("geometry") or {}).get("coordinates")
+        if not m or not coords:
+            continue
+        street = re.sub(r"\b(st|street|ave|avenue|rd|road|pl|place)\b\.?", "",
+                        m.group(2).lower()).strip()
+        street = re.sub(r"[^a-z0-9 ]", "", street).strip()
+        if street:
+            groups.setdefault(street, []).append((int(m.group(1)), ft))
+
+    out = []
+    for street, members in groups.items():
+        if len(members) < 3:
+            continue
+        for house, ft in members:
+            near = [o for o in members if o[1] is not ft and abs(o[0] - house) <= 20]
+            if len(near) < 2:
+                continue
+            lon, lat = ft["geometry"]["coordinates"]
+            gaps = [haversine((lat, lon),
+                              (o[1]["geometry"]["coordinates"][1],
+                               o[1]["geometry"]["coordinates"][0])) for o in near]
+            if min(gaps) > 1.5:
+                out.append((ft, min(gaps), len(near)))
+    return out
 
 
 def main():
     apply_changes = "--apply" in sys.argv
+    dump = None
+    if "--json" in sys.argv:
+        dump = sys.argv[sys.argv.index("--json") + 1]
 
-    if "--provider" in sys.argv:
-        provider = sys.argv[sys.argv.index("--provider") + 1].lower()
-        if provider not in ("google", "osm"):
-            print("--provider must be 'google' or 'osm'")
-            sys.exit(1)
-    else:
-        provider = "google" if GOOGLE_KEY else "osm"
+    with open(DATA) as f:
+        doc = json.load(f)
 
-    if provider == "google" and not GOOGLE_KEY:
-        print("--provider google was requested but GOOGLE_PLACES_KEY is not set.")
-        print("Either export a real key, or use the no-key geocoder:\n")
-        print("  python3 fix_geocoding.py --provider osm --apply")
-        sys.exit(1)
+    targets = [ft for ft in doc["features"] if flagged(ft["properties"])]
+    print("%d galleries flagged by validate_data.py\n" % len(targets))
 
-    if provider == "osm":
-        print("Using OpenStreetMap Nominatim (no API key needed, ~1 request/second).\n")
-    else:
-        print("Using the Google Geocoding API.\n")
+    changes, manual, evidence, confirmed = [], [], [], []
+    already = 0
 
-    data = json.loads(GALLERIES_PATH.read_text())
-    features = data["features"]
+    for i, ft in enumerate(targets, 1):
+        p = ft["properties"]
+        name = p.get("name", "?")
+        print("[%2d/%d] %-52s %-18s" % (i, len(targets), name[:52], p.get("address", "")),
+              end="", flush=True)
 
-    candidates = [
-        f for f in features
-        if is_unqualified(f["properties"].get("address"))
-        and (f["properties"].get("borough") or "") != "Manhattan"
-    ]
+        if name in CONFIRMED_CORRECT:
+            boro, new_addr, why = CONFIRMED_CORRECT[name]
+            if p.get("address") != new_addr:
+                print("  already correct — qualifying address (%s)" % why)
+                confirmed.append((ft, new_addr, why))
+            else:
+                print("  ok (already correct)")
+                already += 1
+            continue
 
-    print(f"{len(features)} galleries loaded; {len(candidates)} have an unqualified "
-          f"address and a non-Manhattan borough.\n")
-    if not candidates:
-        print("Nothing to repair.")
+        borough, method, note = resolve(p)
+        evidence.append({"name": name, "address": p.get("address"),
+                         "stored_borough": p.get("borough"), "resolved": borough,
+                         "method": method, "note": note})
+
+        if not borough:
+            print("  UNRESOLVED — %s" % note)
+            manual.append((name, p.get("address"), note))
+            continue
+
+        coords = geocode(p.get("address", ""), borough)
+        if not coords:
+            print("  UNRESOLVED — %s says %s but no house-level match there"
+                  % (method, borough))
+            manual.append((name, p.get("address"), "%s -> %s, no coords" % (method, borough)))
+            continue
+
+        old_lon, old_lat = ft["geometry"]["coordinates"]
+        moved = haversine((old_lat, old_lon), coords)
+        if p.get("borough") == borough and moved < 0.20:
+            print("  ok (already correct)")
+            continue
+
+        print("  %s -> %s, moves %.1f km  [%s]" % (p.get("borough"), borough, moved, method))
+        changes.append((ft, borough, coords, moved, method, note))
+
+    # Pass 2: right borough, wrong coordinates.
+    print("\nChecking for coordinates that contradict their own block...")
+    for ft, gap, n in block_outliers(doc["features"]):
+        p = ft["properties"]
+        boro = p.get("borough") or "Manhattan"
+        coords = geocode(p.get("address", ""), boro)
+        if not coords:
+            manual.append((p.get("name", "?"), p.get("address"),
+                           "%.1f km from its block, no house-level match in %s" % (gap, boro)))
+            continue
+        old_lon, old_lat = ft["geometry"]["coordinates"]
+        moved = haversine((old_lat, old_lon), coords)
+        if moved < 0.20:
+            continue
+        print("  %-40s %-16s off by %.1f km from %d neighbours, moves %.1f km"
+              % (p.get("name", "")[:40], p.get("address", ""), gap, n, moved))
+        changes.append((ft, boro, coords, moved, "block", "%.1f km from its own block" % gap))
+
+    print("\n%s" % ("=" * 78))
+    ok = max(0, len(targets) - len(changes) - len(confirmed) - len(manual))
+    print("%d to change, %d address qualified, %d need a manual look, %d already correct"
+          % (len(changes), len(confirmed), len(manual), ok))
+
+    if changes:
+        print("\nProposed changes:")
+        for ft, b, c, moved, method, note in changes:
+            p = ft["properties"]
+            print("  %-50s %-18s %s -> %-9s %5.1f km  (%s: %s)"
+                  % (p.get("name", "")[:50], p.get("address", ""), p.get("borough"),
+                     b, moved, method, note))
+
+    if manual:
+        print("\nNeed a manual look:")
+        for name, addr, note in manual:
+            print("  %-50s %-18s %s" % (name[:50], addr, note))
+
+    if dump:
+        with open(dump, "w") as f:
+            json.dump(evidence, f, indent=2)
+        print("\nEvidence written to %s" % dump)
+
+    if not changes and not confirmed:
+        print("\nNothing to write.")
         return
-
-    changed, skipped, failed = 0, 0, 0
-
-    for f in candidates:
-        p = f["properties"]
-        name = p["name"]
-        addr = p["address"]
-        old_lon, old_lat = f["geometry"]["coordinates"]
-
-        # These addresses are Manhattan street names that collide with Brooklyn ones,
-        # so resolve them explicitly against Manhattan.
-        try:
-            result = geocode(addr, "Manhattan", provider)
-        except Exception as e:
-            print(f"  ERROR  {name}: {type(e).__name__}: {e}")
-            failed += 1
-            time.sleep(OSM_SLEEP if provider == "osm" else 0.2)
-            continue
-        time.sleep(OSM_SLEEP if provider == "osm" else 0.2)
-
-        if not result:
-            print(f"  SKIP   {name}: no confident match for {addr!r}")
-            skipped += 1
-            continue
-
-        lat, lon, formatted = result
-        moved = haversine_km((old_lat, old_lon), (lat, lon))
-
-        if moved < MIN_MOVE_KM:
-            print(f"  ok     {name}: already within {moved * 1000:.0f} m")
-            skipped += 1
-            continue
-
-        print(f"  FIX    {name}")
-        print(f"           {addr!r}  ->  {formatted!r}")
-        print(f"           ({old_lat:.4f}, {old_lon:.4f}) -> ({lat:.4f}, {lon:.4f})  "
-              f"moved {moved:.1f} km")
-        print(f"           borough {p.get('borough')!r} -> 'Manhattan'")
-
-        if apply_changes:
-            f["geometry"]["coordinates"] = [lon, lat]
-            p["borough"] = "Manhattan"
-            p["address"] = formatted
-        changed += 1
-
-    print()
-    print(f"{changed} to fix, {skipped} left alone, {failed} errors.")
 
     if not apply_changes:
-        print("\nDry run — nothing written. Re-run with --apply to save.")
+        print("\nDry run. Re-run with --apply to write %s." % DATA)
         return
 
-    GALLERIES_PATH.write_text(json.dumps(data, indent=2))
-    print(f"\nWrote {GALLERIES_PATH}. Now run:  python3 build_site.py")
+    for ft, new_addr, _ in confirmed:
+        ft["properties"]["address"] = new_addr
+
+    for ft, borough, coords, _, _, _ in changes:
+        ft["properties"]["borough"] = borough
+        ft["geometry"]["coordinates"] = [round(coords[1], 6), round(coords[0], 6)]
+
+    # Match how scraper.py and the other generators write this file exactly
+    # (json.dumps(..., indent=2), ASCII-escaped, no trailing newline). Writing it
+    # any other way leaves a diff the next daily bot run silently reverts.
+    with open(DATA, "w") as f:
+        f.write(json.dumps(doc, indent=2))
+    print("\nWrote %d corrections and %d address qualifications to %s."
+          % (len(changes), len(confirmed), DATA))
 
 
 if __name__ == "__main__":

@@ -20,6 +20,7 @@ Checks performed:
   * addresses naming a borough that disagrees with the borough field
   * duplicate URLs and duplicate gallery names
   * records missing a name, address or coordinates
+  * coordinates that contradict the galleries next door on the same street
 
 Exit code is 1 if any ERROR-level problem is found, so this can gate a build.
 Warnings do not fail the run.
@@ -63,6 +64,14 @@ BOROUGH_IN_ADDRESS = {
 def in_box(lat, lon, box):
     return (box["lat"][0] <= lat <= box["lat"][1]
             and box["lon"][0] <= lon <= box["lon"][1])
+
+
+def haversine(lat1, lon1, lat2, lon2):
+    """Great-circle distance in km."""
+    from math import radians, sin, cos, asin, sqrt
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
+    h = sin((lat2 - lat1) / 2) ** 2 + cos(lat1) * cos(lat2) * sin((lon2 - lon1) / 2) ** 2
+    return 2 * 6371 * asin(sqrt(h))
 
 
 def main():
@@ -138,6 +147,44 @@ def main():
                     "Franklin St and Greene St all exist in both Manhattan and Brooklyn, "
                     "so a bare address can geocode to the wrong borough. Run "
                     "fix_geocoding.py"
+                )
+
+    # Nino Mier Gallery sat at 380 Broadway with Midtown coordinates while every
+    # neighbour from 361 to 424 Broadway was in Tribeca, 4.5 km away. Nothing above
+    # catches that: the borough label said Manhattan and the coordinates were in
+    # Manhattan, so the record was self-consistent and simply wrong.
+    #
+    # Addresses on the same block are the check. If a record has two or more
+    # neighbours within 20 house numbers on the same street and sits far from all
+    # of them, the odd one out is the record, not the block.
+    street_groups = {}
+    for f in features:
+        p = f["properties"]
+        m = re.match(r"\s*(\d+)\s+(.+?)\s*$", (p.get("address") or ""))
+        coords = (f.get("geometry") or {}).get("coordinates")
+        if not m or not coords:
+            continue
+        street = re.sub(r"\b(st|street|ave|avenue|rd|road|pl|place)\b\.?", "",
+                        m.group(2).lower()).strip()
+        street = re.sub(r"[^a-z0-9 ]", "", street).strip()
+        if street:
+            street_groups.setdefault(street, []).append(
+                (int(m.group(1)), p.get("name", "?"), coords[1], coords[0]))
+
+    for street, members in street_groups.items():
+        if len(members) < 3:
+            continue
+        for house, name, lat, lon in members:
+            near = [o for o in members
+                    if o[1] != name and abs(o[0] - house) <= 20]
+            if len(near) < 2:
+                continue
+            gaps = [haversine(lat, lon, o[2], o[3]) for o in near]
+            if min(gaps) > 1.5:
+                errors.append(
+                    f"{name}: at {house} {street.title()} but {min(gaps):.1f} km from "
+                    f"the nearest of {len(near)} galleries on the same block "
+                    f"(e.g. {near[0][1]} at {near[0][0]}). One of them is mis-geocoded."
                 )
 
     for url, n in urls.items():
