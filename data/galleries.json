@@ -338,7 +338,7 @@
         "address": "50 Eldridge St",
         "url": "https://kiangmalingue.com",
         "borough": "Manhattan",
-        "last_updated": ""
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -542,7 +542,7 @@
         "address": "235 Bowery",
         "url": "http://www.newmuseum.org",
         "borough": "Manhattan",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -593,7 +593,7 @@
         "address": "130 Orchard St",
         "url": "http://www.perrotin.com",
         "borough": "Manhattan",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -746,7 +746,7 @@
         "address": "297 Grand St, Brooklyn",
         "url": "https://www.underdonk.com/",
         "borough": "Brooklyn",
-        "last_updated": ""
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -933,7 +933,7 @@
         "address": "87 Mercer St",
         "url": "http://amelieduchalard.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -1256,7 +1256,7 @@
         "address": "79 Leonard St",
         "url": "https://dddd.pictures/",
         "borough": "Manhattan",
-        "last_updated": "2026-08-21"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -1902,7 +1902,7 @@
         "address": "23 Warren St",
         "url": "https://www.oneartspace.com/",
         "borough": "Manhattan",
-        "last_updated": ""
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -2208,7 +2208,7 @@
         "address": "75 Leonard St",
         "url": "https://southernguild.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-08-21"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -2684,7 +2684,7 @@
         "address": "17 Ingraham St, Brooklyn, NY 11206, USA",
         "url": "http://bottleneckgallery.com/",
         "borough": "Brooklyn",
-        "last_updated": "2026-08-22"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -2803,7 +2803,7 @@
         "address": "184 Noll St #3, Brooklyn, NY 11237, USA",
         "url": "https://linktr.ee/3rdethos",
         "borough": "Brooklyn",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -3296,7 +3296,7 @@
         "address": "24 Marcy Ave, Brooklyn, NY 11211, USA",
         "url": "http://www.bkarthaus.com/",
         "borough": "Brooklyn",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -3500,7 +3500,7 @@
         "address": "123 Nassau Ave, Brooklyn, NY 11222, USA",
         "url": "http://nassauavenuegallery.square.site/",
         "borough": "Brooklyn",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -3840,7 +3840,7 @@
         "address": "208 E 60th St, New York, NY 10022, USA",
         "url": "https://gallery60nyc.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-08-23"
+        "last_updated": "2026-08-24"
       }
     },
     {
@@ -4288,7 +4288,7 @@
       "tier": "signal"
     },
     "https://kiangmalingue.com": {
-      "h": "222c39bf6f7299aa2ed1b70b2525dc9e",
+      "h": "1e2bea5ec9522189d5c603834a7e855a",
       "tier": "signal"
     },
     "http://www.lichtundfire.com": {
@@ -4328,7 +4328,7 @@
       "tier": "signal"
     },
     "http://www.newmuseum.org": {
-      "h": "74da7da89f7d0aec24787abb38d5443c",
+      "h": "610a33441e2979737348e117c1607802",
       "tier": "raw"
     },
     "https://www.nunufineart.com/": {
@@ -4340,7 +4340,7 @@
       "tier": "signal"
     },
     "http://www.perrotin.com": {
-      "h": "4a7771e92a3d07316e1620eee70af4f9",
+      "h": "637333b6dbddc03d2ff196e32d7ead67",
       "tier": "raw"
     },
     "http://www.scroll.nyc": {
@@ -4372,7 +4372,7 @@
       "tier": "signal"
     },
     "https://www.underdonk.com/": {
-      "h": "dfa1612fd282a6a942d603ee68d94982",
+      "h": "3aa88cddec81e5926276536b8ebf8e65",
       "tier": "signal"
     },
     "http://www.westwoodgallery.com": {
@@ -4408,7 +4408,7 @@
       "tier": "signal"
     },
     "http://amelieduchalard.com/": {
-      "h": "2147c3681cc42bd12b413520aabafac2",
+      "h": "b9bbaf39da2b8ffa5dcb4ed6f8fc58f0",
       "tier": "signal"
     },
     "http://www.edlingallery.com": {
@@ -4476,7 +4476,7 @@
       "tier": "signal"
     },
     "https://dddd.pictures/": {
-      "h": "2c0f622b6049ec03635f25fcf96f2cce",
+      "h": "a7f30cdf7101567e7aaaad38cfe719a1",
       "tier": "signal"
     },
     "https://www.davidzwirner.com/": {
@@ -4616,7 +4616,7 @@
       "tier": "signal"
     },
     "https://www.oneartspace.com/": {
-      "h": "c3e32665f1c41c18c3f43aca108b3927",
+      "h": "cda7c44ed94b257ea6b5aba7d69a66e3",
       "tier": "signal"
     },
     "https://www.ortuzarprojects.com/": {
@@ -4680,7 +4680,7 @@
       "tier": "signal"
     },
     "https://southernguild.com/": {
-      "h": "8183e44c3f550b99844f1df4719b9a04",
+      "h": "0763634eb2f06564dd511d3ce0b25356",
       "tier": "signal"
     },
     "http://www.spacegallerystbarth.com/": {
@@ -4772,7 +4772,7 @@
       "tier": "raw"
     },
     "http://bottleneckgallery.com/": {
-      "h": "ff2a5f3ba56cd80568c6dd8aea5e505a",
+      "h": "e775febecdd7f0eff89536a8abf5a95d",
       "tier": "signal"
     },
     "http://www.aliumeart.com/": {
@@ -4800,7 +4800,7 @@
       "tier": "signal"
     },
     "https://linktr.ee/3rdethos": {
-      "h": "ba783cd45a32809820c4e485de51e010",
+      "h": "667d420807b5e98a200965bd39f94df5",
       "tier": "signal"
     },
     "http://activespacestudios.com/": {
@@ -4880,7 +4880,7 @@
       "tier": "signal"
     },
     "http://www.bkarthaus.com/": {
-      "h": "8bee767435b61fc9102406ac9fd37ddc",
+      "h": "e40af8d4e5e949cb8ff8b0c651a889cb",
       "tier": "signal"
     },
     "http://www.awitanewyork.com/": {
@@ -4916,7 +4916,7 @@
       "tier": "raw"
     },
     "http://nassauavenuegallery.square.site/": {
-      "h": "3f9f5a4569a948dc99ae8c2cef7a3652",
+      "h": "deca50cdcf6092ff2b319c320298d6ae",
       "tier": "raw"
     },
     "http://www.grafftours.com/": {
@@ -4992,7 +4992,7 @@
       "tier": "signal"
     },
     "https://gallery60nyc.com/": {
-      "h": "7d521f195354bc5833b5c6123fd4cc4a",
+      "h": "6c1069c7a6c3fbc8a511dc6311b4c0ff",
       "tier": "signal"
     },
     "https://www.sculpture-center.org": {
