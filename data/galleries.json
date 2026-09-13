@@ -49,7 +49,7 @@
         "address": "35 Great Jones St",
         "url": "https://www.aicon.art/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -66,7 +66,7 @@
         "address": "1 Freeman Alley",
         "url": "http://spazioamanita.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-08-27"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -542,7 +542,7 @@
         "address": "235 Bowery",
         "url": "http://www.newmuseum.org",
         "borough": "Manhattan",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -593,7 +593,7 @@
         "address": "130 Orchard St",
         "url": "http://www.perrotin.com",
         "borough": "Manhattan",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -610,7 +610,7 @@
         "address": "291 Grand St",
         "url": "http://www.scroll.nyc",
         "borough": "Manhattan",
-        "last_updated": "2026-09-11"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -933,7 +933,7 @@
         "address": "87 Mercer St",
         "url": "http://amelieduchalard.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -1035,7 +1035,7 @@
         "address": "291 Church St",
         "url": "https://apexart.org/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-09"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -1137,7 +1137,7 @@
         "address": "39 Walker St",
         "url": "http://bortolamigallery.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -1256,7 +1256,7 @@
         "address": "79 Leonard St",
         "url": "https://dddd.pictures/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-10"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -1630,7 +1630,7 @@
         "address": "52 Walker St",
         "url": "http://www.jamescohan.com",
         "borough": "Manhattan",
-        "last_updated": "2026-09-02"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -1647,7 +1647,7 @@
         "address": "52 White St",
         "url": "https://jamesfuentes.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-11"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -2684,7 +2684,7 @@
         "address": "17 Ingraham St, Brooklyn, NY 11206, USA",
         "url": "http://bottleneckgallery.com/",
         "borough": "Brooklyn",
-        "last_updated": "2026-09-11"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -2752,7 +2752,7 @@
         "address": "13 Grattan St #402, Brooklyn, NY 11206, USA",
         "url": "https://www.aspacegallery.net/",
         "borough": "Brooklyn",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -2786,7 +2786,7 @@
         "address": "630 Flushing Ave, Brooklyn, NY 11206, USA",
         "url": "http://thebishopgallery.com/",
         "borough": "Brooklyn",
-        "last_updated": "2026-09-08"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -3500,7 +3500,7 @@
         "address": "123 Nassau Ave, Brooklyn, NY 11222, USA",
         "url": "http://nassauavenuegallery.square.site/",
         "borough": "Brooklyn",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -3704,7 +3704,7 @@
         "address": "1002 Madison Ave, New York, NY 10075, USA",
         "url": "http://www.whitecube.com/",
         "borough": "Manhattan",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-13"
       }
     },
     {
@@ -4232,11 +4232,11 @@
       "tier": "signal"
     },
     "https://www.aicon.art/": {
-      "h": "9b0618cd900a4b7ad9098cc6a5d21f3f",
+      "h": "f09efce65c701b84ded787bf2fcb0bbf",
       "tier": "signal"
     },
     "http://spazioamanita.com/": {
-      "h": "a783ceeb09afd62de7dc4dc3d6066169",
+      "h": "1747314aa89294926b2307149658ff56",
       "tier": "signal"
     },
     "http://amoseno.org/": {
@@ -4336,7 +4336,7 @@
       "tier": "signal"
     },
     "http://www.newmuseum.org": {
-      "h": "b58bd6ad1f9605e0910914a1c0961c3b",
+      "h": "769d9a09a77a745047c62935050409a3",
       "tier": "raw"
     },
     "https://www.nunufineart.com/": {
@@ -4348,11 +4348,11 @@
       "tier": "signal"
     },
     "http://www.perrotin.com": {
-      "h": "8af1fd7992035da2c7e2f23cb363db6c",
+      "h": "3cc73167e23db4661990d77691616d11",
       "tier": "raw"
     },
     "http://www.scroll.nyc": {
-      "h": "4b326d0a875e422bc71b78ee1a1ecc70",
+      "h": "04bbd49b422ecb70a09ba7bb43ca3cca",
       "tier": "signal"
     },
     "http://www.swpk.org/": {
@@ -4416,7 +4416,7 @@
       "tier": "signal"
     },
     "http://amelieduchalard.com/": {
-      "h": "e0e290d093eac18029f6722217227535",
+      "h": "c05d4e8e742096499260e28bbf9b679d",
       "tier": "signal"
     },
     "https://anatebgi.com/": {
@@ -4440,7 +4440,7 @@
       "tier": "signal"
     },
     "https://apexart.org/": {
-      "h": "88d83eca37bd4967a4a9d605344777bb",
+      "h": "5c99a345e40c8e6584c31670a3ce27af",
       "tier": "signal"
     },
     "http://www.arsenalcontemporary.com": {
@@ -4464,7 +4464,7 @@
       "tier": "signal"
     },
     "http://bortolamigallery.com/": {
-      "h": "8da5957beb6da15b76193ec0b2eb32a0",
+      "h": "255ca5bbcc7420eca4949cb1035233e2",
       "tier": "signal"
     },
     "http://broadwaygallery.nyc/": {
@@ -4492,7 +4492,7 @@
       "tier": "signal"
     },
     "https://dddd.pictures/": {
-      "h": "a8af84a4101b2e1b58a0c101972e3cc4",
+      "h": "f6d944dbe864ea5b2659bb0b73b3a336",
       "tier": "signal"
     },
     "https://www.davidzwirner.com/": {
@@ -4572,11 +4572,11 @@
       "tier": "signal"
     },
     "http://www.jamescohan.com": {
-      "h": "58dc10095b8d6c891e025eedb924f33b",
+      "h": "862cae6c78c3e3f1f93e4e52a31924c7",
       "tier": "signal"
     },
     "https://jamesfuentes.com/": {
-      "h": "b07f91b95456d0cecd01b4d6a9032bbe",
+      "h": "5a912324705db701c4bb44ea4467ddc1",
       "tier": "signal"
     },
     "http://www.janelombardgallery.com/": {
@@ -4792,7 +4792,7 @@
       "tier": "raw"
     },
     "http://bottleneckgallery.com/": {
-      "h": "9f1659aacb231bbbc80c4d30f76436e7",
+      "h": "2a1dc659b97fa44ac8478194bf285902",
       "tier": "signal"
     },
     "http://www.aliumeart.com/": {
@@ -4808,7 +4808,7 @@
       "tier": "signal"
     },
     "https://www.aspacegallery.net/": {
-      "h": "4aa6f4e54112dd5a958f3f5a8e060000",
+      "h": "b5de807c1ec3d3fd28c99e6fa358cf78",
       "tier": "signal"
     },
     "http://www.transmitter.nyc/": {
@@ -4816,7 +4816,7 @@
       "tier": "signal"
     },
     "http://thebishopgallery.com/": {
-      "h": "8d00a25d18dc4a16d0cfdc2030661173",
+      "h": "208e729a4f06df9b638162cafad4707d",
       "tier": "signal"
     },
     "https://linktr.ee/3rdethos": {
@@ -4948,7 +4948,7 @@
       "tier": "raw"
     },
     "http://nassauavenuegallery.square.site/": {
-      "h": "1b237e7a8b028d39637a9f2f22911862",
+      "h": "38254fc9b329b99130bc13507ef59ef8",
       "tier": "raw"
     },
     "http://www.grafftours.com/": {
@@ -4992,7 +4992,7 @@
       "tier": "signal"
     },
     "http://www.whitecube.com/": {
-      "h": "26225d9e37452f9134c1935c7ae92c2b",
+      "h": "8eb9489e8aac084d6e539cfbf07dd75f",
       "tier": "signal"
     },
     "http://www.alexandregallery.com/": {
