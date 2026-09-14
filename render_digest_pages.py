@@ -43,6 +43,13 @@ HISTORY_PATH = Path("data/digest_history.json")
 OUT_DIR = Path("new-shows")
 WINDOW_DAYS = 7
 
+# The archive is WEEKLY, but the workflow runs daily. Without this gate the daily
+# cron writes a new date-keyed page every day, each covering the trailing 7 days —
+# so consecutive pages share 6 of 7 days of data. That is near-duplicate content at
+# scale, the exact pattern that got this site flagged for low-value content.
+# Publish on Mondays only, matching render_weekly_digest.py's email cadence.
+PUBLISH_WEEKDAY = 0  # Monday
+
 # Sanity ceiling. Before scraper.py switched from raw-byte hashing to content
 # signals, roughly 54% of tracked galleries were flagged as "changed" every single
 # day — noise from rotating nonces and cache-busting build hashes, not exhibitions.
@@ -419,7 +426,8 @@ def main():
     OUT_DIR.mkdir(exist_ok=True)
 
     if not backfill_only:
-        today = date.today().isoformat()
+        today_d = date.today()
+        today = today_d.isoformat()
         cutoff = (date.today() - timedelta(days=WINDOW_DAYS - 1)).isoformat()
         shows = new_since(features, cutoff)
         target = OUT_DIR / f"{today}.html"
@@ -437,7 +445,10 @@ def main():
         # to compare against; publishing that as "nothing changed" states a fact we
         # do not have, on a page that is never rewritten.
         baseline = json.loads(DATA_PATH.read_text()).get("_signals_since")
-        if baseline and baseline > cutoff:
+        if today_d.weekday() != PUBLISH_WEEKDAY and not force:
+            print(f"  Not publishing: the archive is weekly and today is "
+                  f"{today_d:%A}. Next report publishes Monday. (--force overrides.)")
+        elif baseline and baseline > cutoff:
             print(f"  REFUSING to publish: the detection baseline was reset on "
                   f"{baseline}, inside this report's window ({cutoff} to {today}).")
             print("  Nothing was flagged because there was nothing to compare against,")
