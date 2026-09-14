@@ -1,0 +1,31 @@
+headersOrigin = "config"
+plugins = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/home/joe/Desktop/NYC-Gallery-App"
+publishOrigin = "config"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/data/galleries.json"
+
+[headers.values]
+Cache-Control = "no-cache, no-store, must-revalidate"

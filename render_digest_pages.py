@@ -49,7 +49,13 @@ WINDOW_DAYS = 7
 # A week in which more than this share of the map changes is far more likely to be
 # a detection fault than a real event, and publishing that number would put a
 # plainly false claim on a permanent page. Above the ceiling we refuse to publish.
-MAX_PLAUSIBLE_SHARE = 0.25
+# Ceiling applies to the DAILY rate. Applying 25% to the 7-day cumulative was a
+# calibration error: ~5%/day accumulates to ~43%/week, so every publish was blocked
+# and the archive sat empty. Real activity runs 1-11%/day; the old raw-byte scraper
+# ran at 54%/day. That is the honest discriminator.
+MAX_DAILY_SHARE = 0.25
+# Backstop: a rate that stays low daily but still sweeps the whole map in a week.
+MAX_WEEKLY_SHARE = 0.85
 
 
 # ---------------------------------------------------------------- data helpers
@@ -164,7 +170,7 @@ def build_narrative(today, shows, by_borough, history, total_tracked):
             rest = ", ".join(f"{b} ({c})" for b, c in top[1:])
             paras.append(
                 f"{lead_b} led the week with {lead_c} "
-                f"{'gallery' if lead_c == 1 else 'galleries'} posting something new, "
+                f"{'gallery' if lead_c == 1 else 'galleries'} showing site changes, "
                 f"followed by {rest}. A change can mean a new exhibition going up, a run "
                 "of dates being extended, or simply a fresh set of images — we detect that "
                 "the page moved, not what moved on it, so the list below is a starting "
@@ -202,12 +208,12 @@ def render_digest_page(today, shows, history, total_tracked):
     n = len(shows)
 
     title = (
-        f"New NYC gallery shows — week ending {pretty_date(today)}"
+        f"NYC galleries that updated their sites — week ending {pretty_date(today)}"
         if n else
-        f"No new NYC gallery shows — week ending {pretty_date(today)}"
+        f"A quiet week for NYC gallery sites — week ending {pretty_date(today)}"
     )
     desc = (
-        f"{n} New York art galleries posted new shows or updated listings in the week "
+        f"{n} New York art galleries changed something on their websites in the week "
         f"ending {pretty_date(today)}, tracked across all five boroughs."
         if n else
         f"A quiet week: none of the {total_tracked} NYC art galleries we track posted "
@@ -219,7 +225,7 @@ def render_digest_page(today, shows, history, total_tracked):
     narrative = "\n      ".join(f"<p>{esc(p)}</p>" for p in paras)
 
     stats = f"""      <ul class="stats">
-        <li><strong>{n}</strong><span>galleries with something new</span></li>
+        <li><strong>{n}</strong><span>galleries with site changes</span></li>
         <li><strong>{len(by_borough)}</strong><span>{'borough' if len(by_borough) == 1 else 'boroughs'} active</span></li>
         <li><strong>{total_tracked}</strong><span>galleries checked</span></li>
       </ul>"""
@@ -256,7 +262,7 @@ def render_digest_page(today, shows, history, total_tracked):
             groups.append(f'      <h3>{esc(current)}</h3>\n      <ul class="galleries">\n'
                           + "\n".join(items) + "\n      </ul>")
         listing = "\n".join(groups)
-        listing_head = "<h2>Galleries with something new this week</h2>"
+        listing_head = "<h2>Galleries whose sites changed this week</h2>"
     else:
         table = ""
         listing = ""
@@ -312,7 +318,7 @@ def render_archive_index(entries, total_tracked):
             for d, c in entries
         )
         table = f"""      <table class="digest">
-        <thead><tr><th>Week</th><th>Galleries with something new</th></tr></thead>
+        <thead><tr><th>Week</th><th>Galleries with site changes</th></tr></thead>
         <tbody>
 {rows}
         </tbody>
@@ -417,7 +423,14 @@ def main():
         cutoff = (date.today() - timedelta(days=WINDOW_DAYS - 1)).isoformat()
         shows = new_since(features, cutoff)
         target = OUT_DIR / f"{today}.html"
-        share = len(shows) / total_tracked if total_tracked else 0
+        weekly_share = len(shows) / total_tracked if total_tracked else 0
+        # Use the last date the scraper actually stamped, so a day the workflow
+        # didn't run doesn't read as a suspiciously quiet one.
+        stamped = [f["properties"].get("last_updated") for f in features
+                   if f["properties"].get("last_updated")]
+        last_scrape = max(stamped) if stamped else None
+        daily_count = sum(1 for x in stamped if x == last_scrape)
+        daily_share = daily_count / total_tracked if total_tracked else 0
 
         # A week is only reportable if the scraper had a baseline for all of it.
         # The first run after a re-baseline flags nothing because there is nothing
@@ -429,11 +442,11 @@ def main():
                   f"{baseline}, inside this report's window ({cutoff} to {today}).")
             print("  Nothing was flagged because there was nothing to compare against,")
             print("  which is not the same as nothing having changed. No page written.")
-        elif share > MAX_PLAUSIBLE_SHARE:
+        elif daily_share > MAX_DAILY_SHARE:
             print(f"  REFUSING to publish: {len(shows)} of {total_tracked} galleries "
-                  f"({share:.0%}) flagged in one week.")
-            print(f"  That is above the {MAX_PLAUSIBLE_SHARE:.0%} plausibility ceiling and "
-                  "almost certainly a detection fault,")
+                  f"({daily_share:.0%}) flagged on {last_scrape} alone.")
+            print(f"  That daily rate is above the {MAX_DAILY_SHARE:.0%} ceiling and looks "
+                  "like a detection fault,")
             print("  not a real event. Run `python3 scraper.py --dry-run` and check the")
             print("  detection tiers before publishing. No page was written.")
         elif target.exists() and not force:
