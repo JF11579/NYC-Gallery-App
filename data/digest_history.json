@@ -18,5 +18,15 @@
     },
     "count": 84,
     "tracked": 235
+  },
+  "2026-09-28": {
+    "boroughs": {
+      "Bronx": 1,
+      "Brooklyn": 22,
+      "Manhattan": 63,
+      "Queens": 1
+    },
+    "count": 87,
+    "tracked": 235
   }
 }
