@@ -40,6 +40,11 @@ from site_common import BASE_URL, esc, page_shell, site_footer
 
 DATA_PATH = Path("data/galleries.json")
 HISTORY_PATH = Path("data/digest_history.json")
+# Written by scraper.py: {date: {url: [headings new that day]}}. This is what lets
+# a page say "new: Haas Brothers | Mathemagical" instead of only "site changed".
+NEW_HEADLINES_PATH = Path("data/new_headlines.json")
+TITLES_PER_GALLERY = 3
+TITLE_MAX_CHARS = 110
 OUT_DIR = Path("new-shows")
 WINDOW_DAYS = 7
 
@@ -83,6 +88,27 @@ def new_since(features, cutoff):
     return out
 
 
+def load_new_titles(start, end):
+    """{url: [new headings]} for scrape dates in [start, end], oldest first, deduplicated."""
+    try:
+        log = json.loads(NEW_HEADLINES_PATH.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    out = {}
+    for day in sorted(d for d in log if start <= d <= end):
+        for url, heads in log[day].items():
+            seen = {h.casefold() for h in out.setdefault(url, [])}
+            for h in heads:
+                if h.casefold() not in seen:
+                    seen.add(h.casefold())
+                    out[url].append(h)
+    return out
+
+
+def short(text):
+    return text if len(text) <= TITLE_MAX_CHARS else text[:TITLE_MAX_CHARS - 1].rstrip() + "…"
+
+
 def load_history():
     if HISTORY_PATH.exists():
         try:
@@ -111,7 +137,7 @@ def pretty_date(iso):
     return datetime.strptime(iso, "%Y-%m-%d").strftime("%B %-d, %Y")
 
 
-def build_narrative(today, shows, by_borough, history, total_tracked):
+def build_narrative(today, shows, by_borough, history, total_tracked, n_titled=0):
     """Write the week's commentary from the data.
 
     This is deliberately branchy: the point is that a quiet week and a busy week
@@ -179,9 +205,20 @@ def build_narrative(today, shows, by_borough, history, total_tracked):
                 f"{lead_b} led the week with {lead_c} "
                 f"{'gallery' if lead_c == 1 else 'galleries'} showing site changes, "
                 f"followed by {rest}. A change can mean a new exhibition going up, a run "
-                "of dates being extended, or simply a fresh set of images — we detect that "
-                "the page moved, not what moved on it, so the list below is a starting "
-                "point for a visit rather than a guarantee of a brand-new show."
+                "of dates being extended, or simply a fresh set of images."
+            )
+        if n_titled:
+            paras.append(
+                f"For {n_titled} of the {n} we could read what was new: headings that "
+                "appeared on the gallery's homepage this week, which is usually a show "
+                "title or an artist's name. Those are listed under the gallery. For the "
+                "rest we can only tell that the page changed, so treat them as a "
+                "shortlist worth checking rather than a guarantee of a new show."
+            )
+        else:
+            paras.append(
+                "We detect that a page moved, not what moved on it, so the list below "
+                "is a starting point for a visit rather than a guarantee of a brand-new show."
             )
 
     # --- third paragraph: record-keeping context
@@ -209,10 +246,12 @@ def build_narrative(today, shows, by_borough, history, total_tracked):
 
 # ------------------------------------------------------------------ rendering
 
-def render_digest_page(today, shows, history, total_tracked):
+def render_digest_page(today, shows, history, total_tracked, new_titles=None):
     start = (datetime.strptime(today, "%Y-%m-%d").date() - timedelta(days=WINDOW_DAYS - 1)).isoformat()
     by_borough = Counter(p.get("borough", "Unknown") for p in shows)
     n = len(shows)
+    new_titles = new_titles or {}
+    n_titled = sum(1 for p in shows if new_titles.get(p.get("url")))
 
     title = (
         f"NYC galleries that updated their sites — week ending {pretty_date(today)}"
@@ -228,7 +267,7 @@ def render_digest_page(today, shows, history, total_tracked):
     )
     url = f"{BASE_URL}/new-shows/{today}.html"
 
-    paras = build_narrative(today, shows, by_borough, history, total_tracked)
+    paras = build_narrative(today, shows, by_borough, history, total_tracked, n_titled)
     narrative = "\n      ".join(f"<p>{esc(p)}</p>" for p in paras)
 
     stats = f"""      <ul class="stats">
@@ -264,7 +303,12 @@ def render_digest_page(today, shows, history, total_tracked):
             addr = f'<span class="meta">{esc(p["address"])}</span>' if p.get("address") else ""
             link = (f' — <a href="{esc(p["url"])}" target="_blank" rel="noopener">website ↗</a>'
                     if p.get("url") else "")
-            items.append(f'        <li><strong>{esc(p["name"])}</strong>{link}{addr}</li>')
+            heads = new_titles.get(p.get("url")) or []
+            titles = ""
+            if heads:
+                shown = " · ".join(f"“{esc(short(h))}”" for h in heads[:TITLES_PER_GALLERY])
+                titles = f'<span class="titles">New on their site: {shown}</span>'
+            items.append(f'        <li><strong>{esc(p["name"])}</strong>{link}{titles}{addr}</li>')
         if items:
             groups.append(f'      <h3>{esc(current)}</h3>\n      <ul class="galleries">\n'
                           + "\n".join(items) + "\n      </ul>")
@@ -299,7 +343,8 @@ def render_digest_page(today, shows, history, total_tracked):
     <div class="callout">
       <p><strong>How we know.</strong> Every day we fetch the website of each gallery on
       the map and compare it with the copy we saw the day before. When a page changes, that
-      gallery gets flagged here and shows up green on the map for eight days. It's an
+      gallery gets flagged here and shows up green on the map for eight days, and any
+      headings that are new since the day before are quoted under its name. It's an
       imperfect signal — a gallery that never updates its site won't appear here even if it
       has a superb show up — but it's the closest thing to a live pulse of the city's
       gallery calendar that we know of.</p>
@@ -385,9 +430,11 @@ def render_archive_index(entries, total_tracked):
     <div class="callout">
       <p><strong>What counts as a change.</strong> We compare each gallery's homepage
       against the copy we fetched the day before. A new exhibition page, an updated set of
-      dates, a fresh run of images — all of it registers. What we can't tell you is which
-      of those it was, so treat each week's list as a shortlist of galleries worth
-      checking rather than a confirmed schedule of openings.</p>
+      dates, a fresh run of images — all of it registers. Where a new heading appeared on
+      the homepage, usually a show title or an artist's name, the report quotes it. Where
+      none did, we can't tell you which kind of change it was, so treat each week's list
+      as a shortlist of galleries worth checking rather than a confirmed schedule of
+      openings.</p>
     </div>
     <p><a class="back" href="/">← Back to the interactive map</a></p>"""
 
@@ -463,10 +510,14 @@ def main():
         elif target.exists() and not force:
             print(f"  {target} already exists; leaving it alone (use --force to rewrite).")
         else:
-            target.write_text(render_digest_page(today, shows, history, total_tracked))
-            print(f"  Wrote {target}  ({len(shows)} galleries with changes)")
+            new_titles = load_new_titles(cutoff, today)
+            target.write_text(render_digest_page(today, shows, history, total_tracked, new_titles))
+            n_titled = sum(1 for p in shows if new_titles.get(p.get("url")))
+            print(f"  Wrote {target}  ({len(shows)} galleries with changes, "
+                  f"{n_titled} with new headings quoted)")
             history[today] = {
                 "count": len(shows),
+                "with_titles": n_titled,
                 "tracked": total_tracked,
                 "boroughs": dict(Counter(p.get("borough", "Unknown") for p in shows)),
             }

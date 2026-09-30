@@ -79,6 +79,7 @@ STYLES = """
     ul.galleries li { background:#fff; border:1px solid #e5e5e5; border-radius:8px;
                       padding:12px 14px; margin-bottom:8px; }
     .meta { display:block; color:var(--muted); font-size:.9rem; margin-top:2px; }
+    .titles { display:block; font-size:.95rem; margin-top:4px; }
     .new { background:#2e7d32; color:#fff; font-size:.72rem; font-weight:700;
            padding:2px 7px; border-radius:10px; vertical-align:middle; }
     a { color:var(--blue); }
