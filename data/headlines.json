@@ -48,7 +48,6 @@
   "The Tesseract",
   "Exhibitions",
   "Tia-Thuy Nguyen Fields of Resonance",
-  "Tom Wesselmann & MATSUYAMA Wesselmann x Matsuyama",
   "Gwen O'Neil Atlantic Ave",
   "Focus",
   "Taryn Simon",
@@ -271,19 +270,22 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
+  "In Between",
   "Caminhos",
-  "Déboussolé est le mot exact",
-  "Pequeno mapa do tempo",
   "Cantaria",
+  "Pequeno mapa do tempo",
   "Travessia",
+  "Déboussolé est le mot exact",
   "Upcoming Exhibitions",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
+  "成長物",
   "Watch",
   "Daniel Jorge – Cantaria",
   "Paula Siebra – Pequeno mapa do tempo, 2026",
   "Lygia Pape – Sendo, 2026",
   "News",
+  "Je rêvais d’un autre monde",
   "Of Day or Night",
   "Zones de lumière, zones d’ombre",
   "Ora pro nobis",
@@ -291,7 +293,6 @@
   "Art Cut 2026 – Exercises in Empathy: Accompaniment",
   "Sentient Earth",
   "Passer d'un rêve à l'autre / To pass from one dream to another",
-  "Quasi",
   "Mendes Wood DM",
   "São Paulo, Barra Funda",
   "São Paulo, Casa Iramaia",
@@ -335,6 +336,8 @@
   "RISK GALLERY & BOUTIQUE"
  ],
  "http://ruttkowski68.com/": [
+  "Carnivalesque Henrik Godsk",
+  "Finally, a good exhibition Stefan Sagmeister & Meuser",
   "Die Qualität der Malerei Alex Wissel, Carolin Eidner, Finn Froböse",
   "Provocation Heather Bause Rubinstein",
   "Long Distance Call Matt McCormick",
@@ -353,6 +356,35 @@
  "http://spazioamanita.com/": [
   "To stand bare Vittorio Marella",
   "Fool's Privilege Eva Beresin"
+ ],
+ "http://sva.edu/exhibitions": [
+  "SVA Galleries: Hours of Operation & Locations",
+  "SVA Chelsea Gallery",
+  "SVA Gramercy Gallery",
+  "SVA Flatiron Gallery and Flatiron Windows",
+  "Undergraduate",
+  "Watch",
+  "Graduate",
+  "SVA Newsletters",
+  "Continuing education",
+  "SVA Gallery Exhibitions",
+  "Currently on View",
+  "Link copied to clipboard! SVA Galleries Locations",
+  "Chelsea Gallery",
+  "Flatiron Gallery",
+  "Gramercy Gallery",
+  "Flatiron Windows",
+  "Andrew Chang Gallery (Seoul)",
+  "Link copied to clipboard! Learn More about SVA Galleries",
+  "Masters Series",
+  "Traveling Exhibitions",
+  "Exhibition Archive",
+  "Digital Gallery Guide",
+  "Upcoming Exhibitions",
+  "School of Visual Arts",
+  "Jump In",
+  "Reach Out",
+  "Connect"
  ],
  "http://thebishopgallery.com/": [
   "Upcoming Exhibition",
@@ -468,8 +500,8 @@
   "Betty Parsons: An Expanded World",
   "Betty Parsons",
   "Melvin Edwards",
+  "Still Dangerous! The Harmony Hammond Reader",
   "A History of the Human Body at “Costume Art,” the New Costume Institute Exhibit",
-  "Harmony Hammond Wrote the Book on Lesbian Art 20 Years Ago. Here’s What Comes Next.",
   "Alexander Gray Associates",
   "Inquires",
   "Mailing List",
@@ -478,6 +510,13 @@
  "http://www.alexandregallery.com/": [
   "Lisa Sanditz",
   "Missing Mountain"
+ ],
+ "http://www.aliumeart.com/": [
+  "VISIT THE ALIUME ART GALLERY",
+  "41 Porter Ave. Brooklyn, New York",
+  "EXCLUSIVE ONLINE RELEASE ORIGINAL WORKS BY ALEX ALIUME",
+  "ALEX ALIUME",
+  "Join the ALIUMENATION"
  ],
  "http://www.ampmgallery.com/": [
   "A contemporary art gallery preserving la cultura, hosting community events, and supporting local artists.",
@@ -502,12 +541,12 @@
  "http://www.asyageisberggallery.com/": [
   "Rebecca Morgan",
   "\"Painting in the Apocalypse\"",
-  "The Armory Show",
-  "Katarina Riesing, Booth 228",
-  "Julie Schenkelberg",
-  "Spring Break Art Show: \"Esoteric Spectacles with Julie Schenkelberg and Andrius Alvarez-Backus,\" curated by Stephanie Huber",
+  "Melanie Daniel",
+  "Museum Acquisition: Asya Geisberg Gallery is pleased to announce Dib Bangkok’s acquisition of eight paintings by Melanie Daniel.",
+  "Shane Walsh",
+  "Group Exhibition: \"3 Legged Stool,\" Holsum Gallery, Kansas City, MO",
   "Angelina Gualdoni",
-  "Group Exhibition: \"Builders,\" Halsey McKay Gallery, East Hampton, NY"
+  "Group Exhibition: \"Tender Ground,\" Gaa Gallery, Catskills, NY"
  ],
  "http://www.awitanewyork.com/": [
   "Subscribe",
@@ -564,6 +603,16 @@
   "Yaacov Agam",
   "Marc Chagall",
   "Paravent"
+ ],
+ "http://www.bkarthaus.com/": [
+  "Art. Performance. Food. Community. All under one roof.",
+  "What brings you to the Haus?",
+  "What’s Happening at BAH",
+  "Come for the show. Stay for the night.",
+  "There’s Always Something Happening",
+  "Structural Collabs",
+  "Your event doesn’t have to feel ordinary.",
+  "Stay in the Haus"
  ],
  "http://www.c24gallery.com/": [
   "Home",
@@ -685,6 +734,12 @@
   "AESTHETIC CONFESSIONS: David Nolan and Valentina Branchini",
   "Cookie preferences",
   "MAILING LIST SIGN-UP"
+ ],
+ "http://www.derekeller.com/": [
+  "Julia Bland",
+  "If Blue is a Holy Color",
+  "North Room: Antone Könst",
+  "Curtsy"
  ],
  "http://www.drawingcenter.org/": [
   "Follow Us",
@@ -883,9 +938,9 @@
  ],
  "http://www.marcstraus.com": [
   "Home",
+  "The Prime of Your Life",
   "On View",
   "Michael Brown",
-  "The Prime of Your Life",
   "Join our mailing list",
   "Subscribe"
  ],
@@ -969,12 +1024,12 @@
   "Texas Contemporary",
   "Anselm Reyle, Tequila Sunrise",
   "Upcoming Exhibitions",
-  "The Singapore Masters Show 2026",
   "Abdulqader Al Rais Al Nayed",
   "Fred Eerdekens",
   "Niovi Kafantari The Necessary Other",
   "Fernando Botero in Praise of an Amplified World",
-  "Warhol Basquiat Haring. Une amitié artistique"
+  "Warhol Basquiat Haring. Une amitié artistique",
+  "Verapat Sitipol Stream of the Forest"
  ],
  "http://www.pacegallery.com/": [
   "David Lynch",
@@ -1137,6 +1192,21 @@
   "TRANSMITTER",
   "Statement of Commitment to Promoting Racial and Social Justice"
  ],
+ "http://www.uffnerliu.com/": [
+  "Curtis Talwst Santiago at Calgary Contemporary 2026",
+  "Laurie Nye: The Battlefield Where the Moon says I Love You",
+  "Upstairs Gallery: Hanz Ronald",
+  "Exhibitions",
+  "News",
+  "Galerie Magazine",
+  "In the Studio",
+  "Art Spiel",
+  "Store",
+  "Reginald Madison",
+  "Bianca Beck",
+  "Curtis Talwst Santiago",
+  "Join Our Mailing List"
+ ],
  "http://www.westwoodgallery.com": [
   "Home",
   "Danny Simmons: The Journey of Spirit",
@@ -1153,6 +1223,33 @@
   "Whitehot Magazine",
   "The Brooklyn Rail",
   "Cookie preferences"
+ ],
+ "http://www.whitecube.com/": [
+  "Emma Reyes",
+  "Gabriel Orozco, Bermondsey (2026)",
+  "Christian Marclay",
+  "Danh Vo",
+  "Marina Rheingantz Míope",
+  "Tesfaye Urgessa The Lingering Departure",
+  "Isamu Noguchi at Lever House",
+  "TARWUK emityaD tatvaC and emitthgiN tatvaC",
+  "White Cube in Venice",
+  "Ed Ruscha",
+  "Newsletter",
+  "Georg Baselitz 'Back Again'",
+  "Prints & Multiples",
+  "TARWUK emityaD tatvaC 2026",
+  "Cinga Samson Oonomboyi 4 2026",
+  "Danh Vo Untitled 2022",
+  "Create an Account",
+  "Locations",
+  "Bermondsey, London",
+  "Mason’s Yard, London",
+  "New York",
+  "Hong Kong",
+  "Paris",
+  "Seoul",
+  "Connect"
  ],
  "https://antonkerngallery.com/window": [
   "Item added to cart",
@@ -1227,10 +1324,10 @@
   "Wind, Land, and Their Song",
   "DEVOTION: A Black Love Archive",
   "We Are Each Other's HARVEST: Black Women and the Politics of Self-Care",
-  "Zara Alexandrova",
   "Genevieve Chua",
   "Arthur Summereder",
   "Esraa Elfeky",
+  "Aio Henry",
   "Kostas Roussakis",
   "Maria Chale",
   "Hélène Jayet",
@@ -1303,7 +1400,6 @@
  "https://fluxfactory.org": [
   "Current",
   "Upcoming",
-  "Opening Reception: A Thousand Answers",
   "J. Pavone String Ensemble premieres Stalling Tumble || Levi Lu & Lesley Mok duo || Bongsu Park",
   "Soil and Sand: A Sonic Journey with Kino Benally, Tati Benally, and dre jácome",
   "People Movers",
@@ -1590,6 +1686,18 @@
   "Porteurs de feu (Bearers of Fire)",
   "Every Buried Sun"
  ],
+ "https://statenislandmuseum.org": [
+  "Home",
+  "76th Annual Fence Show - Fine Arts & Crafts Festival",
+  "Staten Island: Making History",
+  "Here You Are: Staten Island Triennial",
+  "Curiosity Lives Here",
+  "Host your next event at the Staten Island Museum!",
+  "Shop the Museum Store",
+  "Location",
+  "Hours",
+  "Contact"
+ ],
  "https://ulrik.nyc/ULRIK/": [
   "ULRIK",
   "175 Canal Street, New York"
@@ -1610,8 +1718,8 @@
  ],
  "https://www.ResnickPasslof.org/": [
   "CURRENT EXHIBITIONS",
-  "Three Material Views",
   "Curated by John Yau",
+  "Three Material Views",
   "Eric Aho, Stanley Lewis, Ying Li",
   "Milton Resnick Earth, Elephant, and New Bride",
   "Milton Resnick Painter in the Age of Painting",
@@ -1691,9 +1799,9 @@
   "The Bronx Museum Alex Strada: Public Address",
   "Renovation Underway",
   "Calendar",
-  "First Friday October 2026: Hispanic Heritage Month—Latin Dancing",
   "Teen Council Fall 2026 Application Deadline",
   "Temporary Closure for Exhibition Installation: September 7 – October 8, 2026",
+  "Fall 2026 Exhibitions Opening Celebration",
   "About the Museum",
   "Support Our Work!",
   "Exhibitions",
@@ -1787,10 +1895,10 @@
  "https://www.leslielohman.org": [
   "ON VIEW",
   "Shu Lea Cheang: LOVER LOVE",
-  "Soft Spaces: Heather Marie Scholl and Eva Wu",
-  "Hortensia Mi Kafchin: Through Different Eyes",
   "UPCOMING",
   "PROPS from Barakei: Eikoh Hosoe and Jason Wee",
+  "Soft Spaces: Heather Marie Scholl and Eva Wu",
+  "Hortensia Mi Kafchin: Through Different Eyes",
   "Exhibitions",
   "PAST",
   "Athi-Patra Ruga: Lord, I gotta keep on (movin’)",
@@ -1916,6 +2024,7 @@
   "Upcoming Events",
   "POSTPONED: Ukrainian Dreams | Tais Poda",
   "The Ground Shifts Beneath Our Feet, a Public Program featuring Talks, Food, and Film Screening",
+  "Screening of Sand Castles and reception",
   "Reading Rave at The Ukrainian Museum",
   "FABnyc LES Open House",
   "Kids & Family Day II: A Living Canvas with Interactive Event",
