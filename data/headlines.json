@@ -285,12 +285,12 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "Travessia",
-  "Cantaria",
-  "Déboussolé est le mot exact",
-  "Pequeno mapa do tempo",
-  "Caminhos",
   "In Between",
+  "Cantaria",
+  "Travessia",
+  "Caminhos",
+  "Pequeno mapa do tempo",
+  "Déboussolé est le mot exact",
   "Upcoming Exhibitions",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
@@ -415,7 +415,6 @@
   "Exhibitions",
   "King David",
   "September 19, 2026",
-  "Artists",
   "September 24, 2026",
   "ALL THAT REMAINS, RESIDUE",
   "GROUP SHOW CURATED BY LUZ HARMON",
@@ -441,7 +440,8 @@
   "KEEPING THE ARTWORLD IN CHECK​",
   "Join our mailing list",
   "Location",
-  "630 Flushing Avenue Brooklyn, NY 11206"
+  "630 Flushing Avenue Brooklyn, NY 11206",
+  "Hours"
  ],
  "http://theclementecenter.org": [
   "featured",
@@ -575,9 +575,6 @@
   "Azikiwe Mohammed",
   "Milk Teeth",
   "Allie Tsubota",
-  "CURRENT COFFEE TALK",
-  "'Where To, From Here' Exhibition Walkthrough with Azikiwe Mohammed",
-  "October 3, 2026",
   "UPCOMING CONVERSATION",
   "White paper full of white writing¹: On art and text with Jasmin Benward, Lily Jue Sheng, Nat Pyper, and Allie Tsubota moderated by Steffani Jemison",
   "October 17, 2026",
@@ -824,7 +821,6 @@
  "http://www.grimmgallery.com/": [
   "Item added to cart",
   "Jonathan Wateridge : Some Distance Apart",
-  "Robert Zandvliet : Paradaidha",
   "Volker Hüller : Angelus Novus",
   "Matthias Franz : die dünne Haut der Zivilisation",
   "Charles Avery : Where Rocco Found a Dead Monster OR The Land of the Downcast Eyes",
@@ -868,7 +864,8 @@
  ],
  "http://www.higherpicturesgeneration.com/": [
   "Menu",
-  "Dakota Mace: Sǫʼ Baa Hane’ 2023-2025"
+  "Curran Hatleberg",
+  "River's Dream 2010-2020 (The Portfolio)"
  ],
  "http://www.highlinenine.org/": [
   "About High Line Nine",
@@ -970,7 +967,6 @@
   "Item added to cart",
   "Massey Klein Gallery",
   "Kate McQuillen: Echo Resounds",
-  "Split Level : Kate McQuillen",
   "Cookie preferences",
   "Join our mailing list"
  ],
@@ -1093,7 +1089,7 @@
   "AFTER DARK",
   "Search",
   "Future",
-  "Jonah Mutono, Notes for a Mirror Cinema, Video Premiere Curated by Serubiri Moses for Participant After Dark",
+  "Jonah Mutono, Notes on Mirror Cinema, Video Premiere Curated by Serubiri Moses for Participant After Dark",
   "Gabrielle Civil, Black Weirdo School Psychic Defense Club, Performance Curated by Shameekia Shantel Johnson Fri, Nov 6, 7pm",
   "DENY, DEFEND, DEPOSE, A NEW SHORT FILM BY STANYA KAHN, Fri, Nov 13, 7-9pm",
   "Tom Cole, \"Chimes: A Monologue\" with Harriet Clark, Reading and Conversation Weds, Nov 18, 7pm",
@@ -1490,8 +1486,8 @@
  "https://hollistaggart.com": [
   "Latest news",
   "Art Week NYC",
+  "Tim Kent: Sojourn at Hollis Taggart",
   "New Grinnell exhibit looks at the women Abstract Expressionism left behind",
-  "What Sold at The Armory Show 2026",
   "Latest publications",
   "Charles Seliger: The Structure of Matter",
   "Renée Miller",
@@ -1502,12 +1498,12 @@
   "Shades of Cool",
   "Hollis Taggart",
   "Gallery Latest",
+  "What Sold at The Armory Show 2026",
   "The Art of Taking a Break: Tim Kent’s Sojourn",
   "AO On Site: The Armory Show, September 24th – 27th, 2026",
   "At Independent 20th Century, the Biggest Draw Is the Rediscoveries",
   "What’s Selling at the Armory Show So Far?",
   "$2 million Joan Mitchell painting leads opening sales at The Armory Show 2026.",
-  "Tim Kent’s New Show Is About Rest But He Can’t Stop Working",
   "In Focus",
   "8 Lesser-Known Artists to Discover at Independent 20th Century",
   "Sheila Isham at the Newport Art Museum",
@@ -1669,7 +1665,6 @@
  "https://schoelkopfgallery.com/": [
   "Schoelkopf Gallery",
   "Thomas Hart Benton : A Picture of America in Its Entirety",
-  "Spotlight: American People, 1932–1944",
   "In the News",
   "15 Must-See Gallery Shows in New York This Month: Thomas Hart Benton",
   "\"I had to work fast to survive:\" Richard Estes on His Photorealist Paintings of New York City",
@@ -1762,7 +1757,7 @@
  ],
  "https://www.aicon.art/": [
   "AINA Gallery",
-  "Grand Opening Thursday October 1, 6-9 pm",
+  "Other Stories - A Genealogy for the Present",
   "Join Our Mailing List"
  ],
  "https://www.amrartdumbo.com/": [
@@ -1815,9 +1810,9 @@
   "The Bronx Museum Alex Strada: Public Address",
   "Renovation Underway",
   "Calendar",
-  "Teen Council Fall 2026 Application Deadline",
   "Temporary Closure for Exhibition Installation: September 7 – October 8, 2026",
   "Fall 2026 Exhibitions Opening Celebration",
+  "The Bronx Museum & Legal Aid Society Present: Community Joy/Justice Day",
   "About the Museum",
   "Support Our Work!",
   "Exhibitions",
