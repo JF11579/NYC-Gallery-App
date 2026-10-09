@@ -286,12 +286,12 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "Caminhos",
   "Cantaria",
-  "Déboussolé est le mot exact",
-  "In Between",
   "Pequeno mapa do tempo",
+  "In Between",
+  "Déboussolé est le mot exact",
   "Travessia",
+  "Caminhos",
   "Upcoming Exhibitions",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
@@ -578,14 +578,13 @@
   "Milk Teeth",
   "Allie Tsubota",
   "UPCOMING CONVERSATION",
+  "The camera opened a cave¹: A Conversation with Allie Tsubota and K Yin",
+  "November 7, 2026",
   "White paper full of white writing¹: On art and text with Jasmin Benward, Lily Jue Sheng, Nat Pyper, and Allie Tsubota moderated by Steffani Jemison",
   "October 17, 2026",
   "UPCOMING COMMUNITY",
   "Photography's Expansion and its Discontents: A Conversation Between Charlotte Kent and Danielle Ezzo",
   "October 22, 2026",
-  "CURRENT COMMUNITY",
-  "Unfixed Landscapes: From Anna Atkins to The Ecological Wetroom with Aindreas Scholz",
-  "October 8, 2026",
   "Community News",
   "We are hiring an Individual Giving Manager!",
   "Interviews",
@@ -741,8 +740,7 @@
   "At Art Basel, Jitters and Mood Swings",
   "Mel Kendrick: Tilt",
   "Independent Opens With Solo Presentations, Early Sales and (Most Importantly) Breathing Room",
-  "RODOLFO ABULARACH",
-  "THE OBSESSIVE IMAGE",
+  "ART BASEL PARIS",
   "Chakaia Booker to Create Monumental Sculpture for Akron’s Lock 3",
   "ALICE MAHER IN VENICE",
   "The High and Low Heels of Subversion",
@@ -791,11 +789,7 @@
   "Join our mailing list"
  ],
  "http://www.gallery71.com/": [
-  "Fall Photography Show 9/3 - 9/18",
-  "Opening Reception with Artists:",
-  "Martin Ingber | Andrea London | Joseph Podlesnik | Josh Sells",
-  "Thursday, 9/3 from 5-8pm",
-  "Currently on View:",
+  "CURRENTLY ON VIEW",
   "Great Small works",
   "Years of all things art!",
   "Investors Coffee Shop",
@@ -874,7 +868,7 @@
  "http://www.higherpicturesgeneration.com/": [
   "Menu",
   "Curran Hatleberg",
-  "River's Dream 2010-2020"
+  "River's Dream, 2010-2020"
  ],
  "http://www.highlinenine.org/": [
   "About High Line Nine",
@@ -1039,14 +1033,14 @@
  ],
  "http://www.operagallery.com/": [
   "Now on view",
-  "François Bard, Un soleil immense",
+  "Fred Eerdekens",
+  "Abdulqader Al Rais, Al Nayed",
   "The Singapore Masters Show 2026",
+  "François Bard, Un soleil immense",
   "Xevi Solà, Thoughts of a Bigger Splash",
   "Texas Contemporary",
   "Anselm Reyle, Tequila Sunrise",
-  "Abdulqader Al Rais, Al Nayed",
   "Upcoming Exhibitions",
-  "Fred Eerdekens",
   "Niovi Kafantari The Necessary Other",
   "Fernando Botero in Praise of an Amplified World",
   "Warhol Basquiat Haring. Une amitié artistique",
@@ -1232,7 +1226,9 @@
  "http://www.westwoodgallery.com": [
   "Home",
   "Danny Simmons: The Journey of Spirit",
+  "Ron Morosan: Circular Causality",
   "Recent News and Press",
+  "Artsy",
   "Musée Magazine",
   "Beholdr",
   "Philadelphia Magazine",
@@ -1242,7 +1238,6 @@
   "Danny Simmons at the Butler Institute of American Art",
   "Lazhar Mansouri at Musée du quai Branly, Paris",
   "Leo Matiz at MoMA",
-  "Whitehot Magazine",
   "The Brooklyn Rail",
   "Cookie preferences"
  ],
@@ -1264,6 +1259,13 @@
   "Cinga Samson Oonomboyi 4 2026",
   "Danh Vo Untitled 2022",
   "Create an Account",
+  "Locations",
+  "Bermondsey, London",
+  "Mason’s Yard, London",
+  "New York",
+  "Hong Kong",
+  "Paris",
+  "Seoul",
   "Connect"
  ],
  "https://antonkerngallery.com/window": [
@@ -1695,13 +1697,14 @@
   "STAY IN THE LOOP FOR UPCOMING EVENTS"
  ],
  "https://southernguild.com/": [
+  "Every Buried Sun",
   "Kala",
   "Porteurs de feu (Bearers of Fire)",
-  "Every Buried Sun"
+  "Wind from the North",
+  "Monomyths"
  ],
  "https://statenislandmuseum.org": [
   "Home",
-  "76th Annual Fence Show - Fine Arts & Crafts Festival",
   "Staten Island: Making History",
   "Here You Are: Staten Island Triennial",
   "Curiosity Lives Here",
@@ -1722,9 +1725,9 @@
   "Woodward Gallery's Mural Project",
   "Recent Exhibitions",
   "Recent Highlights",
+  "Franz Kline Performance “A Part of the Noise” Featured by BroadwayWorld",
   "Woodward Gallery supports new Franz Kline theatrical production",
   "Margaret Morrison’s “Antiques” Debuts at the University of Georgia",
-  "Woodward Gallery Gates Project – Block Party at the 2026 Greek jewish Festival",
   "Visit Woodward Gallery",
   "Contact Us",
   "Start typing and press enter to search"
@@ -1809,7 +1812,6 @@
   "The Bronx Museum Alex Strada: Public Address",
   "Renovation Underway",
   "Calendar",
-  "Fall 2026 Exhibitions Opening Celebration",
   "The Bronx Museum & Legal Aid Society Present: Community Joy/Justice Day",
   "2027 AIM Fellowship Application Deadline",
   "About the Museum",
@@ -1995,7 +1997,7 @@
   "News"
  ],
  "https://www.protocinema.org/": [
-  "MULBERRY BEND"
+  "FOR EVERY ATOM BELONGING TO ME AS GOOD BELONGS TO YOU"
  ],
  "https://www.sarahcrown.com/": [
   "SARAHCROWN is a New York–based contemporary art gallery that opened its Tribeca space in the summer of 2022.",
@@ -2036,7 +2038,7 @@
   "Screening of Sand Castles and reception",
   "Reading Rave & Talk By Artist Nikolay Karabinovych",
   "FABnyc LES Open House",
-  "Kids & Family Day II: A Living Canvas with Interactive Event",
+  "Kids & Family Day II: Create Together at A Living Canvas",
   "POSTPONED: Ukrainian Dreams | Tais Poda",
   "Visit The Museum"
  ],
