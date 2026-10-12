@@ -80,7 +80,7 @@ NEW_HEADLINES_KEEP_DAYS = 21                          # the weekly pages need 7
 MAX_HEADLINES = 40
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; NYCGalleryTracker/1.0; "
-                  "+https://nyc-gallery-app.netlify.app)"
+                  "+https://nycgallerytracker.com)"
 }
 TIMEOUT = 15
 SLEEP = 0.5

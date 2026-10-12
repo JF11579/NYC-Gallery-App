@@ -5,3 +5,10 @@
   for = "/data/galleries.json"
   [headers.values]
     Cache-Control = "no-cache, no-store, must-revalidate"
+
+# Old Netlify subdomain → custom domain, so Google consolidates on one address
+[[redirects]]
+  from = "https://nyc-gallery-app.netlify.app/*"
+  to = "https://nycgallerytracker.com/:splat"
+  status = 301
+  force = true

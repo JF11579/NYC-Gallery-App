@@ -41,7 +41,7 @@ DATA_PATH = Path("data/galleries.json")
 INDEX_PATH = Path("index.html")
 SITEMAP_PATH = Path("sitemap.xml")
 OUT_DIR = Path("galleries")
-BASE_URL = "https://nyc-gallery-app.netlify.app"
+BASE_URL = "https://nycgallerytracker.com"
 
 MIN_GALLERIES = 4      # don't generate a neighborhood page thinner than this
 RADIUS_KM = 1.4        # a gallery must be within this of a centroid to get its label

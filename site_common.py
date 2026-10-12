@@ -18,7 +18,7 @@ import math
 import re
 from datetime import date
 
-BASE_URL = "https://nyc-gallery-app.netlify.app"
+BASE_URL = "https://nycgallerytracker.com"
 
 # Districts we generate walking routes for, in the order they appear in nav.
 # Anything below ~5 galleries doesn't make a walk worth publishing.

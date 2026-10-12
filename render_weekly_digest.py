@@ -56,7 +56,7 @@ def render_body(new_shows):
             entry += f" — [visit website]({props['url']})"
         lines.append(entry)
     lines.append("")
-    lines.append("[See the full map and directory](https://nyc-gallery-app.netlify.app/)")
+    lines.append("[See the full map and directory](https://nycgallerytracker.com/)")
     return "\n".join(lines)
 
 
