@@ -48,7 +48,6 @@
   "Vanishing Point",
   "Exhibitions",
   "Tia-Thuy Nguyen Fields of Resonance",
-  "Zio Ziegler The Tesseract",
   "Gwen O'Neil Atlantic Ave",
   "Focus",
   "Art Basel Paris",
@@ -158,9 +157,9 @@
   "Oni Press",
   "Need art storage?",
   "News & Upcoming Releases",
+  "BACK TO THE FUTURE by Drew Struzan - On Sale INFO!",
+  "THE LORD OF THE RINGS by Feri Irawan - On Sale INFO!",
   "SPIDER-MAN: Into the Spider-Verse by Bruce Yan - On Sale INFO!",
-  "JAWS by Tom Whalen - On Sale INFO!",
-  "DEATH OF THE VENOMVERSE - Acrylic by Gabriele Dell'Otto - On Sale INFO!",
   "Never miss a new release, subscribe!"
  ],
  "http://broadwaygallery.nyc/": [
@@ -286,12 +285,12 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "Cantaria",
   "Déboussolé est le mot exact",
-  "Tideline",
-  "Caminhos",
-  "Pequeno mapa do tempo",
   "In Between",
+  "Pequeno mapa do tempo",
+  "Tideline",
+  "Cantaria",
+  "Caminhos",
   "Upcoming Exhibitions",
   "seven lakes",
   "成長物",
@@ -361,6 +360,7 @@
   "RISK GALLERY & BOUTIQUE"
  ],
  "http://ruttkowski68.com/": [
+  "Art Cologne 2026",
   "Carnivalesque Henrik Godsk",
   "Finally, a Good Exhibition Stefan Sagmeister & Meuser",
   "Die Qualität der Malerei Alex Wissel, Carolin Eidner, Finn Froböse",
@@ -591,7 +591,7 @@
   "UPCOMING CONVERSATION",
   "The camera opened a cave¹: A Conversation with Allie Tsubota and K Yin",
   "November 7, 2026",
-  "UPCOMING COMMUNITY",
+  "CURRENT COMMUNITY",
   "Photography's Expansion and its Discontents: A Conversation Between Charlotte Kent and Danielle Ezzo",
   "October 22, 2026",
   "Interviews",
@@ -772,10 +772,10 @@
   "Upcoming Programs",
   "Oct 22 , 6 PM",
   "Opening Reception: Form, Shadow, Motion",
-  "Oct 25 , 11:30 AM",
-  "Curatorial Walkthrough: Form, Shadow, Motion",
   "Oct 25 , 1 PM",
   "Drawing Workshop: All Ages",
+  "Oct 25 , 11:30 AM",
+  "Curatorial Walkthrough: Form, Shadow, Motion",
   "Oct 31 , 11 AM",
   "Bilingual Drawing Workshop: Spanish & English",
   "Nov 4 , 7 PM",
@@ -900,6 +900,7 @@
   "External Navigation Links",
   "I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now",
   "Laia Abril: On Rape and Institutional Failure",
+  "ICP Spotlights 2026: Honoring Rinko Kawauchi",
   "ICP Photography Classes Return Uptown",
   "Photography Lives Here",
   "From ICP's Collection and Community",
@@ -1066,6 +1067,7 @@
   "Xevi Solà, Thoughts of a Bigger Splash",
   "Anselm Reyle, Tequila Sunrise",
   "Upcoming Exhibitions",
+  "Introducing",
   "Pablo Atchugarry",
   "Manolo Valdés",
   "Verapat Sitipol Stream of the Forest",
@@ -1212,6 +1214,7 @@
   "DONATE"
  ],
  "http://www.swpk.org/": [
+  "Flutex 1983-2026",
   "Chromaticism",
   "Media",
   "News",
@@ -1236,16 +1239,19 @@
  "http://www.uffnerliu.com/": [
   "Susan Chen at Edward Hopper House Museum 2026",
   "Curtis Talwst Santiago at Calgary Contemporary 2026",
-  "Upstairs Gallery: Hanz Ronald",
   "Laurie Nye: The Battlefield Where the Moon says I Love You",
+  "Upstairs Gallery: Hanz Ronald",
   "Exhibitions",
+  "Upstairs Gallery: inner-world-space",
+  "Bianca Beck: Eyes",
   "News",
   "Artsy",
+  "Arte Realizzata",
   "Galerie Magazine",
   "Store",
   "Reginald Madison",
   "Bianca Beck",
-  "Sheree Hovsepian",
+  "Shara Hughes",
   "Join Our Mailing List"
  ],
  "http://www.westwoodgallery.com": [
@@ -1462,7 +1468,7 @@
   "Standout Stories from Cannes",
   "Between the Bed and the Sun: Katharina Grosse and Edvard Munch",
   "Boucheron: In Focus – A Monograph of a Visionary",
-  "Francis Bacon’s “Painting”",
+  "A Palazzo of Ideas: Palazzo Diedo and Berggruen Arts & Culture",
   "Stay up-to-date on artists, exhibitions, and events."
  ],
  "https://galerie56.com/": [
@@ -1515,8 +1521,8 @@
  "https://hollistaggart.com": [
   "Latest news",
   "Art Week NYC",
+  "Knox Martin at the Art Students League of New York",
   "Tim Kent: Sojourn",
-  "Symmetry Meets the Sacred in Shuling Guo’s Dreamy, Diffused Paintings",
   "Latest publications",
   "Charles Seliger: The Structure of Matter",
   "Renée Miller",
@@ -1526,12 +1532,12 @@
   "Teruko Yokoi: Seasons",
   "Hollis Taggart",
   "Gallery Latest",
+  "Symmetry Meets the Sacred in Shuling Guo’s Dreamy, Diffused Paintings",
   "Tim Kent’s zones of mystery",
   "Art: Shuling Guo: Temple II",
   "What the World’s Top Collectors Bought in 2026, From a 15th-Century Pietà Painting to an Oar from Lubaina Himid’s British Pavilion",
   "Tim Kent",
   "Tim Kent: Sojourn at Hollis Taggart",
-  "New Grinnell exhibit looks at the women Abstract Expressionism left behind",
   "In Focus",
   "8 Lesser-Known Artists to Discover at Independent 20th Century",
   "Sheila Isham at the Newport Art Museum",
@@ -1731,7 +1737,7 @@
  "https://statenislandmuseum.org": [
   "Home",
   "Staten Island: Making History",
-  "Here You Are: Staten Island Triennial",
+  "Stephanie Dinkins: Anchoring Home",
   "Curiosity Lives Here",
   "Host your next event at the Staten Island Museum!",
   "Shop the Museum Store",
@@ -1829,6 +1835,9 @@
  ],
  "https://www.bronxmuseum.org": [
   "The Bronx Museum Community Joy & Justice Day With Legal Aid Society",
+  "The Bronx Museum Family Day Art-Making for All Ages",
+  "The Bronx Museum Community Joy & Justice Day: Artists in Conversation",
+  "The Bronx Museum Community Joy/Justice Day: Reception",
   "The Bronx Museum 2027 AIM Fellowship Application Deadline",
   "The Bronx Museum Saya Woolfalk: The WoodsWoman Method",
   "The Bronx Museum Beyond the Margins: Bronx Museum Teens Activate the Permanent Collection",
@@ -1848,7 +1857,7 @@
   "Community"
  ],
  "https://www.canadanewyork.com/": [
-  "Upcoming: 60 Lispenard St",
+  "Current: 60 Lispenard St",
   "Fundraiser for The John and Alice Coltrane Home, Oct 22 – Oct 23, 2026",
   "Upcoming:",
   "Loading...",
@@ -1861,8 +1870,10 @@
  ],
  "https://www.davidzwirner.com/": [
   "David Zwirner: New York, Los Angeles, London, Paris and Hong Kong Galleries",
-  "Art Basel Paris",
+  "Oscar Murillo",
+  "Unfinished thinking: Paintings and Social Maps",
   "On View in Paris",
+  "Art Basel Paris",
   "Currently on View",
   "Museum Highlights",
   "Recent Press Highlights",
@@ -1931,10 +1942,10 @@
   "ABOUT US"
  ],
  "https://www.leslielohman.org": [
+  "UPCOMING",
+  "Opening: PROPS from Barakei: Eikoh Hosoe and Jason Wee",
   "ON VIEW",
   "Shu Lea Cheang: LOVER LOVE",
-  "UPCOMING",
-  "PROPS from Barakei: Eikoh Hosoe and Jason Wee",
   "Soft Spaces: Heather Marie Scholl and Eva Wu",
   "Hortensia Mi Kafchin: Through Different Eyes",
   "Exhibitions",
@@ -1960,7 +1971,6 @@
   "Oct 28, 2026",
   "Book Talk: Still Dangerous! The Harmony Hammond Reader edited by Tirza True Latimer",
   "Oct 29, 2026",
-  "Opening: PROPS from Barakei: Eikoh Hosoe and Jason Wee",
   "Nov 05, 2026",
   "Performance Lecture: Jason Wee on Eikoh Hosoe and Yukio Mishima",
   "Nov 06, 2026",
@@ -1968,9 +1978,10 @@
   "Nov 18, 2026",
   "Artist Talk: Charles Atlas and Joe Westmoreland",
   "Nov 19, 2026",
+  "Trans Health HQ Vet-a-Thon for Trans Day of Remembrance",
+  "Nov 20, 2026",
   "PAST EVENTS",
-  "Arts & Minds",
-  "Sep 15, 2026"
+  "Arts & Minds"
  ],
  "https://www.lorimoto.com/": [
   "Wizardry of Sorts",
@@ -1995,7 +2006,7 @@
   "Marta Mattioli: Seven of Cups",
   "Bucharest • October 10 – December 19, 2026",
   "Ángeles Agrela: Camino y Paz",
-  "Los Angeles • September 19 – November 7, 2026"
+  "Los Angeles • September 19 – October 31, 2026"
  ],
  "https://www.nunufineart.com/": [
   "Home",
