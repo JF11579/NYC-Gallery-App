@@ -61,14 +61,6 @@
     gtag('config', 'AW-18248246550');
     gtag('config', 'G-2Q4K9KZL0R');
   </script>
-  <!-- Event snippet for Page view conversion -->
-  <script>
-    gtag('event', 'conversion', {
-      'send_to': 'AW-18248246550/ZxdXCNne4cAcEJbKuP1D',
-      'value': 1.0,
-      'currency': 'USD'
-    });
-  </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163626960216920" crossorigin="anonymous"></script>
   <!-- OneSignal (web push) -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -665,7 +657,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // GA4 custom events — what visitors actually do, beyond "stayed 10 seconds".
   function track(name, params) {
-    if (typeof gtag === 'function') gtag('event', name, params || {});
+    if (typeof gtag !== 'function') return;
+    gtag('event', name, params || {});
+    if (CONVERSION_EVENTS.has(name)) reportAdsConversion();
+  }
+
+  // Google Ads conversion. This used to fire on every page load, which taught
+  // Ads to buy page loads — 12-second visits and data-center bots. Now it fires
+  // once per page view, on the visitor's first real interaction with a gallery
+  // or a signup.
+  const CONVERSION_EVENTS = new Set([
+    'map_pin_click', 'gallery_card_click', 'gallery_website_click',
+    'digest_signup', 'notify_enabled', 'app_installed',
+  ]);
+  let adsConversionSent = false;
+  function reportAdsConversion() {
+    if (adsConversionSent) return;
+    adsConversionSent = true;
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18248246550/ZxdXCNne4cAcEJbKuP1D',
+      'value': 1.0,
+      'currency': 'USD'
+    });
   }
 
   // Fire once per page view, the first time the visitor pans or zooms the map
