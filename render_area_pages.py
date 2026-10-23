@@ -35,7 +35,7 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
-from site_common import site_footer
+from site_common import GA_HEAD, site_footer
 
 DATA_PATH = Path("data/galleries.json")
 INDEX_PATH = Path("index.html")
@@ -504,7 +504,7 @@ def render_page(area, borough, galleries, all_areas, cutoff):
   <meta property="og:image" content="{BASE_URL}/docs/map.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{BASE_URL}/docs/map.png">
-  <script type="application/ld+json">
+{GA_HEAD}  <script type="application/ld+json">
 {json.dumps(ld, indent=2)}
   </script>
   <style>

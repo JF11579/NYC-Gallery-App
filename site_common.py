@@ -61,6 +61,20 @@ def fmt_distance(km):
     return f"{miles:.1f} mi"
 
 
+# GA4 tag for every page except index.html, which carries its own (it also loads
+# the Google Ads tag). Without this, visits to anything but the homepage are
+# invisible in Analytics.
+GA_ID = "G-2Q4K9KZL0R"
+GA_HEAD = f"""  <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', '{GA_ID}');
+  </script>
+"""
+
+
 STYLES = """
     :root { --blue:#1565c0; --ink:#1a1a1a; --muted:#666; }
     * { box-sizing:border-box; }
@@ -143,7 +157,7 @@ def page_shell(*, title, description, url, body, ld_json=None, extra_head=""):
   <meta property="og:image" content="{BASE_URL}/docs/map.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{BASE_URL}/docs/map.png">
-{ld_block}{extra_head}  <style>{STYLES}  </style>
+{GA_HEAD}{ld_block}{extra_head}  <style>{STYLES}  </style>
 </head>
 <body>
   <header><a href="/">← NYC Gallery Tracker — interactive map</a></header>
