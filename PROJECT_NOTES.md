@@ -133,5 +133,5 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 - [ ] Check AdSense status; request re-review if still "Low value content."
 - [ ] Re-check Search Console indexed count.
 - [ ] Review the homepage as a first-time visitor (phone) — why do people leave in seconds?
-- [ ] Data check: homepage borough notes say Queens has "nearly as many galleries as
-      Brooklyn," but the Queens filter showed 5 galleries vs Brooklyn's 55 on 2026-10-23.
+- [x] 2026-10-23: homepage Queens note claimed "nearly as many galleries as Brooklyn";
+      data showed 5 vs 55 (data correct, no mis-tagged boroughs). Rewrote the note.
