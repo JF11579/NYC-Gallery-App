@@ -12,3 +12,10 @@
   to = "https://nycgallerytracker.com/:splat"
   status = 301
   force = true
+
+# Internal notes live in the repo but shouldn't be served on the site
+[[redirects]]
+  from = "/PROJECT_NOTES.md"
+  to = "/404"
+  status = 404
+  force = true
