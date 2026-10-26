@@ -124,8 +124,13 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
   not a code bug.
 - **2026-07-16:** added `about.html` and per-borough write-ups on the homepage. Since
   then: walking routes, visitor guide, area pages, and the weekly new-shows archive.
-- **Status unknown** — not confirmed whether a re-review was requested after the new
-  content shipped. Check AdSense → Sites.
+- Re-reviews were requested repeatedly: rejected again 2026-07-30, 08-17, 09-15 and
+  10-09, every time for `nyc-gallery-app.netlify.app` ("Low value content").
+- **2026-10-26:** that entry could no longer pass review: since the domain move it
+  301s away, so AdSense shows ads.txt "Not found". Added `nycgallerytracker.com` as
+  a new site (verified via the AdSense code snippet already in `<head>`; ads.txt is
+  live there) and requested review → status **"Getting ready."** The old
+  netlify.app entry is still listed; deleting it is optional.
 - Monetization ideas parked until approval: paid gallery sponsorships (pinned/starred
   listing, ~$50/month) and featured-artist banner slots.
 
@@ -140,7 +145,8 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 - [ ] **~2026-10-28:** confirm the asset group and 6 sitelinks passed review
       (Assets → status column) and impressions recovered.
 - [ ] Rename the Ads conversion action; review the campaign's bidding strategy.
-- [ ] Check AdSense status; request re-review if still "Low value content."
+- [ ] Watch for the AdSense review result on `nycgallerytracker.com` (requested
+      2026-10-26; usually days to ~2 weeks, arrives by email).
 - [ ] Re-check Search Console indexed count.
 - [ ] Review the homepage as a first-time visitor (phone) — why do people leave in seconds?
 - [x] 2026-10-23: homepage Queens note claimed "nearly as many galleries as Brooklyn";
