@@ -130,7 +130,7 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
   301s away, so AdSense shows ads.txt "Not found". Added `nycgallerytracker.com` as
   a new site (verified via the AdSense code snippet already in `<head>`; ads.txt is
   live there) and requested review → status **"Getting ready."** The old
-  netlify.app entry is still listed; deleting it is optional.
+  netlify.app entry was deleted the same day.
 - Monetization ideas parked until approval: paid gallery sponsorships (pinned/starred
   listing, ~$50/month) and featured-artist banner slots.
 
