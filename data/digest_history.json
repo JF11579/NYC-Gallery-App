@@ -51,5 +51,17 @@
     "count": 85,
     "tracked": 235,
     "with_titles": 49
+  },
+  "2026-10-26": {
+    "boroughs": {
+      "Bronx": 1,
+      "Brooklyn": 12,
+      "Manhattan": 71,
+      "Queens": 1,
+      "Staten Island": 1
+    },
+    "count": 86,
+    "tracked": 235,
+    "with_titles": 46
   }
 }

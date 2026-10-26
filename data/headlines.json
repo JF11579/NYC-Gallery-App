@@ -45,13 +45,13 @@
   "Something Old, Something New, Something Borrowed, Something Blue",
   "Robert Indiana",
   "Alchemy",
-  "Hans Op de Beeck",
-  "Vanishing Point",
+  "Tom Wesselmann",
+  "The Greatness of the Everyday",
   "Exhibitions",
   "Tia-Thuy Nguyen Fields of Resonance",
+  "Hans Op de Beeck Vanishing Point",
   "Gwen O'Neil Atlantic Ave",
   "Focus",
-  "Art Basel Paris",
   "Taryn Simon",
   "Father Country I Do Love You",
   "Ali Cherri",
@@ -100,6 +100,10 @@
  ],
  "http://artistsspace.org/": [
   "Artists Space"
+ ],
+ "http://artprojects.com/": [
+  "Art Projects International",
+  "IL LEE: Works from the Collection"
  ],
  "http://bortolamigallery.com/": [
   "Bortolami",
@@ -155,14 +159,13 @@
   "Oni Press",
   "Need art storage?",
   "News & Upcoming Releases",
+  "BNG CMX: D'ORC #1-5, #10 + Vampire on Aisle 6 #1 - On Sale NOW!",
   "SPACE JAM 30TH ANNIVERSARY Gallery Exhibit + Screening - INFO!",
   "THE DARK CRYSTAL by Tyler Stout - On Sale TODAY!",
-  "BACK TO THE FUTURE by Drew Struzan - On Sale INFO!",
   "Never miss a new release, subscribe!"
  ],
  "http://broadwaygallery.nyc/": [
   "Home",
-  "Claire Oswalt : Primo Piano",
   "Cookie preferences"
  ],
  "http://brooklynartstudiosnyc.blogspot.com/": [
@@ -250,8 +253,6 @@
  "http://mariangoodman.com/": [
   "Marian Goodman",
   "Exhibitions",
-  "Tony Cragg",
-  "Edith Dekyndt",
   "Tacita Dean and Bruce Nauman",
   "Nairy Baghramian",
   "Publications",
@@ -262,12 +263,12 @@
   "Annette Messager: National Taiwan Museum of Fine Arts, Taichung",
   "Steve McQueen - End Credits: Muziekgebouw Amsterdam",
   "Anri Sala: Serralves",
+  "Giuseppe Penone: The Inner Flow of Life: National Museum of Qatar",
   "Ana Mendieta - Guest of Honor: OFFSCREEN Paris",
   "Álvaro Urbano: Helen: Museo Jumex",
   "Alina Szapocznikow / Nairy Baghramian: Zachęta – National Gallery of Art",
   "Edith Dekyndt x Cristóbal Balenciaga: The Fabric Decides: Bozar",
   "Steve McQueen - 66–76–26: Guggenheim Bilbao",
-  "Annette Messager - Tragikomedie: Kunsthalle Praha",
   "Join our list",
   "Cookie preferences",
   "Basket",
@@ -277,18 +278,16 @@
   "Send an inquiry"
  ],
  "http://mckenziefineart.com": [
-  "Pete Schulte Neither-Nor Stone or Not Not-a-Rock"
+  "Jim Osman A Touch of Space"
  ],
  "http://mendeswooddm.com/": [
   "Item added to cart",
   "Home",
   "Current Exhibitions",
+  "Cantaria",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "Tideline",
-  "In Between",
   "Déboussolé est le mot exact",
-  "Cantaria",
-  "Caminhos",
   "Upcoming Exhibitions",
   "seven lakes",
   "New Paintings",
@@ -302,11 +301,11 @@
   "The Passenger",
   "Imaginary Engine",
   "The Mud Room: Itinerant Artists, Folk Spectacles and Painted Walls",
+  "La Terre, le Feu, l’Eau et les Vents – Pour un musée de l’Errance avec Édouard Glissant",
   "Je rêvais d’un autre monde",
   "Of Day or Night",
   "¿História Natural?",
   "Keramikos Carrier Bag",
-  "Zones de lumière, zones d’ombre",
   "Mendes Wood DM",
   "São Paulo, Barra Funda",
   "São Paulo, Casa Iramaia",
@@ -517,9 +516,9 @@
  ],
  "http://www.alexandergray.com/": [
   "Home",
-  "People Make Art: A Tribute to Melvin Edwards",
   "Steve Locke: I said what I said",
   "Upcoming",
+  "I Said What I Said: Steve Locke in Conversation with Robert Reid-Pharr",
   "ADAA Fair",
   "Art Basel Miami Beach",
   "Recent",
@@ -691,6 +690,13 @@
   "Cookie preferences",
   "Join our mailing list"
  ],
+ "http://www.choplet.com/": [
+  "Choplet",
+  "Ceramic Studio & Gallery",
+  "STUDIOS' ETHOS",
+  "Classes & Workshops",
+  "Explore STUDIO Memberships AT Our 3 LOCATIONS"
+ ],
  "http://www.cooler-gallery.com/": [
   "Exhibitions",
   "Jessica Hans",
@@ -738,7 +744,6 @@
  ],
  "http://www.davidnolangallery.com/": [
   "Home",
-  "VALERIO ADAMI : Alice in the Land of Violence",
   "DAVID NOLAN GALLERY HAS MOVED TO TRIBECA! : Opening September 9, 6-8pm @ 74 Leonard Street",
   "CHAKAIA BOOKER: Unpacked : Reception with the Artist on November 6, 6-8 PM",
   "RECENT PRESS",
@@ -771,16 +776,16 @@
   "Through January 24, 2027",
   "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong",
   "Upcoming Programs",
-  "Oct 25 , 11:30 AM",
-  "Curatorial Walkthrough: Form, Shadow, Motion",
-  "Oct 25 , 1 PM",
-  "Drawing Workshop: All Ages",
   "Oct 31 , 11 AM",
   "Bilingual Drawing Workshop: Spanish & English",
   "Nov 4 , 7 PM",
   "Free Screening: Form, Shadow, Motion",
   "Nov 12 , 6:30 PM",
   "In Conversation: Craft",
+  "Nov 17 , 6 PM",
+  "In Conversation: Eddie Martinez and Dan Nadel",
+  "Nov 19 , 6 PM",
+  "ASL Drawing Workshop: Online",
   "Explore Online",
   "To Move in Light: Literary Offerings to Beauford Delaney",
   "Live Concert: Wadada Leo Smith and N'da Kulture, Beauford Delaney: The Artist Untitled Red Bar",
@@ -857,19 +862,11 @@
  "http://www.hesseflatow.com/": [
   "Item added to cart",
   "Home",
-  "ON VIEW",
-  "Lizzie Gill",
-  "Paloma Izquierdo",
   "UPCOMING",
   "sonia louise davis",
   "SR Lejeune",
   "New Social Environment: SR Lejeune & Joshua Chee Sanford",
   "IN CONVERSATION: sonia louise davis & Sharifa Rhodes-Pitts",
-  "NEWS",
-  "Adama Delphine Fawundu's \"Sîmba #2\" and \"Ngewo Whispers\" Acquired by the Akron Art Museum",
-  "Andina Marie Osorio's \"Untitled (estrella de mar)\" and \"Untitled (raíces)\" Acquired by the Studio Museum in Harlem",
-  "Carl D'Alvia in \"Sculpture Magazine\"",
-  "Lizzie Gill in \"Interior Design\"",
   "TRIBECA",
   "77 Franklin Street",
   "New York, NY 10013",
@@ -984,6 +981,7 @@
   "Coming Soon",
   "Josh Cloud",
   "Gisela McDaniel",
+  "Roy Lichtenstein and Jasper Johns: Early Prints",
   "Join our mailing list",
   "Subscribe"
  ],
@@ -1080,16 +1078,15 @@
   "Alex Katz - Julian Opie Face to Face"
  ],
  "http://www.pacegallery.com/": [
-  "Art Basel Paris",
-  "Kylie Manning",
-  "Lynda Benglis",
-  "Torkwase Dyson",
-  "Jackson Pollock",
-  "Arlene Shechet",
+  "Alicja Kwade",
+  "Kiki Smith",
   "Asher Liftin",
   "David Lynch",
+  "Kylie Manning",
+  "Exquisite Corpse",
   "Our Artists in Venice",
   "What It Means to Be Free: Torkwase Dyson with Richard Tuttle",
+  "Arlene Shechet",
   "She Said She Said",
   "Journal",
   "Kylie Manning: The Mudlarkers by Marc Glimcher",
@@ -1278,10 +1275,8 @@
  ],
  "http://www.whitecube.com/": [
   "Tracey Emin",
-  "White Cube Paris Highlights",
   "Firenze Lai North and True North",
   "Gabriel Orozco Chronotopic Curated by Briony Fer",
-  "Marina Rheingantz, Seoul (2026)",
   "Isamu Noguchi at Lever House",
   "Julie Mehretu",
   "Newsletter",
@@ -1300,6 +1295,22 @@
   "Paris",
   "Seoul",
   "Connect"
+ ],
+ "https://anatebgi.com/": [
+  "Jordan Nassar: Describing Clouds",
+  "September 19 — October 31, 2026 , 6150 Wilshire Blvd, Suite 5, Los Angeles, CA 90048, USA 6150 Wilshire Blvd",
+  "Erin Wright: Memnosphere",
+  "September 19 — December 19, 2026 , 6150 Wilshire Blvd, Suite 5, Los Angeles, CA 90048, USA 6150 Wilshire Blvd",
+  "Soumya Netrabile: Field Conditions",
+  "September 9 — October 24, 2026 , 372 Broadway, New York City, NY 10013, USA Tribeca",
+  "Alannah Farrell: Solastalgia",
+  "Events / News",
+  "Wilshire",
+  "Tribeca",
+  "Follow Us",
+  "Contact",
+  "Mailing List",
+  "Legal"
  ],
  "https://antonkerngallery.com/window": [
   "Item added to cart",
@@ -1385,6 +1396,33 @@
   "Jacqueline Mahoney",
   "upcoming exhibition season:"
  ],
+ "https://artindumbo.com/gallery/gallery-gaia/": [
+  "Gallery Gaia",
+  "Interpreting the Designated Mourner",
+  "AfterMined: Reception & Artist Talk",
+  "First Thursdays Gallery Walk",
+  "Opening Reception: On Certain Grounds",
+  "Opening Reception: Dumbo Before the Bridges",
+  "Opening Reception: A Matter of Meaning",
+  "Haunted by Light: Opening Reception & Performance",
+  "Leonard Ursachi: Rise and Shine",
+  "UNTITLED",
+  "How We Work: Smack Mellon at 30",
+  "Rachel Bacon: AfterMined",
+  "Errant Grammars",
+  "Painting Their Lives: Cuba's Self-Taught Artists",
+  "EYE-CATCH!: Fashion Beyond the Attention Economy",
+  "POOL: Inaugural Exhibition",
+  "Lauren Simkin Berke: Notes on Gesture",
+  "Kirsten Batten-Leach: Catalyst Carrier",
+  "Natalie de Segonzac: ChairBodies",
+  "M. Clark: A Matter of Meaning",
+  "Haunted by Light",
+  "Sharon Butler & Cate Holt: On Certain Grounds",
+  "HOME",
+  "Dumbo Before the Bridges",
+  "First Thursday Gallery Walk"
+ ],
  "https://bronxriverart.org": [
   "Internal Anchor - Curated by Fable Jones",
   "September 10 - October 10, 2026",
@@ -1421,7 +1459,7 @@
  ],
  "https://cristintierney.com": [
   "Home",
-  "Janet Biggs: Path of Totality",
+  "Maureen O'Leary: The Linden Trees",
   "Cookie preferences"
  ],
  "https://dddd.pictures/": [
@@ -1449,7 +1487,6 @@
  "https://fluxfactory.org": [
   "Current",
   "Upcoming",
-  "Noticing Zine Activation",
   "Annual Art Auction & Gala",
   "Opening Reception · By Way Of",
   "Opening Reception · For Those Without A Tribe",
@@ -1596,7 +1633,7 @@
  "https://islaa.org/": [
   "The New York Graphic Workshop: Towards Total Art",
   "ISLAA Calendar",
-  "David Lamelas: The Machine",
+  "ISLAA Talks: Time as Construct with Florencio Noceti",
   "Biografia de Jorge Luis Borges",
   "EXHIBITIONS",
   "RESEARCH",
@@ -1836,10 +1873,6 @@
   "Say Cheese"
  ],
  "https://www.bronxmuseum.org": [
-  "The Bronx Museum Community Joy & Justice Day With Legal Aid Society",
-  "The Bronx Museum Family Day Art-Making for All Ages",
-  "The Bronx Museum Community Joy & Justice Day: Artists in Conversation",
-  "The Bronx Museum Community Joy/Justice Day: Reception",
   "The Bronx Museum 2027 AIM Fellowship Application Deadline",
   "The Bronx Museum Saya Woolfalk: The WoodsWoman Method",
   "The Bronx Museum Beyond the Margins: Bronx Museum Teens Activate the Permanent Collection",
@@ -1889,10 +1922,8 @@
   "Rent Our Space"
  ],
  "https://www.foreigndomestic.io/": [
-  "current",
-  "jonah dillon september 11 - october 25, 2026 artforum, by nicolas poblette brooklyn rail, by joshua chee sanford new york art critics association, by bob nickas",
   "upcoming",
-  "luis manuel otero alcántara opens november 5",
+  "luis manuel otero alcántara tocar el cielo november 5 - december 13, 2026 opens november 5, 6-8pm",
   "past exhibitions",
   "submerged gallery animation, by nicholas william johnson",
   "a gallery is a time machine , by alexander meurice in the brooklyn rail",
