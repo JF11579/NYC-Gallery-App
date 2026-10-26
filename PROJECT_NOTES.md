@@ -90,6 +90,14 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 
 ## Google Ads
 
+- **2026-10-26:** Google emailed a "Destination mismatch" policy notice. Cause: the
+  asset group's Final URL and all 6 sitelinks still pointed at
+  `nyc-gallery-app.netlify.app`, which 301s to the new domain since 2026-10-12.
+  The asset group was "Eligible (Limited)" and impressions had fallen to near zero
+  from ~Oct 20. Updated every URL to `https://nycgallerytracker.com/…` (the "About
+  the App" sitelink now goes to `about.html`; it had pointed at `privacy.html`).
+  All are back under review. **After any future domain change, update the URLs in
+  Ads as well.**
 - **2026-10-23 (commit 8de553f):** the conversion used to fire on every homepage
   load, so Ads was optimizing for page loads — consistent with the 12-second visits
   and bot traffic. It now fires once per page view on the visitor's first real
@@ -129,6 +137,8 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
       data. What do engaged visitors do? Which galleries/boroughs? Map or list?
 - [ ] **~2026-10-30:** check Google Ads spend, CPC and conversions after the
       conversion change.
+- [ ] **~2026-10-28:** confirm the asset group and 6 sitelinks passed review
+      (Assets → status column) and impressions recovered.
 - [ ] Rename the Ads conversion action; review the campaign's bidding strategy.
 - [ ] Check AdSense status; request re-review if still "Low value content."
 - [ ] Re-check Search Console indexed count.
