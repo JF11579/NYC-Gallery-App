@@ -52,14 +52,14 @@
   "Hans Op de Beeck Vanishing Point",
   "Gwen O'Neil Atlantic Ave",
   "Focus",
-  "Taryn Simon",
-  "Father Country I Do Love You",
   "Ali Cherri",
   "Today is OK",
+  "Valentino Garavani - Ewa Juszkiewicz",
+  "AURA",
+  "Taryn Simon",
+  "Father Country I Do Love You",
   "News",
   "Recent Museum Acquisition",
-  "Francesco Vezzoli to participate in the conference “Archives and Memory in the Era of Artificial Intelligence” at the",
-  "October 20, 2026 | ADI Design Museum, Milan, Italy",
   "Be the first to know"
  ],
  "http://amelieduchalard.com/": [
@@ -87,8 +87,8 @@
   "PARIS - GALERIE SÉGUIER"
  ],
  "http://amoseno.org/": [
-  "Artists of Amos Eno I / Dec 3 - 20",
-  "Artists of Amos Eno II / Jan 14 - 31",
+  "Artists of Amos Eno I: Material /Immaterial / Dec 3 - 20",
+  "Artists of Amos Eno II: Systems of Being / Jan 14 - 31",
   "Damien Olsen Berdichevsky / Feb 11 - Mar 14",
   "Mimi Oritsky / Mar 18 - Apr 25",
   "Philip Swan / Apr 29 - Jun 6",
@@ -156,9 +156,9 @@
   "Oni Press",
   "Need art storage?",
   "News & Upcoming Releases",
+  "THE TEXAS CHAINSAW MASSACRE by Chase Andersen & THE MONSTER SQUAD by Daniel Mercer - On Sale INFO!",
   "HOPE IN THE STARS (Star Wars) by Howard Chaykin - On Sale INFO!",
   "THE THING by Robert Laskey & BRIDE OF FRANKENSTEIN by Jack Gregory - On Sale INFO!",
-  "SONIC Prints by Mark Hughes & Tracy Yardley - On Sale INFO!",
   "Never miss a new release, subscribe!"
  ],
  "http://broadwaygallery.nyc/": [
@@ -238,11 +238,11 @@
  ],
  "http://highnoongallery.com": [
   "CURRENT:",
-  "BOBBIE OLIVER Field Work",
-  "September 9 - October 24",
-  "UPCOMING:",
   "DAINA MATTIS Couch Surfing",
-  "OCTOBER 30 - DECEMBER 19"
+  "October 30 - December 19",
+  "UPCOMING:",
+  "ALEX DIAMANT Title TBD",
+  "January 8 - February 20"
  ],
  "http://janetbordeninc.com/": [
   "Janet Borden Inc. is a contemporary art gallery specializing in photography."
@@ -277,15 +277,14 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "Bloom in the Sunlight, Dream in the Moonlight",
-  "Déboussolé est le mot exact",
   "Cantaria",
   "Tideline",
+  "Déboussolé est le mot exact",
+  "Bloom in the Sunlight, Dream in the Moonlight",
   "Upcoming Exhibitions",
-  "seven lakes",
   "Atrás da superfície",
   "Voice Leading",
-  "成長物",
+  "成長物 성장물",
   "Watch",
   "Daniel Jorge – Cantaria",
   "Paula Siebra – Pequeno mapa do tempo, 2026",
@@ -923,12 +922,11 @@
   "Copyright Links"
  ],
  "http://www.jamescohan.com": [
-  "UPCOMING | Tuan Andrew Nguyen",
+  "Tuan Andrew Nguyen",
   "Sacred Forest / Rù'ng Thiêng",
   "The Campus",
   "2026 Annual Exhibition",
   "Current / On View",
-  "Gallery Exhibitions",
   "Features-Items",
   "News"
  ],
@@ -940,8 +938,7 @@
   "Upcoming",
   "Elodie Blanchard: In Fragments",
   "JLG Projects",
-  "Cookie preferences",
-  "Join our mailing list"
+  "Cookie preferences"
  ],
  "http://www.kateohgallery.com/": [
   "Home",
@@ -1061,7 +1058,6 @@
   "Now on view",
   "Warhol, Basquiat, Haring. Une amitié artistique",
   "Fernando Botero, in Praise of an Amplified World",
-  "Fred Eerdekens",
   "Abdulqader Al Rais, Al Nayed",
   "The Singapore Masters Show 2026",
   "Xevi Solà, Thoughts of a Bigger Splash",
@@ -1071,7 +1067,8 @@
   "Pablo Atchugarry",
   "Manolo Valdés",
   "Verapat Sitipol Stream of the Forest",
-  "Alex Katz - Julian Opie Face to Face"
+  "Alex Katz - Julian Opie Face to Face",
+  "Feng Xiao-Min Compositions"
  ],
  "http://www.pacegallery.com/": [
   "Alicja Kwade",
@@ -1086,11 +1083,11 @@
   "She Said She Said",
   "Journal",
   "Kylie Manning: The Mudlarkers by Marc Glimcher",
+  "Figure Eight: Elmgreen & Dragset at the Hirshhorn Museum Sculpture Garden",
+  "Elmgreen & Dragset at the Hirshhorn Museum and Sculpture Garden",
+  "Mudlarking in London with Kylie Manning",
   "She Said She Said: Arlene Shechet with Jessi Reaves",
-  "Arlene Shechet: She Said She Said",
-  "Torkwase Dyson at Kunsthaus Bregenz",
-  "Sonia Gomes at the Palais de Tokyo",
-  "Adam Pendleton at the Stedelijk Museum",
+  "Park Seo-Bo & Huong Dodinh: Emptiness Fullness",
   "Adam Pendleton",
   "Park Seo-Bo & Huong Dodinh",
   "Monochrome",
@@ -1241,13 +1238,13 @@
   "Bianca Beck: Eyes",
   "Upstairs Gallery: inner-world-space",
   "News",
-  "My Modern Met",
   "A Women's Thing",
+  "Artsy",
   "Arte Realizzata",
   "Store",
   "Reginald Madison",
   "Bianca Beck",
-  "Curtis Talwst Santiago",
+  "Sheree Hovsepian",
   "Join Our Mailing List"
  ],
  "http://www.westwoodgallery.com": [
@@ -1560,8 +1557,8 @@
  "https://hollistaggart.com": [
   "Latest news",
   "Art Week NYC",
-  "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
-  "Knox Martin at the Art Students League of New York",
+  "THE IMMENSE MUSEUM OF STRANGENESS | TIM KENT",
+  "Tim Kent paints scenes suspended between memory, desire, and reality",
   "Latest publications",
   "Teruko Yokoi",
   "Charles Seliger: The Structure of Matter",
@@ -1571,12 +1568,12 @@
   "Teruko Yokoi: Seasons",
   "Hollis Taggart",
   "Gallery Latest",
+  "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
+  "Knox Martin at the Art Students League of New York",
   "Tim Kent: Sojourn",
   "Symmetry Meets the Sacred in Shuling Guo’s Dreamy, Diffused Paintings",
   "Tim Kent’s zones of mystery",
   "Art: Shuling Guo: Temple II",
-  "What the World’s Top Collectors Bought in 2026, From a 15th-Century Pietà Painting to an Oar from Lubaina Himid’s British Pavilion",
-  "Tim Kent",
   "In Focus",
   "8 Lesser-Known Artists to Discover at Independent 20th Century",
   "Sheila Isham at the Newport Art Museum",
@@ -1765,9 +1762,9 @@
  "https://southernguild.com/": [
   "Every Buried Sun",
   "Kala",
-  "Porteurs de feu (Bearers of Fire)",
   "Wind from the North",
-  "Monomyths"
+  "Monomyths",
+  "Paris Photo"
  ],
  "https://statenislandmuseum.org": [
   "Home",
@@ -2015,7 +2012,7 @@
   "I'm a thousand different people—Every one is real",
   "Mar 15, 2024 - Jan 12, 2025",
   "Shop",
-  "Public Displays of Affection: Fifty Years of the Leslie-Lohman Museum of Art",
+  "Eikoh Hosoe: Barakei Poster",
   "Events",
   "Book Talk: Still Dangerous! The Harmony Hammond Reader edited by Tirza True Latimer"
  ],
