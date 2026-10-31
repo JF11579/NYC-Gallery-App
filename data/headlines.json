@@ -105,6 +105,9 @@
  "http://bortolamigallery.com/": [
   "Bortolami",
   "Menu",
+  "Rebecca Morris",
+  "As a moment and as an accumulation",
+  "Maki Katayama, Hikari Ono",
   "Daniel Buren, Barbara Kasten",
   "THE CAMPUS: 2026 Annual Exhibition",
   "Offsite",
@@ -127,7 +130,6 @@
   "27 Jun – 1 Nov 2026",
   "The Aldrich Decennial: I am what is around me",
   "7 Jun 2026 – 10 Jan 2027",
-  "Upcoming Exhibitions",
   "Recent Press",
   "News",
   "Bortolami at Art Basel Paris | Booth A10",
@@ -154,6 +156,7 @@
   "Image Comics",
   "Vault Comics",
   "Oni Press",
+  "Collected Editions",
   "Need art storage?",
   "News & Upcoming Releases",
   "THE TEXAS CHAINSAW MASSACRE by Chase Andersen & THE MONSTER SQUAD by Daniel Mercer - On Sale INFO!",
@@ -163,6 +166,7 @@
  ],
  "http://broadwaygallery.nyc/": [
   "Home",
+  "John Riepenhoff : Surround",
   "Cookie preferences"
  ],
  "http://brooklynartstudiosnyc.blogspot.com/": [
@@ -278,8 +282,9 @@
   "Home",
   "Current Exhibitions",
   "Cantaria",
-  "Tideline",
+  "seven lakes",
   "Déboussolé est le mot exact",
+  "Tideline",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "Upcoming Exhibitions",
   "Atrás da superfície",
@@ -334,16 +339,15 @@
  ],
  "http://rcgrossfoundation.org/": [
   "The award-winning Historic Home, studio, and art collections of sculptor Chaim Gross in the heart of Greenwich Village",
-  "An Evening of Music with Conway Kuo",
-  "Tuesday, October 27, 7 pm EDT",
   "THE CARVER'S ORDER, AN EXHIBITION WITH GEDI SIBONY",
   "October 1–November 21, 2026",
+  "Book a House & Studio Tour",
   "Access program Tactile Transmissions",
   "Fall 2026 Schedule available",
-  "Book a House & Studio Tour",
   "Now open: \"Figure/Ground\"",
   "May - December 2026",
-  "Explore previous programs and videos on our Vimeo page"
+  "Explore previous programs and videos on our Vimeo page",
+  "The Foundation is now on the Bloomberg Connects app"
  ],
  "http://riskgalleryboutique.com/": [
   "WHERE ART MEETS CLOTHING",
@@ -859,9 +863,10 @@
  "http://www.hesseflatow.com/": [
   "Item added to cart",
   "Home",
-  "UPCOMING",
+  "ON VIEW",
   "sonia louise davis",
   "SR Lejeune",
+  "UPCOMING",
   "New Social Environment: SR Lejeune & Joshua Chee Sanford",
   "IN CONVERSATION: sonia louise davis & Sharifa Rhodes-Pitts",
   "TRIBECA",
@@ -935,9 +940,6 @@
   "Home",
   "Elodie Blanchard : In Fragments",
   "JLG Projects : Rachael Catharine Anderson: Hidden Peril",
-  "Upcoming",
-  "Elodie Blanchard: In Fragments",
-  "JLG Projects",
   "Cookie preferences"
  ],
  "http://www.kateohgallery.com/": [
@@ -952,8 +954,6 @@
  "http://www.leilahellergallery.com/": [
   "Home",
   "Jon Isherwood: Permanence in Bloom",
-  "Design Miami.Paris 2026 : L'hôtel de Maisons",
-  "Asia NOW Fair : Monnaie de Paris",
   "Frieze Sculpture 2026 : The Regent’s Park",
   "Ryan Koopmans and Alice Wexell : The Wild Within",
   "Karima Shomely : Between a Fold and a Memory",
@@ -1085,7 +1085,7 @@
   "Kylie Manning: The Mudlarkers by Marc Glimcher",
   "Figure Eight: Elmgreen & Dragset at the Hirshhorn Museum Sculpture Garden",
   "Elmgreen & Dragset at the Hirshhorn Museum and Sculpture Garden",
-  "Mudlarking in London with Kylie Manning",
+  "On Mudlarking: Kylie Manning in London",
   "She Said She Said: Arlene Shechet with Jessi Reaves",
   "Park Seo-Bo & Huong Dodinh: Emptiness Fullness",
   "Adam Pendleton",
@@ -1557,8 +1557,8 @@
  "https://hollistaggart.com": [
   "Latest news",
   "Art Week NYC",
+  "Underappreciated artists from the Chelsea Hotel are finally getting their due",
   "THE IMMENSE MUSEUM OF STRANGENESS | TIM KENT",
-  "Tim Kent paints scenes suspended between memory, desire, and reality",
   "Latest publications",
   "Teruko Yokoi",
   "Charles Seliger: The Structure of Matter",
@@ -1568,12 +1568,12 @@
   "Teruko Yokoi: Seasons",
   "Hollis Taggart",
   "Gallery Latest",
+  "Tim Kent paints scenes suspended between memory, desire, and reality",
   "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
   "Knox Martin at the Art Students League of New York",
   "Tim Kent: Sojourn",
   "Symmetry Meets the Sacred in Shuling Guo’s Dreamy, Diffused Paintings",
   "Tim Kent’s zones of mystery",
-  "Art: Shuling Guo: Temple II",
   "In Focus",
   "8 Lesser-Known Artists to Discover at Independent 20th Century",
   "Sheila Isham at the Newport Art Museum",
@@ -1890,7 +1890,7 @@
   "Xylor Jane Paintings for People , Nov 4 – Dec 19, 2026",
   "Upcoming : 60 Lispenard St, Project Room",
   "Luke Murphy Good Light , Nov 4 – Dec 19, 2026",
-  "Current : Online , 60 Lispenard St",
+  "Past : Online , 60 Lispenard St",
   "Fundraiser for The John and Alice Coltrane Home, Oct 16 – Oct 30, 2026",
   "Upcoming:",
   "Loading...",
@@ -2014,7 +2014,7 @@
   "Shop",
   "Eikoh Hosoe: Barakei Poster",
   "Events",
-  "Book Talk: Still Dangerous! The Harmony Hammond Reader edited by Tirza True Latimer"
+  "PAST EVENTS"
  ],
  "https://www.lorimoto.com/": [
   "Wizardry of Sorts",
@@ -2075,8 +2075,8 @@
   "FOR EVERY ATOM BELONGING TO ME AS GOOD BELONGS TO YOU"
  ],
  "https://www.sarahcrown.com/": [
-  "SARAHCROWN is a New York–based contemporary art gallery that opened its Tribeca space in the summer of 2022.",
-  "SARAHCROWN represents contemporary emerging and established International artists and specializes in Postwar & Contemporary Art."
+  "SARAHCROWN is a contemporary art gallery founded in 2022 in Tribeca, New York, building on the expertise and relationships developed through its namesake art advisory practice, established in 2013.",
+  "The gallery represents emerging and established international artists, with a focus on Postwar and Contemporary Art."
  ],
  "https://www.sculpture-center.org": [
   "Announcements",
@@ -2110,7 +2110,6 @@
   "Upcoming Exhibitions",
   "Pedagogies Of War | Roman Khimei & Yarema Malashchuk",
   "Upcoming Events",
-  "FREE ADMISSION & EXTENDED HOURS",
   "Lialka-Motanka (Motanka Doll)",
   "SAFE Virtual symposium “Cultural Warriors: Defending Ukraine’s Heritage, Memory, and identity”",
   "POSTPONED: Ukrainian Dreams | Tais Poda",
