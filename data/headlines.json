@@ -48,7 +48,6 @@
   "Tom Wesselmann",
   "The Greatness of the Everyday",
   "Exhibitions",
-  "Tia-Thuy Nguyen Fields of Resonance",
   "Hans Op de Beeck Vanishing Point",
   "Gwen O'Neil Atlantic Ave",
   "Focus",
@@ -123,11 +122,6 @@
   "Counterpublic 2026: Coyote Time",
   "Tom Burr",
   "10 Sep – 13 Dec 2026",
-  "Plantations: travaux in situ",
-  "Daniel Buren",
-  "17 Jul – 1 Nov 2026",
-  "Group Show",
-  "27 Jun – 1 Nov 2026",
   "The Aldrich Decennial: I am what is around me",
   "7 Jun 2026 – 10 Jan 2027",
   "Recent Press",
@@ -281,11 +275,11 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
+  "Tideline",
   "Cantaria",
+  "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
   "Déboussolé est le mot exact",
-  "Tideline",
-  "Bloom in the Sunlight, Dream in the Moonlight",
   "Upcoming Exhibitions",
   "Atrás da superfície",
   "Voice Leading",
@@ -354,6 +348,8 @@
   "RISK GALLERY & BOUTIQUE"
  ],
  "http://ruttkowski68.com/": [
+  "If You Don´t Come In, Smile As You Go By, No 2 Jårg Geismar",
+  "Paris Photo 2026",
   "Time & Place Loren Munk",
   "Art Cologne 2026",
   "Carnivalesque Henrik Godsk",
@@ -777,8 +773,6 @@
   "Through January 24, 2027",
   "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong",
   "Upcoming Programs",
-  "Oct 31 , 11 AM",
-  "Bilingual Drawing Workshop: Spanish & English",
   "Nov 4 , 7 PM",
   "Free Screening: Form, Shadow, Motion",
   "Nov 12 , 6:30 PM",
@@ -787,6 +781,8 @@
   "In Conversation: Eddie Martinez and Dan Nadel",
   "Nov 19 , 6 PM",
   "ASL Drawing Workshop",
+  "Nov 21 , 10:30 AM",
+  "Drawing Workshop: Royal Drawing School",
   "Explore Online",
   "To Move in Light: Literary Offerings to Beauford Delaney",
   "Live Concert: Wadada Leo Smith and N'da Kulture, Beauford Delaney: The Artist Untitled Red Bar",
@@ -824,10 +820,10 @@
   "Stay in touch"
  ],
  "http://www.gr-gallery.com/": [
+  "Buff Monster & TENGAONE: Disorderly Conduct",
   "Kosuke Ajiro: Excavation Record I - Sayonara",
   "Blue Season: Group Show",
-  "Viraj Khanna & Brian Robertson: Made To Appear",
-  "Kohei Yamada: My Screen Tests"
+  "Viraj Khanna & Brian Robertson: Made To Appear"
  ],
  "http://www.grafftours.com/": [
   "Graff Tours",
@@ -843,10 +839,10 @@
  ],
  "http://www.grimmgallery.com/": [
   "Item added to cart",
-  "Volker Hüller : Angelus Novus",
-  "Matthias Franz : die dünne Haut der Zivilisation",
   "Charles Avery : Where Rocco Found a Dead Monster OR The Land of the Downcast Eyes",
   "Rosalind Nashashibi : Gaza Apollo",
+  "Arturo Kameya : Clavo torcido no teme martillo / A bent nail fears no hammer",
+  "Gareth Cadwallader : Goodnight Moon",
   "Cookie preferences"
  ],
  "http://www.hashimotocontemporary.com": [
@@ -1232,8 +1228,6 @@
  "http://www.uffnerliu.com/": [
   "Susan Chen at Edward Hopper House Museum 2026",
   "Curtis Talwst Santiago at Calgary Contemporary 2026",
-  "Laurie Nye: The Battlefield Where the Moon says I Love You",
-  "Upstairs Gallery: Hanz Ronald",
   "Exhibitions",
   "Bianca Beck: Eyes",
   "Upstairs Gallery: inner-world-space",
@@ -1549,8 +1543,6 @@
   "Contact Us"
  ],
  "https://hb381gallery.com/": [
-  "Hostler Burrows",
-  "HB381",
   "Grid-1",
   "Grid-2"
  ],
@@ -1629,7 +1621,7 @@
   "The New York Graphic Workshop: Towards Total Art",
   "ISLAA Calendar",
   "ISLAA Talks: The Obsolescence of Art with Luis Camntizer",
-  "ISLAA Talks: Time as Construct with Florencio Noceti",
+  "David Lamelas: The Machine",
   "EXHIBITIONS",
   "RESEARCH",
   "CALENDAR",
@@ -2037,9 +2029,7 @@
   "Teresa Murta: A Taste of Doubt",
   "New York • October 15 – November 25, 2026",
   "Marta Mattioli: Seven of Cups",
-  "Bucharest • October 10 – December 19, 2026",
-  "Ángeles Agrela: Camino y Paz",
-  "Los Angeles • September 19 – October 31, 2026"
+  "Bucharest • October 10 – December 19, 2026"
  ],
  "https://www.nunufineart.com/": [
   "Home",
@@ -2086,6 +2076,39 @@
   "The Echo",
   "Flying the Coop",
   "Subscribe to SHRINE"
+ ],
+ "https://www.snug-harbor.org": [
+  "Where culture meets nature.",
+  "What’s on this week",
+  "Proximity Exhibition",
+  "Autumn Bulb and Plant Sale",
+  "Staten Island Black Heritage 4th Annual Black Solidarity Day",
+  "Fall Foliage Tour",
+  "Farm Cooking Club with Pam Silvestri: Garlic Planting",
+  "Jazz Is Staten Island: Rhythms of the African Diaspora (Local is Global Part II)",
+  "Heritage Farm and Compost Tour",
+  "Pumpkin Smash",
+  "Environmental and Tree Stewardship",
+  "Master Composter Certification | Course 3: Soil Health and Soil Science | Virtual Session",
+  "Tree Maintenance Workshop",
+  "Farm Stewardship",
+  "Sylvia Center: Online Cooking Demonstration",
+  "Experience more at Snug Harbor",
+  "A cultural celebration for all",
+  "Get inspired by our free outdoor installations",
+  "Get your Discovery Pass now",
+  "Plus tons of fun perks for you!",
+  "Things to do",
+  "Museums & Galleries",
+  "Outdoor Exploration",
+  "Take a Class",
+  "Host An Event",
+  "Visit",
+  "Events",
+  "Artist Services",
+  "Support",
+  "About Us",
+  "Rentals & Permits"
  ],
  "https://www.structuralcolorgallery.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=8967950875205061564": [
   "Structural Game Color Gallery",
