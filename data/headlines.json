@@ -250,14 +250,14 @@
   "Nairy Baghramian",
   "News & Events",
   "Annette Messager: National Taiwan Museum of Fine Arts, Taichung",
+  "Adrián Villar Rojas - The End of Imagination: Oslo National Museum",
   "Steve McQueen - End Credits: Muziekgebouw Amsterdam",
+  "Agnieszka Kurant | Seminar 8: Collective Intelligence, Collective Agency: Wollman Hall, The New School",
   "Anri Sala: Serralves",
   "Ebony L. Haynes Named Senior Director, Global Head of Curatorial Affairs, at Marian Goodman Gallery: Rose Lord and Junette Teng Named Co-Presidents",
   "Giuseppe Penone: The Inner Flow of Life: National Museum of Qatar",
   "Ana Mendieta - Guest of Honor: OFFSCREEN Paris",
   "Álvaro Urbano: Helen: Museo Jumex",
-  "Alina Szapocznikow / Nairy Baghramian: Zachęta – National Gallery of Art",
-  "Edith Dekyndt x Cristóbal Balenciaga: The Fabric Decides: Bozar",
   "Join our list",
   "Cookie preferences",
   "Basket",
@@ -273,11 +273,11 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "Déboussolé est le mot exact",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
-  "Cantaria",
+  "Déboussolé est le mot exact",
   "Tideline",
+  "Cantaria",
   "Upcoming Exhibitions",
   "Atrás da superfície",
   "Voice Leading",
@@ -864,10 +864,12 @@
  "http://www.hesseflatow.com/": [
   "Item added to cart",
   "Home",
+  "sonia louise davis : a promise, a portal, possibility",
+  "SR Lejeune : Hold me up",
   "ON VIEW",
   "sonia louise davis",
   "SR Lejeune",
-  "UPCOMING",
+  "UPCOMING EVENTS",
   "New Social Environment: SR Lejeune & Joshua Chee Sanford",
   "IN CONVERSATION: sonia louise davis & Sharifa Rhodes-Pitts",
   "TRIBECA",
@@ -903,6 +905,7 @@
   "Laia Abril: On Rape and Institutional Failure",
   "ICP Spotlights 2026: Honoring Rinko Kawauchi",
   "ICP Photography Classes Return Uptown",
+  "ICP x Spéos: Summer Photography in Paris",
   "Photography Lives Here",
   "From ICP's Collection and Community",
   "Robert Capa",
@@ -1057,14 +1060,15 @@
  ],
  "http://www.operagallery.com/": [
   "Now on view",
-  "Warhol, Basquiat, Haring. Une amitié artistique",
   "Fernando Botero, in Praise of an Amplified World",
+  "Warhol, Basquiat, Haring. Une amitié artistique",
   "Upcoming Exhibitions",
   "Introducing",
   "Pablo Atchugarry",
   "Manolo Valdés",
   "Verapat Sitipol Stream of the Forest",
   "Alex Katz - Julian Opie Face to Face",
+  "The Unseen Self",
   "Feng Xiao-Min Compositions"
  ],
  "http://www.pacegallery.com/": [
@@ -1123,7 +1127,7 @@
   "Season 25"
  ],
  "http://www.peterblumgallery.com": [
-  "Current Exhibition",
+  "Upcoming Exhibition",
   "News"
  ],
  "http://www.ppowgallery.com": [
@@ -1436,6 +1440,7 @@
   "Item added to cart",
   "Home",
   "Maggie Ellis : Chaos Bewitched",
+  "Bari Ziperstein : The Right Pair",
   "In the News",
   "How Artist Kim Dacres Combined Love Songs and Tires into Sculpture",
   "The 17 Gallery Shows to See During Frieze Week in New York",
@@ -1550,6 +1555,16 @@
   "HB381",
   "Grid-1",
   "Grid-2"
+ ],
+ "https://hemingwayafricangallery.com/": [
+  "Hemingway African Gallery",
+  "Newsletter",
+  "NEW ARRIVALS",
+  "CONSERVATION & OUTREACH",
+  "Shop Authentic African Art, Masks & Shona Sculpture",
+  "A Curated Collection, Not a Catalog",
+  "Why Collectors and Designers Work With Us",
+  "Browse All Collections"
  ],
  "https://hollistaggart.com": [
   "Latest news",
@@ -1757,10 +1772,10 @@
   "STAY IN THE LOOP FOR UPCOMING EVENTS"
  ],
  "https://southernguild.com/": [
+  "Monomyths",
+  "Wind from the North",
   "Every Buried Sun",
   "Kala",
-  "Wind from the North",
-  "Monomyths",
   "Paris Photo"
  ],
  "https://statenislandmuseum.org": [
@@ -1921,7 +1936,6 @@
  ],
  "https://www.foreigndomestic.io/": [
   "upcoming",
-  "luis manuel otero alcántara tocar el cielo november 5 - december 13, 2026 opens november 5, 6-8pm",
   "past exhibitions",
   "submerged gallery animation, by nicholas william johnson",
   "a gallery is a time machine , by alexander meurice in the brooklyn rail",
@@ -2083,7 +2097,6 @@
  "https://www.snug-harbor.org": [
   "Where culture meets nature.",
   "What’s on this week",
-  "Staten Island Black Heritage 4th Annual Black Solidarity Day",
   "Fall Foliage Tour",
   "Proximity Exhibition",
   "Farm Cooking Club with Pam Silvestri: Garlic Planting",
@@ -2093,7 +2106,6 @@
   "Heritage Farm and Compost Tour",
   "Pumpkin Smash",
   "Historic New York: Lenape Folktales",
-  "Master Composter Certification | Course 3: Soil Health and Soil Science | Virtual Session",
   "Tree Maintenance Workshop",
   "Farm Stewardship",
   "Environmental and Tree Stewardship",
