@@ -65,11 +65,12 @@
   "Amelie du Chalard",
   "\"Art is a guarantee of sanity\"",
   "Louise Bourgeois",
-  "à venir : contrepoint",
+  "contrepoint",
   "Victoire D’Harcourt & Eberhard Ross",
   "what’s seen, staring at the ceiling",
   "Ethan Caflisch",
   "\"Art is guarantee of sanity\"",
+  "à venir : contrepoint",
   "nouvelles œuvres",
   "disciplines",
   "NOUS RENDRE VISITE",
@@ -120,6 +121,9 @@
   "Counterpublic 2026: Coyote Time",
   "Tom Burr",
   "10 Sep – 13 Dec 2026",
+  "Threshold",
+  "Barbara Kasten",
+  "8 Aug 2026 – 31 Jan 2027",
   "The Aldrich Decennial: I am what is around me",
   "7 Jun 2026 – 10 Jan 2027",
   "Recent Press",
@@ -151,9 +155,9 @@
   "Collected Editions",
   "Need art storage?",
   "News & Upcoming Releases",
+  "TURTLE TRACKS (TMNT) by Phantom City Creative - On Sale INFO!",
+  "DUNE by Dave O'Flanagan & ICONIC RESIDENCES by George Townley - On Sale INFO!",
   "GODZILLA DAY: Prints & Pins by Tom Whalen, Jason Raish, Florey & Nathan Deiwert - On Sale INFO!",
-  "THE TEXAS CHAINSAW MASSACRE by Chase Andersen & THE MONSTER SQUAD by Daniel Mercer - On Sale INFO!",
-  "HOPE IN THE STARS (Star Wars) by Howard Chaykin - On Sale INFO!",
   "Never miss a new release, subscribe!"
  ],
  "http://broadwaygallery.nyc/": [
@@ -276,8 +280,8 @@
   "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
   "Déboussolé est le mot exact",
-  "Tideline",
   "Cantaria",
+  "Tideline",
   "Upcoming Exhibitions",
   "Atrás da superfície",
   "Voice Leading",
@@ -664,7 +668,7 @@
   "121 WEST 27TH STREET"
  ],
  "http://www.chart-gallery.com": [
-  "ANNA ORTIZ : SHAPESHIFTER",
+  "THE MIDDLE MOVES: ABSTRACTION AT FULL TENSION",
   "NEWS",
   "Anna Ortiz Traverses the Multiple Realities of the Borderlands",
   "Whitney Oldenburg in Editors' Selects: May 2026",
@@ -769,29 +773,25 @@
   "Vessels"
  ],
  "http://www.drawingcenter.org/": [
-  "Follow Us",
-  "On View",
-  "Through January 24, 2027",
   "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong",
-  "Upcoming Programs",
-  "Nov 4 , 7 PM",
-  "Free Screening: Form, Shadow, Motion",
-  "Nov 10 , 6:30 PM",
+  "Programs",
+  "Free Screening: Form, Shadow, Motion at Anthology Film Archives",
   "Life Drawing Session",
-  "Nov 12 , 6:30 PM",
-  "In Conversation: Craft",
-  "Nov 17 , 6 PM",
-  "In Conversation: Eddie Martinez and Dan Nadel",
-  "Nov 19 , 6 PM",
-  "ASL Drawing Workshop",
-  "Explore Online",
+  "In Conversation: Nicolas Trembley and Laura Hoptman on Craft",
+  "Explore the Exhibition Archive",
+  "Plains Indians Drawings 1865-1935: Pages from a Visual History",
+  "The Return of the Cadavre Exquis",
+  "Musical Manuscripts",
+  "The Pencil Is a Key: Drawings by Incarcerated Artists",
+  "Pierced Hearts & True Love: A Century of Drawings for Tattoos",
+  "Shop",
+  "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong (Preorder)",
+  "KP Brehmer, Komposition No.3 (in Form eines Spitzkleeblattes) and Spitzklette III Double-sided Poster",
+  "The Drawing Center Hat",
+  "Past Programs",
   "To Move in Light: Literary Offerings to Beauford Delaney",
   "Live Concert: Wadada Leo Smith and N'da Kulture, Beauford Delaney: The Artist Untitled Red Bar",
-  "Exhibition Walkthrough: In the Medium of Life: The Drawings of Beauford Delaney",
-  "Cart:",
-  "Product $ Qty Subtotal",
-  "Member Discount",
-  "Discount"
+  "Exhibition Walkthrough: In the Medium of Life: The Drawings of Beauford Delaney"
  ],
  "http://www.eleventhhourart.com/": [
   "On Now: The Fall 2026 Collection , a group show",
@@ -854,9 +854,9 @@
   "Home",
   "Pat Perry - \"WHILST\"",
   "FEATURED EXHIBITIONS:",
-  "Opening Reception: \"Table Manners\" Group Exhibition",
   "Mu Pan - \"Micro MUniverse\"",
   "Opening Reception: Mu Pan \"Micro MUniverse\"",
+  "Coming Soon: The Jealous Curator at Hashimoto Contemporary",
   "James Eddy - \"Figments of the Imagination\"",
   "Cookie preferences",
   "Join our mailing list"
@@ -972,9 +972,6 @@
  ],
  "http://www.marcstraus.com": [
   "Home",
-  "On View",
-  "The Prime of Your Life",
-  "Michael Brown",
   "Coming Soon",
   "Josh Cloud",
   "Gisela McDaniel",
@@ -997,16 +994,16 @@
  ],
  "http://www.matthewmarks.com/": [
   "Matthew Marks Gallery",
-  "JORDAN BELSON The Cosmic View",
-  "June 27–August 15, 2026",
-  "1062 North Orange Grove 7818 Santa Monica Boulevard Los Angeles",
-  "LEIDY CHURCHMAN Space Remembers",
-  "September 11–October 24, 2026",
+  "WADE GUYTON Sculpture",
+  "Opening Wednesday, November 4, 6–8PM",
   "522 West 22nd Street New York",
-  "GARY HUME",
+  "JASPER JOHNS Recent Drawings",
+  "526 West 22nd Street New York",
+  "101 DRAWINGS",
   "523 West 24th Street New York",
   "THOMAS DEMAND",
   "through November 7, 2026",
+  "1062 North Orange Grove 7818 Santa Monica Boulevard Los Angeles",
   "TERRY WINTERS Vitalized Geometry The Menil Collection Houston through April 4, 2027",
   "MARTIN PURYEAR Nexus High Museum of Art Atlanta through January 17, 2027",
   "NAYLAND BLAKE “Haunt”: Being the Folly of One Victorya Spectre Art Omi Ghent, NY through January 10, 2027",
@@ -1123,7 +1120,7 @@
   "RESOURCES IN SUPPORT OF PALESTINE",
   "RESOURCES TO SUPPORT THE AAPI COMMUNITY AND MANHATTAN'S CHINATOWN",
   "RESOURCE LIST IN THE MOVEMENT FOR THE LIBERATION OF BLACK LIVES",
-  "JONAH MUTONO NOTES ON MIRROR CINEMA Curated by Serubiri Moses",
+  "GABRIELLE CIVIL BLACK WEIRDO SCHOOL PSYCHIC DEFENSE CLUB Curated by Shameekia Shantel Johnson Fri, Nov 6, 7pm",
   "Season 25"
  ],
  "http://www.peterblumgallery.com": [
@@ -1222,7 +1219,6 @@
  ],
  "http://www.thejournalgallery.com/": [
   "Home",
-  "Phoebe Derlee",
   "Oliver Clegg",
   "Cookie preferences"
  ],
@@ -1267,7 +1263,8 @@
   "Cookie preferences"
  ],
  "http://www.whitecube.com/": [
-  "Zhang Yunyao",
+  "Theaster Gates",
+  "Zhang Yunyao, Hong Kong (2026)",
   "Firenze Lai, Mason's Yard (2026)",
   "Gabriel Orozco Chronotopic Curated by Briony Fer",
   "Tracey Emin I will miss you Yesterday I will miss you Today I will miss you Tomorrow And that’s how it will Always be",
@@ -1465,6 +1462,7 @@
   "D. D. D. D.",
   "New York",
   "Queensway Television, Singapore",
+  "Programs",
   "Recent press"
  ],
  "https://dimin.nyc/": [
@@ -1545,7 +1543,7 @@
   "Nonsites Revisited",
   "The Armory Show",
   "Recent Press",
-  "Artsy",
+  "BOMB Magazine",
   "The New York Times",
   "Visit us",
   "Contact Us"
@@ -1713,9 +1711,9 @@
   "Contemporary Art Gallery in Tribeca, NYC | LATITUDE",
   "Grace Chang and Amos Kang: Scenic Route",
   "Me & My Plurals: Yosub Koh and Angela Fang Zirbes",
-  "Meanwhile, the Mise-en-scène",
+  "Xintong Gao: What Refuses to Settle",
+  "Ziyi Zhang: PIXEL//FLESH",
   "Inner Landscapes: Liane Chu and Iris Yehong Mao",
-  "The Overslept Mayfly: Ailyn Lee and Tianshu Zhang",
   "Cookie preferences",
   "Join our mailing list"
  ],
@@ -1835,6 +1833,8 @@
   "Funding"
  ],
  "https://www.aicon.art/": [
+  "Art Mumbai 2026",
+  "Stand A03 | Mahalaxmi Racecourse",
   "AINA Gallery",
   "Other Stories - A Genealogy for the Present",
   "Join Our Mailing List"
@@ -1858,9 +1858,9 @@
   "MAKING OF A DREAM"
  ],
  "https://www.anitarogersgallery.com/": [
-  "Robert Szot",
-  "Dust Do Shine",
-  "Through October 31"
+  "George Negroponte",
+  "EVERYTHING I KNOW",
+  "The gallery is currently closed for installation We will reopen at 6pm on November 5 for the opening reception of George Negroponte: Everything I Know"
  ],
  "https://www.bacistudio.com/": [
   "Cafe",
@@ -1876,7 +1876,6 @@
   "Say Cheese"
  ],
  "https://www.bronxmuseum.org": [
-  "The Bronx Museum Registration for Lifelong Studio: Printmaking",
   "The Bronx Museum Film Screening At Anthology Film Archives",
   "The Bronx Museum Family Time Día de Muertos 2026",
   "The Bronx Museum First Friday November 2026: Mutual Aid Supply Drive",
@@ -1885,7 +1884,7 @@
   "The Bronx Museum Alex Strada: Public Address",
   "Renovation Underway",
   "Calendar",
-  "Registration for Lifelong Studio: Printmaking",
+  "Registration Is Full for Lifelong Studio: Printmaking",
   "The Bronx Museum & EFA Robert Blackburn Printmaking Workshop Present: Asilah Oui at Anthology Film Archives",
   "First Friday November 2026: Art in Action—Winter Supply Drive Supporting Bronx Mutual Aid",
   "About the Museum",
@@ -1898,9 +1897,9 @@
   "Community"
  ],
  "https://www.canadanewyork.com/": [
-  "Upcoming : 60 Lispenard St",
+  "Current: 60 Lispenard St",
   "Xylor Jane Paintings for People , Nov 4 – Dec 19, 2026",
-  "Upcoming : 60 Lispenard St, Project Room",
+  "Current: 60 Lispenard St, Project Room",
   "Luke Murphy Good Light , Nov 4 – Dec 19, 2026",
   "Upcoming:",
   "Loading...",
@@ -1958,6 +1957,7 @@
   "About",
   "Shop",
   "Highlights from the Collection",
+  "Like a Swan with Heartache",
   "FEATURED ARTWORKS",
   "frank-webster",
   "Laguna de los Tres, view of Monte Fitz Roy, Cerro Torre, and Aguja Poincenot",
@@ -2035,12 +2035,12 @@
   "Related Content"
  ],
  "https://www.miergallery.com/": [
+  "ART COLOGNE",
+  "Stefan Rinck & Angiola Gatti",
   "ALBERT IRVIN",
   "To New York and Back Again",
   "CONNIE HARRISON",
-  "Landscrapes",
-  "TIM BRADEN",
-  "CONTRE-JOUR"
+  "Landscrapes"
  ],
  "https://www.nicodimgallery.com/": [
   "Teresa Murta: A Taste of Doubt",
@@ -2058,6 +2058,7 @@
   "One Art Space Authorized Dealer for Chuck Connelly Works",
   "UPCOMING EXHIBITIONS",
   "Patrick McMullan Photographs So Famous | Nov 13 – Dec 13, 2026",
+  "Si Young Yang, Blooming in NY | Nov 3 – 8, 2026",
   "PURVIS YOUNG February 2026",
   "Curated by MaryAnn Giella McCulloh",
   "ADDRESS",
@@ -2181,7 +2182,8 @@
  ],
  "https://www.yveyang.com/": [
   "Upcoming at YveYANG",
-  "Noon Performance"
+  "Noon Performance",
+  "West Bund Art Fair"
  ],
  "https://www.zarolat.com/": [
   "© ZAROLAT 2026 ALL RIGHTS RESERVED"
