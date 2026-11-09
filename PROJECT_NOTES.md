@@ -131,10 +131,16 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
   a new site (verified via the AdSense code snippet already in `<head>`; ads.txt is
   live there) and requested review → status **"Getting ready."** The old
   netlify.app entry was deleted the same day.
-- **2026-11-06:** `nycgallerytracker.com` rejected — "You need to fix some issues
-  before your site is ready for AdSense." The email gives no policy reason; it is
-  only shown on the AdSense **Sites** page (not yet checked). First review on the
-  new domain; the six earlier rejections were all "Low value content."
+- **2026-11-06:** `nycgallerytracker.com` rejected — **"Low value content"** again
+  (seventh rejection overall, first on the new domain; confirmed on AdSense → Sites
+  2026-11-09, status "Needs attention"). The wording now stresses more than content:
+  a site must "provide substantial unique value, establish a consistent presence on
+  the web, and show a level of user interest that supports a commercial advertising
+  partnership", and before resubmitting should "exhibit ongoing curation and
+  structural maintenance" and "generate and sustain genuine user interest."
+  Read: Google is also judging traffic and reputation (≈all-new 12s visits, 3 pages
+  indexed, 0 inbound links), not just page text — resubmitting before those move is
+  likely to fail again.
 - Monetization ideas parked until approval: paid gallery sponsorships (pinned/starred
   listing, ~$50/month) and featured-artist banner slots.
 
@@ -149,8 +155,8 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 - [ ] **~2026-10-28:** confirm the asset group and 6 sitelinks passed review
       (Assets → status column) and impressions recovered.
 - [ ] Rename the Ads conversion action; review the campaign's bidding strategy.
-- [ ] Read the rejection reason on AdSense → Sites for `nycgallerytracker.com`
-      (rejected 2026-11-06), fix, then request a new review.
+- [ ] AdSense rejected `nycgallerytracker.com` 2026-11-06 ("Low value content").
+      Hold the re-review until indexing, inbound links and returning visitors improve.
 - [ ] Re-check Search Console indexed count.
 - [ ] Review the homepage as a first-time visitor (phone) — why do people leave in seconds?
 - [x] 2026-10-23: homepage Queens note claimed "nearly as many galleries as Brooklyn";
