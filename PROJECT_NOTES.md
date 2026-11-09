@@ -29,6 +29,7 @@ The old `nyc-gallery-app.netlify.app` property will fade out as Google follows t
 
 | Date | Sitemap | Indexed | Not indexed | Notes |
 |---|---|---|---|---|
+| 2026-11-09 (data to Nov 5) | — | 7 | 29 | 28 discovered-not-indexed; 1 alternate canonical = homepage with digest-email UTM params (harmless). Indexed: home, Chelsea, LES, Queens, visitor guide, new-shows 10-19 & 10-26 |
 | 2026-10-23 | Success, last read Oct 19, 33 discovered | 3 | 30 | All 30 = "Discovered – currently not indexed" |
 | 2026-10-12 | Submitted on new domain; "Couldn't fetch" (normal for a new property) | — | — | Moved to nycgallerytracker.com |
 | 2026-10-12 (old domain) | Last read Oct 11, 32 discovered | 3 | 36 | 29 discovered-not-indexed, 7 alternate canonical |
