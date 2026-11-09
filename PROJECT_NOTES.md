@@ -131,6 +131,10 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
   a new site (verified via the AdSense code snippet already in `<head>`; ads.txt is
   live there) and requested review → status **"Getting ready."** The old
   netlify.app entry was deleted the same day.
+- **2026-11-06:** `nycgallerytracker.com` rejected — "You need to fix some issues
+  before your site is ready for AdSense." The email gives no policy reason; it is
+  only shown on the AdSense **Sites** page (not yet checked). First review on the
+  new domain; the six earlier rejections were all "Low value content."
 - Monetization ideas parked until approval: paid gallery sponsorships (pinned/starred
   listing, ~$50/month) and featured-artist banner slots.
 
@@ -145,8 +149,8 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 - [ ] **~2026-10-28:** confirm the asset group and 6 sitelinks passed review
       (Assets → status column) and impressions recovered.
 - [ ] Rename the Ads conversion action; review the campaign's bidding strategy.
-- [ ] Watch for the AdSense review result on `nycgallerytracker.com` (requested
-      2026-10-26; usually days to ~2 weeks, arrives by email).
+- [ ] Read the rejection reason on AdSense → Sites for `nycgallerytracker.com`
+      (rejected 2026-11-06), fix, then request a new review.
 - [ ] Re-check Search Console indexed count.
 - [ ] Review the homepage as a first-time visitor (phone) — why do people leave in seconds?
 - [x] 2026-10-23: homepage Queens note claimed "nearly as many galleries as Brooklyn";
