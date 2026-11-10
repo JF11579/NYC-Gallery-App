@@ -21,6 +21,25 @@ to stay. Google's indexing decisions and visitor behaviour are both measuring th
 
 ---
 
+## Gallery coverage (2026-11-10)
+
+- Reddit (r/lowereastside) reader: "only 17 galleries on the UES? There are that
+  many in the Fuller Building alone." Correct — the site had 1 there. Cause: the old
+  Places fetch ran one search per neighbourhood, and Google caps a search at 60.
+- Fixed with `discover_galleries.py` (tiled search + per-building search) and
+  `merge_candidates.py` (walk-in only). **235 -> 763 galleries; Fuller Building 1 -> 9.**
+- Policy: **walk-in galleries only** (regular hours 3+ days/week on Google).
+  By-appointment dealers are left off on purpose.
+- Google doesn't list every tenant (commenter says ~17 in the Fuller Building).
+  Add missing ones as readers report them: building address -> `BUILDINGS` in
+  discover_galleries.py; one-offs -> set `"approve": true` in data/candidates.json.
+- Map shows one numbered pin per building (`buildingKey` in index.html). Second
+  street addresses for the same building go in `BUILDING_ALIASES`, names in
+  `BUILDING_NAMES`.
+- Places key lives in `.env` (git-ignored), Google Cloud project Data11579,
+  Places API (New).
+- Follow-up: reply on Reddit with the update and ask what's still missing.
+
 ## Google Search Console / indexing
 
 **Property:** `https://nycgallerytracker.com/` (URL-prefix, verified via Google Analytics).
