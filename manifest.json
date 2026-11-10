@@ -1,7 +1,7 @@
 {
   "name": "NYC Gallery Tracker",
   "short_name": "NYC Galleries",
-  "description": "Track new shows at nearly 300 art galleries across all five NYC boroughs — updated weekly.",
+  "description": "Track new shows at more than 750 art galleries across all five NYC boroughs — updated weekly.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

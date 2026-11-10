@@ -4,3 +4,6 @@ __pycache__/
 *.pdf
 Screenshot*.png
 __pycache__/
+.env
+data/candidates.json
+data/merge_report.txt

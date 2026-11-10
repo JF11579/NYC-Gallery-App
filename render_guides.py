@@ -278,7 +278,7 @@ def render_route_page(hood, ordered, total_count):
         coverage = (
             f"<p>{hood} has {total_count} galleries on our map. This route takes the "
             f"{len(ordered)} that sit closest together — the walkable core of the district — "
-            f"because a {total_count}-stop walk is a list, not a route. "
+            f"because {'an' if str(total_count).startswith('8') or total_count in (11, 18) else 'a'} {total_count}-stop walk is a list, not a route. "
             f'The <a href="/galleries/{slug}.html">full {esc(hood)} directory</a> has the rest.</p>'
         )
 
