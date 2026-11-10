@@ -127,6 +127,15 @@
       box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px rgba(0,0,0,0.18);
     }
 
+    .legend-multi {
+      width: 18px; height: 18px; background: #9e9e9e; color: #fff;
+      font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
+    }
+    .bldg-head { font-weight: 700; margin-bottom: 2px; }
+    .bldg-list { list-style: none; margin: 6px 0 0; padding: 0; max-height: 240px; overflow-y: auto; }
+    .bldg-list li { padding: 5px 0; border-top: 1px solid #eee; }
+    .bldg-list li strong { display: inline; margin: 0; }
+    .bldg-list .updated-badge { margin: 0 0 0 4px; }
     .mapboxgl-popup-content { padding: 10px 14px; font-size: 13px; max-width: 220px; }
     .mapboxgl-popup-content strong { display: block; margin-bottom: 4px; }
     .mapboxgl-popup-content .addr { color: #555; margin-bottom: 4px; font-size: 12px; }
@@ -278,6 +287,7 @@
     <h4>NYC Galleries</h4>
     <div><span class="legend-dot" style="background:#2e7d32"></span>New show</div>
     <div><span class="legend-dot" style="background:#9e9e9e"></span>No change</div>
+    <div><span class="legend-dot legend-multi">3</span>Several at one address</div>
   </div>
 </div>
 
@@ -628,6 +638,8 @@ document.addEventListener('DOMContentLoaded', function () {
     container: 'map',
     style: {
       version: 8,
+      // Fonts for the gallery-count numbers drawn on shared-address pins.
+      glyphs: 'mapbox://fonts/mapbox/{fontstack}/{range}.pbf',
       sources: {
         'watercolor': {
           type: 'raster',
@@ -654,6 +666,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   let allFeatures = [];
   let activeBoro = 'all';
+  const MULTI_FILTER = ['>', ['get', 'count'], 1];
 
   // GA4 custom events — what visitors actually do, beyond "stayed 10 seconds".
   function track(name, params) {
@@ -800,41 +813,124 @@ document.addEventListener('DOMContentLoaded', function () {
   map.on('load', () => {
     const dataUrl = 'data/galleries.json?v=' + Date.now();
 
-    map.addSource('galleries', { type: 'geojson', data: dataUrl });
+    // One pin per building. Several galleries often share an address (a
+    // dozen or more in some Chelsea and 57th St buildings), and separate pins
+    // at the same spot stack so only the top one is visible or clickable.
+    map.addSource('galleries', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
     map.addLayer({
       id: 'galleries-layer', type: 'circle', source: 'galleries',
       paint: {
-        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 14, 8, 17, 12],
-        'circle-color': ['case',
-          ['all',
-            ['has', 'last_updated'],
-            ['!=', ['get', 'last_updated'], ''],
-            ['>=', ['get', 'last_updated'], cutoff]
-          ],
-          '#2e7d32', '#9e9e9e'
+        'circle-radius': ['interpolate', ['linear'], ['zoom'],
+          11, ['case', ['>', ['get', 'count'], 1], 7, 4],
+          14, ['case', ['>', ['get', 'count'], 1], 12, 8],
+          17, ['case', ['>', ['get', 'count'], 1], 16, 12]
         ],
+        'circle-color': ['case', ['get', 'any_new'], '#2e7d32', '#9e9e9e'],
         'circle-stroke-width': 2.5,
         'circle-stroke-color': '#ffffff',
         'circle-opacity': 1
       }
     });
+    map.addLayer({
+      id: 'galleries-count', type: 'symbol', source: 'galleries',
+      filter: MULTI_FILTER,
+      layout: {
+        'text-field': ['to-string', ['get', 'count']],
+        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 11, 9, 14, 12, 17, 15],
+        'text-allow-overlap': true,
+        'text-ignore-placement': true
+      },
+      paint: { 'text-color': '#ffffff' }
+    });
 
-    map.on('mouseenter', 'galleries-layer', () => { map.getCanvas().style.cursor = 'pointer'; });
-    map.on('mouseleave', 'galleries-layer', () => { map.getCanvas().style.cursor = ''; });
+    ['galleries-layer', 'galleries-count'].forEach(layer => {
+      map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
+    });
     map.on('click', 'galleries-layer', e => {
-      const props = e.features[0].properties;
+      const members = buildings[e.features[0].properties.bid];
       const coords = e.features[0].geometry.coordinates.slice();
-      track('map_pin_click', galleryParams(props));
-      showMapPopup(coords, props);
+      if (members.length === 1) {
+        track('map_pin_click', galleryParams(members[0].properties));
+        showMapPopup(coords, members[0].properties);
+      } else {
+        track('map_pin_click', { building: members[0].properties.address || '', gallery_count: members.length });
+        showBuildingPopup(coords, members);
+      }
     });
 
     fetch(dataUrl)
       .then(r => r.json())
       .then(data => {
         allFeatures = data.features;
+        map.getSource('galleries').setData(groupByBuilding(allFeatures));
         buildGalleryList(allFeatures);
       });
   });
+
+  // Key for "same building": street number + street, with floor/suite, city
+  // and spelling variants (West/W, Street/St) removed.
+  function buildingKey(address) {
+    let a = (address || '').toLowerCase().split(',')[0];
+    a = a.replace(/\b(\d+(st|nd|rd|th)?\s*(fl|floor)|(fl|floor|suite|ste|unit|#)\s*\S+)\b.*$/, '');
+    a = a.replace(/\bstreet\b/g, 'st').replace(/\bavenue\b/g, 'ave')
+         .replace(/\bwest\b/g, 'w').replace(/\beast\b/g, 'e');
+    a = a.replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
+    return /^\d/.test(a) ? a : '';
+  }
+
+  function isNewShow(props) {
+    return !!(props.last_updated && props.last_updated >= cutoff);
+  }
+
+  let buildings = [];
+  function groupByBuilding(features) {
+    const groups = new Map();
+    features.forEach(f => {
+      const k = buildingKey(f.properties.address)
+        || 'pt:' + f.geometry.coordinates.map(c => c.toFixed(5)).join(',');
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(f);
+    });
+    buildings = [...groups.values()];
+    return {
+      type: 'FeatureCollection',
+      features: buildings.map((members, bid) => ({
+        type: 'Feature',
+        geometry: members[0].geometry,
+        properties: {
+          bid,
+          count: members.length,
+          any_new: members.some(m => isNewShow(m.properties)),
+          borough: members[0].properties.borough || ''
+        }
+      }))
+    };
+  }
+
+  function showBuildingPopup(coords, members) {
+    const sorted = [...members].sort((a, b) =>
+      (isNewShow(b.properties) - isNewShow(a.properties))
+      || a.properties.name.localeCompare(b.properties.name));
+    const addr = members[0].properties.address || '';
+    const rows = sorted.map((m, i) => {
+      const p = m.properties;
+      const badge = isNewShow(p) ? ' <span class="updated-badge">New show</span>' : '';
+      const site = p.url ? `<br><a href="${esc(p.url)}" data-i="${i}">Visit website ↗</a>` : '';
+      return `<li><strong>${esc(p.name)}</strong>${badge}${site}</li>`;
+    }).join('');
+    const popup = new mapboxgl.Popup({ offset: 14, maxWidth: '260px' })
+      .setLngLat(coords)
+      .setHTML(`<div class="bldg-head">${members.length} galleries at this address</div>`
+        + `<div class="addr">${esc(addr)}</div><ul class="bldg-list">${rows}</ul>`)
+      .addTo(map);
+    popup.getElement().querySelectorAll('a[data-i]').forEach(a => {
+      const p = sorted[Number(a.dataset.i)].properties;
+      a.addEventListener('click', () =>
+        track('gallery_website_click', { ...galleryParams(p), source: 'map_building_popup' }));
+    });
+  }
 
   const boroSelect = document.getElementById('boro-select');
 
@@ -843,9 +939,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.boro-btn').forEach(b => b.classList.toggle('active', b.dataset.boro === boro));
     boroSelect.value = boro;
     if (map.getLayer('galleries-layer')) {
-      map.setFilter('galleries-layer',
-        activeBoro === 'all' ? null : ['==', ['get', 'borough'], activeBoro]
-      );
+      const boroFilter = activeBoro === 'all' ? null : ['==', ['get', 'borough'], activeBoro];
+      map.setFilter('galleries-layer', boroFilter);
+      map.setFilter('galleries-count', boroFilter ? ['all', MULTI_FILTER, boroFilter] : MULTI_FILTER);
     }
     if (allFeatures.length) buildGalleryList(allFeatures);
   }
