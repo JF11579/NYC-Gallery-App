@@ -79,12 +79,12 @@
  ],
  "http://allouchegallery.com/": [
   "Join our email list to learn more about upcoming exhibitions.",
-  "Artnet News: Japanese Artist Teiji Hayama Distorts Pop Icons In Uncanny Paintings",
-  "Brooklyn Museum: FAILE: Savage/Sacred Young Minds",
-  "Complex: “I Never Let The Kid Inside Me Die”: In Conversation With CHITO, Givenchy & Supreme Collaborative Artist",
-  "Vogue: Nick Georgiou Is the Artist Behind the Extraordinary Book Sculptures at Dolce & Gabbana’s Alta Gioielleria Show",
-  "Juxtapoz: FAILE Open a Permanent Outpost for Their Iconic Deluxx Fluxx Installation",
-  "Forbes: New York Street and Installation Artist Swoon Uses Humanity as Her Most Powerful Tool",
+  "The Art Newspaper: Lance De Los Reyes, graffiti artist known as Rambo, has died, aged 44",
+  "Meer: Logan Sylve & Cristiano Mangovo. Speaking in two tongues",
+  "Forbes: Artist Michael Reeder Explores Identity And Sense Of Self",
+  "Maxim : Sharon Stone Unveils Paintings in her First-Ever Art Exhibit",
+  "Juxtapose: The “Sorayama Explosion” is Coming to Tokyo",
+  "HypeArt: Jade Kim Navigates Dreamy ‘Moments’ in Allouche Gallery NY Show",
   "New York",
   "Hours"
  ],
@@ -135,7 +135,7 @@
   "\"Art is a guarantee of sanity\"",
   "Louise Bourgeois",
   "contrepoint",
-  "Victoire D’Harcourt & Eberhard Ross",
+  "Victoire d’Harcourt & Eberhard Ross",
   "what’s seen, staring at the ceiling",
   "Ethan Caflisch",
   "\"Art is guarantee of sanity\"",
@@ -620,6 +620,7 @@
  "http://ghebaly.com/": [
   "Home",
   "Farah Al Qasimi : Rubberneck",
+  "Tran Truong",
   "Join our mailing list"
  ],
  "http://highnoongallery.com": [
@@ -719,6 +720,7 @@
   "Next Exhibition"
  ],
  "http://magentaplains.com/": [
+  "Current",
   "Upcoming"
  ],
  "http://mariangoodman.com/": [
@@ -754,10 +756,10 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "seven lakes",
   "Atrás da superfície",
-  "Bloom in the Sunlight, Dream in the Moonlight",
   "Voice Leading",
+  "Bloom in the Sunlight, Dream in the Moonlight",
+  "seven lakes",
   "Watch",
   "Eunnam Hong – Inside the Studio, 2026",
   "Daniel Jorge – Cantaria",
@@ -859,6 +861,7 @@
  "http://nicolavassell.com/": [
   "Home",
   "Pam Glick : PG-13",
+  "Cultured: Meet Pam Glick",
   "ARTNews: Na Kim Wants You to Look Up",
   "Na Kim in Vogue Magazine",
   "Uman in T Magazine: The Artist Painting Pastoral Landscapes in Technicolor",
@@ -898,7 +901,7 @@
   "Subscribe"
  ],
  "http://powerslowenfels.com/": [
-  "Current: Venn'acular: September 10 - November 8",
+  "COMING SOON: MARY REGENSBURG FEIST: MODERNIST MINERVA",
   "Follow gallery updates on Instagram"
  ],
  "http://praxis-art.com/": [
@@ -1518,7 +1521,7 @@
  ],
  "http://www.bkarthaus.com/": [
   "Art. Performance. Food. Community. All under one roof.",
-  "The Rocky Horror Picture Show",
+  "2026 New York Comedy Festival",
   "What brings you to the Haus?",
   "What’s Happening at BAH",
   "Come for the show. Stay for the night.",
@@ -2009,7 +2012,7 @@
   "Home",
   "Paris",
   "New York",
-  "Arlene Shechet: Kind of Blue",
+  "Magnus Plessen: Théâtre imaginaire",
   "Cookie preferences"
  ],
  "http://www.galeriezurcher.com/": [
@@ -2079,7 +2082,7 @@
   "PAUL CHAN in conversation | New Museum, New York | November 14",
   "ARIA DEAN in conversation | New Museum, New York | November 14",
   "HANNA HUR Joins Greene Naftali",
-  "Upcoming at MoMA PS1, New York | ARIA DEAN & WALTER PRICE",
+  "On view at MoMA PS1, New York | ARIA DEAN & WALTER PRICE",
   "On view at the Moody Center for the Arts, Rice University | STEFFANI JEMISON",
   "On view at Chapelle Saint-Louis de la Salpêtrière, Paris | LUBAINA HIMID",
   "On view at The Renee & Chaim Gross Foundation, New York | GEDI SIBONY",
@@ -2170,6 +2173,8 @@
  "http://www.hesseflatow.com/": [
   "Item added to cart",
   "Home",
+  "sonia louise davis : a promise, a portal, possibility",
+  "SR Lejeune : Hold me up",
   "ON VIEW",
   "sonia louise davis",
   "SR Lejeune",
@@ -2223,7 +2228,7 @@
   "Latest news",
   "Painting and Poetry: A Reading at Hollis Taggart Downtown",
   "Art Week NYC",
-  "Collecting Nature",
+  "Shuling Guo’s transcendent architecture",
   "Latest publications",
   "Teruko Yokoi",
   "Charles Seliger: The Structure of Matter",
@@ -2233,13 +2238,15 @@
   "Teruko Yokoi: Seasons",
   "Hollis Taggart",
   "Gallery Latest",
+  "Inside the New York Art Scene: The Galleries, Exhibitions, and Artists to Know",
+  "Osamu Kobayashi’s Cave Painting at Hollis Taggart",
+  "Collecting Nature",
   "Underappreciated artists from the Chelsea Hotel are finally getting their due",
   "THE IMMENSE MUSEUM OF STRANGENESS | TIM KENT",
   "Tim Kent paints scenes suspended between memory, desire, and reality",
-  "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
-  "Knox Martin at the Art Students League of New York",
-  "Tim Kent: Sojourn",
   "In Focus",
+  "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
+  "Tim Kent: Sojourn",
   "8 Lesser-Known Artists to Discover at Independent 20th Century",
   "Sheila Isham at the Newport Art Museum",
   "Self-Taught Storytellers",
@@ -2314,7 +2321,6 @@
   "Search Link",
   "Main navigation",
   "Pre Header Navigation",
-  "External Navigation Links",
   "I'm So Happy You Are Here: Japanese Women Photographers from the 1950s to Now",
   "Laia Abril: On Rape and Institutional Failure",
   "ICP Spotlights 2026: Honoring Rinko Kawauchi",
@@ -2328,18 +2334,18 @@
   "Ansel Adams",
   "Poulomi Basu",
   "Rosalind Fox Solomon",
-  "The School at ICP",
+  "Upcoming Events",
+  "ICP's School",
   "Ethan Hill",
   "Ian Lewandowski",
   "Jon Henry",
   "Sarah Blesener",
   "ICP's Alumni",
-  "Upcoming Events",
-  "Plan a Visit",
   "Perspective & News",
   "ICP in the News",
   "Interviews",
   "ICP Perspectives",
+  "Plan a Visit",
   "Footer",
   "Subscribe to Our Newsletter",
   "Copyright Links"
@@ -2528,7 +2534,6 @@
   "On View Now",
   "Josh Cloud",
   "Gisela McDaniel",
-  "Coming Soon",
   "Roy Lichtenstein and Jasper Johns: Early Prints",
   "Join our mailing list",
   "Subscribe"
@@ -2588,6 +2593,7 @@
  "http://www.martosgallery.com": [
   "Item added to cart",
   "Home",
+  "In the I of the Beholder : Dan Asher",
   "Cookie preferences"
  ],
  "http://www.masseyklein.com": [
@@ -2734,7 +2740,7 @@
   "Galerie Louis Carre (after) Fernand Leger, 1953"
  ],
  "http://www.nahmadcontemporary.com/": [
-  "AT THE TABLE: INSIDE JEAN DUBUFFET’S RESTAURANT ROUGEOT",
+  "MONET, THE DIFFICULTY OF THE FAMILIAR",
   "Content-Grid"
  ],
  "http://www.nancybpantirer.com/": [
@@ -2808,7 +2814,6 @@
   "Warhol, Basquiat, Haring. Une amitié artistique",
   "Fernando Botero, in Praise of an Amplified World",
   "Upcoming Exhibitions",
-  "Pablo Atchugarry",
   "Manolo Valdés",
   "Verapat Sitipol Stream of the Forest",
   "Alex Katz - Julian Opie Face to Face",
@@ -2937,19 +2942,18 @@
   "Main Footer Menu"
  ],
  "http://www.r-and-company.com/": [
-  "Hun Chung Lee: Home",
-  "On View",
-  "82 Franklin Street",
   "Hun Chung Lee: Where Immortals Sing and Dance",
+  "On View",
   "MANITOGA / The Russel Wright Design Center",
+  "Katie Stout: Fly Trap",
+  "Opening Soon",
+  "82 Franklin Street",
   "Building 86",
   "Brooklyn Navy Yard",
   "Objects: USA",
   "The Museum of Craft and Design",
   "Roberto Lugo: Alfarero del Barrio (Village Potter)",
   "Madison Square Park",
-  "Katie Stout: Fly Trap",
-  "Opening Soon",
   "LUAM MELAKE TALKS 'RESEMBLANCE OF THINGS PAST'",
   "Watch as artist Luam Melake discusses how thoughtful innovation in design and looking to the past can inspire optimism in her recent solo exhibition, 'Resemblance of things Past'.",
   "Murrine–Murano–Marquis Exhibition Catalog",
@@ -3071,7 +3075,20 @@
   "Accessibility Statement"
  ],
  "http://www.scholten-japanese-art.com/": [
-  "Verifying that you are not a robot..."
+  "Rediscovered Treasures: The León Chattah Collection of Modern Japanese Prints",
+  "A Private Collection of Shin-Hanga Kabuki Portraits - Part 2",
+  "Sterling: 25 Years in New York",
+  "Drama Queens & Kabuki Kings: Stars of Edo and Osaka",
+  "Celebrating 25 years of exhibitions in New York and online",
+  "Landscape Escapes: Famous Views of the Floating World",
+  "Creative Connections: Sosaku-Hanga Artists & New York",
+  "More than 20 years of ONLINE EXHIBITIONS",
+  "A selection of recent additions",
+  "A selection of ukiyo-e",
+  "A selection of shin hanga",
+  "A Private Collection of Shin-Hanga Kabuki Portraits",
+  "September – October 2025",
+  "Kawase Hasui"
  ],
  "http://www.silverlensgalleries.com/": [
   "Latest",
@@ -3144,10 +3161,9 @@
   "WHAT LINGERS",
   "INDIA",
   "ART MUMBAI",
+  "KIM JAEIL: BETWEEN PAINTING AND SCULPTURE",
   "UNITED ARAB EMIRATES",
-  "FRIEZE ABU DHABI",
-  "FLORIDA",
-  "UNTITLED ART, MIAMI BEACH"
+  "FRIEZE ABU DHABI"
  ],
  "http://www.sunnyny.com/": [
   "ARTISTS EXHIBITIONS ART FAIRS INFORMATION PRESS"
@@ -3261,7 +3277,7 @@
   "Join Our Mailing List"
  ],
  "http://www.vanderplasgallery.com/": [
-  "Artist Spotlight:",
+  "Upcoming exhibition:",
   "Previous:",
   "Around, Above, Below 156 Orchard St, New York, NY 10002 October 2nd, 2026 - October 6th, 2026",
   "縁 — Japanese Craft, Evolved",
@@ -3614,11 +3630,11 @@
  "https://carpenters.art/": [
   "Nacho Carbonell Fragment",
   "Rick Owens Furniture Five Easy Pieces",
+  "Master Pieces Eleven Modern Japanese Ceramicists",
   "Anne Holtrop Low-relief",
   "Thukral & Tagra Arboretum",
   "Gareth Mason Flights of Fancy",
   "Afterglow",
-  "MASTER PIECES Eleven Modern Japanese Ceramicists",
   "NOMAD Abu Dhabi",
   "Aki+Arnaud Cooren",
   "Nacho Carbonell",
@@ -3897,8 +3913,14 @@
  "https://fluxfactory.org": [
   "Current",
   "Upcoming",
-  "Opening Reception · By Way Of",
-  "Opening Reception · Solo Exhibitions"
+  "Opening Reception · By way of",
+  "Opening Reception · Solo Exhibitions",
+  "Proximity Ritual",
+  "How to Be a Hooker",
+  "The Tide Between Us",
+  "Artist Talk: Wallace dos Santos",
+  "Your Kunst Is Your Waffle",
+  "Analogue STAT (Sculpture/Text/Assemblage/Tactility)"
  ],
  "https://gagosian.com/locations/west-24th/": [
   "555 West 24th Street, New York",
@@ -4035,7 +4057,7 @@
   "Latest news",
   "Painting and Poetry: A Reading at Hollis Taggart Downtown",
   "Art Week NYC",
-  "Collecting Nature",
+  "Shuling Guo’s transcendent architecture",
   "Latest publications",
   "Teruko Yokoi",
   "Charles Seliger: The Structure of Matter",
@@ -4045,13 +4067,15 @@
   "Teruko Yokoi: Seasons",
   "Hollis Taggart",
   "Gallery Latest",
+  "Inside the New York Art Scene: The Galleries, Exhibitions, and Artists to Know",
+  "Osamu Kobayashi’s Cave Painting at Hollis Taggart",
+  "Collecting Nature",
   "Underappreciated artists from the Chelsea Hotel are finally getting their due",
   "THE IMMENSE MUSEUM OF STRANGENESS | TIM KENT",
   "Tim Kent paints scenes suspended between memory, desire, and reality",
-  "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
-  "Knox Martin at the Art Students League of New York",
-  "Tim Kent: Sojourn",
   "In Focus",
+  "Late Artist Teruko Yokoi’s Blooming Abstractions Are Capturing New Attention",
+  "Tim Kent: Sojourn",
   "8 Lesser-Known Artists to Discover at Independent 20th Century",
   "Sheila Isham at the Newport Art Museum",
   "Self-Taught Storytellers",
@@ -4140,36 +4164,30 @@
   "Artists",
   "Artworks",
   "Stories",
-  "About",
+  "Our Story",
   "Shop",
   "Like a Swan with Heartache",
+  "Paintings by Jim Watt",
   "FEATURED ARTWORKS",
-  "frank-webster",
-  "Laguna de los Tres, view of Monte Fitz Roy, Cerro Torre, and Aguja Poincenot",
-  "sabrina-bezerra",
-  "Pé de jabuticaba (Jabuticaba Tree)",
-  "paula-paakkonen",
-  "Peonies & Sunshine",
-  "george-william-bell",
-  "Abstract Form Study in Bronze VII",
-  "richard-hambleton",
-  "Jumping Man",
-  "cat-spilman",
-  "This is Why We Aren’t Allowed in Madame Tussaud’s Anymore",
+  "jim-watt",
+  "Marcus and Red 10",
   "anders-scrmn-meisner",
-  "Her Dress Softly Mirrors The Sun",
-  "gideon-summerfield",
-  "Cliff's Edge",
+  "Spring Bird Choir",
+  "elaine-speirs",
+  "Fallen Peonies II",
+  "frank-webster",
+  "Snowcapped Mountain, El Chaltén",
+  "stephanie-monteith",
+  "Mulberry in Winter",
+  "richard-hambleton",
+  "Horse & Rider",
+  "cat-spilman",
+  "Christmas Eve, Washington Square Park",
   "liu-shuishi",
-  "You 10",
-  "camille-tan",
-  "Half Way",
-  "joana-galego",
-  "Different Ways Of Smiling",
-  "ABOUT US"
+  "Helen"
  ],
  "https://islaa.org/": [
-  "The New York Graphic Workshop: Towards Total Art",
+  "ISLAA on Screen: Biografía de Jorge Luis Borges & El Fantasma",
   "Reception for Untitled (Nails) and Untitled (Triangle) by Liliana Porter",
   "ISLAA Talks: The Obsolescence of Art with Luis Camntizer",
   "ISLAA Saturday Tour: Inside the galleries",
@@ -4306,7 +4324,8 @@
   "3RD ETHOS GALLERY",
   "What Cannot Be Said Will Be Wept by Sara L. Jackson",
   "Shoppable posts",
-  "My products",
+  "LEAF – PINK MIST EXHIBITION",
+  "BAST3RDFLY ://WORLD WILD WEB",
   "Explore other Linktrees",
   "About this account",
   "More from Linktree"
@@ -4704,7 +4723,7 @@
  "https://schoelkopfgallery.com/": [
   "Schoelkopf Gallery",
   "25 | 250: A Celebration of American Art : Part II",
-  "Upcoming Art Fair",
+  "Art Fair",
   "ADAA Fair",
   "In the News",
   "15 Must-See Gallery Shows in New York This Month: Thomas Hart Benton",
@@ -4890,6 +4909,7 @@
   "175 Canal Street, New York"
  ],
  "https://untitled-space.com/": [
+  "FAHREN FEINGOLD: INTIMATE REVELATIONS",
   "THE \"DREAM\" EXHIBITION",
   "Sign up for updates on exhibitions, artists and events.",
   "The Untitled Space",
@@ -5146,9 +5166,9 @@
   "Locations"
  ],
  "https://www.collectivez.com/": [
-  "Bill Buchman",
-  "Infinite Oasis",
-  "October 22 — November 7, 2026"
+  "Elizabeth Johnson",
+  "Dream Gap",
+  "November 12 — December 5, 2026"
  ],
  "https://www.culturelablic.org/": [
   "Sunset JAZZ",
@@ -5426,33 +5446,27 @@
   "Artists",
   "Artworks",
   "Stories",
-  "About",
+  "Our Story",
   "Shop",
   "Like a Swan with Heartache",
+  "Paintings by Jim Watt",
   "FEATURED ARTWORKS",
-  "frank-webster",
-  "Laguna de los Tres, view of Monte Fitz Roy, Cerro Torre, and Aguja Poincenot",
-  "sabrina-bezerra",
-  "Pé de jabuticaba (Jabuticaba Tree)",
-  "paula-paakkonen",
-  "Peonies & Sunshine",
-  "george-william-bell",
-  "Abstract Form Study in Bronze VII",
-  "richard-hambleton",
-  "Jumping Man",
-  "cat-spilman",
-  "This is Why We Aren’t Allowed in Madame Tussaud’s Anymore",
+  "jim-watt",
+  "Marcus and Red 10",
   "anders-scrmn-meisner",
-  "Her Dress Softly Mirrors The Sun",
-  "gideon-summerfield",
-  "Cliff's Edge",
+  "Spring Bird Choir",
+  "elaine-speirs",
+  "Fallen Peonies II",
+  "frank-webster",
+  "Snowcapped Mountain, El Chaltén",
+  "stephanie-monteith",
+  "Mulberry in Winter",
+  "richard-hambleton",
+  "Horse & Rider",
+  "cat-spilman",
+  "Christmas Eve, Washington Square Park",
   "liu-shuishi",
-  "You 10",
-  "camille-tan",
-  "Half Way",
-  "joana-galego",
-  "Different Ways Of Smiling",
-  "ABOUT US"
+  "Helen"
  ],
  "https://www.jarvis-werner.com/": [
   "Home",
@@ -5473,6 +5487,7 @@
  ],
  "https://www.kimandgupta.com/": [
   "kim and gupta gallery",
+  "Emergent Phenomena : Curated by Chris Santa Maria",
   "Cookie preferences"
  ],
  "https://www.kingsleapfinearts.com/": [
@@ -5870,6 +5885,8 @@
   "PROXIMITY In Place: A Conversation with the Artists",
   "Staten Island Children’s Museum: Crazy Science: Dry Ice Discovery",
   "Compost Processing Workday",
+  "Winter Lantern Festival",
+  "Emma’s Place: National Children’s Grief Awareness Day",
   "Farm Stewardship",
   "Tiny Gardens Workshop",
   "Vermicomposting: Worm Bins 101",
@@ -5896,6 +5913,7 @@
  "https://www.sofiasominski.com/": [
   "Home",
   "Lo Que Saben Mis Manos : Ena Boskovic",
+  "No Single View : Ilit Azoulay",
   "Cookie preferences",
   "Join our mailing list"
  ],
@@ -5988,7 +6006,6 @@
   "Upcoming Exhibitions",
   "Pedagogies Of War | Roman Khimei & Yarema Malashchuk",
   "Upcoming Events",
-  "An Evening with Chef Yevhen Klopotenko",
   "POSTPONED: Ukrainian Dreams | Tais Poda",
   "Visit The Museum"
  ],
