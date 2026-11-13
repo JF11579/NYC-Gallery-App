@@ -79,12 +79,12 @@
  ],
  "http://allouchegallery.com/": [
   "Join our email list to learn more about upcoming exhibitions.",
-  "The Art Newspaper: Lance De Los Reyes, graffiti artist known as Rambo, has died, aged 44",
-  "Meer: Logan Sylve & Cristiano Mangovo. Speaking in two tongues",
-  "Forbes: Artist Michael Reeder Explores Identity And Sense Of Self",
-  "Maxim : Sharon Stone Unveils Paintings in her First-Ever Art Exhibit",
-  "Juxtapose: The “Sorayama Explosion” is Coming to Tokyo",
-  "HypeArt: Jade Kim Navigates Dreamy ‘Moments’ in Allouche Gallery NY Show",
+  "Meer: Anaja Hvastija Gaia, Minds and Bodies",
+  "Complex: “I Never Let The Kid Inside Me Die”: In Conversation With CHITO, Givenchy & Supreme Collaborative Artist",
+  "HypeArt: Immerse Yourself in Ron English’s Chaotic “Delusionville” Exhibition",
+  "Meer: New Perspectives, A group showing of African Portraiture",
+  "White-hot Magazine: Michael Reeder: Pushing Up Daisies at Allouche Gallery",
+  "Metal Magazine: Machines With Sex Appeal",
   "New York",
   "Hours"
  ],
@@ -359,9 +359,9 @@
   "Collected Editions",
   "Need art storage?",
   "News & Upcoming Releases",
+  "STAR WARS: A NEW HOPE - 5OTH ANNIVERSARY by Matt Ferguson - On Sale NOW!",
+  "SCREAM 3: THE ALBUM - 2X LP - Limited Edition BNG Exclusive - On Sale TODAY!",
   "BTAS: THE CAT AND THE CLAW by Tom Whalen & BATMAN 66: SURF'S UP by George Caltsoudas - On Sale INFO!",
-  "THE ROCKETEER - Limited Edition Resin Statue - On Sale INFO!",
-  "GODZILLA MINUS ZERO Theatrical - On Sale INFO!",
   "Never miss a new release, subscribe!"
  ],
  "http://broadwaygallery.nyc/": [
@@ -620,7 +620,7 @@
  "http://ghebaly.com/": [
   "Home",
   "Farah Al Qasimi : Rubberneck",
-  "Tran Truong",
+  "Tran Truong : Windows, Mirrors, and Bras",
   "Join our mailing list"
  ],
  "http://highnoongallery.com": [
@@ -760,18 +760,20 @@
   "Voice Leading",
   "Bloom in the Sunlight, Dream in the Moonlight",
   "seven lakes",
+  "Upcoming Exhibitions",
+  "Syotatsu & Kansai Noguchi",
   "Watch",
   "Eunnam Hong – Inside the Studio, 2026",
   "Daniel Jorge – Cantaria",
   "Paula Siebra – Pequeno mapa do tempo, 2026",
   "News",
+  "Algospeak",
   "Nos diables rouges, nos dérives commotions (...) danse papillon",
   "The Passenger",
   "Imaginary Engine",
   "The Mud Room: Itinerant Artists, Folk Spectacles and Painted Walls",
   "La Terre, le Feu, l’Eau et les Vents – Pour un musée de l’Errance avec Édouard Glissant",
   "Je rêvais d’un autre monde",
-  "Of Day or Night",
   "Mendes Wood DM",
   "São Paulo, Barra Funda",
   "São Paulo, Casa Iramaia",
@@ -901,7 +903,7 @@
   "Subscribe"
  ],
  "http://powerslowenfels.com/": [
-  "COMING SOON: MARY REGENSBURG FEIST: MODERNIST MINERVA",
+  "CURRENT:MARY REGENSBURG FEIST: MODERNIST MINERVA",
   "Follow gallery updates on Instagram"
  ],
  "http://praxis-art.com/": [
@@ -1338,8 +1340,6 @@
   "Home",
   "Steve Locke: I said what I said",
   "Upcoming",
-  "I Said What I Said: Steve Locke in Conversation with Robert Reid-Pharr",
-  "ADAA Fair",
   "Art Basel Miami Beach",
   "Recent",
   "Announcing Representation of Márcia Falcão",
@@ -1664,9 +1664,7 @@
  "http://www.claireoliver.com/": [
   "Item added to cart",
   "Home",
-  "Current exhibition:",
-  "The Weight of Grace",
-  "Upcoming Exhibition:",
+  "Current Exhibition:",
   "We're Still Here: Quilted Works Curated by Carolyn Mazloomi",
   "New Artist Video:",
   "\"If your purpose is to be devotional, you can't be efficient about it\" – Artist Lauren Fensterstock",
@@ -1902,9 +1900,9 @@
  "http://www.drawingcenter.org/": [
   "Form, Shadow, Motion: Selections from the Burger Collection, Hong Kong",
   "Programs",
-  "In Conversation: Nicolas Trembley and Laura Hoptman on Craft",
   "In Conversation: Eddie Martinez and Dan Nadel",
   "ASL Drawing Workshop: Online",
+  "Drawing Workshop: with Royal Drawing School’s Leon Pozniakow",
   "Explore the Exhibition Archive",
   "Plains Indians Drawings 1865-1935: Pages from a Visual History",
   "The Return of the Cadavre Exquis",
@@ -1924,10 +1922,8 @@
   "YOUR CART"
  ],
  "http://www.eleventhhourart.com/": [
-  "On Now: The Fall 2026 Collection , a group show",
-  "Yung-wu",
-  "Yusuke Okada",
-  "Julia Blume",
+  "On Now: The Winter Collection",
+  "Featuring Yusuke Okada",
   "Subscribe"
  ],
  "http://www.elkongallery.com/": [
@@ -2012,7 +2008,7 @@
   "Home",
   "Paris",
   "New York",
-  "Magnus Plessen: Théâtre imaginaire",
+  "Arlene Shechet: Kind of Blue",
   "Cookie preferences"
  ],
  "http://www.galeriezurcher.com/": [
@@ -2071,12 +2067,12 @@
  ],
  "http://www.greenenaftaligallery.com/": [
   "Greene Naftali",
-  "Upcoming Exhibitions",
+  "Current Exhibitions",
   "Palace of Desire",
   "Ground Floor Opens November 12",
   "LUBAINA HIMID Low Key Shrines: French Paintings and German Ceramics",
   "8th Floor Opens November 12",
-  "On view at Serpentine, London | JUSTIN CAGUIAT",
+  "RICHARD HAWKINS | Book Launch & Screening | November 14",
   "News",
   "On view at the Hirshhorn Museum and Sculpture Garden, Washington | PAUL CHAN",
   "PAUL CHAN in conversation | New Museum, New York | November 14",
@@ -2090,6 +2086,7 @@
   "Museum Exhibitions",
   "On view at the Wattis, San Francisco | CAGUIAT DELACRUZ",
   "Upcoming at the Speed Art Museum, Louisville | BRANDON NDIFE",
+  "On view at Serpentine, London | JUSTIN CAGUIAT",
   "On view at Museum Ludwig, Cologne | JANA EULER",
   "On view at the ICA at VCU, Richmond | TONY COKES",
   "On view at Musée d'Art Moderne de Paris | SIMONE FATTAL",
@@ -2108,8 +2105,7 @@
   "On view at the Jewish Museum, New York | GEDI SIBONY",
   "On view at Dib Bangkok | HELEN MARTEN",
   "On view at the Art Institute of Chicago | TONY COKES",
-  "Recent Press",
-  "LUBAINA HIMID interviewed by Ksenia M. Soboleva for BOMB Magazine"
+  "Recent Press"
  ],
  "http://www.grimmgallery.com/": [
   "Item added to cart",
@@ -2178,6 +2174,9 @@
   "ON VIEW",
   "sonia louise davis",
   "SR Lejeune",
+  "UPCOMING",
+  "Malin Gabrielle Nordin",
+  "Kian McKeown",
   "NEWS",
   "Sarah Blaustein’s “Orange Synesthesia” Joins the Permanent Collection of the University of Michigan Museum of Art",
   "Sarah Blaustein Selected for Yaddo Residency",
@@ -2219,6 +2218,9 @@
   "Ancient Greek Helmets: A Complete Guide and Catalog"
  ],
  "http://www.hoffmandonahue.com/": [
+  "New York",
+  "Rafael Delacruz: Angel Station Bus Stopping",
+  "November 12-December 23 2026",
   "Los Angeles",
   "Jade Guanaro Kuriki-Olivo (Puppies Puppies): Executive Order 9066 (Soul Consoling Tower)",
   "November 07-December 23 2026",
@@ -2656,8 +2658,8 @@
  ],
  "http://www.microscopegallery.com/": [
   "Current:",
-  "Sunday November 8, 6pm (doors)",
-  "Lucía Hinojosa Gaxiola “Sonando Gravedad” — Album Release Preceded by Stepančić.Gidron (Teodora Stepančić & Assaf Gidron)",
+  "Sunday November 15, 3pm",
+  "Artist Talk: Marni Kotak In conversation with Natasha Kurchanova",
   "Join Our Newsletter!"
  ],
  "http://www.mignoniart.com/": [
@@ -2676,6 +2678,7 @@
  "http://www.modernfineart.com/": [
   "Home",
   "Modern Visions : 6 Women Artists : Online Only",
+  "Ways of Seeing: Modern Masters from Cubism to Camera : Online only",
   "Albert Gleizes, Construction, 1919",
   "Jean-François Rauzier Louvre Museum, (Paris), 2023",
   "Ying Dai, Unified with the Cosmos: Infinite Life, Infinite Creation, 2020",
@@ -2758,11 +2761,16 @@
  "http://www.nyartistsequity.org/": [
   "A community for artists and patrons since 1947",
   "iN Equity Gallery",
-  "Pablo Garcia-Lopez, Neuralink DIY",
+  "Pablo Garcia-Lopez Neuralink DIY",
   "in the Project Space",
   "Matthew López-Jensen Reading Trees",
   "iN the courtyard",
   "Baris Gokturk Gunetre II",
+  "Upcoming in Equity Gallery",
+  "Andrew Cornell Robinson",
+  "Confabulation & Fantabulosa: Queer Abstraction as a Living Archive",
+  "UPcoming in the project space",
+  "Nicolas Touron & Amy Lemaire The Shape of Nature",
   "Our Members",
   "Featured Member:",
   "Peter Bonner",
@@ -2810,6 +2818,7 @@
  ],
  "http://www.operagallery.com/": [
   "Now on view",
+  "Pablo Atchugarry",
   "Introducing",
   "Warhol, Basquiat, Haring. Une amitié artistique",
   "Fernando Botero, in Praise of an Amplified World",
@@ -2889,7 +2898,7 @@
  ],
  "http://www.peninsulaartspace.com/": [
   "Craig Taylor: Heads and Grids",
-  "November 7, 2026 - January 16, 2027 Opening Reception: Saturday, November 7, 6-9 PM"
+  "November 7, 2026 - January 16, 2027 Opening Reception: Saturday, November 7, 6-9 PM Read Press Release Here"
  ],
  "http://www.peterblumgallery.com": [
   "ADAA Fair",
@@ -3244,6 +3253,7 @@
   "Olivia Reavey: Distension",
   "October 29 – December 19, 2026 Opens Thursday, October 29, 6 – 8:30 p.m.",
   "Olivia Reavey: Distension Press Release",
+  "Reviews",
   "Inquire",
   "Newsletter Subscription"
  ],
@@ -3339,7 +3349,8 @@
   "Cookie preferences"
  ],
  "http://www.whitecube.com/": [
-  "Minoru Nomata",
+  "Doris Salcedo",
+  "Minoru Nomata, Lithographs 1988–1998",
   "Theaster Gates, Seoul (2026)",
   "Zhang Yunyao, Hong Kong (2026)",
   "Tracey Emin I will miss you Yesterday I will miss you Today I will miss you Tomorrow And that’s how it will Always be",
@@ -3636,6 +3647,7 @@
   "Gareth Mason Flights of Fancy",
   "Afterglow",
   "NOMAD Abu Dhabi",
+  "Design Miami 2026",
   "Aki+Arnaud Cooren",
   "Nacho Carbonell",
   "Rick Owens",
@@ -3931,6 +3943,7 @@
   "Richard Avedon: Hollywood",
   "This Is Still Not a Pipe: The Afterlife of Magritte",
   "The Art of Biography Roy Lichtenstein by Avis Berman",
+  "All that Glisters",
   "Thinking About Brice Marden",
   "Benjamin Millepied",
   "Fashion and Art: Bella Freud",
@@ -3938,7 +3951,6 @@
   "Alex Da Corte on René Magritte",
   "Connections and Narratives: On Cady Noland’s ‘‘The Clip-On Method’’",
   "In Conversation Tyler Mitchell and Cecilia Alemani",
-  "Rachel Feinstein: Time Traveler",
   "Stay up-to-date on artists, exhibitions, and events."
  ],
  "https://galeriaazur.art/": [
@@ -4157,6 +4169,7 @@
   "Welcome to Your Account"
  ],
  "https://ily2online.com/": [
+  "Current",
   "Past"
  ],
  "https://is.gallery/": [
@@ -5127,8 +5140,9 @@
   "Marykate O'Neil: BFF's Real and Imaginary"
  ],
  "https://www.bronxmuseum.org": [
-  "The Bronx Museum Vendor Application Deadline for First Friday: Winter Holiday Market 2026",
-  "The Bronx Museum Museum Closed Veterans Day 2026",
+  "The Bronx Museum Temporary Closure for Renovation: Sunday, 11.15.26",
+  "The Bronx Museum First Friday December 2026: Winter Holiday Market",
+  "The Bronx Museum Teen Night: Free Art-Making Led By Teen Council",
   "The Bronx Museum Saya Woolfalk: The WoodsWoman Method",
   "The Bronx Museum Beyond the Margins: Bronx Museum Teens Activate the Permanent Collection",
   "The Bronx Museum Alex Strada: Public Address",
@@ -5198,13 +5212,13 @@
   "DBFA SHOP"
  ],
  "https://www.davidkordanskygallery.com/": [
-  "Jenna Gribbon",
-  "Projections",
-  "Chris Martin",
-  "In Memory of My Feelings",
+  "Abraham Lincoln Walker: After World, 1980–1991",
   "Ivan Morley",
   "Trees",
-  "Abraham Lincoln Walker: After World, 1980–1991",
+  "Chris Martin",
+  "In Memory of My Feelings",
+  "Jenna Gribbon",
+  "Projections",
   "Bellosguardo",
   "Grid-B"
  ],
@@ -5227,7 +5241,8 @@
  ],
  "https://www.davidzwirner.com/": [
   "David Zwirner: New York, Los Angeles, London, Paris and Hong Kong Galleries",
-  "Yoshitomo Nara",
+  "Thomas Ruff",
+  "In Series, 1979–2024",
   "Currently on View",
   "Museum Highlights",
   "Recent Press Highlights",
@@ -5492,7 +5507,7 @@
  ],
  "https://www.kingsleapfinearts.com/": [
   "KING’S LEAP FINE ARTS",
-  "UPCOMING EXHIBITION",
+  "CURRENT EXHIBITION",
   "ARTISTS",
   "ELSEWHERE",
   "EXHIBITIONS",
@@ -5633,6 +5648,7 @@
   "Home",
   "Ky Anderson: Faceted : 179 10th Avenue",
   "Sydney Licht: Duly Noted : 529 West 20th, Suite 6W",
+  "Making a Mark : 529 West 20th, Suite 6W",
   "Picture of the Week : Katie DeGroot",
   "Now Representing Roz Chast",
   "New Work in the Gallery",
@@ -5677,7 +5693,6 @@
   "One Art Space Authorized Dealer for Chuck Connelly Works",
   "UPCOMING EXHIBITIONS",
   "Patrick McMullan Photographs So Famous | Nov 13 – Dec 13, 2026",
-  "Si Young Yang, Blooming in NY | Nov 3 – 8, 2026",
   "PURVIS YOUNG February 2026",
   "Curated by MaryAnn Giella McCulloh",
   "ADDRESS",
@@ -5913,7 +5928,6 @@
  "https://www.sofiasominski.com/": [
   "Home",
   "Lo Que Saben Mis Manos : Ena Boskovic",
-  "No Single View : Ilit Azoulay",
   "Cookie preferences",
   "Join our mailing list"
  ],
