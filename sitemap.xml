@@ -19,6 +19,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://nycgallerytracker.com/galleries/bedford-stuyvesant.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://nycgallerytracker.com/galleries/bronx.html</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,6 +109,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://nycgallerytracker.com/galleries/red-hook.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://nycgallerytracker.com/galleries/soho.html</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -110,6 +122,12 @@
   </url>
   <url>
     <loc>https://nycgallerytracker.com/galleries/staten-island.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nycgallerytracker.com/galleries/sunset-park.html</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -43,6 +43,12 @@ to stay. Google's indexing decisions and visitor behaviour are both measuring th
   Policy refinement: weekend-only galleries (Sat + Sun walk-in hours) are approved
   by hand, since you can walk in. 4 of the 11 (Field of Play, haul gallery,
   Ortega y Gasset, KAJE).
+- **2026-11-17 (later):** searched the rest of Brooklyn that had never been a
+  district (Red Hook, Fort Greene/Clinton Hill, Park Slope/Prospect Heights, Crown
+  Heights, Bed-Stuy, Sunset Park): **+33 -> 807 galleries**. Found that Google
+  drops results for big boxes well under the 60 cap (Bed-Stuy whole = 18, its
+  quarters = 25), so tiles now split at 20 (`SPLIT_AT`). Manhattan districts were
+  searched with the old rule and may be worth re-running.
 - Places key lives in `.env` (git-ignored), Google Cloud project Data11579,
   Places API (New).
 - Follow-up: reply on Reddit with the update and ask what's still missing.

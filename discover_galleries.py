@@ -48,6 +48,9 @@ FIELD_MASK = ",".join([
     "places.regularOpeningHours", "nextPageToken",
 ])
 CAP = 60  # Google's maximum results per search (3 pages of 20)
+# Split a tile once it returns this many. Google drops results for big areas
+# well below the cap: on 11/17 Bed-Stuy whole = 18, its four quarters = 25.
+SPLIT_AT = 20
 
 # (south, west, north, east). Generous on purpose — the tiling is what keeps
 # each search under the cap, so the boxes can be loose.
@@ -63,6 +66,13 @@ DISTRICTS = {
     "dumbo":      (40.697, -73.995, 40.707, -73.980),
     "lic":        (40.738, -73.960, 40.758, -73.930),
     "gowanus":    (40.662, -74.003, 40.688, -73.977),  # added 11/17 after a Reddit tip
+    # More Brooklyn, added 11/17 (never searched before):
+    "redhook":    (40.668, -74.020, 40.686, -73.998),
+    "fortgreene": (40.682, -73.982, 40.698, -73.955),  # + Clinton Hill
+    "parkslope":  (40.660, -73.985, 40.682, -73.960),  # + Prospect Heights
+    "crownheights":(40.662, -73.960, 40.680, -73.920),
+    "bedstuy":    (40.678, -73.958, 40.700, -73.915),
+    "sunsetpark": (40.638, -74.025, 40.662, -73.995),
 }
 
 # Buildings that house many galleries. Area searches under-count these (the
@@ -183,7 +193,7 @@ class Searcher:
 
     def search_tiled(self, box, depth=0) -> list[dict]:
         found = self.search(box)
-        if len(found) < CAP or depth >= 5:
+        if len(found) < SPLIT_AT or depth >= 4:
             if len(found) >= CAP:
                 print(f"    WARN: tile still full at depth {depth}: {box}")
             return found
@@ -192,7 +202,7 @@ class Searcher:
         quarters = [(s, w, mlat, mlon), (s, mlon, mlat, e),
                     (mlat, w, n, mlon), (mlat, mlon, n, e)]
         print(f"    {'  ' * depth}tile full -> splitting into 4")
-        results = []
+        results = list(found)  # keep these too; quarters don't always return them
         for q in quarters:
             results.extend(self.search_tiled(q, depth + 1))
         return results

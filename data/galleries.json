@@ -13158,6 +13158,567 @@
         "borough": "Brooklyn",
         "last_updated": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9543,
+          40.686093
+        ]
+      },
+      "properties": {
+        "name": "LAND Studio & Gallery",
+        "address": "1101 Bedford Ave, Brooklyn, NY 11216",
+        "url": "http://landgallery.org/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925901,
+          40.681082
+        ]
+      },
+      "properties": {
+        "name": "Ross-Sutton Gallery",
+        "address": "282 Patchen Ave, Brooklyn, NY 11233",
+        "url": "http://ross-sutton.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951994,
+          40.679988
+        ]
+      },
+      "properties": {
+        "name": "Welancora Gallery",
+        "address": "33 Herkimer St, Brooklyn, NY 11216",
+        "url": "http://welancoragallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938262,
+          40.682878
+        ]
+      },
+      "properties": {
+        "name": "Charlotta Janssen",
+        "address": "408 Marcus Garvey Blvd, Brooklyn, NY 11216",
+        "url": "",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954904,
+          40.678422
+        ]
+      },
+      "properties": {
+        "name": "My Gallery NYC",
+        "address": "587 Franklin Ave, Brooklyn, NY 11238",
+        "url": "http://mygallerynyc.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954548,
+          40.677632
+        ]
+      },
+      "properties": {
+        "name": "Don’t Quit Your Day Job Productions",
+        "address": "1069 Dean St, Brooklyn, NY 11216",
+        "url": "http://dontquityourdayjobproductions.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920873,
+          40.668247
+        ]
+      },
+      "properties": {
+        "name": "Muchnik Arts",
+        "address": "1428 Pitkin Ave, Brooklyn, NY 11233",
+        "url": "http://www.muchnikarts.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920302,
+          40.677409
+        ]
+      },
+      "properties": {
+        "name": "Center for Art and Advocacy",
+        "address": "22 Bancroft Pl, Brooklyn, NY 11233",
+        "url": "https://centerforartandadvocacy.org/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942379,
+          40.666165
+        ]
+      },
+      "properties": {
+        "name": "Chassidic Art Institute (Chai Art Gallery)",
+        "address": "375 Kingston Ave, Brooklyn, NY 11213",
+        "url": "http://www.chaiartgallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959104,
+          40.678194
+        ]
+      },
+      "properties": {
+        "name": "Alafia Global Antiquités",
+        "address": "634 Classon Ave, Brooklyn, NY 11238",
+        "url": "",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964912,
+          40.697315
+        ]
+      },
+      "properties": {
+        "name": "Storefront Studio",
+        "address": "10 Grand Ave Unit 106, Brooklyn, NY 11205",
+        "url": "http://www.rolandbrooksart.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975547,
+          40.697512
+        ]
+      },
+      "properties": {
+        "name": "Black Brick Project",
+        "address": "17 N Oxford St, Brooklyn, NY 11205",
+        "url": "http://www.blackbrickproject.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964942,
+          40.697054
+        ]
+      },
+      "properties": {
+        "name": "Bill Hodges Gallery",
+        "address": "20 Grand Ave #405, Brooklyn, NY 11205",
+        "url": "http://www.billhodgesgallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968846,
+          40.696798
+        ]
+      },
+      "properties": {
+        "name": "The Women's Darkroom + Gallery",
+        "address": "36 Waverly Ave #403, Brooklyn, NY 11205",
+        "url": "https://www.thewomensdarkroom.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962052,
+          40.69064
+        ]
+      },
+      "properties": {
+        "name": "Pratt Photography Gallery",
+        "address": "395 Dekalb Ave, Brooklyn, NY 11205",
+        "url": "",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961813,
+          40.682018
+        ]
+      },
+      "properties": {
+        "name": "Blank Forms",
+        "address": "468 Grand Ave #3d, Brooklyn, NY 11238",
+        "url": "http://blankforms.org/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962946,
+          40.685393
+        ]
+      },
+      "properties": {
+        "name": "TILLOU FINE ART",
+        "address": "59 Cambridge Pl, Brooklyn, NY 11238",
+        "url": "http://www.tilloufineart.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967263,
+          40.696389
+        ]
+      },
+      "properties": {
+        "name": "Squadra",
+        "address": "77 Washington Ave Fl 3, Brooklyn, NY 11205",
+        "url": "http://www.squadra.art/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978606,
+          40.688604
+        ]
+      },
+      "properties": {
+        "name": "The Rudin Family Gallery",
+        "address": "651 Fulton St, Brooklyn, NY 11217",
+        "url": "https://www.bam.org/visit",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964534,
+          40.680149
+        ]
+      },
+      "properties": {
+        "name": "TV@G",
+        "address": "886 Pacific St, Brooklyn, NY 11238",
+        "url": "https://www.facebook.com/thevillageatgureje.renatealbertsenmartongallery?fref=ts",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013567,
+          40.677564
+        ]
+      },
+      "properties": {
+        "name": "Entrance / Red Hook",
+        "address": "113 Wolcott St, Brooklyn, NY 11231",
+        "url": "https://entrance.nyc/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009813,
+          40.681105
+        ]
+      },
+      "properties": {
+        "name": "the wild horses of sable island gallery",
+        "address": "160 Imlay St, Brooklyn, NY 11231",
+        "url": "https://www.dutescoart.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01623,
+          40.677529
+        ]
+      },
+      "properties": {
+        "name": "Duckworth Gallery",
+        "address": "169 Coffey St, Brooklyn, NY 11231",
+        "url": "",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013028,
+          40.67704
+        ]
+      },
+      "properties": {
+        "name": "Compére Collective",
+        "address": "351 Van Brunt St, Brooklyn, NY 11231",
+        "url": "http://www.realtycollective.com/compere-collective",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013044,
+          40.676983
+        ]
+      },
+      "properties": {
+        "name": "Kentler International Drawing Space",
+        "address": "353 Van Brunt St, Brooklyn, NY 11231",
+        "url": "http://www.kentlergallery.org/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013649,
+          40.677008
+        ]
+      },
+      "properties": {
+        "name": "Andrew Logan Projects",
+        "address": "384 Van Brunt St, Brooklyn, NY 11231",
+        "url": "https://www.andrewloganprojects.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008343,
+          40.67946
+        ]
+      },
+      "properties": {
+        "name": "Galerie Ground",
+        "address": "80 Richards St, Brooklyn, NY 11231",
+        "url": "https://www.galerieground.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.015572,
+          40.655699
+        ]
+      },
+      "properties": {
+        "name": "PELLE",
+        "address": "13 42nd St, Brooklyn, NY 11232",
+        "url": "http://www.pelledesigns.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007817,
+          40.656079
+        ]
+      },
+      "properties": {
+        "name": "Art By City Brooklyn",
+        "address": "254 36th St 2nd Floor, #C255, Brooklyn, NY 11232",
+        "url": "https://brooklyn.artby.city/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007817,
+          40.656079
+        ]
+      },
+      "properties": {
+        "name": "Eche Verde",
+        "address": "254 36th St Ste B541, Brooklyn, NY 11232",
+        "url": "https://eche-verde.square.site/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00756,
+          40.655981
+        ]
+      },
+      "properties": {
+        "name": "Tanya Weddemire Gallery",
+        "address": "254 36th St Suite C257, Brooklyn, NY 11232",
+        "url": "http://www.tanyaweddemiregallery.org/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007193,
+          40.657134
+        ]
+      },
+      "properties": {
+        "name": "Court Tree Collective",
+        "address": "51 35th Street Building 5, suite B235, 2nd floor, Brooklyn, NY 11232",
+        "url": "http://www.courttree.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00699,
+          40.656583
+        ]
+      },
+      "properties": {
+        "name": "Ubu Gallery",
+        "address": "68 35th St, Brooklyn, NY 11232",
+        "url": "http://www.ubugallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
     }
   ],
   "_hashes": {
