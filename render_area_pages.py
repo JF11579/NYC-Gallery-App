@@ -380,6 +380,80 @@ AREA_CONTENT = {
             },
         ],
     },
+    "Red Hook": {
+        "lead": "Red Hook is a waterfront peninsula of old warehouses and cobblestone streets, with a small, close-knit cluster of galleries along Van Brunt Street and the blocks toward the water.",
+        "body": [
+            "For most of its history Red Hook was a working port, its piers and warehouses handling cargo for the whole city. When shipping moved to container terminals in New Jersey, the neighborhood emptied out, and artists followed the cheap space into its brick warehouses and storefronts. Today it's a mix of studios, small galleries, bars, workshops and the occasional big-box store, with views across the harbor to the Statue of Liberty.",
+            "The galleries here are small and independent, from a long-running non-profit dedicated to drawing to artist-run project spaces. These are the Red Hook galleries we track.",
+        ],
+        "sections": [
+            {
+                "h": "Getting there",
+                "p": [
+                    "Red Hook has no subway, which is part of why it has kept its character. The easiest ways in are the NYC Ferry, which stops at Atlantic Basin, or the B61 bus, which runs along Van Brunt Street. From the Smith–9th Streets station on the F and G it's about a 20-minute walk.",
+                    "Once you're there, everything is walkable. Most of the galleries sit on or just off Van Brunt Street, the neighborhood's main street, with a few more in the warehouse blocks toward the waterfront.",
+                ],
+            },
+            {
+                "h": "When to go",
+                "p": [
+                    "Weekend afternoons are the best bet. Several spaces keep limited hours, so check each gallery's website before a weekday visit.",
+                    "Leave time for the water. The piers at the end of the streets look straight out over the harbor, and on a clear evening the view toward Lower Manhattan and the Statue of Liberty is one of the best in Brooklyn.",
+                ],
+            },
+            {
+                "h": "A neighborhood that keeps rebuilding",
+                "p": [
+                    "Red Hook sits low and close to the water, and Hurricane Sandy flooded much of it in 2012, damaging homes, businesses and studios. Many of the spaces you'll see today reopened or rebuilt after the storm. That resilience shows in the scene: it's small, but it's run by people committed to staying.",
+                ],
+            },
+        ],
+    },
+    "Sunset Park": {
+        "lead": "Sunset Park's galleries cluster in the huge converted warehouses near the waterfront, where artists and small galleries share floors with studios, makers and light industry.",
+        "body": [
+            "Sunset Park is one of Brooklyn's most diverse neighborhoods, home to large Latin American and Chinese communities, with busy commercial strips along Fifth and Eighth Avenues. Down by the water, the old industrial complexes built to handle the port's cargo have been turned into offices, workshops and studios, and that's where most of the art is.",
+            "Several of the galleries we track share a single building on 36th Street, and others are a block or two away around 35th Street, so a visit is compact even though the buildings are enormous. These are the Sunset Park galleries we track.",
+        ],
+        "sections": [
+            {
+                "h": "Finding the galleries",
+                "p": [
+                    "Most of the spaces are in the Industry City complex and its neighbors between 33rd and 37th Streets west of Third Avenue. The buildings are large and the numbering can be confusing: galleries are often several floors up, with suite numbers like B541 or C255 that tell you which building and floor to look for. Note the suite before you go and follow the signs from the lobby.",
+                    "The D, N and R trains stop at 36th Street on Fourth Avenue, a short walk downhill to the waterfront complexes.",
+                ],
+            },
+            {
+                "h": "When to go",
+                "p": [
+                    "Hours vary from gallery to gallery, and some spaces open only on certain days or by appointment, so check before you go. Weekends are when the complexes are busiest, with food halls, shops and events alongside the studios.",
+                    "Finish at the park itself. Sunset Park, the hilltop park the neighborhood is named for, sits on one of the highest points in Brooklyn, and its views across the harbor to Lower Manhattan are well worth the climb, especially at sunset.",
+                ],
+            },
+        ],
+    },
+    "Bedford-Stuyvesant": {
+        "lead": "Bed-Stuy is a neighborhood of brownstone blocks and deep cultural history, where a small, growing group of galleries focuses heavily on artists of the African diaspora.",
+        "body": [
+            "Bedford-Stuyvesant has long been one of the centers of Black life and culture in New York. Its tree-lined streets of 19th-century brownstones are among the best preserved in the city, and its institutions have shaped Brooklyn for generations. In 1967 the neighborhood founded the Bedford Stuyvesant Restoration Corporation, the first community development corporation in the country, whose home at Restoration Plaza on Fulton Street includes the Billie Holiday Theatre.",
+            "The gallery scene is smaller and more spread out than in Bushwick or Williamsburg, but it has a clear identity: galleries here champion Black artists, many with local roots, and treat their spaces as community gathering places as much as showrooms. These are the Bed-Stuy galleries we track.",
+        ],
+        "sections": [
+            {
+                "h": "Getting around",
+                "p": [
+                    "The A and C trains run along Fulton Street through the neighborhood, with stops at Nostrand Avenue and Kingston–Throop Avenues that are convenient for the galleries we track. The G train serves the western edge.",
+                    "The galleries are spread across a wide area, so plan to walk between them. It's a pleasure: the side streets between them are some of the most beautiful brownstone blocks in New York.",
+                ],
+            },
+            {
+                "h": "When to go",
+                "p": [
+                    "Opening hours vary and some spaces are small, so check each gallery's website before you set out. Openings are often lively neighborhood events and a great way to meet the artists and the community around them.",
+                ],
+            },
+        ],
+    },
 }
 
 
