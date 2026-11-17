@@ -36,6 +36,13 @@ to stay. Google's indexing decisions and visitor behaviour are both measuring th
 - Map shows one numbered pin per building (`buildingKey` in index.html). Second
   street addresses for the same building go in `BUILDING_ALIASES`, names in
   `BUILDING_NAMES`.
+- **2026-11-17:** Reddit reader said Gowanus was missing (pointed at the Arts
+  Gowanus Open Studios map; that's mostly studios, not walk-in galleries). Gowanus
+  had never been a search district. Added `gowanus` to `DISTRICTS`: 11 galleries
+  added (**763 -> 774**), new page galleries/gowanus.html with its own write-up.
+  Policy refinement: weekend-only galleries (Sat + Sun walk-in hours) are approved
+  by hand, since you can walk in. 4 of the 11 (Field of Play, haul gallery,
+  Ortega y Gasset, KAJE).
 - Places key lives in `.env` (git-ignored), Google Cloud project Data11579,
   Places API (New).
 - Follow-up: reply on Reddit with the update and ask what's still missing.

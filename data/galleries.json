@@ -317,7 +317,7 @@
         ]
       },
       "properties": {
-        "name": "KATES\u2013FERRI PROJECTS",
+        "name": "KATES–FERRI PROJECTS",
         "address": "561 Grand St",
         "url": "http://www.katesferriprojects.com/",
         "borough": "Manhattan",
@@ -1031,7 +1031,7 @@
         ]
       },
       "properties": {
-        "name": "Art in Brackets\u2122",
+        "name": "Art in Brackets™",
         "address": "46 Walker St",
         "url": "https://www.artinbrackets.com",
         "borough": "Manhattan",
@@ -1949,7 +1949,7 @@
         ]
       },
       "properties": {
-        "name": "P\u00b7P\u00b7O\u00b7W",
+        "name": "P·P·O·W",
         "address": "392 Broadway",
         "url": "http://www.ppowgallery.com",
         "borough": "Manhattan",
@@ -3632,7 +3632,7 @@
         ]
       },
       "properties": {
-        "name": "L\u00e9vy Gorvy Dayan",
+        "name": "Lévy Gorvy Dayan",
         "address": "19 E 64th St, New York, NY 10065, USA",
         "url": "http://www.levygorvydayan.com/",
         "borough": "Manhattan",
@@ -5621,7 +5621,7 @@
         ]
       },
       "properties": {
-        "name": "Winston W\u00e4chter Fine Art",
+        "name": "Winston Wächter Fine Art",
         "address": "530 W 25th St, New York, NY 10001",
         "url": "https://newyork.winstonwachter.com/exhibitions/",
         "borough": "Manhattan",
@@ -6998,7 +6998,7 @@
         ]
       },
       "properties": {
-        "name": "The Caf\u00e9 Galerie",
+        "name": "The Café Galerie",
         "address": "168 Thompson St, New York, NY 10012",
         "url": "https://cafegalerienewyork.com/?utm_source=google&utm_medium=gmb&utm_campaign=seo",
         "borough": "Manhattan",
@@ -8137,7 +8137,7 @@
         ]
       },
       "properties": {
-        "name": "Fran\u00e7ois Ghebaly New York",
+        "name": "François Ghebaly New York",
         "address": "391 Grand St, New York, NY 10002",
         "url": "http://ghebaly.com/",
         "borough": "Manhattan",
@@ -9021,7 +9021,7 @@
         ]
       },
       "properties": {
-        "name": "NewYorkART\u2022com",
+        "name": "NewYorkART•com",
         "address": "7 Franklin Pl g2, New York, NY 10013",
         "url": "http://newyorkart.com/",
         "borough": "Manhattan",
@@ -9361,7 +9361,7 @@
         ]
       },
       "properties": {
-        "name": "M\u2013ARCH PROJECTS",
+        "name": "M–ARCH PROJECTS",
         "address": "89 Franklin St, New York, NY 10013",
         "url": "http://m-archprojects.org/",
         "borough": "Manhattan",
@@ -9820,7 +9820,7 @@
         ]
       },
       "properties": {
-        "name": "O\u2019Flaherty\u2019s",
+        "name": "O’Flaherty’s",
         "address": "165 Allen St, New York, NY 10002",
         "url": "https://oflahertysnyc.com/",
         "borough": "Manhattan",
@@ -10041,7 +10041,7 @@
         ]
       },
       "properties": {
-        "name": "Z\u00fcrcher Gallery",
+        "name": "Zürcher Gallery",
         "address": "33 Bleecker St, New York, NY 10012",
         "url": "http://www.galeriezurcher.com/",
         "borough": "Manhattan",
@@ -11707,7 +11707,7 @@
         ]
       },
       "properties": {
-        "name": "Spr\u00fcth Magers Gallery (New York)",
+        "name": "Sprüth Magers Gallery (New York)",
         "address": "22 E 80th St 2nd Floor, New York, NY 10075",
         "url": "http://spruethmagers.com/",
         "borough": "Manhattan",
@@ -12778,7 +12778,7 @@
         ]
       },
       "properties": {
-        "name": "Ceysson & B\u00e9n\u00e9ti\u00e8re",
+        "name": "Ceysson & Bénétière",
         "address": "956 Madison Ave #2F, New York, NY 10021",
         "url": "https://www.ceyssonbenetiere.com/en/home/",
         "borough": "Manhattan",
@@ -12968,6 +12968,193 @@
         "name": "Not Another GALLERY!",
         "address": "109 Broadway, Brooklyn, NY 11249",
         "url": "https://www.notanothergallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992623,
+          40.675398
+        ]
+      },
+      "properties": {
+        "name": "Gowanus Projects",
+        "address": "110 5th St, Brooklyn, NY 11215",
+        "url": "",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993884,
+          40.669316
+        ]
+      },
+      "properties": {
+        "name": "Field of Play",
+        "address": "126 13th St, Brooklyn, NY 11215",
+        "url": "https://www.fieldofplaybk.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993884,
+          40.669316
+        ]
+      },
+      "properties": {
+        "name": "Tappeto Volante Projects",
+        "address": "126 13th St, Brooklyn, NY 11215",
+        "url": "https://tappetovolantegallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996136,
+          40.668703
+        ]
+      },
+      "properties": {
+        "name": "haul gallery",
+        "address": "24 15th St, Brooklyn, NY 11232",
+        "url": "http://www.haul.gallery/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9882,
+          40.674593
+        ]
+      },
+      "properties": {
+        "name": "Ortega y Gasset art projects",
+        "address": "363 3rd Ave, Brooklyn, NY 11215",
+        "url": "http://oygprojects.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985675,
+          40.687503
+        ]
+      },
+      "properties": {
+        "name": "Collier West Annex",
+        "address": "375 Atlantic Ave, Brooklyn, NY 11217",
+        "url": "http://collierwest.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984398,
+          40.667815
+        ]
+      },
+      "properties": {
+        "name": "440 Gallery",
+        "address": "440 6th Ave, Brooklyn, NY 11215",
+        "url": "http://www.440gallery.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998458,
+          40.677383
+        ]
+      },
+      "properties": {
+        "name": "Plant 486",
+        "address": "486 Court St, Brooklyn, NY 11231",
+        "url": "http://plant486.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982088,
+          40.685649
+        ]
+      },
+      "properties": {
+        "name": "490 Atlantic Gallery",
+        "address": "490 Atlantic Ave, Brooklyn, NY 11217",
+        "url": "http://490atlantic.com/contact",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985376,
+          40.679376
+        ]
+      },
+      "properties": {
+        "name": "The Ritual Division",
+        "address": "573 Sackett St 2 West, Brooklyn, NY 11217",
+        "url": "https://www.theritualdivision.com/",
+        "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99432,
+          40.667895
+        ]
+      },
+      "properties": {
+        "name": "KAJE",
+        "address": "74 15th St, Brooklyn, NY 11215",
+        "url": "https://kaje.world/info",
         "borough": "Brooklyn",
         "last_updated": ""
       }

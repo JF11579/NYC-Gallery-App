@@ -62,6 +62,7 @@ DISTRICTS = {
     "greenpoint": (40.720, -73.962, 40.740, -73.940),
     "dumbo":      (40.697, -73.995, 40.707, -73.980),
     "lic":        (40.738, -73.960, 40.758, -73.930),
+    "gowanus":    (40.662, -74.003, 40.688, -73.977),  # added 11/17 after a Reddit tip
 }
 
 # Buildings that house many galleries. Area searches under-count these (the

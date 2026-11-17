@@ -349,6 +349,37 @@ AREA_CONTENT = {
             },
         ],
     },
+    "Gowanus": {
+        "lead": "Gowanus is a small, artist-heavy pocket of Brooklyn built around an old industrial canal, where project spaces and studio buildings sit between warehouses, auto shops and new apartment towers.",
+        "body": [
+            "Gowanus grew up around the Gowanus Canal, dug in the 1800s to serve the factories, coal yards and gas works that lined it. When industry left, its low-rent warehouses and manufacturing lofts filled with artists, and the neighborhood became one of Brooklyn's densest concentrations of working studios. The galleries here mostly come out of that studio culture: artist-run project spaces, small non-profits and a handful of storefront galleries.",
+            "It is a scene that rewards a bit of planning. Several of the spaces we track are open only on weekend afternoons, and others share buildings with dozens of studios behind a single street door. These are the Gowanus galleries we track.",
+        ],
+        "sections": [
+            {
+                "h": "A neighborhood in transition",
+                "p": [
+                    "The canal is one of the most polluted waterways in the country, and the federal government designated it a Superfund site in 2010; the cleanup is still underway. In 2021 the city rezoned the area, opening the door to large residential buildings along the water. You can see both stories on a walk: barges and dredging equipment on the canal, and new towers rising over the old brick warehouses.",
+                    "For the art scene that has meant pressure as well as new neighbors. Studio buildings have been sold or converted, and some spaces have moved further south toward 15th Street and the Prospect Expressway, or west into Red Hook. The galleries that remain tend to be scrappy, artist-led and closely tied to the people who make work nearby.",
+                ],
+            },
+            {
+                "h": "Finding your way around",
+                "p": [
+                    "The galleries are spread between Atlantic Avenue in the north and the blocks around 13th to 15th Streets in the south, with the canal running down the middle. The F and G trains stop at Carroll Street and 4th Avenue–9th Street, and the R stops along 4th Avenue at Union Street and 9th Street, so it's easy to work your way through on foot.",
+                    "As in Bushwick, frontage tells you very little. A gallery may be on the second floor of a building that looks like a warehouse, with a buzzer and a small sign as the only clue. Trust the address and be ready to ring a bell.",
+                ],
+            },
+            {
+                "h": "When to go",
+                "p": [
+                    "Saturday and Sunday afternoons are when the most Gowanus spaces are open at once; several open only then. Check each gallery's website before a weekday visit.",
+                    "The best single weekend is Gowanus Open Studios, organized each fall by the non-profit Arts Gowanus, when hundreds of artists open their studios alongside the galleries. Arts Gowanus prints a paper map of every participating studio and posts an online artist directory, which makes it the easiest introduction to the neighborhood.",
+                    "While you're there, the Old Stone House in Washington Park, a reconstruction of a 1699 farmhouse that was the scene of fighting during the 1776 Battle of Brooklyn, hosts exhibitions and events and is a pleasant stop between galleries.",
+                ],
+            },
+        ],
+    },
 }
 
 
