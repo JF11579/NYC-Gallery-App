@@ -185,5 +185,7 @@ def site_footer(current=""):
     return f"""    <footer class="sitefoot">
       {rendered}
       <p>Updated {date.today().strftime('%B %-d, %Y')} · NYC Gallery Tracker tracks
-      art galleries across all five boroughs and checks each one for new shows every week.</p>
+      art galleries across all five boroughs and checks each one for new shows every week.
+      Missing a gallery or spotted a mistake? Email
+      <a href="mailto:hello@nycgallerytracker.com">hello@nycgallerytracker.com</a>.</p>
     </footer>"""
