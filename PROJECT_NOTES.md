@@ -94,10 +94,10 @@ from other sites.
 - **2026-11-24:** 22 non-family sign-ups: 15 confirmed, 6 never confirmed, 1
   unsubscribed (9/9). Only 4 joined Jul–Oct; 18 joined 11/9–11/19 (the Reddit posts).
   Several sign-ups are from gallery staff.
-- Double opt-in can't be turned off on the free plan, so `check-your-email.html`
-  (noindex) tells people to click the confirmation email. Set Buttondown →
-  Settings → Subscribing → "After subscribing" to
-  `https://nycgallerytracker.com/check-your-email.html`.
+- Double opt-in can't be turned off on the free plan, and the "After subscribing"
+  redirect doesn't save either (11/24). So the homepage form now swaps itself for
+  an inline "check your email" reminder after submit. `check-your-email.html`
+  exists too, unused unless Buttondown redirects ever work.
 
 ## Gallery outreach
 
@@ -215,6 +215,10 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 ---
 
 ## Open follow-ups
+
+- [ ] **Push notifications broken since the 10/12 domain move:** OneSignal errors
+      "Can only be used on: https://nyc-gallery-app.netlify.app". Fix in the OneSignal
+      dashboard → Settings → Web configuration → Site URL = https://nycgallerytracker.com.
 
 - [ ] **~2026-10-30:** read GA4 Reports → Engagement → Events with a week of real
       data. What do engaged visitors do? Which galleries/boroughs? Map or list?
