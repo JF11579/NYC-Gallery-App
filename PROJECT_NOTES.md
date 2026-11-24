@@ -75,6 +75,7 @@ Year's)**, then commit + push. One run = ~956 Place Details calls (Enterprise SK
 First run: Thanksgiving 112 closed / 0 open; Black Friday 79 closed / 3 open.
 Normal week: open Fri 97%, Thu 96%, Sat 80%, Mon 35%, Sun 29%.
 Indexing requested 11/24. Linked from homepage, footer, visitor guide, sitemap.
+Promotion: r/nycart post drafted 11/24 (lead with the Thanksgiving numbers, link the page, ask what galleries are missing); post ~11/25.
 
 ## Google Search Console / indexing
 
