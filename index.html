@@ -325,7 +325,7 @@
   <div id="gallery-section-header">
     <h2>NYC Art Gallery Directory</h2>
     <p>
-      More than 750 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island —
+      More than 950 galleries across Manhattan, Brooklyn, Queens, the Bronx, and Staten Island —
       from blue-chip Chelsea dealers to independent spaces tucked in side streets.
       Click any card to locate the gallery on the map above.
       Cards with a green left border have opened a new show within the past 8 days.
@@ -1697,7 +1697,19 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   const digestForm = document.querySelector('#digest-signup form');
-  if (digestForm) digestForm.addEventListener('submit', () => track('digest_signup'));
+  if (digestForm) digestForm.addEventListener('submit', () => {
+    track('digest_signup');
+    // About a quarter of sign-ups never click Buttondown's confirmation email,
+    // and its free plan can't redirect after subscribing. So once the form has
+    // been sent (to Buttondown's popup), replace it with a reminder here.
+    setTimeout(() => {
+      const box = document.getElementById('digest-signup');
+      box.innerHTML =
+        '<p><strong>Almost done: check your email.</strong> We just sent you a confirmation link. ' +
+        'Click it, or you won’t get the weekly email. Not there in a minute or two? ' +
+        'Check spam or Promotions for a message from nycgallerytracker@buttondown.email.</p>';
+    }, 500);
+  });
 
   // ── PWA install / bookmark nudge ──
   (function () {
