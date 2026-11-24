@@ -49,6 +49,15 @@ to stay. Google's indexing decisions and visitor behaviour are both measuring th
   drops results for big boxes well under the 60 cap (Bed-Stuy whole = 18, its
   quarters = 25), so tiles now split at 20 (`SPLIT_AT`). Manhattan districts were
   searched with the old rule and may be worth re-running.
+- **2026-11-24:** re-searched all of Manhattan with SPLIT_AT=20 and added the
+  never-searched areas as districts (`village`, `midtown`, `uws`, `fidi`,
+  `uptown`). **+149 -> 956 galleries.** Big misses found: Paula Cooper, Tanya
+  Bonakdar, Karma (2 spaces), Tina Kim, Hales, White Columns, Fort Gansevoort,
+  Gordon Robichaux, carriage trade, CUE, EFA Project Space. Took 347 Places calls
+  (~$12 list price); a full run needs `--max-calls` 400+. Rejected by hand: Norr
+  Cohan (= James Cohan, same address), an office, a public sculpture, a brand
+  pop-up, two showrooms. 222 "check" candidates (no regular hours on Google) were
+  left off per the walk-in rule; some may be real galleries with missing hours.
 - Places key lives in `.env` (git-ignored), Google Cloud project Data11579,
   Places API (New).
 - Follow-up: reply on Reddit with the update and ask what's still missing.
@@ -61,6 +70,7 @@ The old `nyc-gallery-app.netlify.app` property will fade out as Google follows t
 
 | Date | Sitemap | Indexed | Not indexed | Notes |
 |---|---|---|---|---|
+| 2026-11-24 (data to Nov 15) | 47 | 21 (+6 live, see notes) | 27 | 19 discovered-not-indexed, 6 "crawled – not indexed", 2 alt canonical. The 6 "crawled" pages are the ones requested 11/17; URL Inspection shows gowanus + about.html ARE on Google now, so the report lags. Real count ~27. Same day: Request Indexing on midtown, greenwich-village (most new galleries) and new-shows/2026-11-23 (was unknown to Google) |
 | 2026-11-09 (data to Nov 5) | — | 7 | 29 | 28 discovered-not-indexed; 1 alternate canonical = homepage with digest-email UTM params (harmless). Indexed: home, Chelsea, LES, Queens, visitor guide, new-shows 10-19 & 10-26. Same day: Request Indexing on all 9 route pages (8 neighborhoods + routes/) — all accepted |
 | 2026-10-23 | Success, last read Oct 19, 33 discovered | 3 | 30 | All 30 = "Discovered – currently not indexed" |
 | 2026-10-12 | Submitted on new domain; "Couldn't fetch" (normal for a new property) | — | — | Moved to nycgallerytracker.com |
@@ -78,6 +88,27 @@ new-shows pages; Request Indexing on a few key pages (daily quota); inbound link
 from other sites.
 
 ---
+
+## Email digest (Buttondown)
+
+- **2026-11-24:** 22 non-family sign-ups: 15 confirmed, 6 never confirmed, 1
+  unsubscribed (9/9). Only 4 joined Jul–Oct; 18 joined 11/9–11/19 (the Reddit posts).
+  Several sign-ups are from gallery staff.
+- Double opt-in can't be turned off on the free plan, so `check-your-email.html`
+  (noindex) tells people to click the confirmation email. Set Buttondown →
+  Settings → Subscribing → "After subscribing" to
+  `https://nycgallerytracker.com/check-your-email.html`.
+
+## Gallery outreach
+
+- Log of who has been emailed: check Gmail `in:sent` from hello@ before drafting.
+- **11/17:** 10 Brooklyn galleries. Replies: KAJE, Field of Play, The Ritual Division
+  (curator will link to us; tips: Gallery 198, Gowanus Dredgers
+  boathouse, Judgy Baby opening 2027, Arts Gowanus directory).
+- **11/24:** drafts for 5 galleries with new shows (Krause, Ki Smith, Equity,
+  AMR Art DUMBO, 14BC) + replies to Ritual Division and Field of Play.
+- Gallery 198 (198 24th St): Google lists it as an event venue with no hours, so
+  the search misses it. Add by hand if it keeps regular walk-in hours.
 
 ## Google Analytics (GA4)
 
@@ -174,6 +205,10 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
   Read: Google is also judging traffic and reputation (≈all-new 12s visits, 3 pages
   indexed, 0 inbound links), not just page text — resubmitting before those move is
   likely to fail again.
+- **2026-11-24:** still "Needs attention — Low value content" (last updated Nov 5).
+  Ads.txt still shows "Not found" in AdSense; live file re-checked OK (200, text/plain,
+  correct pub ID). Recommendation: request re-review ~early Dec, once the Manhattan
+  expansion pages are indexed.
 - Monetization ideas parked until approval: paid gallery sponsorships (pinned/starred
   listing, ~$50/month) and featured-artist banner slots.
 
