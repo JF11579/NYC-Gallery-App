@@ -317,7 +317,7 @@
         ]
       },
       "properties": {
-        "name": "KATES\u2013FERRI PROJECTS",
+        "name": "KATES–FERRI PROJECTS",
         "address": "561 Grand St",
         "url": "http://www.katesferriprojects.com/",
         "borough": "Manhattan",
@@ -1031,7 +1031,7 @@
         ]
       },
       "properties": {
-        "name": "Art in Brackets\u2122",
+        "name": "Art in Brackets™",
         "address": "46 Walker St",
         "url": "https://www.artinbrackets.com",
         "borough": "Manhattan",
@@ -1949,7 +1949,7 @@
         ]
       },
       "properties": {
-        "name": "P\u00b7P\u00b7O\u00b7W",
+        "name": "P·P·O·W",
         "address": "392 Broadway",
         "url": "http://www.ppowgallery.com",
         "borough": "Manhattan",
@@ -3632,7 +3632,7 @@
         ]
       },
       "properties": {
-        "name": "L\u00e9vy Gorvy Dayan",
+        "name": "Lévy Gorvy Dayan",
         "address": "19 E 64th St, New York, NY 10065, USA",
         "url": "http://www.levygorvydayan.com/",
         "borough": "Manhattan",
@@ -5621,7 +5621,7 @@
         ]
       },
       "properties": {
-        "name": "Winston W\u00e4chter Fine Art",
+        "name": "Winston Wächter Fine Art",
         "address": "530 W 25th St, New York, NY 10001",
         "url": "https://newyork.winstonwachter.com/exhibitions/",
         "borough": "Manhattan",
@@ -6998,7 +6998,7 @@
         ]
       },
       "properties": {
-        "name": "The Caf\u00e9 Galerie",
+        "name": "The Café Galerie",
         "address": "168 Thompson St, New York, NY 10012",
         "url": "https://cafegalerienewyork.com/?utm_source=google&utm_medium=gmb&utm_campaign=seo",
         "borough": "Manhattan",
@@ -8137,7 +8137,7 @@
         ]
       },
       "properties": {
-        "name": "Fran\u00e7ois Ghebaly New York",
+        "name": "François Ghebaly New York",
         "address": "391 Grand St, New York, NY 10002",
         "url": "http://ghebaly.com/",
         "borough": "Manhattan",
@@ -9021,7 +9021,7 @@
         ]
       },
       "properties": {
-        "name": "NewYorkART\u2022com",
+        "name": "NewYorkART•com",
         "address": "7 Franklin Pl g2, New York, NY 10013",
         "url": "http://newyorkart.com/",
         "borough": "Manhattan",
@@ -9361,7 +9361,7 @@
         ]
       },
       "properties": {
-        "name": "M\u2013ARCH PROJECTS",
+        "name": "M–ARCH PROJECTS",
         "address": "89 Franklin St, New York, NY 10013",
         "url": "http://m-archprojects.org/",
         "borough": "Manhattan",
@@ -9820,7 +9820,7 @@
         ]
       },
       "properties": {
-        "name": "O\u2019Flaherty\u2019s",
+        "name": "O’Flaherty’s",
         "address": "165 Allen St, New York, NY 10002",
         "url": "https://oflahertysnyc.com/",
         "borough": "Manhattan",
@@ -10041,7 +10041,7 @@
         ]
       },
       "properties": {
-        "name": "Z\u00fcrcher Gallery",
+        "name": "Zürcher Gallery",
         "address": "33 Bleecker St, New York, NY 10012",
         "url": "http://www.galeriezurcher.com/",
         "borough": "Manhattan",
@@ -11707,7 +11707,7 @@
         ]
       },
       "properties": {
-        "name": "Spr\u00fcth Magers Gallery (New York)",
+        "name": "Sprüth Magers Gallery (New York)",
         "address": "22 E 80th St 2nd Floor, New York, NY 10075",
         "url": "http://spruethmagers.com/",
         "borough": "Manhattan",
@@ -12778,7 +12778,7 @@
         ]
       },
       "properties": {
-        "name": "Ceysson & B\u00e9n\u00e9ti\u00e8re",
+        "name": "Ceysson & Bénétière",
         "address": "956 Madison Ave #2F, New York, NY 10021",
         "url": "https://www.ceyssonbenetiere.com/en/home/",
         "borough": "Manhattan",
@@ -13254,7 +13254,7 @@
         ]
       },
       "properties": {
-        "name": "Don\u2019t Quit Your Day Job Productions",
+        "name": "Don’t Quit Your Day Job Productions",
         "address": "1069 Dean St, Brooklyn, NY 11216",
         "url": "http://dontquityourdayjobproductions.com/",
         "borough": "Brooklyn",
@@ -13322,7 +13322,7 @@
         ]
       },
       "properties": {
-        "name": "Alafia Global Antiquit\u00e9s",
+        "name": "Alafia Global Antiquités",
         "address": "634 Classon Ave, Brooklyn, NY 11238",
         "url": "",
         "borough": "Brooklyn",
@@ -13560,7 +13560,7 @@
         ]
       },
       "properties": {
-        "name": "Comp\u00e9re Collective",
+        "name": "Compére Collective",
         "address": "351 Van Brunt St, Brooklyn, NY 11231",
         "url": "http://www.realtycollective.com/compere-collective",
         "borough": "Brooklyn",
@@ -13717,6 +13717,2539 @@
         "address": "68 35th St, Brooklyn, NY 11232",
         "url": "http://www.ubugallery.com/",
         "borough": "Brooklyn",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003693,
+          40.749888
+        ]
+      },
+      "properties": {
+        "name": "Fergus McCaffrey",
+        "address": "514 W 26th St, New York, NY 10001",
+        "url": "http://www.fergusmccaffrey.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003533,
+          40.750101
+        ]
+      },
+      "properties": {
+        "name": "Friedman Benda",
+        "address": "515 W 26th St 1st Floor, New York, NY 10001",
+        "url": "http://www.friedmanbenda.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003611,
+          40.750093
+        ]
+      },
+      "properties": {
+        "name": "Mary Ryan Gallery",
+        "address": "515 W 26th St, New York, NY 10001",
+        "url": "http://www.maryryangallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003611,
+          40.750093
+        ]
+      },
+      "properties": {
+        "name": "Albertz Benda",
+        "address": "515 W 26th St, New York, NY 10001",
+        "url": "http://www.albertzbenda.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006193,
+          40.747122
+        ]
+      },
+      "properties": {
+        "name": "Tanya Bonakdar Gallery",
+        "address": "521 W 21st St #1, New York, NY 10011",
+        "url": "http://www.tanyabonakdargallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006257,
+          40.747087
+        ]
+      },
+      "properties": {
+        "name": "Kravets Wehby Gallery",
+        "address": "521 W 21st St, New York, NY 10011",
+        "url": "http://www.kravetswehbygallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006231,
+          40.747006
+        ]
+      },
+      "properties": {
+        "name": "Tina Kim Gallery",
+        "address": "525 W 21st St, New York, NY 10011",
+        "url": "http://www.tinakimgallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004298,
+          40.749972
+        ]
+      },
+      "properties": {
+        "name": "Alison Bradley Projects",
+        "address": "526 W 26th St #814, New York, NY 10001",
+        "url": "https://www.alisonbradleyprojects.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004886,
+          40.749388
+        ]
+      },
+      "properties": {
+        "name": "Dobrinka Salzman Gallery",
+        "address": "532 W 25th St, New York, NY 10001",
+        "url": "https://www.dobrinkasalzman.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006922,
+          40.746872
+        ]
+      },
+      "properties": {
+        "name": "Paula Cooper Gallery",
+        "address": "534 W 21st St, New York, NY 10011",
+        "url": "https://www.paulacoopergallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004166,
+          40.751098
+        ]
+      },
+      "properties": {
+        "name": "Morgan Presents",
+        "address": "537 W 27th St, New York, NY 10001",
+        "url": "https://www.morgan-presents.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004879,
+          40.749924
+        ]
+      },
+      "properties": {
+        "name": "Gazelli Art House",
+        "address": "545 W 25th St, New York, NY 10001",
+        "url": "https://gazelliarthouse.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007631,
+          40.746896
+        ]
+      },
+      "properties": {
+        "name": "Hales Gallery",
+        "address": "547 W 20th St, New York, NY 10011",
+        "url": "http://www.halesgallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004819,
+          40.75067
+        ]
+      },
+      "properties": {
+        "name": "Karma Gallery",
+        "address": "549 W 26th St, New York, NY 10001",
+        "url": "https://karmakarma.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006775,
+          40.748033
+        ]
+      },
+      "properties": {
+        "name": "Silas Seandel Studio",
+        "address": "551 W 22nd St, New York, NY 10011",
+        "url": "https://www.silasseandelstudio.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006499,
+          40.751572
+        ]
+      },
+      "properties": {
+        "name": "one gallery nyc",
+        "address": "601 W 26th St, New York, NY 10001",
+        "url": "http://www.onegallery-nyc.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993524,
+          40.719514
+        ]
+      },
+      "properties": {
+        "name": "Jason Patrick Voegele",
+        "address": "131 Chrystie St, New York, NY 10002",
+        "url": "http://www.nyartconsultant.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993524,
+          40.719514
+        ]
+      },
+      "properties": {
+        "name": "CC Jasper",
+        "address": "131 Chrystie St, New York, NY 10002",
+        "url": "https://ccjasper.nyc/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991293,
+          40.719018
+        ]
+      },
+      "properties": {
+        "name": "Station Independent Projects",
+        "address": "138 Eldridge St #2F, New York, NY 10002",
+        "url": "http://www.stationindependent.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997551,
+          40.716025
+        ]
+      },
+      "properties": {
+        "name": "WHAAM!",
+        "address": "15 Elizabeth St #113, New York, NY 10013",
+        "url": "http://www.whaamwhaam.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992471,
+          40.715676
+        ]
+      },
+      "properties": {
+        "name": "25 Allen St Gallery",
+        "address": "25 Allen St, New York, NY 10002",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992785,
+          40.717712
+        ]
+      },
+      "properties": {
+        "name": "carriage trade",
+        "address": "277 Grand St 2nd floor, New York, NY 10002",
+        "url": "http://www.carriagetrade.org/relocation-2026",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991842,
+          40.718864
+        ]
+      },
+      "properties": {
+        "name": "Gül Gallery",
+        "address": "294 Broome St, New York, NY 10002",
+        "url": "https://houseofgul.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004387,
+          40.718879
+        ]
+      },
+      "properties": {
+        "name": "Karma Gallery",
+        "address": "38 White St, New York, NY 10013",
+        "url": "https://www.karmakarma.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.000693,
+          40.720591
+        ]
+      },
+      "properties": {
+        "name": "Kevin Kramer Gallery",
+        "address": "456 Broadway Floor 5, New York, NY 10013",
+        "url": "https://kevinkramergallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.000579,
+          40.720528
+        ]
+      },
+      "properties": {
+        "name": "Polina Berlin Gallery",
+        "address": "456 Broadway Floor 5, New York, NY 10013",
+        "url": "https://polinaberlingallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991014,
+          40.716391
+        ]
+      },
+      "properties": {
+        "name": "Bosi Contemporary",
+        "address": "48 Orchard St, New York, NY 10002",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991185,
+          40.719194
+        ]
+      },
+      "properties": {
+        "name": "Allen and Eldridge",
+        "address": "55 Delancey St, New York, NY 10002",
+        "url": "https://www.allenandeldridge.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00337,
+          40.718805
+        ]
+      },
+      "properties": {
+        "name": "Marc Straus Gallery – Tribeca",
+        "address": "57 Walker St, New York, NY 10013",
+        "url": "https://marcstraus.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989684,
+          40.71872
+        ]
+      },
+      "properties": {
+        "name": "IFAC Arts",
+        "address": "85 Delancey St 2nd floor, New York, NY 10002",
+        "url": "http://ifacarts.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98974,
+          40.721271
+        ]
+      },
+      "properties": {
+        "name": "SPIELZEUG",
+        "address": "165 Allen St, New York, NY 10002",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993561,
+          40.720585
+        ]
+      },
+      "properties": {
+        "name": "Museum of Street Art (MoSA)",
+        "address": "189 Bowery, New York, NY 10002",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9903,
+          40.721839
+        ]
+      },
+      "properties": {
+        "name": "SOMMWHERE",
+        "address": "57 Stanton St, New York, NY 10002",
+        "url": "http://sommwhere.us/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936946,
+          40.808992
+        ]
+      },
+      "properties": {
+        "name": "Mary Hrbacek Studio Gallery",
+        "address": "68 E 131st St Suite 504, New York, NY 10037",
+        "url": "http://maryhrbacek.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965508,
+          40.758082
+        ]
+      },
+      "properties": {
+        "name": "Robert Haber Ancient Art",
+        "address": "1050 2nd Ave Ste 95, New York, NY 10022",
+        "url": "http://rhancientart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99253,
+          40.744243
+        ]
+      },
+      "properties": {
+        "name": "Gallery A.T. 108",
+        "address": "108-110 W 25th St Fl 1, New York, NY 10001",
+        "url": "https://gallery108.art/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979357,
+          40.748176
+        ]
+      },
+      "properties": {
+        "name": "Labouret Private Gallery",
+        "address": "115 E 36th St 2nd Floor, New York, NY 10016",
+        "url": "http://www.labouretprivategallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990474,
+          40.747821
+        ]
+      },
+      "properties": {
+        "name": "Sragow Gallery",
+        "address": "115 W 30th St #1203, New York, NY 10001",
+        "url": "https://www.sragowfineart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983421,
+          40.756666
+        ]
+      },
+      "properties": {
+        "name": "Gambit Works Gallery",
+        "address": "1155 6th Ave, New York, NY 10036",
+        "url": "https://gambit-works.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991942,
+          40.746064
+        ]
+      },
+      "properties": {
+        "name": "Paul Soto Gallery",
+        "address": "121 W 27th St #703, New York, NY 10001",
+        "url": "https://www.paulsoto.net/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993423,
+          40.744972
+        ]
+      },
+      "properties": {
+        "name": "Gallery Marie",
+        "address": "137 W 25th St #5FL, New York, NY 10001",
+        "url": "https://www.gallerymarie.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993431,
+          40.745074
+        ]
+      },
+      "properties": {
+        "name": "CUE Art Foundation",
+        "address": "137 W 25th St, New York, NY 10001",
+        "url": "http://www.cueartfoundation.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994509,
+          40.744249
+        ]
+      },
+      "properties": {
+        "name": "The Alkazi Galleries",
+        "address": "148 W 24th St 11th Floor, New York, NY 10011",
+        "url": "http://www.alkazi.gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980668,
+          40.751808
+        ]
+      },
+      "properties": {
+        "name": "THE BLANC",
+        "address": "15 E 40th St, New York, NY 10016",
+        "url": "https://www.theblanc.art/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993879,
+          40.744796
+        ]
+      },
+      "properties": {
+        "name": "VillageOneArt",
+        "address": "150 W 25th St #403, New York, NY 10001",
+        "url": "https://villageoneart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992746,
+          40.746803
+        ]
+      },
+      "properties": {
+        "name": "Mariposa",
+        "address": "150 W 28th St #1101, New York, NY 10001",
+        "url": "https://www.mariposa.gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982711,
+          40.761305
+        ]
+      },
+      "properties": {
+        "name": "Ran Benhamu Gallery",
+        "address": "150 W 51st St, New York, NY 10019",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980754,
+          40.745574
+        ]
+      },
+      "properties": {
+        "name": "Lost City Arts",
+        "address": "200 Lexington Ave 10th Floor, New York, NY 10016",
+        "url": "http://lostcityarts.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989272,
+          40.753957
+        ]
+      },
+      "properties": {
+        "name": "FLOHAUS Gallery",
+        "address": "209 W 38th St #500, New York, NY 10018",
+        "url": "https://flohaus.nyc/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988771,
+          40.743357
+        ]
+      },
+      "properties": {
+        "name": "Barry Friedman",
+        "address": "210 5th Ave Ste 902, New York, NY 10010",
+        "url": "http://www.barryfriedmanltd.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990647,
+          40.741727
+        ]
+      },
+      "properties": {
+        "name": "Schnur Daniel",
+        "address": "22 W 23rd St, New York, NY 10010",
+        "url": "http://danielschnur.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971563,
+          40.752779
+        ]
+      },
+      "properties": {
+        "name": "Blue Gallery",
+        "address": "222 E 46th St, New York, NY 10017",
+        "url": "http://www.bluegallerynyc.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.970405,
+          40.754599
+        ]
+      },
+      "properties": {
+        "name": "Vincent Vallarino Fine Art",
+        "address": "222 E 49th St, New York, NY 10017",
+        "url": "http://www.vallarinofineart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993749,
+          40.748823
+        ]
+      },
+      "properties": {
+        "name": "Monya Rowe Gallery",
+        "address": "224 W 30th St #304, New York, NY 10001",
+        "url": "http://www.monyarowegallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988378,
+          40.744155
+        ]
+      },
+      "properties": {
+        "name": "Perfect Art Gallery",
+        "address": "230 5th Ave #708, New York, NY 10001",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995747,
+          40.747244
+        ]
+      },
+      "properties": {
+        "name": "CFM Gallery",
+        "address": "236 W 27th St, New York, NY 10001",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990487,
+          40.754037
+        ]
+      },
+      "properties": {
+        "name": "Craig Fruchtman's Photography Gallery",
+        "address": "246 W 38th St 2nd floor, New York, NY 10018",
+        "url": "http://www.craigfruchtman.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994763,
+          40.748748
+        ]
+      },
+      "properties": {
+        "name": "CLAMP",
+        "address": "247 W 29th St, New York, NY 10001",
+        "url": "http://clampart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987824,
+          40.740149
+        ]
+      },
+      "properties": {
+        "name": "Pen and Brush",
+        "address": "29 E 22nd St, New York, NY 10010",
+        "url": "http://www.penandbrush.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985583,
+          40.746586
+        ]
+      },
+      "properties": {
+        "name": "Boccara Gallery",
+        "address": "303 5th Ave #204, New York, NY 10016",
+        "url": "https://boccara.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-ny",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983506,
+          40.752732
+        ]
+      },
+      "properties": {
+        "name": "Ronin Gallery",
+        "address": "32 W 40th St, New York, NY 10018",
+        "url": "https://www.roningallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986452,
+          40.763854
+        ]
+      },
+      "properties": {
+        "name": "JazzFest Gallery",
+        "address": "322 W 52nd St #105, New York, NY 10019",
+        "url": "https://jazzfestgallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992415,
+          40.756163
+        ]
+      },
+      "properties": {
+        "name": "EFA Project Space",
+        "address": "323 W 39th St 2nd Fl, New York, NY 10018",
+        "url": "http://www.projectspace-efanyc.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993726,
+          40.75429
+        ]
+      },
+      "properties": {
+        "name": "Meredith Rosen Gallery",
+        "address": "327 W 36th St., New York, NY 10018",
+        "url": "http://www.meredithrosengallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992943,
+          40.740007
+        ]
+      },
+      "properties": {
+        "name": "kinetic art international",
+        "address": "33 W 19th St, New York, NY 10011",
+        "url": "http://kineticartintl.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98663,
+          40.764373
+        ]
+      },
+      "properties": {
+        "name": "Jenny's",
+        "address": "333 W 52nd St Ste 1203, New York, NY 10019",
+        "url": "https://jennys.us/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994399,
+          40.754421
+        ]
+      },
+      "properties": {
+        "name": "Amyas Naegele Bases & African Art",
+        "address": "347 W 36th St. #202, New York, NY 10018",
+        "url": "http://www.amyas.net/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985047,
+          40.750974
+        ]
+      },
+      "properties": {
+        "name": "Metropolis Gallery NYC",
+        "address": "36 W 37th St 6th floor, New York, NY 10018",
+        "url": "https://www.metropolisgallerynyc.com/?utm_source=google&utm_medium=local&utm_campaign=gmb",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983878,
+          40.748579
+        ]
+      },
+      "properties": {
+        "name": "The James Gallery",
+        "address": "365 5th Ave, New York, NY 10016",
+        "url": "https://centerforthehumanities.org/james-gallery",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987534,
+          40.76467
+        ]
+      },
+      "properties": {
+        "name": "Altowa Image",
+        "address": "371 W 52nd St, New York, NY 10019",
+        "url": "https://www.altowaimage.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98764,
+          40.747457
+        ]
+      },
+      "properties": {
+        "name": "Marisa Newman Projects",
+        "address": "38 W 32nd St, New York, NY 10001",
+        "url": "http://www.marisanewman.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99118,
+          40.743679
+        ]
+      },
+      "properties": {
+        "name": "Russian Icon Collection",
+        "address": "40 W 25th St Gallery #301, New York, NY 10010",
+        "url": "https://russianicon.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991037,
+          40.743541
+        ]
+      },
+      "properties": {
+        "name": "Explorer Ancient Art",
+        "address": "40 W 25th St, New York, NY 10010",
+        "url": "http://trocadero.com/explorer",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989683,
+          40.74603
+        ]
+      },
+      "properties": {
+        "name": "Nagas",
+        "address": "47 W 28th St Fl 2, New York, NY 10001",
+        "url": "https://www.nagas.art/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991479,
+          40.74347
+        ]
+      },
+      "properties": {
+        "name": "MyArtDealer",
+        "address": "49 W 24th St, New York, NY 10010",
+        "url": "https://myartdealer.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98079,
+          40.753207
+        ]
+      },
+      "properties": {
+        "name": "57W57 Arts",
+        "address": "501 5th Ave #701, New York, NY 10017",
+        "url": "https://www.57w57arts.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971872,
+          40.762386
+        ]
+      },
+      "properties": {
+        "name": "Luxembourg + Co.",
+        "address": "595 Madison Ave 6th floor, New York, NY 10022",
+        "url": "https://luxembourgco.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993165,
+          40.762368
+        ]
+      },
+      "properties": {
+        "name": "Jadite Gallery",
+        "address": "660 10th Ave, New York, NY 10036",
+        "url": "http://jadite.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989643,
+          40.762256
+        ]
+      },
+      "properties": {
+        "name": "Fountain House Gallery",
+        "address": "702 9th Ave, New York, NY 10019",
+        "url": "http://www.fountainhousegallery.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97387,
+          40.762457
+        ]
+      },
+      "properties": {
+        "name": "Electrum, Exclusive agent for Phoenix Ancient Art",
+        "address": "725 5th Ave, New York, NY 10022",
+        "url": "http://www.phoenixancientart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966895,
+          40.763653
+        ]
+      },
+      "properties": {
+        "name": "sara's gallery collections",
+        "address": "789 Lexington Ave, New York, NY 10065",
+        "url": "https://sarasgallerycollections.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985024,
+          40.744729
+        ]
+      },
+      "properties": {
+        "name": "Project: Artspace",
+        "address": "99 Madison Ave 8th floor, New York, NY 10016",
+        "url": "https://www.projectartspace.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973549,
+          40.763271
+        ]
+      },
+      "properties": {
+        "name": "Tourné Gallery",
+        "address": "745 5th Ave, New York, NY 10151",
+        "url": "http://www.tournegallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.970987,
+          40.765301
+        ]
+      },
+      "properties": {
+        "name": "Palitz Gallery",
+        "address": "11 E 61st St, New York, NY 10065",
+        "url": "https://nyc.syr.edu/about/lubin-house/palitz-gallery.html",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993573,
+          40.752712
+        ]
+      },
+      "properties": {
+        "name": "Saphira & Ventura Gallery",
+        "address": "481 8th Ave Ste 1149, New York, NY 10001",
+        "url": "http://www.saphiraventura.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961953,
+          40.772987
+        ]
+      },
+      "properties": {
+        "name": "The Fridge",
+        "address": "101 E 75th St, New York, NY 10021",
+        "url": "http://www.thefridge.tokyo/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963022,
+          40.77099
+        ]
+      },
+      "properties": {
+        "name": "Shamnoski Gallery",
+        "address": "115 E 72nd St #1B, New York, NY 10021",
+        "url": "https://www.shamnoski.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963022,
+          40.77099
+        ]
+      },
+      "properties": {
+        "name": "Jarrett McCusker",
+        "address": "115 E 72nd St #1B, New York, NY 10021",
+        "url": "https://www.jarrettmccusker.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966288,
+          40.766132
+        ]
+      },
+      "properties": {
+        "name": "Alisan Fine Arts",
+        "address": "120 E 65th St, New York, NY 10065",
+        "url": "http://www.alisan.com.hk/en",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967189,
+          40.770157
+        ]
+      },
+      "properties": {
+        "name": "David Tunick",
+        "address": "13 E 69th St, New York, NY 10021",
+        "url": "https://www.tunickart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966179,
+          40.771458
+        ]
+      },
+      "properties": {
+        "name": "Donald Ryan Gallery",
+        "address": "15 E 71st St #2a, New York, NY 10021",
+        "url": "https://www.donaldryangallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966451,
+          40.771232
+        ]
+      },
+      "properties": {
+        "name": "Sous Les Etoiles Gallery",
+        "address": "16 E 71st St, New York, NY 10021",
+        "url": "http://www.souslesetoilesgallery.net/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969881,
+          40.766816
+        ]
+      },
+      "properties": {
+        "name": "Dai Ichi Arts",
+        "address": "18 E 64th St, New York, NY 10065",
+        "url": "http://www.daiichiarts.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968491,
+          40.768332
+        ]
+      },
+      "properties": {
+        "name": "Richard Saltoun Gallery",
+        "address": "19 Marie Sklodowska Curie Way Fl 3, New York, NY 10065",
+        "url": "https://www.richardsaltoun.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968526,
+          40.768296
+        ]
+      },
+      "properties": {
+        "name": "Evan Beard & Co",
+        "address": "19 Marie Sklodowska Curie Way Fl 4, New York, NY 10065",
+        "url": "https://evan-beard.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960711,
+          40.767424
+        ]
+      },
+      "properties": {
+        "name": "Bellaron Gallery",
+        "address": "219 E 69th St, New York, NY 10021",
+        "url": "https://www.bellarongallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967875,
+          40.76887
+        ]
+      },
+      "properties": {
+        "name": "COLNAGHI",
+        "address": "23 E 67th St 4th Floor, New York, NY 10065",
+        "url": "http://colnaghi.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965173,
+          40.772686
+        ]
+      },
+      "properties": {
+        "name": "D Lan Galleries",
+        "address": "25 E 73rd St, New York, NY 10021",
+        "url": "https://dlangalleries.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969504,
+          40.767921
+        ]
+      },
+      "properties": {
+        "name": "Arte Primitivo-Howard S Rose",
+        "address": "3 E 65th St #2, New York, NY 10065",
+        "url": "http://www.arteprimitivo.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964197,
+          40.772776
+        ]
+      },
+      "properties": {
+        "name": "Level & Co.",
+        "address": "30 E 74th St, New York, NY 10021",
+        "url": "https://www.levelandco.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967409,
+          40.76835
+        ]
+      },
+      "properties": {
+        "name": "Didier Aaron",
+        "address": "32 E 67th St, New York, NY 10065",
+        "url": "http://www.didieraaron.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966856,
+          40.769149
+        ]
+      },
+      "properties": {
+        "name": "Michael Altman Fine Art & Advisory Services",
+        "address": "33 E 68th St, New York, NY 10065",
+        "url": "https://mnafineart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966502,
+          40.769442
+        ]
+      },
+      "properties": {
+        "name": "Adler Beatty",
+        "address": "34 E 69th St 4th Floor, New York, NY 10021",
+        "url": "http://www.adlerbeatty.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963676,
+          40.757968
+        ]
+      },
+      "properties": {
+        "name": "Ashok Jain Gallery",
+        "address": "345 E 56th St Ste 6C, New York, NY 10022",
+        "url": "http://ashokjaingalleryus.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967093,
+          40.768524
+        ]
+      },
+      "properties": {
+        "name": "Henrique Faria Fine Art",
+        "address": "35 E 67th St, New York, NY 10065",
+        "url": "http://www.henriquefaria.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964652,
+          40.772242
+        ]
+      },
+      "properties": {
+        "name": "L'Antiquaire & the Connoisseur",
+        "address": "36 E 73rd St, New York, NY 10021",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963383,
+          40.773207
+        ]
+      },
+      "properties": {
+        "name": "Renelio Studio",
+        "address": "40 E 75th St, New York, NY 10021",
+        "url": "https://renelio.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968088,
+          40.766452
+        ]
+      },
+      "properties": {
+        "name": "Galerie Lefebvre New York",
+        "address": "47 E 64th St #1A, New York, NY 10065",
+        "url": "http://galerielefebvrenewyork.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966847,
+          40.769327
+        ]
+      },
+      "properties": {
+        "name": "Achille Salvagni Atelier",
+        "address": "817 Madison Ave, New York, NY 10065",
+        "url": "https://www.achillesalvagni.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988821,
+          40.735467
+        ]
+      },
+      "properties": {
+        "name": "Talwar Gallery",
+        "address": "108 E 16th St Floor 3, New York, NY 10003",
+        "url": "http://www.talwargallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985004,
+          40.738925
+        ]
+      },
+      "properties": {
+        "name": "Mishkin Gallery",
+        "address": "135 E 22nd St, New York, NY 10010",
+        "url": "http://mishkingallery.baruch.cuny.edu/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999028,
+          40.738052
+        ]
+      },
+      "properties": {
+        "name": "Pratt Manhattan Gallery",
+        "address": "144 W 14th St, New York, NY 10011",
+        "url": "https://www.pratt.edu/events/exhibitions/pratt-manhattan-gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002324,
+          40.73185
+        ]
+      },
+      "properties": {
+        "name": "Jane Hartsook Gallery",
+        "address": "16 Jones St, New York, NY 10014",
+        "url": "https://www.greenwichhouse.org/pottery/jane-hartsook-gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003732,
+          40.731035
+        ]
+      },
+      "properties": {
+        "name": "Morton St. Partners",
+        "address": "16 Morton St Garage, New York, NY 10014",
+        "url": "http://mortonstreetpartners.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993225,
+          40.738569
+        ]
+      },
+      "properties": {
+        "name": "The 8th Floor",
+        "address": "17 W 17th St Fl 8, New York, NY 10011",
+        "url": "http://the8thfloor.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004037,
+          40.728696
+        ]
+      },
+      "properties": {
+        "name": "Stewart Waltzer",
+        "address": "200 W Houston St, New York, NY 10014",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982228,
+          40.73874
+        ]
+      },
+      "properties": {
+        "name": "SVA Gramercy Gallery",
+        "address": "209 E 23rd St, New York, NY 10010",
+        "url": "https://sva.edu/life-at-sva/campus-life/campus-spaces/galleries/gramercy-gallery",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991198,
+          40.737173
+        ]
+      },
+      "properties": {
+        "name": "Gordon Robichaux",
+        "address": "22 E 17th St, New York, NY 10003",
+        "url": "http://www.gordonrobichaux.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994687,
+          40.737089
+        ]
+      },
+      "properties": {
+        "name": "Tibet House US",
+        "address": "22 W 15th St, New York, NY 10011",
+        "url": "https://thus.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982285,
+          40.738275
+        ]
+      },
+      "properties": {
+        "name": "Starta Arta",
+        "address": "220 E 23rd St #401, New York, NY 10010",
+        "url": "https://www.startaarta.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001982,
+          40.736178
+        ]
+      },
+      "properties": {
+        "name": "Revelation Gallery",
+        "address": "224 Waverly Pl, New York, NY 10014",
+        "url": "http://www.stjvny.org/revelation-gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005045,
+          40.732463
+        ]
+      },
+      "properties": {
+        "name": "JHB Galleries",
+        "address": "26 Grove St #4c, New York, NY 10014",
+        "url": "http://www.jhbgallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995948,
+          40.735003
+        ]
+      },
+      "properties": {
+        "name": "Demisch Danant",
+        "address": "30 W 12th St, New York, NY 10011",
+        "url": "http://www.demischdanant.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980478,
+          40.737408
+        ]
+      },
+      "properties": {
+        "name": "Art Haz",
+        "address": "310 E 23rd St, New York, NY 10010",
+        "url": "http://arthaz.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995434,
+          40.737002
+        ]
+      },
+      "properties": {
+        "name": "Fragment gallery",
+        "address": "39 W 14th St #308, New York, NY 10011",
+        "url": "https://fragment.gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009883,
+          40.733413
+        ]
+      },
+      "properties": {
+        "name": "Eli Klein Gallery",
+        "address": "398 West St, New York, NY 10014",
+        "url": "http://galleryek.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990739,
+          40.737146
+        ]
+      },
+      "properties": {
+        "name": "New York Art World",
+        "address": "41 Union Square W, New York, NY 10003",
+        "url": "http://www.newyorkartworld.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993024,
+          40.733083
+        ]
+      },
+      "properties": {
+        "name": "1950 Gallery / Alberto Aquilino",
+        "address": "44 E 11th St, New York, NY 10003",
+        "url": "https://www.1stdibs.com/dealers/delorenzo-1950/?search=delorenzo+1950",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994291,
+          40.739364
+        ]
+      },
+      "properties": {
+        "name": "Ralph Pucci International",
+        "address": "44 W 18th St, New York, NY 10011",
+        "url": "http://www.ralphpucci.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998425,
+          40.73331
+        ]
+      },
+      "properties": {
+        "name": "Moshava Art",
+        "address": "45 W 8th St 2nd floor, New York, NY 10011",
+        "url": "http://moshavaart.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006655,
+          40.73959
+        ]
+      },
+      "properties": {
+        "name": "Fort Gansevoort",
+        "address": "5 9th Ave, New York, NY 10014",
+        "url": "http://www.fortgansevoort.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008433,
+          40.737047
+        ]
+      },
+      "properties": {
+        "name": "Westbeth Gallery",
+        "address": "57 Bethune St, New York, NY 10014",
+        "url": "https://westbeth.org/about/westbeth-gallery/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993772,
+          40.733009
+        ]
+      },
+      "properties": {
+        "name": "Glue Gallery",
+        "address": "64 University Pl retail unit, New York, NY 10003",
+        "url": "https://glueandglue.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006041,
+          40.730277
+        ]
+      },
+      "properties": {
+        "name": "The Future Perfect",
+        "address": "8 St Lukes Pl, New York, NY 10014",
+        "url": "https://www.thefutureperfect.com/locations/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992205,
+          40.737468
+        ]
+      },
+      "properties": {
+        "name": "Fou Gallery",
+        "address": "89 5th Ave Floor 7, Suite 701, New York, NY 10003",
+        "url": "http://fougallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008575,
+          40.738923
+        ]
+      },
+      "properties": {
+        "name": "White Columns",
+        "address": "91 Horatio St, New York, NY 10014",
+        "url": "http://www.whitecolumns.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.002208,
+          40.706957
+        ]
+      },
+      "properties": {
+        "name": "M.FISHER The Seaport Gallery",
+        "address": "106 South St, New York, NY 10038",
+        "url": "https://mfisher.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.017555,
+          40.711302
+        ]
+      },
+      "properties": {
+        "name": "Kim Foster Gallery",
+        "address": "375 S End Ave, New York, NY 10280",
+        "url": "http://www.kimfostergallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918226,
+          40.817711
+        ]
+      },
+      "properties": {
+        "name": "Bronx Documentary Center Annex",
+        "address": "364 E 151st St, Bronx, NY 10455",
+        "url": "https://www.bronxdoc.org/",
+        "borough": "Bronx",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91692,
+          40.818871
+        ]
+      },
+      "properties": {
+        "name": "SCARS&MAKEUP",
+        "address": "390 E 153rd St, Bronx, NY 10455",
+        "url": "",
+        "borough": "Bronx",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960541,
+          40.81039
+        ]
+      },
+      "properties": {
+        "name": "Macy Art Gallery",
+        "address": "525 W 120th St, New York, NY 10027",
+        "url": "https://www.macyartgallery.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.917006,
+          40.818148
+        ]
+      },
+      "properties": {
+        "name": "Mott Haven Art Gallery",
+        "address": "629 Melrose Ave, Bronx, NY 10455",
+        "url": "https://motthavenartgallery.wixsite.com/my-site-1",
+        "borough": "Bronx",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962133,
+          40.777013
+        ]
+      },
+      "properties": {
+        "name": "Rodder",
+        "address": "22 E 80th St 5th Floor, New York, NY 10075",
+        "url": "https://rodder.nyc/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97461,
+          40.791265
+        ]
+      },
+      "properties": {
+        "name": "Ran Art Gallery",
+        "address": "2449 Broadway Bet. 90th and 91st Street, 2447 Broadway, New York, NY 10024",
+        "url": "",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975802,
+          40.78994
+        ]
+      },
+      "properties": {
+        "name": "Joy Schonberg Galleries",
+        "address": "255 W 88th St #9c, New York, NY 10024",
+        "url": "http://www.joyschonberg.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961355,
+          40.765308
+        ]
+      },
+      "properties": {
+        "name": "Disha Dua Art",
+        "address": "265 Marie Sklodowska Curie Way, New York, NY 10065",
+        "url": "http://www.dishadua.com/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96147,
+          40.807634
+        ]
+      },
+      "properties": {
+        "name": "Arthur Ross Architecture Gallery, Columbia GSAPP",
+        "address": "515 W 116th St, New York, NY 10027",
+        "url": "https://www.arch.columbia.edu/exhibitions",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992978,
+          40.766943
+        ]
+      },
+      "properties": {
+        "name": "Gallery MC",
+        "address": "549 W 52nd St, New York, NY 10019",
+        "url": "http://www.gallerymc.org/",
+        "borough": "Manhattan",
+        "last_updated": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968103,
+          40.768474
+        ]
+      },
+      "properties": {
+        "name": "Gallery L'Artelier",
+        "address": "790 Madison Ave #401, New York, NY 10065",
+        "url": "https://www.gallerylartelier.com/exhibitions",
+        "borough": "Manhattan",
         "last_updated": ""
       }
     }

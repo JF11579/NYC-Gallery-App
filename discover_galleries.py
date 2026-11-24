@@ -73,6 +73,12 @@ DISTRICTS = {
     "crownheights":(40.662, -73.960, 40.680, -73.920),
     "bedstuy":    (40.678, -73.958, 40.700, -73.915),
     "sunsetpark": (40.638, -74.025, 40.662, -73.995),
+    # Manhattan gaps between the original boxes, added 11/24:
+    "village":    (40.726, -74.012, 40.742, -73.980),  # Greenwich Village, Flatiron, Union Sq
+    "midtown":    (40.740, -73.997, 40.766, -73.965),  # Midtown, Gramercy, Murray Hill
+    "uws":        (40.765, -73.995, 40.808, -73.955),  # Upper West Side, Lincoln Center
+    "fidi":       (40.698, -74.020, 40.712, -73.995),  # Financial District, Seaport
+    "uptown":     (40.808, -73.965, 40.870, -73.915),  # West Harlem, Hamilton Hts, Wash. Hts
 }
 
 # Buildings that house many galleries. Area searches under-count these (the
