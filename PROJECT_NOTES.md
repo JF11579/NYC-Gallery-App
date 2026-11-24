@@ -105,8 +105,9 @@ from other sites.
 - **11/17:** 10 Brooklyn galleries. Replies: KAJE, Field of Play, The Ritual Division
   (curator will link to us; tips: Gallery 198, Gowanus Dredgers
   boathouse, Judgy Baby opening 2027, Arts Gowanus directory).
-- **11/24:** drafts for 5 galleries with new shows (Krause, Ki Smith, Equity,
-  AMR Art DUMBO, 14BC) + replies to Ritual Division and Field of Play.
+- **11/24 SENT:** 5 galleries with new shows (Krause, Ki Smith, Equity, AMR Art
+  DUMBO, 14BC) + replies to Ritual Division and Field of Play. All 7 went from the
+  personal address, not hello@. Ubu Gallery got a second copy of the 11/17 email.
 - Gallery 198 (198 24th St): Google lists it as an event venue with no hours, so
   the search misses it. Add by hand if it keeps regular walk-in hours.
 
