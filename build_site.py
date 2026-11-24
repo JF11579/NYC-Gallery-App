@@ -28,6 +28,7 @@ STEPS = [
     ("Baking gallery cards into index.html", "render_gallery_html.py"),
     ("Building guide + walking routes", "render_guides.py"),
     ("Publishing weekly digest archive", "render_digest_pages.py"),
+    ("Building holiday hours page", "render_holiday_page.py"),
     ("Building area pages + sitemap", "render_area_pages.py"),
 ]
 

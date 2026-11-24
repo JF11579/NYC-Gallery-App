@@ -175,6 +175,7 @@ def site_footer(current=""):
     links = [
         ("/", "Interactive map"),
         ("/visiting-nyc-galleries.html", "How to visit NYC galleries"),
+        ("/nyc-art-galleries-holidays.html", "Holiday hours"),
         ("/routes/", "Gallery walking routes"),
         ("/new-shows/", "What's new this week"),
         ("/about.html", "About"),

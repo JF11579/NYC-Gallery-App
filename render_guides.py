@@ -488,6 +488,8 @@ def render_guide():
     galleries run reduced summer hours, group shows, or close entirely for part of the
     month. And the season restarts in September, which is when the most ambitious shows of
     the year tend to open.</p>
+    <p>Visiting between Thanksgiving and New Year's? See <a
+    href="/nyc-art-galleries-holidays.html">which galleries are open over the holidays</a>.</p>
 
     <h2>How to plan a first visit</h2>
     <p>Pick one district and walk it. Do not try to cross the city; the galleries cluster

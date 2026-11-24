@@ -686,6 +686,10 @@ def build_sitemap(area_slugs):
     if Path("visiting-nyc-galleries.html").exists():
         urls.append((f"{BASE_URL}/visiting-nyc-galleries.html", "monthly", "0.9"))
 
+    # Seasonal holiday-hours page (Thanksgiving to New Year's).
+    if Path("nyc-art-galleries-holidays.html").exists():
+        urls.append((f"{BASE_URL}/nyc-art-galleries-holidays.html", "daily", "0.9"))
+
     # Walking routes.
     routes_dir = Path("routes")
     if (routes_dir / "index.html").exists():
