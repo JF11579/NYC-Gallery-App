@@ -216,9 +216,11 @@ a bounce. Visitors landing directly on an inner page were never counted at all.
 
 ## Open follow-ups
 
-- [ ] **Push notifications broken since the 10/12 domain move:** OneSignal errors
-      "Can only be used on: https://nyc-gallery-app.netlify.app". Fix in the OneSignal
-      dashboard → Settings → Web configuration → Site URL = https://nycgallerytracker.com.
+- [x] 2026-11-24: push notifications had been broken since the 10/12 domain move
+      (OneSignal Site URL was still the netlify.app address). Fixed in OneSignal →
+      Settings → Push & in-app → Site setup; icon set to /icons/icon-256.png. Verified:
+      no OneSignal error on the live homepage. Old netlify.app subscribers likely need
+      to opt in again.
 
 - [ ] **~2026-10-30:** read GA4 Reports → Engagement → Events with a week of real
       data. What do engaged visitors do? Which galleries/boroughs? Map or list?
