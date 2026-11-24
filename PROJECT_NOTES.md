@@ -62,6 +62,20 @@ to stay. Google's indexing decisions and visitor behaviour are both measuring th
   Places API (New).
 - Follow-up: reply on Reddit with the update and ask what's still missing.
 
+## Holiday hours page (2026-11-24)
+
+`/nyc-art-galleries-holidays.html`: which galleries are open Thanksgiving to New
+Year's, weekday open rates, and galleries within 10 minutes of the Rockefeller tree
+and the holiday markets. Built daily by `render_holiday_page.py` from
+`data/holiday_hours.json`; no API calls in the build.
+
+Google only shows holiday hours 7 days ahead, so **run `python3
+fetch_holiday_hours.py` locally on ~Dec 18-19 (Christmas) and ~Dec 26-27 (New
+Year's)**, then commit + push. One run = ~956 Place Details calls (Enterprise SKU).
+First run: Thanksgiving 112 closed / 0 open; Black Friday 79 closed / 3 open.
+Normal week: open Fri 97%, Thu 96%, Sat 80%, Mon 35%, Sun 29%.
+Indexing requested 11/24. Linked from homepage, footer, visitor guide, sitemap.
+
 ## Google Search Console / indexing
 
 **Property:** `https://nycgallerytracker.com/` (URL-prefix, verified via Google Analytics).
