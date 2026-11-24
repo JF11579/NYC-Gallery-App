@@ -84,12 +84,12 @@
  ],
  "http://allouchegallery.com/": [
   "Join our email list to learn more about upcoming exhibitions.",
-  "Dujour News : Behind the Exhibit: TURN THE LINE",
-  "The Art Newspaper: ‘I painted and painted and painted, and I refound myself’: Sharon Stone on her first solo show",
-  "The New York Times: Gaetano Pesce: ‘One-of-a-Kind Iconic Works, 1967-2015’",
-  "Beautiful Bizarre Magazine: Lori Earley",
-  "Maxim : Sharon Stone Unveils Paintings in her First-Ever Art Exhibit",
-  "The Art Newspaper: Lance De Los Reyes, graffiti artist known as Rambo, has died, aged 44",
+  "Hypebeast: Paul Insect Takes Over Paris’ Allouche Gallery With “There’s More Upstairs” Exhibition",
+  "Hyperallergic : A Portrait of Black Mental Health in Hues of Black and Blue",
+  "Metal Magazine: Machines With Sex Appeal",
+  "PURPLE PRESENTS: AN INTERVIEW WITH ARTIST SISSÒN",
+  "Juxtapoz Magazine: The Eyes Are Everywhere: Paul Insect Can “Seeyou”",
+  "Hyperallergic: Trippy Highlights From LA’s Spring/Break Art Show",
   "New York",
   "Hours"
  ],
@@ -116,6 +116,7 @@
   "Exhibitions",
   "Gwen O'Neil Atlantic Ave",
   "John McAllister some ecstasies enthrall",
+  "Minjung Kim Line of Echo",
   "Focus",
   "Ali Cherri",
   "Today is OK",
@@ -247,6 +248,23 @@
   "Artemest Galleria New York",
   "What they say about us"
  ],
+ "http://arthaz.com/": [
+  "Item added to your cart",
+  "James Rosenquist",
+  "Roger Selchow",
+  "Jean-Franciois Rafaelli",
+  "Alfredo Castaneda",
+  "Norman Bluhm",
+  "Art Worth Discovering",
+  "Collection List",
+  "Paintings",
+  "Drawings and Watercolor",
+  "Prints",
+  "Sculpture",
+  "Books",
+  "Quick Links",
+  "Subscribe to our emails"
+ ],
  "http://artistsspace.org/": [
   "Artists Space"
  ],
@@ -323,13 +341,13 @@
   "Maryanne Amacher: Intelligent Life",
   "Blank Forms Tote Bag: Akio Suzuki (Maroon)",
   "Sonny Simmons: Better Do It Now Before You Die Later",
-  "The Shadow Ring: Wax-Work Echoes",
   "The Shadow Ring: Hold Onto I.D.",
+  "The Shadow Ring: Wax-Work Echoes",
   "Blank Forms 10 : Alien Roots: Éliane Radigue",
   "7038634357 : Waterfall Horizon",
+  "Lippard Arkbro Lindwall: How do I know if my cat likes me?",
   "Ellen Arkbro Nightclouds T-Shirt",
   "Ellen Arkbro: Nightclouds",
-  "Lippard Arkbro Lindwall: How do I know if my cat likes me?",
   "In the Beginning Was the Preface",
   "Florian Hecker: Resynthese FAVN",
   "Spencer Gerhardt: Ticking Stripe",
@@ -459,10 +477,22 @@
   "Info",
   "Subscribe to our newsletter"
  ],
+ "http://clampart.com/": [
+  "Home | Current Exhibition",
+  "Jean Paul Mallozzi-Diaz | Sin pena",
+  "Andy Warhol, Bob Adelman, Christopher Makos, Jimmy DeSana, Meryl Meisler | Other Sides of Andy",
+  "Mark Beard | Mark Beard | Sargeant Showroom—Summer/Autumn 2026",
+  "Recent News Posts",
+  "Recent Press Releases",
+  "Recent Press Coverage",
+  "Recent Publications",
+  "Recent Acquisitions"
+ ],
  "http://collierwest.com/": [
   "Country/region",
   "Collier West",
   "Item added to your cart",
+  "Holiday Hosting Guide",
   "Who We Are",
   "Fine Jewelry",
   "Jadewater Design",
@@ -486,28 +516,79 @@
   "Barloga Studios",
   "Subscribe to our emails"
  ],
+ "http://colnaghi.com/": [
+  "Arie di Teste: Italian Oil Paintings on Paper, 1500–1800",
+  "Feriarte 2026",
+  "Exhibitions",
+  "The Danger of Beauty",
+  "The Order of Things",
+  "Out of the Sand: Ancient Egypt Rediscovered",
+  "Fragments",
+  "In Vino Veritas: The Visual Rhetoric of Wine",
+  "Moving Stillness: Nordic Painting & Drawing from the Late Nineteenth Century to the Early Modern Period",
+  "Leonor Fini: A Practice of Transformation",
+  "Fairs",
+  "Salon Art + Design 2026",
+  "FRIEZE Masters 2026",
+  "TEFAF Maastricht 2026",
+  "Master Drawings New York 2026",
+  "BRAFA 2026",
+  "FERIARTE 2025",
+  "FRIEZE Masters 2025",
+  "Notable Sales",
+  "Mary Magdalene in Ecstasy, c. 1623–5",
+  "Ecce Homo",
+  "The Water Jug",
+  "Portrait of a woman from Guadalajara",
+  "Portrait of a Man from Mexico City",
+  "Biombo with Views of Mexico City",
+  "Portrait Head of a Young Woman",
+  "Virgin of the Immaculate Conception, c. 1690-1706",
+  "Saint Francis",
+  "Christ on the road to Calvary",
+  "Still Life with Quinces, Apples, Azeroles (Hawthorn berries), Black grapes, White grapes, Figs and Pomegranates",
+  "Portrait of José Antonio Caballero, Second Marqués de Caballero, Secretary of Grace and Justice",
+  "The Triumph of Minerva, circa 1655-1660",
+  "Portrait of Carlotta",
+  "View of Givet, on the Meuse, south of Dinant",
+  "Venice: The Piazzetta, Doge’s Palace, Molo and the Riva degli Schiavoni, seen from the Bacino di San Marco",
+  "Piazza San Marco",
+  "Study of a Dromedary, after Gentile Bellini (?)",
+  "Danseuse rajustant son collant",
+  "The Flight of Daedalus and Icarus",
+  "Portrait of a Woman (Aiouch)"
+ ],
  "http://companygallery.us/": [
   "The Sword, the Horse, and the Silence Raúl de Nieves Through Dec 19 2026",
   "Evening was blue Joanne Robertson Through Dec 19 2026",
+  "Upcoming Exhibition",
+  "Estate of Barbara Hammer",
+  "I can’t live with out you",
+  "145 Elizabeth St",
+  "Opens January 14 2027",
   "Recent Press",
   "Nov 11 2026",
   "CULTURED",
   "At Thursday’s Openings in New York, Our Critic Notices Contemporary Artists Are Paired with Their Forebears",
-  "Jun 3 2026",
-  "Cultured Mag",
-  "Farm Equipment on the Lower East Side? Our Critic Investigates a Few Unexpected Art Shows",
-  "May 29 2026",
-  "Who's That",
-  "WHO'S THAT?: Hyd",
-  "May 26 2026",
-  "032c",
-  "The immaterial is my favorite material”: Hyd and Tourmaline in Conversation",
+  "AnOther Magazine",
+  "Our Legacy’s Hidden Tokyo Store Is Full of Surprises",
+  "Nov 10 2026",
+  "Flash Art Magazine",
+  "Reality and Simulation. Tobias Bradford at Our Legacy, Tokyo",
+  "Nov 1 2026",
+  "The New York Times",
+  "Exploring the Joy and Solace of Queer Latino Nightlife",
   "Visit",
   "Contact",
   "Subscribe"
  ],
  "http://crush-curatorial.com/": [
   "Daftar 10 Situs Pkv Games Bandarqq dan Poker QQ Online Terpercaya 2026"
+ ],
+ "http://danielschnur.com/": [
+  "DANIEL SCHNUR",
+  "artwork placement and installation",
+  "-Susan Winberg, Interior Designer, Zoma Design, NYC"
  ],
  "http://dazlart.com/": [
   "James Hamilton,",
@@ -622,6 +703,21 @@
   "10 YEARS OF FIERMAN",
   "ON VIEW THROUGH OCTOBER 31, 2026"
  ],
+ "http://fougallery.com/": [
+  "Upcoming",
+  "I and You",
+  "Ming Wang | Joanne Kim",
+  "December 10, 2026–February 21, 2027",
+  "Upcoming Workshop",
+  "Holiday Flower Wreath & Mulled Wine",
+  "Holiday Sonic Sound Bath and Evening Tea",
+  "Holiday Wagashi Sweets Making",
+  "Past Exhibition",
+  "Synthetic Mobility",
+  "News",
+  "The Victoria and Albert Museum (V&A), London, has acquired works by artists Renqian Yang and Meng Du",
+  "Stay Tuned"
+ ],
  "http://freshwindow.org": [
   "Click here..."
  ],
@@ -652,6 +748,11 @@
   "We will be making these changes live as soon as possible. Thank you for your patience and understanding.",
   "Cookie preferences",
   "Join our mailing list"
+ ],
+ "http://galerielefebvrenewyork.com/": [
+  "Galerie Lefebvre New York",
+  "Paris Art Week : Claude Lalanne's Unique Phoenix and Cabbage Bed, 1996",
+  "Cookie preferences"
  ],
  "http://gallerymaxny.com/": [
   "GALLERY MAX STORY",
@@ -722,6 +823,12 @@
   "Cookie preferences",
   "Join our mailing list"
  ],
+ "http://jadite.com/": [
+  "Hassan Khan",
+  "15 Faces",
+  "Jadite Galleries",
+  "jaditeart@gmail.com"
+ ],
  "http://janetbordeninc.com/": [
   "Janet Borden Inc. is a contemporary art gallery specializing in photography."
  ],
@@ -737,6 +844,9 @@
  ],
  "http://kalinergallery.com/": [
   "Holding On To Nothing Is Not The Same As Letting Go DANA NECHMAD"
+ ],
+ "http://kineticartintl.com/": [
+  "/// Site Under Construction ///"
  ],
  "http://landgallery.org/": [
   "Land Studio & Gallery",
@@ -759,9 +869,9 @@
   "Art Basel Miami Beach 2026",
   "News",
   "Lisson x RCA present Wild Woods Forlorn symposium with John Akomfrah, 26 November",
-  "Leiko Ikemura and Haroon Mirza to Participate in Helsinki Biennial 2027",
-  "Opening in November: Ryan Gander’s ‘Maybe’ at Towner Eastbourne",
-  "Sir John Akomfrah in Conversation at The Courtauld",
+  "Julian Opie Presents ‘EVERYONE/EVERYWHERE’ at the Museum of Art & Photography, Bengaluru",
+  "Tony Oursler and Toby Ziegler ‘The Dream of a Ridiculous Man’ at 10 Heddon Street, London",
+  "Sean Scully’s ‘Tower’ Paintings Made Debut in China during Shanghai Art Week 2026",
   "Films",
   "London",
   "New York",
@@ -834,6 +944,20 @@
  "http://marvinenewman.com/contact/": [
   "Contact"
  ],
+ "http://maryhrbacek.com/": [
+  "Contemporary Art Gallery in NYC Featuring Nature Paintings",
+  "My Contemporary Art Collections",
+  "About Mary Hrbacek",
+  "Nature Painting Art by Mary Hrbacek",
+  "Shaded Shapes",
+  "Digits",
+  "Lake Willoughby Tree God",
+  "The Red Tree",
+  "Contemporary Art Gallery & Exhibitions NYC",
+  "Nature Painting Art Gallery",
+  "Press & Publications",
+  "Contact"
+ ],
  "http://mckenziefineart.com": [
   "Jim Osman A Touch of Space"
  ],
@@ -841,10 +965,10 @@
   "Item added to cart",
   "Home",
   "Current Exhibitions",
-  "seven lakes",
-  "Bloom in the Sunlight, Dream in the Moonlight",
-  "Atrás da superfície",
   "Voice Leading",
+  "Atrás da superfície",
+  "Bloom in the Sunlight, Dream in the Moonlight",
+  "seven lakes",
   "Upcoming Exhibitions",
   "Syotatsu & Kansai Noguchi",
   "Elle s’appelait Clémentine",
@@ -877,9 +1001,18 @@
   "Miguel Abreu Gallery",
   "Scott Lyall",
   "REDS",
+  "Jimmy Raskin's Curio Shop",
+  "Current",
   "Upcoming",
   "Elsewhere",
   "From The Archive"
+ ],
+ "http://mishkingallery.baruch.cuny.edu/": [
+  "MISHKIN GALLERY",
+  "On View",
+  "Digital Guide",
+  "Publications",
+  "Support Us"
  ],
  "http://mitchellalgusgallery.com/": [
   "Mitchell Algus Gallery"
@@ -890,6 +1023,21 @@
   "Fern Apfel and Austin Ballard | Parlor Games",
   "Cookie preferences",
   "Join our mailing list"
+ ],
+ "http://mortonstreetpartners.com/": [
+  "ABOUT",
+  "FOUNDERS",
+  "SERVICES",
+  "Advisory",
+  "Collections Management",
+  "Market Data",
+  "Hours",
+  "Follow",
+  "Morton St. Partners"
+ ],
+ "http://moshavaart.com/": [
+  "On Tradition",
+  "Moshava Art Cohort"
  ],
  "http://mriya.nyc/": [
   "Art Gallery in Tribeca",
@@ -1098,11 +1246,11 @@
  ],
  "http://rcgrossfoundation.org/": [
   "The award-winning Historic Home, studio, and art collections of sculptor Chaim Gross in the heart of Greenwich Village",
+  "An Evening of Music with Duo Devoción: Pauline Kim Harris and Natasha Nelson",
+  "Tuesday, December 15, 7 pm EST",
   "Block Prints for the Holidays",
   "Tuesday, Dec.8 and Wednesday, Dec. 9, 6–7:30 pm EST",
   "Book a House & Studio Tour",
-  "THE CARVER'S ORDER, AN EXHIBITION WITH GEDI SIBONY",
-  "October 1–November 21, 2026",
   "Access program Tactile Transmissions",
   "Fall 2026 Schedule available",
   "Now open: \"Figure/Ground\"",
@@ -1181,6 +1329,12 @@
   "Sign up for our newsletter!",
   "Follow Us"
  ],
+ "http://sommwhere.us/": [
+  "Sommwhere is a creative studio focused on __sublime design. We transform spaces , create meaningful experiences & bring life to objects .",
+  "Instagram",
+  "Shop Wholesale",
+  "Shop Rental Inventory"
+ ],
  "http://spazioamanita.com/": [
   "Now on view",
   "Marco Scarpi: Joker Smoker",
@@ -1241,6 +1395,9 @@
  "http://tathata.io/": [
   "Past"
  ],
+ "http://the8thfloor.org/": [
+  "An Incomplete Archive of Activist Art"
+ ],
  "http://thebishopgallery.com/": [
   "Rampersad: A Decade-Spanning Solo Exhibition Exploring Memory, Loss, and Artistic Alchemy",
   "By King David",
@@ -1294,8 +1451,8 @@
  "http://theclementecenter.org": [
   "featured",
   "NEWS",
-  "EXHIBITIONS",
   "UPCOMING",
+  "EXHIBITIONS",
   "ARCHIVES",
   "Rehearsal Space",
   "Host Your Event",
@@ -1425,7 +1582,7 @@
   "Saved Artworks"
  ],
  "http://www.440gallery.com/": [
-  "Three Days Only: 100 for 100 Sale!"
+  "22nd Annual Small Works Show"
  ],
  "http://www.47canal.us/": [
   "47 CANAL"
@@ -1441,6 +1598,7 @@
   "Join our mailing list"
  ],
  "http://www.56henry.nyc/": [
+  "Ellie Rines Gallery",
   "On View",
   "Al Freeman 46 Walker Street From Behind Through November 25, 2026",
   "Upcoming",
@@ -1529,6 +1687,29 @@
   "Jenkins, Paul",
   "Phenomena Broadway Prism at 42nd Street"
  ],
+ "http://www.albertzbenda.com/": [
+  "Home",
+  "Tony Marsh: Terra Cognita",
+  "Upcoming Exhibitions",
+  "Untitled Art, Miami Beach 2026",
+  "News",
+  "‘It’s going to be bonkers’: In this show, three artists explore their wild inner women",
+  "NGV announces major new Ben Quilty exhibition challenging Australia’s landscape myths",
+  "Ben Quilty’s first New York show takes aim at ‘dark’ America",
+  "Ben Quilty Makes the World Scream in 'Devil/God'",
+  "Red Moons and Lightning Illuminate Sarah Lee’s Uncanny Landscapes",
+  "Spector Craft Prize Announces Inaugural Recipients, Celebrating Excellence in American Craft",
+  "Sharif Bey: Homecoming, The Andy Warhol Museum",
+  "Robert Peterson: Journeys, Hudson River Museum",
+  "Scott Carrillo Azevedo: The American Home - The Broken Promise, Long Beach Museum of Art",
+  "Scott Carrillo Azevedo in I am what is around me, The Aldrich Contemporary Art Museum",
+  "Gamaliel Rodríguez in Imagining an Archipelago: Art from Cuba, Guam, the Philippines, Puerto Rico, and Their Diasporas Colby Museum of Art",
+  "Amy Lincoln: Fractured Light, The Everson Museum of Art",
+  "RISD Museum of Art acquires sculpture by Tony Marsh",
+  "Wichita Art Museum acquires King Me by Scott Carrillo Azevedo",
+  "Block Museum of Art, Northwestern University acquires I LOVE YOU TOO by Joana Choumali",
+  "Cookie preferences"
+ ],
  "http://www.alexandergray.com/": [
   "Home",
   "Steve Locke: I said what I said",
@@ -1571,6 +1752,9 @@
   "Products",
   "Make An Offer"
  ],
+ "http://www.alisan.com.hk/en": [
+  "In the News"
+ ],
  "http://www.aliumeart.com/": [
   "VISIT THE ALIUME ART GALLERY",
   "41 Porter Ave. Brooklyn, New York",
@@ -1607,6 +1791,20 @@
   "CBS \"LIVE IT UP!\"",
   "PARTY PHOTOS",
   "Accessibility"
+ ],
+ "http://www.amyas.net/": [
+  "Recently Posted",
+  "Chamba Iron Torque",
+  "All-Raffia Bamileke Ashetu",
+  "Yoruba Beaded Cap",
+  "Congo Basin Headdress",
+  "In the News",
+  "Amyas Naegele, explorer, dealer, restorer",
+  "Mailing List",
+  "About Us",
+  "Footer",
+  "Contact",
+  "Follow Us"
  ],
  "http://www.antonkerngallery.com/": [
   "Item added to cart",
@@ -1880,6 +2078,8 @@
  "http://www.claireoliver.com/": [
   "Item added to cart",
   "Home",
+  "Thanksgiving Hours:",
+  "We Look Forward to Welcoming You in Harlem",
   "Current Exhibition:",
   "We're Still Here: Quilted Works Curated by Carolyn Mazloomi",
   "New Artist Video:",
@@ -1945,6 +2145,23 @@
  "http://www.courttree.com/": [
   "ARTISTS E XHIBITIONS PURCHASE ART GALLERY MERCH IN STA CONTACT ︎"
  ],
+ "http://www.craigfruchtman.com/": [
+  "Craig Fruchtman",
+  "See NYC",
+  "Through My Eyes",
+  "Experience NYC",
+  "7500 Feet Up",
+  "Fear Of Heights?",
+  "Totally Worth It To Overcome Your Fears!",
+  "Exploring NYC",
+  "With A Fresh Point Of View",
+  "Feel The Mood",
+  "Of A New York City Sunset",
+  "Manhattan Henge",
+  "With A Fresh Perspective",
+  "What If",
+  "NYC Had Mountains"
+ ],
  "http://www.creativebloch.com/": [
   "JOIN THE LIST"
  ],
@@ -1959,6 +2176,10 @@
   "november 5-19, 2026",
   "Newsletter"
  ],
+ "http://www.cueartfoundation.org/": [
+  "Opening Reception : Thursday November 19, 6-8pm [ RSVP ]",
+  "Subscribe"
+ ],
  "http://www.dagworld.com/": [
   "World of Indian Art",
   "Indian Modern Art",
@@ -1968,6 +2189,17 @@
   "EVENTS & ANNOUNCEMENTS",
   "ART DIALOGUE",
   "INSTAGRAM"
+ ],
+ "http://www.daiichiarts.com/": [
+  "Item added to cart",
+  "Home",
+  "The Art of Living",
+  "View all artworks",
+  "Featured Artworks",
+  "Browse all exhibitions",
+  "Past exhibition feature",
+  "Silent Earth",
+  "Cookie preferences"
  ],
  "http://www.daniellecharetteart.com/": [
   "danielle charette art",
@@ -2086,6 +2318,10 @@
   "Fall 2026",
   "The gallery is open 10am - 6pm, Monday - Friday and Saturdays by Appointment"
  ],
+ "http://www.demischdanant.com/": [
+  "2-IMG-Link",
+  "Home-News"
+ ],
  "http://www.denisebibrofineart.com/": [
   "NEWS",
   "ILIYAN IVANOV’S JURIED SHOW “FEAST”",
@@ -2100,6 +2336,16 @@
  "http://www.dfnprojects.com/": [
   "EVENTS, EXHIBITIONS, AND STRATEGIC PLANNING IN SUPPORT OF ARTISTS AND DEALERS"
  ],
+ "http://www.didieraaron.com/": [
+  "ÉVÈNEMENTS",
+  "TEATRO GROTTESCO: DRAWINGS BY OFER JOSEF",
+  "FINE ARTS PARIS",
+  "SALON DU DESSIN 2026",
+  "GALERIES",
+  "Tableaux",
+  "Dessins",
+  "Sculptures"
+ ],
  "http://www.didonna.com/": [
   "Home",
   "Art Basel | Switzerland 2026",
@@ -2108,6 +2354,9 @@
   "Join our mailing list",
   "Cookie preferences",
   "Pace Di Donna Schrader Galleries"
+ ],
+ "http://www.dishadua.com/": [
+  "Disha Dua New York Contemporary Fine Artist"
  ],
  "http://www.donghwaodegallery.com/": [
   "DONGHWA ODE GALLERY",
@@ -2170,6 +2419,40 @@
   "Ward Shelley with Douglas Paulson: Extinction Scenarios",
   "Oct 24 - Dec 5, 2026"
  ],
+ "http://www.friedmanbenda.com/": [
+  "Gallery Exhibition",
+  "Friedman Benda, NY",
+  "Misha Kahn: All Intensive Purposes",
+  "October 29 - December 12, 2026",
+  "Museum Exhibition",
+  "The Design Museum, UK",
+  "The Nue Black Aesthetic",
+  "November 6, 2026 - August 8, 2027",
+  "Design Doha Biennial 2026, Qatar",
+  "The Sower",
+  "November 5, 2026 - January 31, 2027",
+  "Friedman Benda",
+  "What's On",
+  "Design Doha Biennial 2026",
+  "Home of the Future, 1925–1985: Designing Domestic Utopias",
+  "Upcoming Exhibitions",
+  "NGV Triennial 2026",
+  "NEWS",
+  "Brooklyn Museum acquires work by Nicole Cherubini",
+  "Museum of Fine Arts, Houston, acquires work by Erez Nevi Pana",
+  "Museum of Fine Arts, Houston, acquires work by Ettore Sottsass",
+  "Frida Escobedo selected for inclusion in the NGV Triennial 2026",
+  "Najla El Zein selected for inclusion in the NGV Triennial 2026",
+  "Manufactures nationales, Sévres & Mobilier national acquires work by Fernando Laposse",
+  "Editorial",
+  "An Atlas in the Making (2026) by Marco Sammicheli",
+  "Living the Dream (2026) by Glenn Adamson",
+  "Carlo Mollino: An important desk for the Casa Editrice Lattes, Turin, 1951 (2026) by Simon Andrews",
+  "Manifesto of Modernism: Gerrit Rietveld’s ‘Red-Blue Chair’ (2026) by Simon Andrews",
+  "All Together Now (2026) by Glenn Adamson",
+  "Viva Roma! (2026) by Glenn Adamson",
+  "NEWSLETTER"
+ ],
  "http://www.friedrichspontone.com/": [
   "Item added to cart",
   "Home",
@@ -2224,7 +2507,7 @@
   "Home",
   "Paris",
   "New York",
-  "Mildred Thompson: Cosmos Calling",
+  "Magnus Plessen: Théâtre imaginaire",
   "Cookie preferences"
  ],
  "http://www.galeriezurcher.com/": [
@@ -2249,11 +2532,34 @@
   "Art Miami 2026 : AM-122",
   "Cookie preferences"
  ],
+ "http://www.gallerymc.org/": [
+  "Subscribe to our Newsletter"
+ ],
  "http://www.georgebillis.com/": [
   "Mailing List Request"
  ],
  "http://www.gladstonegallery.com/": [
   "Stay in touch"
+ ],
+ "http://www.gordonrobichaux.com/": [
+  "Current",
+  "Janet Olivia Henry Retroactive",
+  "Through January 10, 2027",
+  "Frederick Weston I’m in Here Somewhere",
+  "News",
+  "Press",
+  "Editors’ Selects: November 2026",
+  "Sophie Golub, IMPULSE Magazine",
+  "Nov., 2026",
+  "Parsley, Sage, Rosemary, and Ree",
+  "Nicole Rudick, The New York Review",
+  "Oct., 2026",
+  "Chain Saws and Joy: A Sculptor’s Evolution",
+  "Siddhartha Mitter, The New York Times",
+  "Sept., 2026",
+  "Gordon Robichaux",
+  "Email us",
+  "Follow us"
  ],
  "http://www.gr-gallery.com/": [
   "Buff Monster & TENGAONE: Disorderly Conduct",
@@ -2364,6 +2670,17 @@
   "Send an enquiry",
   "Contact us"
  ],
+ "http://www.halesgallery.com/": [
+  "Home",
+  "Dialogues: Wilhelmina Barns-Graham x Haroun Hayward",
+  "Virginia Jaramillo, Pause in Time",
+  "Gallery News",
+  "Virginia Jaramillo at MoMA PS1",
+  "Shezad Dawood joins Hales",
+  "Wilhelmina Barns-Graham at Tate St Ives",
+  "Cookie preferences",
+  "Join our mailing list"
+ ],
  "http://www.harshcollective.com/": [
   "Day and Night",
   "Thief of Joy"
@@ -2383,11 +2700,12 @@
   "Heft partners with artists who use systems to create meaningful new works.",
   "Artists we've collaborated with"
  ],
+ "http://www.henriquefaria.com/": [
+  "WE'RE MOVING! We look forward to unveiling our new space in 2027!"
+ ],
  "http://www.hesseflatow.com/": [
   "Item added to cart",
   "Home",
-  "sonia louise davis : a promise, a portal, possibility",
-  "SR Lejeune : Hold me up",
   "ON VIEW",
   "sonia louise davis",
   "SR Lejeune",
@@ -2434,12 +2752,7 @@
   "Ancient Greek Helmets: A Complete Guide and Catalog"
  ],
  "http://www.hoffmandonahue.com/": [
-  "New York",
-  "Rafael Delacruz: Angel Station Bus Stopping",
-  "November 12-December 23 2026",
-  "Los Angeles",
-  "Jade Guanaro Kuriki-Olivo (Puppies Puppies): Executive Order 9066 (Soul Consoling Tower)",
-  "November 07-December 23 2026",
+  "Hoffman Donahue's New York and Los Angeles galleries will close on November 25 and reopen December 1.",
   "Join Mailing List"
  ],
  "http://www.hollistaggart.com/": [
@@ -2521,7 +2834,6 @@
  ],
  "http://www.howlarts.org/": [
   "High on Media Fair Warnings From the 80s E.V. Neo-Conceptualists",
-  "Performances by Anni Rossi and Isaac Gerard",
   "Howl! Social",
   "Our Supporting Partners",
   "Howl With Us",
@@ -2679,6 +2991,9 @@
   "Kerry Schuss Gallery",
   "Kerry Schuss Gallery 73 Leonard St NEW YORK, NY 10013"
  ],
+ "http://www.kimfostergallery.com/": [
+  "Online Exhibition"
+ ],
  "http://www.kismithgallery.com/": [
   "MOMENTS IN TIME ++ Gerard Malanga November 21, 2026 - January 3, 2027",
   "Hardcore Diaries Dustin Pittman November 21, 2026 - January 3, 2027"
@@ -2691,6 +3006,10 @@
  ],
  "http://www.kraushaargalleries.com/": [
   "Grid-A"
+ ],
+ "http://www.labouretprivategallery.com/": [
+  "L A B O U R E T P R I V A T E G A L L E R Y",
+  "Lucas Samaras (Kastoria, Gr. 1936 -New York 2024) Untitled, June 11, 1962 pastel on construction paper 12 x 9 inches (30,5 x 23 cm.)"
  ],
  "http://www.lehmannmaupin.com/": [
   "Home",
@@ -2758,6 +3077,10 @@
   "Shape of Land",
   "October 30 - December 12, 2026"
  ],
+ "http://www.marisanewman.com/": [
+  "INK MIAMI 2026",
+  "Fair Hours"
+ ],
  "http://www.markmurray.com/": [
   "EUROPEAN & AMERICAN PAINTINGS 1830-1930",
   "— ESTABLISHED 1992 —",
@@ -2813,7 +3136,13 @@
  ],
  "http://www.masseyklein.com": [
   "Item added to cart",
-  "Massey Klein Gallery",
+  "Artists",
+  "Chrissy Angliker",
+  "Lydia Baker",
+  "Bethany Czarnecki",
+  "Jude Griebel",
+  "Kate McQuillen",
+  "Laura Sallade",
   "Cookie preferences",
   "Join our mailing list"
  ],
@@ -2833,7 +3162,8 @@
   "MARTIN PURYEAR Nexus High Museum of Art Atlanta through January 17, 2027",
   "NAYLAND BLAKE “Haunt”: Being the Folly of One Victorya Spectre Art Omi Ghent, NY through January 10, 2027",
   "CHARLES RAY Fridericianum Kassel through January 3, 2027",
-  "STURTEVANT Eat the Outside to Light Up the Inside Raven Row London through December 20"
+  "STURTEVANT Eat the Outside to Light Up the Inside Raven Row London through December 20",
+  "New York and Los Angeles galleries will close for the Thanksgiving holiday at 3PM on Wednesday, November 25, and reopen with regular hours on Friday, November 27."
  ],
  "http://www.mazlishwrightcontemporary.com/": [
   "Artist Run Gallery In The Heart Of Dumbo, Brooklyn",
@@ -2848,6 +3178,9 @@
   "Hours: Wednesday, Dec 2 - 11am-7pm Thursday, Dec 3 - 11am-7pm Friday Dec 4 - 11am-7pm Saturday Dec 5 - 11am-7pm Sunday Dec 6 - 11am-5pm",
   "LOCATION 195 HENRY STREET NEW YORK, NY 10002",
   "CONTACT INFO@MCBRIDEDILLMAN.COM"
+ ],
+ "http://www.meredithrosengallery.com/": [
+  "Meredith Rosen Gallery"
  ],
  "http://www.michaelrosenfeld.com/": [
   "Michael Rosenfeld Gallery",
@@ -2972,6 +3305,12 @@
   "Online Viewing Room",
   "VISIT OUR SHOP",
   "NOHRA HAIME GALLERY"
+ ],
+ "http://www.nyartconsultant.com/": [
+  "NEW YORK ART CONSULTANT",
+  "Collection Management & Fine Art Advisory",
+  "Subscribe",
+  "(212) 555-0110 • 777 Nameless Ave. New York, NY 00000"
  ],
  "http://www.nyartistsequity.org/": [
   "A community for artists and patrons since 1947",
@@ -3103,6 +3442,17 @@
  "http://www.pelledesigns.com/": [
   "Pelle Home Page"
  ],
+ "http://www.penandbrush.org/": [
+  "Events",
+  "Pen + Brush at InScope Miami 2026",
+  "Katherine Bradford & Deborah Buck in Conversation at Pen + Brush",
+  "Exhibitions",
+  "News & Press",
+  "The Rockefeller Brothers Fund provides grant to Pen + Brush",
+  "The Vilcek Foundation provides grant to Pen + Brush",
+  "Deborah Buck and Katherine Bradford at Pen and Brush",
+  "Michela Martello: Channeling Feminine Energy in New York"
+ ],
  "http://www.peninsulaartspace.com/": [
   "Craig Taylor: Heads and Grids",
   "November 7, 2026 - January 16, 2027 Opening Reception: Saturday, November 7, 6-9 PM Read Press Release Here"
@@ -3121,6 +3471,48 @@
   "Grid-Flex-1",
   "Mailing List"
  ],
+ "http://www.phoenixancientart.com/": [
+  "The “Feuardent” Egyptian Limestone Relief",
+  "Egyptian Faience Figural Support of an Incense Burner or Lamp",
+  "Jupiter-Serapis Bust",
+  "More than 700 expertly curated works of art spanning millennia.",
+  "Works of Art",
+  "Roman Bronze Jupiter-Serapis Bust",
+  "Canosan Terracotta Ganymede and Zeus",
+  "Greek Bronze Pegasus",
+  "Cycladic Marble Idol attributed to the Schuster Sculptor",
+  "Egyptian New Kingdom Basalt Bolti Fish",
+  "Offering antiquities of the highest artistic quality and beauty.",
+  "Affiliations",
+  "The world’s leading dealer in rare and exquisite antiquities.",
+  "Roman Art",
+  "Fairs & Exhibitions",
+  "Salon Art + Design 2019",
+  "Biennale des Antiquaires 2006",
+  "TEFAF New York Spring 2018",
+  "Biennale des Antiquaires 2014",
+  "TEFAF New York Fall 2017",
+  "Greek Art",
+  "Publications",
+  "EPOCH – Eternal Allure – 2025",
+  "Phoenix Ancient Art 2023 / 42",
+  "Phoenix Ancient Art 2022 / 41 – ARGOS: The Dog in Antiquity",
+  "Phoenix Ancient Art 2021 / 40 – Fabulous Monsters",
+  "Viewing Rooms",
+  "The Fate of Troy",
+  "The Ceremony: Ancient Metals and Adornments",
+  "WARRIOR",
+  "Born Of Fire",
+  "The Dawn Of Idols",
+  "Explore our e-commerce galleries.",
+  "e-Tiquities",
+  "Young Collectors",
+  "Share this page",
+  "Subscribe to our newsletter",
+  "Explore our e-commerce galleries",
+  "Phoenix Ancient Art",
+  "Electrum"
+ ],
  "http://www.piperpoet.com/": [
   "piper | poet"
  ],
@@ -3138,6 +3530,13 @@
   "Deity",
   "Grid-A",
   "Grid-B"
+ ],
+ "http://www.projectspace-efanyc.org/": [
+  "SHIFT",
+  "PROJECTS",
+  "PUBLICATIONS",
+  "EFA Project Space",
+  "The Elizabeth Foundation for the Arts - Project Space"
  ],
  "http://www.questroyalfineart.com/": [
   "Featured",
@@ -3199,6 +3598,10 @@
   "Old Master Paintings",
   "19th Century European",
   "ANTIQUE RUGS"
+ ],
+ "http://www.ralphpucci.com/": [
+  "Contact",
+  "Stay updated"
  ],
  "http://www.ramikencrucible.com/": [
   "Subscribe"
@@ -3271,6 +3674,8 @@
  ],
  "http://www.robertmann.com/": [
   "ROBERT MANN GALLERY",
+  "Thanksgiving Hours:",
+  "The gallery will close on Wednesday, November 25 at 4pm. We will resume normal hours Tuesday, december 1.",
   "OCTOBER 29—DECEMBER 12, 2026 PRESS RELEASE | images",
   "on view | JEFF BROUWS: SILENT MONOLITHS",
   "@robertmanngallery",
@@ -3314,6 +3719,43 @@
   "About the Artists",
   "Accessibility Statement"
  ],
+ "http://www.saphiraventura.com/": [
+  "current/UPCOMING EXHIBITIONS",
+  "SAPHIRA & VENTURA",
+  "art",
+  "Design",
+  "ARCHITECTURE",
+  "METAVERSE (SVmeta)",
+  "artist residency",
+  "SVmeta",
+  "Digital & physical Art FOR INTERIOR DESIGN",
+  "Our services",
+  "CAREER MANAGEMENT",
+  "Corporations",
+  "Art & Technology",
+  "Art Services",
+  "Art Investment",
+  "Do you want to participate as an Artist, Corporate Sponsor or Investor (Art Collector)?",
+  "See all events bellow:",
+  "Rio de Janeiro Carnaval: When Art Meets Carnival",
+  "Monastero Di Sant’Erasmo Italy: Artists in Residence",
+  "Innovation on Focus",
+  "New York Exhibition: Artists Love New York",
+  "Bienal Amazônia 2025 | COP30",
+  "Salon of Contemporary & Urban Art",
+  "Miami Basel Week",
+  "Venice Biennale: Side by Side",
+  "Partner with Us",
+  "Sport is Art",
+  "EARTH/TERRA: Harmonizing Art and Sustainability",
+  "New York and International Exhibitions: Paris, London, Venice, Rio de Janeiro, Sao Paulo, and Miami.",
+  "National Museum of Egyptian Civilization: Empower Her - Divine Feminine",
+  "Art at the Top",
+  "International Art Catalog: New York International Contemporary Art Society",
+  "Explore",
+  "Follow us",
+  "Newsletter"
+ ],
  "http://www.scholten-japanese-art.com/": [
   "Rediscovered Treasures: The León Chattah Collection of Modern Japanese Prints",
   "A Private Collection of Shin-Hanga Kabuki Portraits - Part 2",
@@ -3339,6 +3781,8 @@
   "What the Light Becomes",
   "Art Basel Miami Beach 2026",
   "Booth E23",
+  "Brian Rochefort",
+  "Backbone of the Night",
   "Grid-B"
  ],
  "http://www.slaggallery.com/": [
@@ -3436,10 +3880,39 @@
   "News",
   "Shadows of Duality: Anindita Dutta"
  ],
+ "http://www.talwargallery.com/": [
+  "Arpita Singh",
+  "Alwar Balasubramaniam & Ranjani Shettar",
+  "Rummana Hussain",
+  "News"
+ ],
  "http://www.tambaran.com/": [
   "CONTEMPORARY",
   "TRIBAL",
   "TAMBARAN GALLERY"
+ ],
+ "http://www.tanyabonakdargallery.com/": [
+  "Home",
+  "Sandra Cinto: The Path to Stars : Tanya Bonakdar Gallery, New York",
+  "Rita Lundqvist : Tanya Bonakdar Gallery, New York",
+  "CURRENT EXHIBITIONS",
+  "Sandra Cinto: The Path to Stars",
+  "Rita Lundqvist",
+  "EXHIBITIONS WORLDWIDE",
+  "Sarah Sze: Forever is Composed of Nows",
+  "Slavs and Tatars: Mouthfool",
+  "Yuko Mohri: In Concert",
+  "Yuko Mohri: Unviolated Imperfection",
+  "Magali Reus: Swimming by Night",
+  "Mark Manders",
+  "Amalia Pica: Lecturas Posibles",
+  "Shilpa Gupta: One Palm Closer to the Sky",
+  "Tomás Saraceno: Ancestral Futures",
+  "Shilpa Gupta: What Still Holds",
+  "Gillian Wearing: Spiritual Family",
+  "Ernesto Neto: Ba Ka Ba, a Dance of the Eternal Polarities (Ba Ka Ba, uma dança das eternas polaridades)",
+  "Monica Bonvicini: Come Run With Me",
+  "Cookie preferences"
  ],
  "http://www.tanyaweddemiregallery.org/": [
   "INSCOPE 2026",
@@ -3498,6 +3971,9 @@
   "exhibitions 2026",
   "Artist Virtual Consultation or Critique"
  ],
+ "http://www.theresabyrnes.com/": [
+  "hug your mother"
+ ],
  "http://www.thomaserben.com/": [
   "Olivia Reavey: Distension (Works)",
   "Selected Works",
@@ -3508,6 +3984,56 @@
   "Reviews",
   "Inquire",
   "Newsletter Subscription"
+ ],
+ "http://www.tinakimgallery.com/": [
+  "Item added to cart",
+  "Home",
+  "Kim Tschang-Yeul: Recurrence",
+  "Institutional Exhibitions",
+  "Mire Lee: Vomit My Blessing",
+  "Suki Seokyeong Kang: Mountain—Hour—Face",
+  "RM x SFMOMA: Between You and Me",
+  "true names | Pacita Abad",
+  "Ha Chong-Hyun: Retrospective",
+  "Ghada Amer. Sculpture Since 1991",
+  "Imagining an Archipelago | Pacita Abad",
+  "Womb of Time",
+  "If the word we | Chung Seoyoung",
+  "News",
+  "The Must-See Shows at Amsterdam Art Week 2026",
+  "Your Guide to U.S. Museum and Gallery Openings This Fall",
+  "Maia Ruth Lee Invites Us to Embody the Interval",
+  "Ha Chong-Hyun, Without the Monochrome",
+  "10 Art Shows to See in the Bay Area This Fall",
+  "7 Shows to See During Armory Art Week 2026",
+  "9 Artists Who Shaped Korea's Dansaekhwa Movement",
+  "In Her New Show, Artist Maia Ruth Lee Unpacks a Life in Transit",
+  "Publications",
+  "The Making of Modern Korean Art",
+  "Ha Chong-Hyun",
+  "Kibong Rhee",
+  "Tania Pérez Córdova",
+  "Ghada Amer",
+  "Pacita Abad",
+  "The Unseen Professors",
+  "Dansaekhwa",
+  "Media",
+  "Celebrating Ha Chong-Hyun",
+  "Dear Suki: A Gathering of Poetry and Music",
+  "The Calling of Home",
+  "Vintage20: Design for Living",
+  "Jordan Carter’s Guide to Chelsea NYC",
+  "Maia Ruth Lee: The Conveyor",
+  "Hyundai Commission: Mire Lee: Open Wound",
+  "Pacita Abad: Underwater Wilderness"
+ ],
+ "http://www.tournegallery.com/": [
+  "Just added to your cart",
+  "FEATURED ARTISTS",
+  "FAIRS",
+  "INSCOPE",
+  "EXHIBITIONS",
+  "ARTISTS"
  ],
  "http://www.tower49gallery.com/": [
   "Tower 49 Gallery"
@@ -3544,6 +4070,13 @@
   "Bianca Beck",
   "Sheree Hovsepian",
   "Join Our Mailing List"
+ ],
+ "http://www.vallarinofineart.com/": [
+  "Home",
+  "RECENT ACQUISITIONS",
+  "VFA Catch & Release: Episode #1",
+  "Cookie preferences",
+  "Join our mailing list"
  ],
  "http://www.vanderplasgallery.com/": [
   "Current:",
@@ -3607,13 +4140,15 @@
   "Cookie preferences"
  ],
  "http://www.whitecube.com/": [
-  "Louise Giovanelli",
+  "Anselm Kiefer",
   "Doris Salcedo, New York (2026)",
-  "Theaster Gates, Seoul (2026)",
-  "Zhang Yunyao, Hong Kong (2026)",
-  "Tracey Emin, Paris (2026)",
+  "Louise Giovanelli In the Light of False Suns",
+  "Theaster Gates African Still Life",
+  "Tracey Emin I will miss you Yesterday I will miss you Today I will miss you Tomorrow And that’s how it will Always be",
+  "Zhang Yunyao When the Surface Thinks",
   "Minoru Nomata, Lithographs 1988–1998",
   "Isamu Noguchi at Lever House",
+  "Gift Guide",
   "Julie Mehretu",
   "Newsletter",
   "Firenze Lai",
@@ -3841,15 +4376,33 @@
   "Home",
   "Subscribe to Atlantic Gallery"
  ],
+ "https://boccara.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-ny": [
+  "Explore our Collections",
+  "This Month’s Highlights",
+  "Boomerangs",
+  "Minerve",
+  "Du fond du cœur",
+  "About BOCCARA",
+  "Art fairs around the world",
+  "Boccara Gallery at Art Miami 2026",
+  "Boccara Gallery at Design Miami 2026 – Ron Agam’s First Aubusson Tapestry",
+  "Boccara Gallery at Design Miami. Paris 2026",
+  "Instagram",
+  "INFORMATIONS",
+  "NEWS",
+  "Collections",
+  "Workshops",
+  "CONTACT & VISIT"
+ ],
  "https://bonnerdavid.com/": [
   "Item added to cart",
   "Exhibitions",
-  "Unspoken Agreement: new Shona sculptures",
   "Max Hammond",
   "Quim Bové",
   "Milt Kobayashi",
   "Kevin Box",
   "Jane Jones",
+  "Max Hammond & John Schieffer",
   "Featured Artists",
   "Ron Hicks",
   "Hunt Slonem",
@@ -3929,6 +4482,9 @@
   "New York",
   "Los Angeles"
  ],
+ "https://ccjasper.nyc/": [
+  "Death is a Door"
+ ],
  "https://centerforartandadvocacy.org/": [
   "Center for Art and Advocacy",
   "Empowering creativity that challenges the limits of incarceration.",
@@ -3960,9 +4516,9 @@
   "Maggie Ellis : Chaos Bewitched",
   "Bari Ziperstein : The Right Pair",
   "In the News",
-  "Melissa Joseph: Casserole Culture",
+  "Maggie Ellis Finds Freedom in the Absurd",
+  "Something Strange at Maggie Ellis’s Thanksgiving Table",
   "In “Casserole Culture,” Melissa Joseph Redraws the Geography of Home",
-  "Family Memories and Midwestern Niceties Converge in Melissa Joseph’s ‘Casserole Culture’",
   "Get In Touch",
   "Email",
   "Location",
@@ -3981,9 +4537,9 @@
  ],
  "https://clic.com/": [
   "Clic",
-  "Thoughtful pieces for a season of gratitude",
-  "The BMC cOLLECTION",
-  "MAISON DE VACANCES"
+  "Explore our Selections",
+  "MAISON DE VACANCES",
+  "The BMC cOLLECTION"
  ],
  "https://concordiastudio.co/artshow/": [
   "Kingroyal SON Giriş, KingroyalSite Bağlantısı ve Kingroyal Erişim Linki",
@@ -4191,6 +4747,11 @@
   "Cartier Belle Epoque Pearl and Diamond Ear Pendants",
   "Seed Pearl and Diamond Bracelet"
  ],
+ "https://flohaus.nyc/": [
+  "Eunha Kim: Are We Home Yet?",
+  "Subscribe",
+  "FLOHAUS"
+ ],
  "https://fluxfactory.org": [
   "Current",
   "Upcoming",
@@ -4200,6 +4761,12 @@
   "Artist Talk: Wallace dos Santos",
   "Your Kunst Is Your Waffle",
   "Analogue STAT (Sculpture/Text/Assemblage/Tactility)"
+ ],
+ "https://fragment.gallery/": [
+  "Fragment is a contemporary art gallery based in New York since October 2021. The gallery is committed to supporting and empowering artists from marginalized communities.",
+  "NADA Miami 2026 : Michael Rikio Ming Hee Ho and Li Wang",
+  "Cookie preferences",
+  "Join our mailing list"
  ],
  "https://gagosian.com/locations/west-24th/": [
   "555 West 24th Street, New York",
@@ -4249,6 +4816,42 @@
   "New Venue. New Show.",
   "Follow us on social",
   "Subscribe"
+ ],
+ "https://gambit-works.com/": [
+  "BIG GIRL a solo show by",
+  "Lautaro Cuttica",
+  "PRIOR EXHIBITIONS",
+  "Join our email list to be notified of upcoming exhibitions, concerts, and events.",
+  "CONTACT GAMBIT",
+  "VISIT GAMBIT GALLERY",
+  "1155 6TH AVENUE, NEW YORK, NEW YORK"
+ ],
+ "https://gazelliarthouse.com/": [
+  "Item added to cart",
+  "Home",
+  "Harold Cohen : Painting About Representation (1962–71)",
+  "Allen Jones : In Town Tonight",
+  "Group Show : Everything Folds, Unfolds, Refolds",
+  "Lily Bunney",
+  "Harold Cohen: Painting About Representation (1962–71)",
+  "Allen Jones: In Town Tonight",
+  "Recent News",
+  "Announcing representation of the Lilly Fenichel Foundation",
+  "Times Square | Memo Akten, Brendan Dawes & Jake Elwes",
+  "In the studio | Kalliopi Lemos",
+  "Recent Publications",
+  "Pauline Boty",
+  "Harold Cohen",
+  "Aziz + Cucher 1992—2022: XXX",
+  "Prints & Editions",
+  "Locations",
+  "London",
+  "New York",
+  "Baku",
+  "GAZELL.iO",
+  "Join our mailing list",
+  "Categories *",
+  "Cookie preferences"
  ],
  "https://gpgallery.com/": [
   "Main Navigation",
@@ -4381,6 +4984,20 @@
   "Quick links",
   "Media inquiries"
  ],
+ "https://houseofgul.com/": [
+  "Your Cart",
+  "The 1 Creative Studio 2 Artistic Practice & 3 Production House of A li G odil",
+  "CONTACT",
+  "CONTRIBUTORS",
+  "PRESS",
+  "SUMMARY",
+  "TESTIMONY",
+  "SHOP",
+  "House of Gul Essential Tote Bag",
+  "Allah Poster",
+  "Blössom Poster",
+  "See All Products"
+ ],
  "https://howardnowes.com/?utm_source=google&utm_medium=gbp&utm_campaign=profile": [
   "Currency",
   "Art for Eternity",
@@ -4506,6 +5123,18 @@
   "Email",
   "Cart (0)"
  ],
+ "https://jazzfestgallery.com/": [
+  "Currency",
+  "The jazz scene seen as never before.",
+  "Smooth 'n Easy Prices",
+  "Portfolio 2025",
+  "Prints by Category",
+  "Curated Collections",
+  "Winter 2025 Collections",
+  "NYC Jazz Map",
+  "Subscribe",
+  "C'mon Fly with Us."
+ ],
  "https://jjmurphygallery.com/": [
   "Kyle Staver",
   "Nonetheless"
@@ -4527,6 +5156,9 @@
   "Board & Staff",
   "Contact info@kaje.world",
   "Location 74 15th Street Brooklyn, NY 11215"
+ ],
+ "https://kevinkramergallery.com/": [
+  "Past Exhibitions"
  ],
  "https://kiangmalingue.com": [
   "Home",
@@ -4611,6 +5243,12 @@
   "About this account",
   "More from Linktree"
  ],
+ "https://luxembourgco.com/": [
+  "Home",
+  "Mira Schendel : In transit",
+  "I OBJECT : Hannah Wilke and Her Surrealist Counterparts",
+  "Cookie preferences"
+ ],
  "https://luzart.com/": [
   "LUZ Exhibitions:",
   "International Fine Art Fund 501C3 “LUZ ART”",
@@ -4623,6 +5261,15 @@
  "https://management.nyc/": [
   "Management",
   "Beatriz Zamora: The Lost Works"
+ ],
+ "https://marcstraus.com/": [
+  "Home",
+  "On View Now",
+  "Josh Cloud",
+  "Gisela McDaniel",
+  "Roy Lichtenstein and Jasper Johns: Early Prints",
+  "Join our mailing list",
+  "Subscribe"
  ],
  "https://marianneboeskygallery.com/": [
   "Home",
@@ -4673,6 +5320,10 @@
   "January 15 - February 21, 2026",
   "— Artforum Link"
  ],
+ "https://mfisher.com/": [
+  "Discover Work",
+  "The Seaport Gallery"
+ ],
  "https://minanomi.com/": [
   "Mina Nomi Contemporary"
  ],
@@ -4683,6 +5334,16 @@
   "Best of Lighting — ICFF Launch Pad 2026",
   "0 Products",
   "Your cart is empty"
+ ],
+ "https://mnafineart.com/": [
+  "Masterpieces from the 19th and 20th Centuries",
+  "Exhibitions",
+  "Church and Rothko: Sublime",
+  "In Pursuit of Timeless Quality",
+  "Winslow Homer: An Exhibition of Paintings, Drawings, and Watercolors",
+  "John Singer Sargent: An Exhibition of Over Forty Paintings, Drawings, and Watercolors",
+  "An Artist's Legacy and a Dealer's Admiration: Paintings by Sanford Robinson Gifford from Important American Collections",
+  "Frederic Edwin Church: Romantic Landscapes and Seascapes"
  ],
  "https://moonigallery.com/": [
   "Your cart -",
@@ -4714,6 +5375,53 @@
   "INFO",
   "GALLERY",
   "FOLLOW US"
+ ],
+ "https://motthavenartgallery.wixsite.com/my-site-1": [
+  "The Mott Haven Art Gallery",
+  "Experience Artistry",
+  "About Us",
+  "See It All",
+  "Contact Us"
+ ],
+ "https://myartdealer.com/": [
+  "Your cart is empty",
+  "Your cart",
+  "Estimated total",
+  "Joseph Pennell",
+  "Albert W. Barker",
+  "World",
+  "New Additions",
+  "Battle of Shiloh.",
+  "Nauvoo (Mississippi)",
+  "Ludolph Schrader, Professor of Law.",
+  "Little Nellie.",
+  "Little Charlie, : \"The Prize Boy.\"",
+  "Browse the collection",
+  "16th & 17th Century Subjects",
+  "Old Maps",
+  "18th & 19th Century Subjects",
+  "20th Century Subjects",
+  "Contemporary",
+  "Staff Picks",
+  "Red and Yellow Jacobins",
+  "Butterflies and Moths from Seba’s Locupletissimi Rerum Naturalium Thesauri",
+  "Susan Pyzow — American Wing (2006)",
+  "MEET OUR ARTISTS",
+  "Su-Li Hung",
+  "Susan Pyzow",
+  "Karen Whitman",
+  "Emily Trueblood",
+  "Ellen Nathan Singer",
+  "News & events",
+  "DeAnn Prosia: Watercolors and Prints",
+  "Marshall Berkoff Collection",
+  "The Capital Art Fair returns",
+  "Art Students League Printmaking Portfolio 2025",
+  "Subscribe to our emails",
+  "General Links",
+  "My Art Dealer",
+  "Opening Hours",
+  "FOLLOW US ON"
  ],
  "https://nararoesler.art/en/": [
   "Nara Roesler",
@@ -4764,6 +5472,13 @@
   "Intersect Aspen 2023",
   "Timothy Schmitz and Michael Schultheis",
   "Margeaux Walter | Don't Be A Square"
+ ],
+ "https://nyc.syr.edu/about/lubin-house/palitz-gallery.html": [
+  "Palitz Gallery",
+  "Louise and Bernard Palitz Gallery",
+  "Featured Exhibition",
+  "“And she had a pose that was fascinating”: Harriet Whitney Frishmuth’s Models and Sculptures October 7, 2026 – February 4, 2027",
+  "Palitz Gallery Press Room"
  ],
  "https://paceprints.com/": [
   "Adam Pendleton : Voices",
@@ -4914,6 +5629,9 @@
   "About Pleiades Gallery",
   "Sign Up For Pleiades Gallery News!"
  ],
+ "https://polinaberlingallery.com/": [
+  "Casey Bolding Dust Collector November 18, 2026 - January 16, 2027"
+ ],
  "https://privycreativestudios.com/": [
   "DORSIA x LUCALI",
   "Kyle'Lyk",
@@ -4945,6 +5663,10 @@
   "Reviews",
   "Send a Message",
   "Contact Us"
+ ],
+ "https://renelio.com/": [
+  "Scorched Palm Tree",
+  "This website uses cookies."
  ],
  "https://royalegalleries.com/": [
   "Royale Galleries Inc.",
@@ -4989,6 +5711,12 @@
   "VIEW AVAILABLE WORKS ON ARTSY",
   "Cookie preferences"
  ],
+ "https://russianicon.com/": [
+  "Collection Catalog",
+  "Icons Collection",
+  "About Us",
+  "Latest News"
+ ],
  "https://rwguildgalleryny.com/": [
   "Shopping Bag",
   "Summary",
@@ -4998,6 +5726,14 @@
   "Recent",
   "CASEY ZABLOCKI",
   "HITOSHI MORIMOTO"
+ ],
+ "https://sarasgallerycollections.com/": [
+  "Sara’s gallery collections",
+  "Item added to your cart",
+  "Discover Unique Pieces for Every Occasion",
+  "Explore New Perspectives of Life on Our Store!",
+  "Expand Your Collection with Must-Have Additions!",
+  "Email"
  ],
  "https://schoelkopfgallery.com/": [
   "Schoelkopf Gallery",
@@ -5029,10 +5765,10 @@
   "Estimated total",
   "Country/region",
   "BALL MAKING KIT: Holiday's Edition",
-  "NEW WORKSHOPS & EVENTS",
-  "12.5 - Aheneah | Bobbin Lace Sculptural Jewelry",
+  "UPCOMING WORKSHOPS & EVENTS",
   "12.2 & 5 - Aheneah | Vintage Fabrics & Biomaterials",
-  "11.22 - SIENNA MARTZ | Soft Sculpture",
+  "12.5 - Aheneah | Bobbin Lace Sculptural Jewelry",
+  "12.13 - CASSANDRA MAYELA | Intuitive Weaving: Textile Lamp",
   "An ongoing curatorial project exploring the many possible futures of a private archive of 632 wool skirts spanning the 1940s through the 1990s. A selection of vintage skirts is available online.",
   "The real surreal world of Sol Pardo, brought to life through art, craft, and collectible design. Discover hand-painted textiles, objects, ceramics, and one-of-a-kind collaborations.",
   "VISIT US",
@@ -5053,6 +5789,9 @@
   "SKEWVILLE: 237 STARR ST. BROOKLYN NY 11237",
   "STAY IN THE LOOP FOR UPCOMING EVENTS"
  ],
+ "https://slip-house.com/": [
+  "slip-house.com"
+ ],
  "https://sorrelsky.com/": [
   "Item added to your cart",
   "Contact Us",
@@ -5065,6 +5804,7 @@
   "Newsletter"
  ],
  "https://southernguild.com/": [
+  "Art Basel Miami Beach 2026",
   "Rien n’est inerte (Nothing Is Inert)",
   "Malome",
   "Monomyths",
@@ -5124,6 +5864,19 @@
   "Reach Out",
   "Connect"
  ],
+ "https://sva.edu/life-at-sva/campus-life/campus-spaces/galleries/gramercy-gallery": [
+  "Undergraduate",
+  "Watch",
+  "Graduate",
+  "SVA Newsletters",
+  "Continuing education",
+  "Gramercy Gallery",
+  "Discover Our Instagram",
+  "School of Visual Arts",
+  "Jump In",
+  "Reach Out",
+  "Connect"
+ ],
  "https://tappetovolantegallery.com/": [
   "Cameo",
   "Nora Riggs Solo Show"
@@ -5175,6 +5928,44 @@
   "THROCKMORTON FINE ART",
   "You have Successfully Subscribed!"
  ],
+ "https://thus.org/": [
+  "TASHI DELEK!",
+  "Event Calendar",
+  "November",
+  "The Three Principal Stages of the Buddhist Path: Lam Rim",
+  "Vajra Yoga: Yoga Instruction From The Indo-Tibetan Traditions",
+  "Daily Lunchtime Meditation",
+  "Monthly Buddhist Teachings",
+  "December",
+  "Bob’s Buddhism: Pop-Up Series Celebrating the Brilliance of Robert Thurman’s Buddhism | Buddhist Psychology Bob",
+  "Bardo: Afterlife & Reincarnation",
+  "Here In The Floating World: Qigong And Lojong",
+  "Sound Meditation",
+  "Vajra Yoga: New Moon Yoga Nidra",
+  "Bob’s Buddhism: Pop-Up Series Celebrating the Brilliance of Robert Thurman’s Buddhism | Tantric Bob",
+  "Fire – Subtle Body Work: Ending a Cycle, Welcoming the New",
+  "Tangka Painting and Meditation: An Introduction to Sacred Geometry & Presence",
+  "ASM Sound Bath with Sara Auster & Alex Falk",
+  "Bob’s Buddhism: Pop-Up Series Celebrating the Brilliance of Robert Thurman’s Buddhism | Bob’s Tibetan Medicine and Psychiatry",
+  "Vajra Yoga: Lunar Yoga Nidra for the Winter Solstice",
+  "January 2027",
+  "Bracelet Mala Making, Mantra & Sound Meditation",
+  "The Legacy of Mongolia's Last King: The 8th Jetsundamba",
+  "The Art and Yoga of Dreaming",
+  "February 2027",
+  "Cultivating Emotional Balance: 42-Hour Training",
+  "NEWS / NOTICES",
+  "Tibet House US will be closed Thurs, Nov 26-Sun, Nov 29",
+  "Nov 19: Dr. David Kittay at Glastonbury Abbey: “Faith in Faith – In Heaven and Earth”",
+  "Michael Douglas Supported by Son Dylan, 26, and Daughter Carys, 23, as He Receives the 2026 Art of Freedom Award",
+  "Tenzin Choegyal & Martha Mooke to Perform Live at the Art of Freedom Gala NOV 4th",
+  "Tibet House US Partners with Nicholas Films to Co-Produce The Third Pole Documentary Series",
+  "Visit & Contact",
+  "Programs & Gallery",
+  "About & Support",
+  "Resources",
+  "Ⓒ 2026 - Tibet House US - All Rights Are Reserved"
+ ],
  "https://timetobehappy.com/": [
   "TIME TO BE HAPPY",
   "The Art Gallery",
@@ -5194,8 +5985,33 @@
   "Privacy Preference Center",
   "Privacy Preferences"
  ],
+ "https://villageoneart.com/": [
+  "Gentle Giants",
+  "Be the First to Know",
+  "Past Exhibitions",
+  "Represented Artists",
+  "Company",
+  "JOIN OUR NEWSLETTER"
+ ],
  "https://voltzclarke.com/": [
   "Voltz Clarke Gallery"
+ ],
+ "https://westbeth.org/about/westbeth-gallery/": [
+  "Westbeth Gallery",
+  "General Information:",
+  "Westbeth Gallery Exhibitions",
+  "2024 Westbeth Gallery Guidelines",
+  "CONNECT",
+  "CONTACT",
+  "SOCIAL",
+  "ABOUT",
+  "VENUE INFORMATION",
+  "ARCHIVES",
+  "PRESS",
+  "DONATE",
+  "ARTISTS",
+  "CULTURAL ORGANIZATIONS AT WESTBETH",
+  "MORE INFORMATION ABOUT WESTBETH"
  ],
  "https://woodwardgallery.net/": [
   "Margaret Morrison​ – Antiques: A Solo Exhibition of Monumental Paintings",
@@ -5214,6 +6030,35 @@
  "https://wp.nyu.edu/gallatingalleries/": [
   "Current Exhibition",
   "Stacy Kranitz: Ain’t No Grave Gonna Hold My Body Down"
+ ],
+ "https://www.1stdibs.com/dealers/delorenzo-1950/?search=delorenzo+1950": [
+  "About 1950",
+  "Featured Pieces",
+  "21st Century and Contemporary Pakistani Central Asian Rugs",
+  "Hand Knotted Wool Rug",
+  "21st Century and Contemporary Pakistani Modern Western European Rugs",
+  "Wool Rug",
+  "Mid-20th Century French Mid-Century Modern Wall Lights and Sconces",
+  "Serge Mouille Pair of Wall Lights",
+  "Mid-20th Century Indian Mid-Century Modern Chairs",
+  "Pierre Jeanneret, 1958 Single Armed Chair",
+  "20th Century Indian Mid-Century Modern Daybeds",
+  "Pierre Jeanneret De-Mountable Daybed with Headrest, Circa 1956",
+  "2010s Ceramics",
+  "Ceramic Large Bowl",
+  "21st Century and Contemporary French Coffee and Cocktail Tables",
+  "Marianne Vissiere, Ceramic Coffee Table with Planter",
+  "20th Century French Desks and Writing Tables",
+  "Le Corbusier Desk / Table",
+  "Late 20th Century French Books",
+  "Jean Prouve Book",
+  "Antique 19th Century American Books",
+  "Jean Prouve/Serge Mouille Book",
+  "Mid-20th Century Indian Chairs",
+  "Pierre Jeanneret, Chair with Single Arm",
+  "Vintage 1970s French Abstract Sculptures",
+  "Guy Lartique, 1973 Sculpture",
+  "More About 1950"
  ],
  "https://www.205hudsongallery.org/": [
   "On View Through February 6th, 2027:",
@@ -5272,6 +6117,13 @@
   "Other Stories - A Genealogy for the Present",
   "Join Our Mailing List"
  ],
+ "https://www.alisonbradleyprojects.com/": [
+  "ALISON BRADLEY PROJECTS",
+  "INSTAGRAM",
+  "DIRECTIONS",
+  "INQUIRIES",
+  "COPYRIGHT © ALISON BRADLEY PROJECTS"
+ ],
  "https://www.alliedproductions.org/": [
   "Leslie Lowe: Mystic in the Making, Nov 2-29 at Allied Project Space, 368 East 8th St. NYC",
   "Ethan Shoshan: For Those Without A Tribe, Nov 17 - Jan 3 at Flux IV, 56-21 2nd Street, LIC",
@@ -5301,6 +6153,19 @@
   "CURRENT: /virtu.all",
   "THINGS WE DO EVERYDAY"
  ],
+ "https://www.altowaimage.com/": [
+  "YOUR DAILY DOSE OF OCEAN",
+  "Large Format Ocean Photography & Wall Art | New York City",
+  "IMAGES FROM THE SEA",
+  "WALL ART COLLECTIONS",
+  "INTENSITY COLLECTION",
+  "MONOCHROME COLLECTION",
+  "ELEMENTAL COLLECTION",
+  "INSTALLATIONS",
+  "MICRODOSES",
+  "NYC GALLERY",
+  "WHAT PEOPLE SAY"
+ ],
  "https://www.amrartdumbo.com/": [
   "Saltwater Taffy",
   "Catholic Girl"
@@ -5309,6 +6174,9 @@
   "George Negroponte",
   "EVERYTHING I KNOW",
   "Through December 19"
+ ],
+ "https://www.arch.columbia.edu/exhibitions": [
+  "Exhibitions"
  ],
  "https://www.archivegallery.com/": [
   "Illuminated Archival Lightboards ™ featuring original photographs from the Bob Guccione archive.",
@@ -5410,6 +6278,9 @@
   "Tierra Mojada's review of:",
   "Marykate O'Neil: BFF's Real and Imaginary"
  ],
+ "https://www.bronxdoc.org/": [
+  "The Foundations of Photojournalism"
+ ],
  "https://www.bronxmuseum.org": [
   "The Bronx Museum First Friday December 2026: Winter Holiday Market",
   "The Bronx Museum Teen Night: Free Art-Making Led By Teen Council",
@@ -5467,7 +6338,8 @@
  ],
  "https://www.cycolgallery.com/": [
   "CYCOL 2.0",
-  "Coming Soon",
+  "On View",
+  "UNMADE",
   "Limited Edition Print",
   "Meet the Artist:",
   "Bisco Smith"
@@ -5508,13 +6380,21 @@
  ],
  "https://www.davidzwirner.com/": [
   "David Zwirner: New York, Los Angeles, London, Paris and Hong Kong Galleries",
-  "Yoshitomo Nara",
+  "Rose Wylie",
+  "Napoleon and Wild Flowers",
   "Currently on View",
   "Museum Highlights",
   "Recent Press Highlights",
   "Online Exhibitions",
   "Latest Podcast Episodes",
   "Locations"
+ ],
+ "https://www.dobrinkasalzman.com/": [
+  "DOBRINKA SALZMAN GALLERY",
+  "DOBRINKA SALZMAN GALLERY | 532 W 25TH ST NYC 10001 | Tues-Sat: 11-5pm | 917-572-9476 | gallery@dobrinkasalzman.com"
+ ],
+ "https://www.donaldryangallery.com/": [
+  "Subscribe to our newsletter"
  ],
  "https://www.dorsky.org": [
   "Contact Us: info@dorsky.org",
@@ -5679,12 +6559,12 @@
  "https://www.galleryapspace.com/": [
   "Social",
   "Exhibitions",
+  "Collector's Review 2026 November",
   "LEE JIN HYU",
   "Collectors' Review 2026",
   "Design determination",
   "YOO CHOONG MOK",
   "MURRAY HOCHMAN",
-  "Alexander Varvaridze",
   "Artists",
   "Press",
   "Great Abstract and Abstract-Adjacent Exhibitions Around New York",
@@ -5701,6 +6581,23 @@
   "Stories",
   "Videos",
   "Follow Us"
+ ],
+ "https://www.gallerylartelier.com/exhibitions": [
+  "Exhibitions",
+  "CONTEXT Art Miami",
+  "The Shape of Light",
+  "Hampton Art Fair",
+  "Gallery Opening Party"
+ ],
+ "https://www.gallerymarie.com/": [
+  "Gallery Marie",
+  "Current Exhibition",
+  "Making Art Reach Infinite Eyes",
+  "137 W 25th St. New York NY"
+ ],
+ "https://www.greenwichhouse.org/pottery/jane-hartsook-gallery/": [
+  "Jane Hartsook Gallery",
+  "Sign up for our Mailing List"
  ],
  "https://www.heathgallerynewyork.com/": [
   "WE'RE OUTSIDE 2026",
@@ -5766,6 +6663,9 @@
   "liu-shuishi",
   "Helen",
   "OUR STORY"
+ ],
+ "https://www.jarrettmccusker.com/": [
+  "Email Newsletter"
  ],
  "https://www.jarvis-werner.com/": [
   "Home",
@@ -5898,6 +6798,17 @@
  "https://www.leubsdorfgallery.org/": [
   "Climates of Inequality: Stories of Environmental Injustice / August 31, 2026 – February 26, 2027"
  ],
+ "https://www.levelandco.com/": [
+  "Current Exhibition",
+  "Past Exhibitions",
+  "BANKSY: Counterculture",
+  "SHADOWS",
+  "Basquiat Mythologies",
+  "HomeBodies",
+  "GRIT: Graffiti, Grunge, and the 1990s",
+  "Lyrical Abstraction and its Legacy",
+  "Into Another World"
+ ],
  "https://www.lincolnglenn.com/": [
   "Lincoln Glenn Art Gallery, New York",
   "250 Years: American Women Artists and the Nation's Story",
@@ -5926,6 +6837,17 @@
   "Stacked Banners",
   "Related Content"
  ],
+ "https://www.macyartgallery.com/": [
+  "The Myers Prize Exhibition - Intervene (Interconnectedness)",
+  "Five Years",
+  "Upcoming Exhibitions & Events",
+  "Studio Works Part I",
+  "Studio Works Part II",
+  "Uncertainty Archive in the Making",
+  "(subject to change)",
+  "NEWSLETTER",
+  "Plan Your Visit"
+ ],
  "https://www.markelfinearts.com/": [
   "Item added to cart",
   "Wishlist",
@@ -5933,7 +6855,7 @@
   "Ky Anderson: Faceted : 179 10th Avenue",
   "Sydney Licht: Duly Noted : 529 West 20th, Suite 6W",
   "Making a Mark : 529 West 20th, Suite 6W",
-  "Picture of the Week : Rocío Rodríguez",
+  "Picture of the Week : Arielle Zamora",
   "Now Representing Roz Chast",
   "New Work in the Gallery",
   "New Works in the Gallery",
@@ -5945,13 +6867,32 @@
   "ART SEEN | Katie DeGroot: The Arboreal Life",
   "Cookie preferences"
  ],
+ "https://www.metropolisgallerynyc.com/?utm_source=google&utm_medium=local&utm_campaign=gmb": [
+  "Original comic art. Extraordinary stories.",
+  "Where comic art becomes fine art.",
+  "Experience the art in person."
+ ],
  "https://www.miergallery.com/": [
+  "THANKSGIVING HOURS",
   "DANNY MOYNIHAN",
   "PROMETHEUS",
   "ALBERT IRVIN",
   "To New York and Back Again",
   "CONNIE HARRISON",
   "Landscrapes"
+ ],
+ "https://www.morgan-presents.com/": [
+  "Morgan Presents",
+  "tête-à-tête",
+  "Cookie preferences",
+  "Join our mailing list"
+ ],
+ "https://www.nagas.art/": [
+  "Item added to cart",
+  "Home",
+  "Another world",
+  "Cookie preferences",
+  "Don't miss our latest news!"
  ],
  "https://www.nancyhoffmangallery.com/": [
   "Ilan Averbuch",
@@ -5960,8 +6901,10 @@
  "https://www.nicodimgallery.com/": [
   "Æmen Ededéen / Dean Fox / Daniel Pitín",
   "Los Angeles • November 7 – December, 19, 2026",
+  "Nicodim Los Angeles will be closed Thursday, November 26 – Saturday, November 28th for Thanksgiving.",
   "Teresa Murta: A Taste of Doubt",
   "New York • October 15 – November 25, 2026",
+  "Nicodim New York will be closing at 3pm on Wednesday, November 25th.",
   "Marta Mattioli: Seven of Cups",
   "Bucharest • October 10 – December 19, 2026"
  ],
@@ -6059,6 +7002,13 @@
   "HAVE A COMMENT OR SUGGESTION?",
   "Follow Us"
  ],
+ "https://www.paulacoopergallery.com/": [
+  "Claes Oldenburg: Six Themes",
+  "Art is for the Spirit: Records of the Self"
+ ],
+ "https://www.paulsoto.net/": [
+  "PAUL SOTO"
+ ],
  "https://www.pictorgallery.com/": [
   "Welcome to Pictor Gallery",
   "Read our Q&A with CoHart",
@@ -6102,6 +7052,22 @@
   "Press",
   "Catalogs"
  ],
+ "https://www.pratt.edu/events/exhibitions/pratt-manhattan-gallery/": [
+  "Menu",
+  "Pratt Manhattan Gallery on 14th Street",
+  "About",
+  "Events Today",
+  "Like everything alive that we try to hold forever",
+  "Past Events and Exhibitions",
+  "Gallery",
+  "Quick Links",
+  "More",
+  "Address",
+  "Brooklyn Campus",
+  "Manhattan Campus",
+  "Pratt Munson",
+  "Share"
+ ],
  "https://www.protocinema.org/": [
   "FOR EVERY ATOM BELONGING TO ME AS GOOD BELONGS TO YOU"
  ],
@@ -6143,6 +7109,48 @@
   "Artwork Title",
   "Publication Title"
  ],
+ "https://www.richardsaltoun.com/": [
+  "Item added to cart",
+  "Home",
+  "Brigitte Niedermair : Madame Hirsch",
+  "Reena Saini Kallat : Elsewhere is Already Here",
+  "Current Exhibitions",
+  "Dia al-Azzawi",
+  "Reena Saini Kallat",
+  "Brigitte Niedermair",
+  "Art Fairs",
+  "Untitled Art",
+  "SHOP",
+  "Tote Bag",
+  "Baghdad",
+  "WATCH OUR LATEST VIDEOS",
+  "Reena Saini Kallat: Elsewhere is Already Here",
+  "Richard Saltoun Gallery| LONDON",
+  "RICHARD SALTOUN GALLERY| ROME",
+  "RICHARD SALTOUN GALLERY| NEW YORK",
+  "Opening Hours | LONDON",
+  "OPENING HOURS | Rome",
+  "OPENING HOURS | NEW york",
+  "Contact",
+  "Mailing List",
+  "Cookie preferences",
+  "Join our mailing list"
+ ],
+ "https://www.roningallery.com/": [
+  "HOLIDAY CONSIGNMENT SALE Make an offer now!",
+  "New Acquisitions Under $1000",
+  "Daniel Kelly: Full Circle",
+  "Yokai: Ghosts, Spirits and Demons",
+  "Hiroshige's 53 Stations of the Tokaido (Hoeido Edition)",
+  "Shin Hanga from a Single Owner Collection",
+  "Musha-e: The Warrior Spirit",
+  "Autumn Colors",
+  "Prints for $200 and Under",
+  "Here to Help",
+  "Shopping With Us",
+  "Legal",
+  "Ronin Gallery"
+ ],
  "https://www.room57gallery.com/": [
   "Exhibitions",
   "Desperate Times Call For Desperate Pleasures",
@@ -6180,23 +7188,41 @@
   "Sean Noonan: How to Slow Time",
   "Loading..."
  ],
+ "https://www.shamnoski.com/": [
+  "Item added to cart",
+  "Shamnoski Gallery",
+  "Steven Alexander : The Lines are Open",
+  "Cookie preferences"
+ ],
  "https://www.shrine.nyc/": [
   "The Echo",
   "Flying the Coop",
   "Subscribe to SHRINE"
  ],
+ "https://www.silasseandelstudio.com/": [
+  "SILAS SEANDEL",
+  "PRESS",
+  "Architectural Digest January",
+  "Architectural Digest February",
+  "Architectural Digest March",
+  "CONTACT"
+ ],
  "https://www.snug-harbor.org": [
   "Where culture meets nature.",
   "What’s on this week",
+  "Shinrin-Yoku United presents: Forest Bathing Nature Therapy",
   "Winter Lantern Festival",
-  "Proximity Exhibition",
   "Staten Island Children’s Museum: Bilingual Birdies",
-  "Glass House Tour",
   "Staten Island Children’s Museum: Silly Billy",
-  "Master Composter Certification | Course 6: Designing and Managing Community Composting Spaces | Virtual Session",
+  "Glass House Tour",
+  "Thriller, Filler, Spiller Workshop",
+  "Master Composter Certificate | Course 4: Caring for Soils",
+  "Environmental and Tree Stewardship",
+  "Green Energy Industry Workshop",
   "Cultivating Balance Workshop Series",
   "Tiny Gardens Workshop",
   "Master Composter Certification | Course 7: Compost Advocacy and Community-Building | Virtual Session",
+  "Proximity Exhibition",
   "Experience more at Snug Harbor",
   "A cultural celebration for all",
   "Get inspired by our free outdoor installations",
@@ -6250,6 +7276,20 @@
   "GREENWICH VILLAGE",
   "SUBSCRIBE"
  ],
+ "https://www.sragowfineart.com/": [
+  "Welcome to the Sragow Gallery",
+  "Discover Masterpieces by the Most Innovative Artists of the 20th Century",
+  "Willem DeKooning",
+  "Follow us on Instagram @sragowgallery",
+  "We’ve Moved!",
+  "Get in Touch",
+  "Sragow Gallery",
+  "Location",
+  "Contact"
+ ],
+ "https://www.startaarta.com/": [
+  "Subscribe to our newsletter."
+ ],
  "https://www.storeygallery.com/": [
   "IAN LEWANDOWSKI: HAPPY WORKER",
   "UPCOMING",
@@ -6293,6 +7333,36 @@
   "See You at Our Next Event",
   "Journal"
  ],
+ "https://www.theblanc.art/": [
+  "Upcoming",
+  "Add a Title",
+  "WHAT'S ON",
+  "Murmuration",
+  "Janua",
+  "EXHIBITIONS",
+  "Afterlight",
+  "Cache Memory",
+  "City Within",
+  "PERFORMANCES",
+  "Debjit Mahalanobis and His Gajveena",
+  "INITIATIVES",
+  "TALKS",
+  "PUBLIC EVENTS",
+  "WORKSHOPS",
+  "​PUBLIC EVENTS"
+ ],
+ "https://www.thefutureperfect.com/locations/": [
+  "Inquire",
+  "Locations",
+  "New York",
+  "Miami",
+  "Los Angeles",
+  "San Francisco",
+  "Customer Service",
+  "About",
+  "STAY UPDATED",
+  "Social"
+ ],
  "https://www.thelockerroom.nyc/": [
   "THE LOCKER ROOM"
  ],
@@ -6314,6 +7384,10 @@
  ],
  "https://www.thewomensdarkroom.com/": [
   "36 Waverly Avenue, #403 Brooklyn, NY 11205 (917) 721-7094 Open by appointment through lisa@thewomensdarkroom.com"
+ ],
+ "https://www.tunickart.com/": [
+  "Online Exhibition - William Hogarth, Select Prints: A Private Collection",
+  "Online Exhibition - Albrecht Dürer: Select Prints"
  ],
  "https://www.ukrainianmuseum.org/": [
   "The Ukrainian Museum at 50: Imagining the Future",
